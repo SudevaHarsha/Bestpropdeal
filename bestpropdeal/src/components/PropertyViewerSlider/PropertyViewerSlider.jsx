@@ -44,7 +44,7 @@ const PropertyViewerSlider = ({ isGallery, openGallery }) => {
     }
 
     const handleShareClick = async () => {
-        const websiteUrl = 'https://sudevaharsha-protfolio.onrender.com';
+        const websiteUrl = 'https://bestpropdeal.onrender.com';
         const shareMessage = `Check out the best realestate dealers: ${websiteUrl}`;
         const imageUrl = '../../Assets/Best-Prop-Deal-Logo .png';
     

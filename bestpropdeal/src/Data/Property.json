@@ -1073,6 +1073,144 @@
                 }
             ]
         },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Gold.jpg",
+                "name": "1BHK GOLD Nano City",
+                "price": "398 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum Plus.jpg",
+                "name": "1BHK Platinium Plus",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum.jpg",
+                "name": "1BHK Platinum Nano City",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Diamond.jpg",
+                "name": "1BHK Premium diamond",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Gold.jpg",
+                "name": "1BHK Premium Gold",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver Plus.jpg",
+                "name": "1BHK Silver Plus",
+                "price": "402 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver.jpg",
+                "name": "1BHK SILVER",
+                "price": "376 sq ft",
+                "area": "22.99 Lakh."
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Gold.jpg",
+                "name": "1Rk Gold",
+                "price": "273 Sq Ft",
+                "area": "17.79 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Platinum.jpg",
+                "name": "1RK Platium",
+                "price": "277 Sq ft",
+                "area": "18.49 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Silver.jpg",
+                "name": "1RK Silver",
+                "price": " 251 sq ft ",
+                "area": "15.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Blue Diamond.jpg",
+                "name": "2BHK Blue Diamond",
+                "price": "529 Sq ft",
+                "area": "33.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Kohinoor.jpg",
+                "name": "2BHK Kohinoor",
+                "price": "630 Sq Ft",
+                "area": "39.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Rose Gold.jpg",
+                "name": "2BHK Rose Gold",
+                "price": "496 Sq Ft",
+                "area": "31.99 Lakh"
+            }
+        ],
+        "FAQ": [
+            {
+                "question": "What is Nano City Residential Project?",
+                "answer": "Nano City Residential Project is a modern housing development designed to offer a sustainable and comfortable living experience. It incorporates innovative design, eco-friendly features, and state-of-the-art amenities."
+            },
+            {
+                "question": "Where is Nano City located?",
+                "answer": "Nano City is strategically located Joveli, Badlapur East, Thane, ensuring proximity to key urban centers, transportation hubs, and essential services."
+            },
+            {
+                "question": "What types of residential units are available in Nano City?",
+                "answer": "Nano City offers a diverse range of residential units, including 1RK, 1BHK & 2BHK various preferences and family sizes."
+            },
+            {
+                "question": "What amenities does Nano City Offer?",
+                "answer": "Nano City boasts a range of amenities, such as a Club House, Gym, Party Hall, Children Play Area, Gazebo, Indoor Game, Landscape Garden and Security Cabin, enhancing the overall quality of life for residents."
+            },
+            {
+                "question": "Is Nano City focused on sustainability?",
+                "answer": "Yes, sustainability is a core focus of Nano City. The project incorporates eco-friendly features like rainwater harvesting, Earth-Quake Resistance and energy-efficient design to minimize environmental impact"
+            },
+            {
+                "question": "How can I book a residential unit in Nano City?",
+                "answer": "To book a unit in Nano City, you can contact our sales office on 07969669912, visit our website, or get in touch with authorized real estate agents. Our team will guide you through the booking process and provide all necessary information."
+            },
+            {
+                "question": "Who are the Developer / Builder of Nano City?",
+                "answer": "Pinnacle Spm Group is the Developer of Nano City"
+            },
+            {
+                "question": "How far is the Railway station from Nano City?",
+                "answer": "Its 7-8 Min drive distance From Nano city to Railway Station."
+            },
+            {
+                "question": "What is the Carpet area of Nano City?",
+                "answer": "The Carpet area of Nano City is 251-630 Sq Ft"
+            },
+            {
+                "question": "What is the expected completion date of Nano City Residential Project?",
+                "answer": "The completion date may vary depending on the specific phase or type of unit. Please check with our sales representatives for the most accurate and up-to-date information on project timelines."
+            },
+            {
+                "question": "Are there financing options available for Nano City homes?",
+                "answer": "Yes, Nano City Residential Project offers various financing options. We have tie-ups with leading banks and financial institutions to assist homebuyers in securing affordable and convenient home loans. You Can avail upto 99% Loan depend on your Eligibility."
+            },
+            {
+                "question": "What sets Nano City apart from other residential projects?",
+                "answer": "Nano City stands out due to its innovative design, commitment to sustainability, and comprehensive range of amenities. The project is crafted to provide a holistic and modern living experience."
+            },
+            {
+                "question": "Is Nano City suitable for investment purposes?",
+                "answer": "Nano City can be an attractive investment opportunity due to its strategic location, potential for value appreciation, and the strong demand for well-designed, sustainable housing. However, it's advisable to consult with financial experts for personalized advice based on your investment goals."
+            },
+            {
+                "question": "What is the Price Range of Nano City?",
+                "answer": "In Nano City Flat start at 15.99 Lakh including Taxes. For latest offer & Price we suggest you to get in touch in Sales Executive or RM."
+            }
+        ],
         "Gallery": [
             "../../assets/Property-004/Property-0041.jpg",
             "../../assets/Property-004/Property-0042.jpg",
@@ -1241,6 +1379,144 @@
                 }
             ]
         },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Gold.jpg",
+                "name": "1BHK GOLD Nano City",
+                "price": "398 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum Plus.jpg",
+                "name": "1BHK Platinium Plus",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum.jpg",
+                "name": "1BHK Platinum Nano City",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Diamond.jpg",
+                "name": "1BHK Premium diamond",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Gold.jpg",
+                "name": "1BHK Premium Gold",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver Plus.jpg",
+                "name": "1BHK Silver Plus",
+                "price": "402 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver.jpg",
+                "name": "1BHK SILVER",
+                "price": "376 sq ft",
+                "area": "22.99 Lakh."
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Gold.jpg",
+                "name": "1Rk Gold",
+                "price": "273 Sq Ft",
+                "area": "17.79 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Platinum.jpg",
+                "name": "1RK Platium",
+                "price": "277 Sq ft",
+                "area": "18.49 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Silver.jpg",
+                "name": "1RK Silver",
+                "price": " 251 sq ft ",
+                "area": "15.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Blue Diamond.jpg",
+                "name": "2BHK Blue Diamond",
+                "price": "529 Sq ft",
+                "area": "33.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Kohinoor.jpg",
+                "name": "2BHK Kohinoor",
+                "price": "630 Sq Ft",
+                "area": "39.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Rose Gold.jpg",
+                "name": "2BHK Rose Gold",
+                "price": "496 Sq Ft",
+                "area": "31.99 Lakh"
+            }
+        ],
+        "FAQ": [
+            {
+                "question": "What is Nano City Residential Project?",
+                "answer": "Nano City Residential Project is a modern housing development designed to offer a sustainable and comfortable living experience. It incorporates innovative design, eco-friendly features, and state-of-the-art amenities."
+            },
+            {
+                "question": "Where is Nano City located?",
+                "answer": "Nano City is strategically located Joveli, Badlapur East, Thane, ensuring proximity to key urban centers, transportation hubs, and essential services."
+            },
+            {
+                "question": "What types of residential units are available in Nano City?",
+                "answer": "Nano City offers a diverse range of residential units, including 1RK, 1BHK & 2BHK various preferences and family sizes."
+            },
+            {
+                "question": "What amenities does Nano City Offer?",
+                "answer": "Nano City boasts a range of amenities, such as a Club House, Gym, Party Hall, Children Play Area, Gazebo, Indoor Game, Landscape Garden and Security Cabin, enhancing the overall quality of life for residents."
+            },
+            {
+                "question": "Is Nano City focused on sustainability?",
+                "answer": "Yes, sustainability is a core focus of Nano City. The project incorporates eco-friendly features like rainwater harvesting, Earth-Quake Resistance and energy-efficient design to minimize environmental impact"
+            },
+            {
+                "question": "How can I book a residential unit in Nano City?",
+                "answer": "To book a unit in Nano City, you can contact our sales office on 07969669912, visit our website, or get in touch with authorized real estate agents. Our team will guide you through the booking process and provide all necessary information."
+            },
+            {
+                "question": "Who are the Developer / Builder of Nano City?",
+                "answer": "Pinnacle Spm Group is the Developer of Nano City"
+            },
+            {
+                "question": "How far is the Railway station from Nano City?",
+                "answer": "Its 7-8 Min drive distance From Nano city to Railway Station."
+            },
+            {
+                "question": "What is the Carpet area of Nano City?",
+                "answer": "The Carpet area of Nano City is 251-630 Sq Ft"
+            },
+            {
+                "question": "What is the expected completion date of Nano City Residential Project?",
+                "answer": "The completion date may vary depending on the specific phase or type of unit. Please check with our sales representatives for the most accurate and up-to-date information on project timelines."
+            },
+            {
+                "question": "Are there financing options available for Nano City homes?",
+                "answer": "Yes, Nano City Residential Project offers various financing options. We have tie-ups with leading banks and financial institutions to assist homebuyers in securing affordable and convenient home loans. You Can avail upto 99% Loan depend on your Eligibility."
+            },
+            {
+                "question": "What sets Nano City apart from other residential projects?",
+                "answer": "Nano City stands out due to its innovative design, commitment to sustainability, and comprehensive range of amenities. The project is crafted to provide a holistic and modern living experience."
+            },
+            {
+                "question": "Is Nano City suitable for investment purposes?",
+                "answer": "Nano City can be an attractive investment opportunity due to its strategic location, potential for value appreciation, and the strong demand for well-designed, sustainable housing. However, it's advisable to consult with financial experts for personalized advice based on your investment goals."
+            },
+            {
+                "question": "What is the Price Range of Nano City?",
+                "answer": "In Nano City Flat start at 15.99 Lakh including Taxes. For latest offer & Price we suggest you to get in touch in Sales Executive or RM."
+            }
+        ],
         "Gallery": [
             "../../assets/Property-005/Property-0051.jpg",
             "../../assets/Property-005/Property-0052.jpg",
@@ -1402,6 +1678,144 @@
                 }
             ]
         },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Gold.jpg",
+                "name": "1BHK GOLD Nano City",
+                "price": "398 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum Plus.jpg",
+                "name": "1BHK Platinium Plus",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum.jpg",
+                "name": "1BHK Platinum Nano City",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Diamond.jpg",
+                "name": "1BHK Premium diamond",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Gold.jpg",
+                "name": "1BHK Premium Gold",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver Plus.jpg",
+                "name": "1BHK Silver Plus",
+                "price": "402 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver.jpg",
+                "name": "1BHK SILVER",
+                "price": "376 sq ft",
+                "area": "22.99 Lakh."
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Gold.jpg",
+                "name": "1Rk Gold",
+                "price": "273 Sq Ft",
+                "area": "17.79 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Platinum.jpg",
+                "name": "1RK Platium",
+                "price": "277 Sq ft",
+                "area": "18.49 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Silver.jpg",
+                "name": "1RK Silver",
+                "price": " 251 sq ft ",
+                "area": "15.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Blue Diamond.jpg",
+                "name": "2BHK Blue Diamond",
+                "price": "529 Sq ft",
+                "area": "33.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Kohinoor.jpg",
+                "name": "2BHK Kohinoor",
+                "price": "630 Sq Ft",
+                "area": "39.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Rose Gold.jpg",
+                "name": "2BHK Rose Gold",
+                "price": "496 Sq Ft",
+                "area": "31.99 Lakh"
+            }
+        ],
+        "FAQ": [
+            {
+                "question": "What is Nano City Residential Project?",
+                "answer": "Nano City Residential Project is a modern housing development designed to offer a sustainable and comfortable living experience. It incorporates innovative design, eco-friendly features, and state-of-the-art amenities."
+            },
+            {
+                "question": "Where is Nano City located?",
+                "answer": "Nano City is strategically located Joveli, Badlapur East, Thane, ensuring proximity to key urban centers, transportation hubs, and essential services."
+            },
+            {
+                "question": "What types of residential units are available in Nano City?",
+                "answer": "Nano City offers a diverse range of residential units, including 1RK, 1BHK & 2BHK various preferences and family sizes."
+            },
+            {
+                "question": "What amenities does Nano City Offer?",
+                "answer": "Nano City boasts a range of amenities, such as a Club House, Gym, Party Hall, Children Play Area, Gazebo, Indoor Game, Landscape Garden and Security Cabin, enhancing the overall quality of life for residents."
+            },
+            {
+                "question": "Is Nano City focused on sustainability?",
+                "answer": "Yes, sustainability is a core focus of Nano City. The project incorporates eco-friendly features like rainwater harvesting, Earth-Quake Resistance and energy-efficient design to minimize environmental impact"
+            },
+            {
+                "question": "How can I book a residential unit in Nano City?",
+                "answer": "To book a unit in Nano City, you can contact our sales office on 07969669912, visit our website, or get in touch with authorized real estate agents. Our team will guide you through the booking process and provide all necessary information."
+            },
+            {
+                "question": "Who are the Developer / Builder of Nano City?",
+                "answer": "Pinnacle Spm Group is the Developer of Nano City"
+            },
+            {
+                "question": "How far is the Railway station from Nano City?",
+                "answer": "Its 7-8 Min drive distance From Nano city to Railway Station."
+            },
+            {
+                "question": "What is the Carpet area of Nano City?",
+                "answer": "The Carpet area of Nano City is 251-630 Sq Ft"
+            },
+            {
+                "question": "What is the expected completion date of Nano City Residential Project?",
+                "answer": "The completion date may vary depending on the specific phase or type of unit. Please check with our sales representatives for the most accurate and up-to-date information on project timelines."
+            },
+            {
+                "question": "Are there financing options available for Nano City homes?",
+                "answer": "Yes, Nano City Residential Project offers various financing options. We have tie-ups with leading banks and financial institutions to assist homebuyers in securing affordable and convenient home loans. You Can avail upto 99% Loan depend on your Eligibility."
+            },
+            {
+                "question": "What sets Nano City apart from other residential projects?",
+                "answer": "Nano City stands out due to its innovative design, commitment to sustainability, and comprehensive range of amenities. The project is crafted to provide a holistic and modern living experience."
+            },
+            {
+                "question": "Is Nano City suitable for investment purposes?",
+                "answer": "Nano City can be an attractive investment opportunity due to its strategic location, potential for value appreciation, and the strong demand for well-designed, sustainable housing. However, it's advisable to consult with financial experts for personalized advice based on your investment goals."
+            },
+            {
+                "question": "What is the Price Range of Nano City?",
+                "answer": "In Nano City Flat start at 15.99 Lakh including Taxes. For latest offer & Price we suggest you to get in touch in Sales Executive or RM."
+            }
+        ],
         "Gallery": [
             "../../assets/Property-006/Property-0061.jpg",
             "../../assets/Property-006/Property-0062.jpg",
@@ -1566,6 +1980,86 @@
                 }
             ]
         },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Gold.jpg",
+                "name": "1BHK GOLD Nano City",
+                "price": "398 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum Plus.jpg",
+                "name": "1BHK Platinium Plus",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum.jpg",
+                "name": "1BHK Platinum Nano City",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Diamond.jpg",
+                "name": "1BHK Premium diamond",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Gold.jpg",
+                "name": "1BHK Premium Gold",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver Plus.jpg",
+                "name": "1BHK Silver Plus",
+                "price": "402 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver.jpg",
+                "name": "1BHK SILVER",
+                "price": "376 sq ft",
+                "area": "22.99 Lakh."
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Gold.jpg",
+                "name": "1Rk Gold",
+                "price": "273 Sq Ft",
+                "area": "17.79 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Platinum.jpg",
+                "name": "1RK Platium",
+                "price": "277 Sq ft",
+                "area": "18.49 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Silver.jpg",
+                "name": "1RK Silver",
+                "price": " 251 sq ft ",
+                "area": "15.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Blue Diamond.jpg",
+                "name": "2BHK Blue Diamond",
+                "price": "529 Sq ft",
+                "area": "33.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Kohinoor.jpg",
+                "name": "2BHK Kohinoor",
+                "price": "630 Sq Ft",
+                "area": "39.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Rose Gold.jpg",
+                "name": "2BHK Rose Gold",
+                "price": "496 Sq Ft",
+                "area": "31.99 Lakh"
+            }
+        ],
         "FAQ": [
             {
                 "question": "What is the plot area of Pinnacle Adarsh?",
