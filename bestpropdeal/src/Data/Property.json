@@ -1,0 +1,2700 @@
+[
+    {
+        "id": 1,
+        "Property_ID": "P51700032044",
+        "Description": "Audumber Flower Valley offers the finest residential apartments and invites you to the world which Is exclusively made for you. With a rich lifestyle, the elegance of nature and convenience at an affordable price, its truly a dream come true.",
+        "Title": "Audumber Flower Valley",
+        "image": "../../assets/Property-001/Property-0011.jpg",
+        "logo": "../../images/Flowervalley copy.PNG",
+        "partner": "Audumber Flower Valley",
+        "location": "Badlapur, mumbai",
+        "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Lattitude": "19.145215",
+        "Longitude": "73.245532",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 0,
+        "BuildingState": "Ongoing",
+        "area": 400,
+        "Price": "1,819,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_5f6mz0a",
+            "templateID":"template_pw6e8pe",
+            "publicKey":"ktnrBdyPzL9Gkyfct"
+        },
+        "SearchFilters": [
+            "1RK",
+            "1BHK",
+            "2BHK",
+            "3BHK"
+        ],
+        "video":"https://www.youtube.com/embed/fh0jkS9grR0?si=uKSh_BjxWwXwkKwF",
+        "Type": "Villa",
+        "Overview": {
+            "configuration": [
+                "1RK",
+                "1BHK",
+                "2BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT – Baroda Highway connects at 2 min",
+            "Upcoming Navi Mumbai International Airport in 20 min",
+            "Upcoming Badlapur Kanjurmarg Metro in 2 min",
+            "Super Market at just (1 min) distance",
+            "Poddar International School (2 min)",
+            "Badlapur Railway Station (5 min)",
+            "Central Hospital (2 Min )",
+            "Shree Swami Samarth Multispeciality Hospital (1 Min)"
+        ],
+        "Features": {
+            "Gym": true,
+            "ceilings": "26'",
+            "Indoor Games": true,
+            "Thematic Garden": true,
+            "Chapel Bridge": true,
+            "Party lounge ": true,
+            "Sit out on rooftop": true,
+            "Smart Digital Door Lock": true,
+            "Video Door Bell": true,
+            "False Ceiling in bedrooms": true,
+            "False Ceiling in livingroom": true,
+            "Gazebo": true,
+            "Stilt Parking with EV Charging point": true,
+            "24 Hrs Security": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Ashwinkumar Medical Relief Society": 15,
+                "Little Captains Preschool": 30,
+                "Bank Of Baroda": 15,
+                "Chhatrapati Shivaji Maharaj International Airport": "45"
+            },
+            "Locations": [
+                {
+                    "Name": "Poddar International School",
+                    "Lattitude": "19.139879",
+                    "Longitude": "73.252059",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Vihaa International School",
+                    "Lattitude": "19.142386",
+                    "Longitude": "73.246190",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Lattitude": "19.140916",
+                    "Longitude": "73.252116",
+                    "Category": "School"
+                },
+                {
+                    "Name": "I.E.S. Katrap Vidyalay",
+                    "Lattitude": "19.168598",
+                    "Longitude": "73.225275",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Gurukul International School",
+                    "Lattitude": "19.172278",
+                    "Longitude": "73.221089",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Carmel Convent School",
+                    "Lattitude": "19.180320",
+                    "Longitude": "73.218589",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Fatima Convent School",
+                    "Lattitude": "19.180460",
+                    "Longitude": "73.229095",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Don Bosco English School",
+                    "Lattitude": "19.166990",
+                    "Longitude": "73.248210",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Anthony Convent School",
+                    "Lattitude": "19.169182",
+                    "Longitude": "73.248098",
+                    "Category": "School"
+                },
+                {
+                    "Name": "M.J. International School",
+                    "Lattitude": "19.160125",
+                    "Longitude": "73.245909",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Central Hospital",
+                    "Lattitude": "19.139779",
+                    "Longitude": "73.252544",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Shree Swami Samarth Multispeciality Hospital ",
+                    "Lattitude": "19.146278",
+                    "Longitude": "73.246494",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Pawar Hospital ",
+                    "Lattitude": "19.157840",
+                    "Longitude": "73.244365",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Siddhivinayak Multispeciality Hospital",
+                    "Lattitude": "19.165305",
+                    "Longitude": "73.245301",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dhanwantari Hospital ",
+                    "Lattitude": "19.164335",
+                    "Longitude": "73.231429",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Seven Palms Hospital ",
+                    "Lattitude": "19.159664",
+                    "Longitude": "73.228302",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Max Care Multispeciality Hospital ",
+                    "Lattitude": "19.163031",
+                    "Longitude": "73.229763",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Chiranjeev Hospital ",
+                    "Lattitude": "19.164292",
+                    "Longitude": "73.239771",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Vaishnavi Multispeciality ",
+                    "Lattitude": "19.157732",
+                    "Longitude": "73.235660",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dubey Hospital",
+                    "Lattitude": "19.166020",
+                    "Longitude": "73.235629",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.23203230",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Bluebell.jpg",
+                "name": "1BHK Bluebell Flower Valley",
+                "price": "398 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Lavender.jpg",
+                "name": "1BHK Lavender",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Snowdrop.jpg",
+                "name": "1BHK Snowdrop",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1RK Marygold.jpg",
+                "name": "1RK Marygold",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/2BHK Orchid.jpg",
+                "name": "2BHK Orchid",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/2BHK Studio Tulip.jpg",
+                "name": "2BHK Studio Tulip",
+                "price": "402 Sq ft",
+                "area": "25.25 Lakh"
+            }
+        ],
+        "FAQ": [
+            {
+                "question": "What is Audumber Flower Valley?",
+                "answer": "Audumber Flower Valley is a European Concept residential development that offers a harmonious blend of natural beauty and modern living. It is designed to provide a serene and eco-friendly environment for residents, with a focus on sustainable living."
+            },
+            {
+                "question": "Where is Audumber Flower Valley located?",
+                "answer": "Audumber Flower Valley is located at Joveli, Badlapur East, Thane."
+            },
+            {
+                "question": "What types of Units are available at Audumber Flower Valley?",
+                "answer": "Audumber Flower Valley typically offers a variety of residential properties, including 1RK, Studio Apartment, 1BHK & 2BHK."
+            },
+            {
+                "question": "What amenities are provided within Audumber Flower Valley?",
+                "answer": "Amenities within Audumber Flower Valley include landscaped gardens, Club House, recreational areas, Gazebo, and more."
+            },
+            {
+                "question": "Is Audumber Flower Valley suitable for investment purposes?",
+                "answer": "Yes. Audumber Flower Vallye can be an attractive investment opportunity due to its strategic location, potential for value appreciation, and the strong demand for well-designed, sustainable housing. However, it's advisable to consult with financial experts for personalized advice based on your investment goals"
+            },
+            {
+                "question": "How can I book a property at Audumber Flower Valley?",
+                "answer": "To book a unit in Audumber Flower Valley, you can contact our sales office on 07969669929, visit our website, or get in touch with authorized Channel Partner. They will guide you through the booking process, provide details on available units, and assist with the necessary paperwork."
+            },
+            {
+                "question": "Are there financing options available for property purchases in Audumber Flower Valley?",
+                "answer": "Yes, Audumber Flower Valley offers various financing options. We have tie-ups with leading banks and financial institutions to assist homebuyers in securing affordable and convenient home loans. You Can avail upto 99% Loan depend on your Eligibility."
+            },
+            {
+                "question": "What are the nearby facilities and services?",
+                "answer": "Audumber Flower Valley is usually planned with proximity to essential facilities such as schools, hospitals, shopping centers, and transportation hubs."
+            },
+            {
+                "question": "What are the payment options available for purchasing a property in Audumber Flower Valley?",
+                "answer": "Audumber Flower Valley typically provide various payment plans, including down payments, installment options, and bank financing. Check with the sales office for the specific payment options available for Audumber Flower Valley."
+            },
+            {
+                "question": "What are the Carpet area in Audumber Flower Valley?",
+                "answer": "The Carpet area in Audumber Flower Valley is from 291 to 593 Sq Ft."
+            },
+            {
+                "question": "What is the Price Range of Audumber Flower Valley",
+                "answer": "In Audumber Flower Valley Flat start at 18.49 Lakh including Taxes. For latest offer & Price we suggest you to get in touch in Sales Executive or RM."
+            },
+            {
+                "question": "How Far School is from AFV?",
+                "answer": "1 Min Walking Distance from Audumber Flower Valley."
+            }
+        ],
+        "Gallery": [
+            "../../assets/Property-001/Property-0011.jpg",
+            "../../assets/Property-001/Property-0012.jpg",
+            "../../assets/Property-001/Property-0013.jpg",
+            "../../assets/Property-001/Property-0014.jpg",
+            "../../assets/Property-001/Property-0015.jpg"
+        ],
+        "TotalImages": 8
+    },
+    {
+        "id": 3,
+        "Property_ID": "P51700028880",
+        "Description": "Nano city is not a single building, but a collection of them to bring you a perfect blend of luxury and durability. Located at the prime location of Badlapur highway, you will find serenity and functionality in these apartments. The place is built in a wide area and features both 1BHK and 2BHK apartments. Design with a modern touch, you will get a contemporary living feel in these beautiful apartments. The apartments are designed with every amenity you need thus you will have a comfortable life and access to all living essentials. Design with modern technology, the apartments feature extreme strength and will not require regular repairs. you can save big on both maintenance and repairs and live in a beautiful abode with your family. the space will be perfect for couples and families, and you can start your life beautifully in the luxurious and comfortable Nano City.",
+        "Title": "Nano city",
+        "image": "../../assets/Property-003/Property-0031.jpg",
+        "logo": "../../images/Nano City copy.png",
+        "partner": "Dashmesh Infrastructure",
+        "location": "Kharvani, mumbai",
+        "detailedLocation": "Nano city, opp Indian Oil petrol Pump, Karjat Road, Joveli, Badlapur East - 421503",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Lattitude": "19.142688",
+        "Longitude": "73.248628",
+        "Bedrooms": 0,
+        "Bathrooms": 2,
+        "position": 1,
+        "BuildingState": "Ongoing",
+        "area": 0,
+        "Price": "1,599,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_p0ped63",
+            "templateID":"template_dhl7nrn",
+            "publicKey":"v1J_zPcSYnAbZyoNY"
+        },
+        "SearchFilters": [
+            "1RK",
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://www.youtube.com/embed/ZgT1Hvf0pkk?si=kWQLWhitPagpUd3T",
+        "Type": "Duplex",
+        "Overview": {
+            "configuration": [
+                "1RK",
+                "1BHK ",
+                "2BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT - Baroda Highway connects at 2 min",
+            "Upcoming Navi Mumbai International Airport",
+            "Upcoming Badlapur Kanjurmarg Metro 2 min",
+            "Super Market at just 1 min distance",
+            "Poddar International School",
+            "Badlapur Railway Station in 5 min",
+            "Central Hospital in 2 min",
+            "Shree Swami Samarth Multispeciality Hospital in 1min"
+        ],
+        "Features": {
+            "Indoor Games": true,
+            "Gym": true,
+            "Children Play Area": true,
+            "Security Office": false,
+            "Club House": true,
+            "Lift With Power Backup": true,
+            "CCTV Camera": true,
+            "Senior Citizen Area": true,
+            "Landscape Garden": true,
+            "Gazebo": true,
+            "24 Hrs Security": false,
+            "Parking": false
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Ashwinkumar Medical Relief Society": 15,
+                "Little Captains Preschool": 30,
+                "Bank Of Baroda": 15,
+                "Chhatrapati Shivaji Maharaj International Airport": "45"
+            },
+            "Locations": [
+                {
+                    "Name": "Poddar International School",
+                    "Lattitude": "19.139879",
+                    "Longitude": "73.252059",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Vihaa International School",
+                    "Lattitude": "19.142386",
+                    "Longitude": "73.246190",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Lattitude": "19.140916",
+                    "Longitude": "73.252116",
+                    "Category": "School"
+                },
+                {
+                    "Name": "I.E.S. Katrap Vidyalay",
+                    "Lattitude": "19.168598",
+                    "Longitude": "73.225275",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Gurukul International School",
+                    "Lattitude": "19.172278",
+                    "Longitude": "73.221089",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Carmel Convent School",
+                    "Lattitude": "19.180320",
+                    "Longitude": "73.218589",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Fatima Convent School",
+                    "Lattitude": "19.180460",
+                    "Longitude": "73.229095",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Don Bosco English School",
+                    "Lattitude": "19.166990",
+                    "Longitude": "73.248210",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Anthony Convent School",
+                    "Lattitude": "19.169182",
+                    "Longitude": "73.248098",
+                    "Category": "School"
+                },
+                {
+                    "Name": "M.J. International School",
+                    "Lattitude": "19.160125",
+                    "Longitude": "73.245909",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Shree Swami Samarth Multispeciality Hospital",
+                    "Lattitude": "19.146278",
+                    "Longitude": "73.246494",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Pawar Hospital",
+                    "Lattitude": "19.157840",
+                    "Longitude": "73.244365",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Siddhivinayak Multispeciality Hospital",
+                    "Lattitude": "19.165305",
+                    "Longitude": "73.245301",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dhanwantari Hospital",
+                    "Lattitude": "19.164335",
+                    "Longitude": "73.231429",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Seven Palms Hospital",
+                    "Lattitude": "19.159664",
+                    "Longitude": "73.228302",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Max Care Multispeciality Hospital",
+                    "Lattitude": "19.163031",
+                    "Longitude": "73.229763",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Chiranjeev Hospital",
+                    "Lattitude": "19.164292",
+                    "Longitude": "73.239771",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Vaishnavi Multispeciality Hospital",
+                    "Lattitude": "19.157732",
+                    "Longitude": "73.235660",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dubey Hospital",
+                    "Lattitude": "19.166020",
+                    "Longitude": "73.235629",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Gold.jpg",
+                "name": "1BHK GOLD Nano City",
+                "price": "398 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum Plus.jpg",
+                "name": "1BHK Platinium Plus",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum.jpg",
+                "name": "1BHK Platinum Nano City",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Diamond.jpg",
+                "name": "1BHK Premium diamond",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Gold.jpg",
+                "name": "1BHK Premium Gold",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver Plus.jpg",
+                "name": "1BHK Silver Plus",
+                "price": "402 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver.jpg",
+                "name": "1BHK SILVER",
+                "price": "376 sq ft",
+                "area": "22.99 Lakh."
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Gold.jpg",
+                "name": "1Rk Gold",
+                "price": "273 Sq Ft",
+                "area": "17.79 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Platinum.jpg",
+                "name": "1RK Platium",
+                "price": "277 Sq ft",
+                "area": "18.49 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Silver.jpg",
+                "name": "1RK Silver",
+                "price": " 251 sq ft ",
+                "area": "15.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Blue Diamond.jpg",
+                "name": "2BHK Blue Diamond",
+                "price": "529 Sq ft",
+                "area": "33.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Kohinoor.jpg",
+                "name": "2BHK Kohinoor",
+                "price": "630 Sq Ft",
+                "area": "39.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Rose Gold.jpg",
+                "name": "2BHK Rose Gold",
+                "price": "496 Sq Ft",
+                "area": "31.99 Lakh"
+            }
+        ],
+        "FAQ": [
+            {
+                "question": "What is Nano City Residential Project?",
+                "answer": "Nano City Residential Project is a modern housing development designed to offer a sustainable and comfortable living experience. It incorporates innovative design, eco-friendly features, and state-of-the-art amenities."
+            },
+            {
+                "question": "Where is Nano City located?",
+                "answer": "Nano City is strategically located Joveli, Badlapur East, Thane, ensuring proximity to key urban centers, transportation hubs, and essential services."
+            },
+            {
+                "question": "What types of residential units are available in Nano City?",
+                "answer": "Nano City offers a diverse range of residential units, including 1RK, 1BHK & 2BHK various preferences and family sizes."
+            },
+            {
+                "question": "What amenities does Nano City Offer?",
+                "answer": "Nano City boasts a range of amenities, such as a Club House, Gym, Party Hall, Children Play Area, Gazebo, Indoor Game, Landscape Garden and Security Cabin, enhancing the overall quality of life for residents."
+            },
+            {
+                "question": "Is Nano City focused on sustainability?",
+                "answer": "Yes, sustainability is a core focus of Nano City. The project incorporates eco-friendly features like rainwater harvesting, Earth-Quake Resistance and energy-efficient design to minimize environmental impact"
+            },
+            {
+                "question": "How can I book a residential unit in Nano City?",
+                "answer": "To book a unit in Nano City, you can contact our sales office on 07969669912, visit our website, or get in touch with authorized real estate agents. Our team will guide you through the booking process and provide all necessary information."
+            },
+            {
+                "question": "Who are the Developer / Builder of Nano City?",
+                "answer": "Pinnacle Spm Group is the Developer of Nano City"
+            },
+            {
+                "question": "How far is the Railway station from Nano City?",
+                "answer": "Its 7-8 Min drive distance From Nano city to Railway Station."
+            },
+            {
+                "question": "What is the Carpet area of Nano City?",
+                "answer": "The Carpet area of Nano City is 251-630 Sq Ft"
+            },
+            {
+                "question": "What is the expected completion date of Nano City Residential Project?",
+                "answer": "The completion date may vary depending on the specific phase or type of unit. Please check with our sales representatives for the most accurate and up-to-date information on project timelines."
+            },
+            {
+                "question": "Are there financing options available for Nano City homes?",
+                "answer": "Yes, Nano City Residential Project offers various financing options. We have tie-ups with leading banks and financial institutions to assist homebuyers in securing affordable and convenient home loans. You Can avail upto 99% Loan depend on your Eligibility."
+            },
+            {
+                "question": "What sets Nano City apart from other residential projects?",
+                "answer": "Nano City stands out due to its innovative design, commitment to sustainability, and comprehensive range of amenities. The project is crafted to provide a holistic and modern living experience."
+            },
+            {
+                "question": "Is Nano City suitable for investment purposes?",
+                "answer": "Nano City can be an attractive investment opportunity due to its strategic location, potential for value appreciation, and the strong demand for well-designed, sustainable housing. However, it's advisable to consult with financial experts for personalized advice based on your investment goals."
+            },
+            {
+                "question": "What is the Price Range of Nano City?",
+                "answer": "In Nano City Flat start at 15.99 Lakh including Taxes. For latest offer & Price we suggest you to get in touch in Sales Executive or RM."
+            }
+        ],
+        "Gallery": [
+            "../../assets/Property-003/Property-0031.jpg",
+            "../../assets/Property-003/Property-0032.jpg",
+            "../../assets/Property-003/Property-0033.jpg",
+            "../../assets/Property-003/Property-0034.jpg",
+            "../../assets/Property-003/Property-0035.jpg"
+        ],
+        "TotalImages": 8
+    },
+    {
+        "id": 4,
+        "Property_ID": " P51700033926",
+        "Description": "The four-storied building Dashmesh Crystal is one of the best residential projects in Badlapur. You can choose from a variety of apartments. The apartment features 1BHK and 1RK studio apartments that provide comfortable living. You will get all necessary amenities in your building such as power lifts, a children play area, CCTV surveillance, an intercom, etc. The building is designed by experienced architects, and the best building contractors have brought it to life. Thus, you will get the perfect blend of modern architecture and durability in your building at Dashmesh Infrastructure. The interior of the building is designed with the best tiles and will give you a premium feel without costing a lot of money.",
+        "Title": "Dashmesh Crystal phase 2",
+        "image": "../../assets/Property-004/Property-0041.jpg",
+        "logo": "../../images/Dashmesh Infra copy.PNG",
+        "partner": "Dashmesh Infrastructure",
+        "location": "Kharvani, mumbai",
+        "detailedLocation": "Kharvani NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": false,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Lattitude": "19.05757116146236",
+        "Longitude": "72.82850493742107",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 2,
+        "BuildingState": "Upcomming",
+        "area": 0,
+        "Price": "1,499,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_p0ped63",
+            "templateID":"template_dhl7nrn",
+            "publicKey":"v1J_zPcSYnAbZyoNY"
+        },
+        "SearchFilters": [
+            "1RK",
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://youtu.be/fh0jkS9grR0",
+        "Type": "Apartment",
+        "Overview": {
+            "configuration": [
+                "1RK",
+                "1BHK ",
+                "2BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT - Baroda Highway connects at 2 min",
+            "Upcoming Navi Mumbai International Airport",
+            "Upcoming Badlapur Kanjurmarg Metro 2 min",
+            "Super Market at just 1 min distance",
+            "Poddar International School",
+            "Badlapur Railway Station in 5 min",
+            "Central Hospital in 2 min",
+            "Shree Swami Samarth Multispeciality Hospital in 1min"
+        ],
+        "Features": {
+            "Children’s Play Area": true,
+            "Indoor Game": true,
+            "Nana Nani Park": true,
+            "CCTC Surveillance ": true,
+            "Intercom Facility": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Ashwinkumar Medical Relief Society": 15,
+                "Little Captains Preschool": 30,
+                "Bank Of Baroda": 15,
+                "Chhatrapati Shivaji Maharaj International Airport": "45"
+            },
+            "Locations": [
+                {
+                    "Name": "Poddar International School",
+                    "Lattitude": "19.139879",
+                    "Longitude": "73.252059",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Vihaa International School",
+                    "Lattitude": "19.142386",
+                    "Longitude": "73.246190",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Lattitude": "19.140916",
+                    "Longitude": "73.252116",
+                    "Category": "School"
+                },
+                {
+                    "Name": "I.E.S. Katrap Vidyalay",
+                    "Lattitude": "19.168598",
+                    "Longitude": "73.225275",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Gurukul International School",
+                    "Lattitude": "19.172278",
+                    "Longitude": "73.221089",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Carmel Convent School",
+                    "Lattitude": "19.180320",
+                    "Longitude": "73.218589",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Fatima Convent School",
+                    "Lattitude": "19.180460",
+                    "Longitude": "73.229095",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Don Bosco English School",
+                    "Lattitude": "19.166990",
+                    "Longitude": "73.248210",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Anthony Convent School",
+                    "Lattitude": "19.169182",
+                    "Longitude": "73.248098",
+                    "Category": "School"
+                },
+                {
+                    "Name": "M.J. International School",
+                    "Lattitude": "19.160125",
+                    "Longitude": "73.245909",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Central Hospital",
+                    "Lattitude": "19.139779",
+                    "Longitude": "73.252544",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Shree Swami Samarth Multispeciality Hospital",
+                    "Lattitude": "19.146278",
+                    "Longitude": "73.246494",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Pawar Hospital",
+                    "Lattitude": "19.157840",
+                    "Longitude": "73.244365",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Siddhivinayak Multispeciality Hospital",
+                    "Lattitude": "19.165305",
+                    "Longitude": "73.245301",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dhanwantari Hospital",
+                    "Lattitude": "19.164335",
+                    "Longitude": "73.231429",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Seven Palms Hospital",
+                    "Lattitude": "19.159664",
+                    "Longitude": "73.228302",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Max Care Multispeciality Hospital",
+                    "Lattitude": "19.163031",
+                    "Longitude": "73.229763",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Chiranjeev Hospital",
+                    "Lattitude": "19.164292",
+                    "Longitude": "73.239771",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Vaishnavi Multispeciality Hospital",
+                    "Lattitude": "19.157732",
+                    "Longitude": "73.235660",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dubey Hospital",
+                    "Lattitude": "19.166020",
+                    "Longitude": "73.235629",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "Gallery": [
+            "../../assets/Property-004/Property-0041.jpg",
+            "../../assets/Property-004/Property-0042.jpg",
+            "../../assets/Property-004/Property-0043.jpg",
+            "../../assets/Property-004/Property-0044.jpg",
+            "../../assets/Property-004/Property-0045.jpg"
+        ],
+        "TotalImages": 6
+    },
+    {
+        "id": 5,
+        "Property_ID": "P51700034703",
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere sunt pariatur sit a omnis lfhsf fhd dfhfdbrd wewttty kfthkfut reyhrt rtjyjr dudtrjdy;o h;iughh h'ihoh n fdtu h .",
+        "Title": "Sadguru Harmony",
+        "image": "../../assets/Property-005/Property-0051.jpg",
+        "logo": "../../images/Sadguru Group copy.PNG",
+        "partner": "Sadguru Group",
+        "location": "Kharvani, mumbai",
+        "detailedLocation": "Kharvani NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": false,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Lattitude": "19.05757116146236",
+        "Longitude": "72.82850493742107",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 3,
+        "BuildingState": "Completed",
+        "area": 0,
+        "Price": "1,599,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_p0ped63",
+            "templateID":"template_dhl7nrn",
+            "publicKey":"v1J_zPcSYnAbZyoNY"
+        },
+        "SearchFilters": [
+            "3BHK",
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://youtu.be/fh0jkS9grR0",
+        "Type": "Apartment",
+        "Overview": {
+            "configuration": [
+                "1BHK",
+                "2BHK",
+                "3BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT - Baroda Highway connects at 2 min",
+            "Upcoming Navi Mumbai International Airport",
+            "Upcoming Badlapur Kanjurmarg Metro 2 min",
+            "Super Market at just 5 min distance",
+            "Fatima High School (5 Min)",
+            "Badlapur Railway Station in 5 min",
+            "Airson Engilish School. (2 Min)",
+            "City Care Multispeciality Hospital .(5 Min)",
+            "Shree Swami Samarth Multispeciality Hospital (1 Min) "
+        ],
+        "Features": {
+            "Specially Designed Club House": true,
+            "Gym": true,
+            "Gazebo": true,
+            "Indoor Games": true,
+            "Garden for children & Senior Citizen sit out  ": true,
+            "False Ceiling ": true,
+            "Jogging Track": true,
+            "Free  Parking ": true,
+            "24 Hrs Security": true,
+            "WIFI Zone": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Matheran Hill Station ": 20,
+                "HDFC Bank ": 5,
+                "Canara Bank ": 10,
+                "Juhu Airport ": "90"
+            },
+            "Locations": [
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank ",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC ",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank ",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank ",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank ",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "Gallery": [
+            "../../assets/Property-005/Property-0051.jpg",
+            "../../assets/Property-005/Property-0052.jpg",
+            "../../assets/Property-005/Property-0053.jpg",
+            "../../assets/Property-005/Property-0054.jpg",
+            "../../assets/Property-005/Property-0055.jpg"
+        ],
+        "TotalImages": 5
+    },
+    {
+        "id": 6,
+        "Property_ID": "RH-10935-property",
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere sunt pariatur sit a omnis lfhsf fhd dfhfdbrd wewttty kfthkfut reyhrt rtjyjr dudtrjdy;o h;iughh h'ihoh n fdtu h .",
+        "Title": "Audumber Crown",
+        "image": "../../assets/Property-006/Property-0061.jpg",
+        "logo": "../../images/Sadguru Group copy.PNG",
+        "partner": "Pinnacle Group",
+        "location": "Kharvani, mumbai",
+        "detailedLocation": "KHARVAI NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": false,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Lattitude": "19.05757116146236",
+        "Longitude": "72.82850493742107",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 4,
+        "BuildingState": "Completed",
+        "area": 0,
+        "Price": "3,999,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_p0ped63",
+            "templateID":"template_dhl7nrn",
+            "publicKey":"v1J_zPcSYnAbZyoNY"
+        },
+        "SearchFilters": [
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://youtu.be/fh0jkS9grR0",
+        "Type": "Apartment",
+        "Overview": {
+            "configuration": [
+                "1BHK",
+                "2BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT- Baroda Highway connects at 5 min",
+            "Upcoming Navi Mumbai International Airport 20 min",
+            "Upcoming Badlapur Kanjurmarg Metro 10 min",
+            "Super Market at just (5 min) distance",
+            "Gurukul Internation School 5 Min",
+            "Carmel Convent School 2 Min",
+            "Badlapur Railway Station (5 min) ",
+            "Dhanvantri Hospital (2 Min) "
+        ],
+        "Features": {
+            "parking": true,
+            "Charging": true,
+            "Digital door lock": true,
+            "Video": true,
+            "phone": true,
+            "Fully Air Conditioner Flats": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Ashwinkumar Medical Relief Society": 15,
+                "Little Captains Preschool": 30,
+                "Bank Of Baroda": 15,
+                "Chhatrapati Shivaji Maharaj International Airport": "45"
+            },
+            "Locations": [
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "Gallery": [
+            "../../assets/Property-006/Property-0061.jpg",
+            "../../assets/Property-006/Property-0062.jpg",
+            "../../assets/Property-006/Property-0063.jpg",
+            "../../assets/Property-006/Property-0064.jpg"
+        ],
+        "TotalImages": 4
+    },
+    {
+        "id": 7,
+        "Property_ID": "P5170005036",
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere sunt pariatur sit a omnis lfhsf fhd dfhfdbrd wewttty kfthkfut reyhrt rtjyjr dudtrjdy;o h;iughh h'ihoh n fdtu h .",
+        "Title": "Pinnacle Adharsh",
+        "image": "../../assets/Property-007/Property-0071.jpg",
+        "logo": "../../images/Sadguru Group copy.PNG",
+        "partner": "Pinnacle Group",
+        "location": "Kharvani, mumbai",
+        "detailedLocation": "KHARVAI NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": false,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Lattitude": "19.163405",
+        "Longitude": "73.230794",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 5,
+        "BuildingState": "Completed",
+        "area": 0,
+        "Price": "1,819,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_p0ped63",
+            "templateID":"template_dhl7nrn",
+            "publicKey":"v1J_zPcSYnAbZyoNY"
+        },
+        "SearchFilters": [
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://youtu.be/fh0jkS9grR0",
+        "Type": "Apartment",
+        "Overview": {
+            "configuration": [
+                "1BHK",
+                "2BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT - Baroda Highway connects at 2 min",
+            "Upcoming Navi Mumbai International Airport 20 min",
+            "Upcoming Badlapur Kanjurmarg Metro 2 min",
+            "Super Market at just 5 min distance",
+            "Fatima High School (5 Min)",
+            "Badlapur Railway Station in 5 min",
+            "Airson Engilish School. (2 Min)",
+            "Marigold International School. (10 min)",
+            "Badlapur Railway Station (5 min",
+            "City Care Multispeciality Hospital .(5 Min)",
+            "Shree Swami Samarth Multispeciality Hospital (1 Min) "
+        ],
+        "Features": {
+            "Free  Parking ": true,
+            "CCTV": true,
+            "24 Hrs Security": true,
+            "Digital door lock": true,
+            "Video": true,
+            "phone": true,
+            "Fully Air Conditioner Flats": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Kondeshwar Temple ": 10,
+                "Matheran Hill Station ": 20,
+                "ND Film Studio ": 30,
+                "Dhangar Waterfall ": "10"
+            },
+            "Locations": [
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "FAQ": [
+            {
+                "question": "What is the plot area of Pinnacle Adarsh?",
+                "answer": "The total plot area of Pinnacle Adarsh is 3143 square feet, providing ample space for residential units."
+            },
+            {
+                "question": "What types of units are available in Pinnacle Adarsh?",
+                "answer": "Pinnacle Adarsh offers a diverse range of units, including Studio Apartment, 1BHK & Shops."
+            },
+            {
+                "question": "Where is Pinnacle Adarsh located?",
+                "answer": "Pinnacle Adarsh is strategically located at Belavali, Badlapur ensuring easy access to Badlapur Kalyan Highway."
+            },
+            {
+                "question": "How far is Pinnacle Adarsh from the nearest railway station?",
+                "answer": "Pinnacle Adarsh is conveniently situated approximately 10-12 Min Walking from the nearest railway station, facilitating smooth commuting for residents."
+            },
+            {
+                "question": "Are there schools and markets in close proximity to Pinnacle Adarsh?",
+                "answer": "Yes, Pinnacle Adarsh benefits from its location near reputed schools and markets. Sun Rise International School, Fatima School, Reliance Mart & Etc are within a convenient distance, providing essential amenities for residents."
+            },
+            {
+                "question": "Who is the developer/builder of Pinnacle Adarsh?",
+                "answer": "Pinnacle Adarsh is developed by Pinnacle Enterprises, a renowned and trusted name in the real estate industry. Known for their commitment to quality, they bring a wealth of experience to the creation of Pinnacle Adarsh."
+            },
+            {
+                "question": "How can I inquire about available units and pricing in Pinnacle Adarsh?",
+                "answer": "For information on available units and pricing, please contact our sales team at 07969024025. They will be delighted to assist you with any inquiries and guide you through the process."
+            },
+            {
+                "question": "Is there a maintenance fee for Pinnacle Adarsh, and what does it cover?",
+                "answer": "Yes, Pinnacle Adarsh has a maintenance fee to cover common area upkeep, security, and shared facilities. The fee structure and details will be provided at time of possession."
+            },
+            {
+                "question": "Can I schedule a site visit to Pinnacle Adarsh to explore the property?",
+                "answer": "Absolutely! We encourage prospective buyers to schedule a visit to Pinnacle Adarsh to experience the ambiance and amenities firsthand. Please contact our sales team to arrange a convenient time for your visit."
+            }
+        ],
+        "Gallery": [
+            "../../assets/Property-007/Property-0071.jpg",
+            "../../assets/Property-007/Property-0072.jpg",
+            "../../assets/Property-007/Property-0073.jpg",
+            "../../assets/Property-007/Property-0074.jpg"
+        ],
+        "TotalImages": 4
+    },
+    {
+        "id": 8,
+        "Property_ID": "P51700032044",
+        "Description": "Laxmi Residency is located at heart of Badlapur with 5 min Drive From station with All Near by amenities",
+        "Title": "Laxmi Residency",
+        "image": "../../assets/Property-008/Property-0081.jpg",
+        "logo": "../../images/Flowervalley copy.PNG",
+        "partner": "Audumber Flower Valley",
+        "location": "Badlapur, mumbai",
+        "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Lattitude": "19.168598",
+        "Longitude": "73.223973",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 6,
+        "BuildingState": "Ongoing",
+        "area": 400,
+        "Price": "2,899,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_i68wvi9",
+            "templateID":"template_busm14p",
+            "publicKey":"MgTHge-_0ACYLLz13"
+        },
+        "SearchFilters": [
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://youtu.be/fh0jkS9grR0",
+        "Type": "Villa",
+        "Overview": {
+            "configuration": [
+                "1BHK",
+                "2BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT – Baroda Highway connects at 6 min",
+            "Upcoming Navi Mumbai International Airport in 20 min",
+            "Upcoming Badlapur Kanjurmarg Metro in 10 min",
+            "Super Market at just (5 min) distance",
+            "Carmel Convent School (4 Min)",
+            "Badlapur Railway Station (5 min)",
+            "Dhanvantri Hospital (2 Min)",
+            "Katrap Internation School ( 1 min)",
+            "Proposed Dmart ( 3 min)"
+        ],
+        "Features": {
+            "Landscape Garden": true,
+            "Parking Facilities 24 Hours Water": "true",
+            "Security": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Kondeshwar Temple": 15,
+                "Matheran Hill Station": 20,
+                "Barvi Dam": 20,
+                "Dhangar Waterfal": "10"
+            },
+            "Locations": [
+                {
+                    "Name": "Poddar International School",
+                    "Lattitude": "19.139879",
+                    "Longitude": "73.252059",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Vihaa International School",
+                    "Lattitude": "19.142386",
+                    "Longitude": "73.246190",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Lattitude": "19.140916",
+                    "Longitude": "73.252116",
+                    "Category": "School"
+                },
+                {
+                    "Name": "I.E.S. Katrap Vidyalay",
+                    "Lattitude": "19.168598",
+                    "Longitude": "73.225275",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Gurukul International School",
+                    "Lattitude": "19.172278",
+                    "Longitude": "73.221089",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Carmel Convent School",
+                    "Lattitude": "19.180320",
+                    "Longitude": "73.218589",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Fatima Convent School",
+                    "Lattitude": "19.180460",
+                    "Longitude": "73.229095",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Don Bosco English School",
+                    "Lattitude": "19.166990",
+                    "Longitude": "73.248210",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Anthony Convent School",
+                    "Lattitude": "19.169182",
+                    "Longitude": "73.248098",
+                    "Category": "School"
+                },
+                {
+                    "Name": "M.J. International School",
+                    "Lattitude": "19.160125",
+                    "Longitude": "73.245909",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Central Hospital",
+                    "Lattitude": "19.139779",
+                    "Longitude": "73.252544",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Shree Swami Samarth Multispeciality Hospital ",
+                    "Lattitude": "19.146278",
+                    "Longitude": "73.246494",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Pawar Hospital ",
+                    "Lattitude": "19.157840",
+                    "Longitude": "73.244365",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Siddhivinayak Multispeciality Hospital",
+                    "Lattitude": "19.165305",
+                    "Longitude": "73.245301",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dhanwantari Hospital ",
+                    "Lattitude": "19.164335",
+                    "Longitude": "73.231429",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Seven Palms Hospital ",
+                    "Lattitude": "19.159664",
+                    "Longitude": "73.228302",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Max Care Multispeciality Hospital ",
+                    "Lattitude": "19.163031",
+                    "Longitude": "73.229763",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Chiranjeev Hospital ",
+                    "Lattitude": "19.164292",
+                    "Longitude": "73.239771",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Vaishnavi Multispeciality ",
+                    "Lattitude": "19.157732",
+                    "Longitude": "73.235660",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dubey Hospital",
+                    "Lattitude": "19.166020",
+                    "Longitude": "73.235629",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Bluebell.jpg",
+                "name": "1BHK Bluebell Flower Valley",
+                "price": "398 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Lavender.jpg",
+                "name": "1BHK Lavender",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Snowdrop.jpg",
+                "name": "1BHK Snowdrop",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1RK Marygold.jpg",
+                "name": "1RK Marygold",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/2BHK Orchid.jpg",
+                "name": "2BHK Orchid",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/2BHK Studio Tulip.jpg",
+                "name": "2BHK Studio Tulip",
+                "price": "402 Sq ft",
+                "area": "25.25 Lakh"
+            }
+        ],
+        "FAQ": [
+            {
+                "question": "What is the carpet area of units in Laxmi Residency?",
+                "answer": "The carpet area of units in Laxmi Residency varies based on the specific unit type which start from 382 to 576 Sq Ft. Detailed information on carpet area for each unit can be obtained through our sales team or in the project brochure."
+            },
+            {
+                "question": "What is the price range for units in Laxmi Residency?",
+                "answer": "The price range for units in Laxmi Residency starts from 26.99 Lakh. Prices may vary based on unit size, location within the complex, and other factors."
+            },
+            {
+                "question": "How many types of units are available in Laxmi Residency?",
+                "answer": "Laxmi Residency offers a variety of units, including 1BHK, 2BHK, Offices & Shops. These range from well-designed apartments to spacious configurations, catering to diverse housing needs"
+            },
+            {
+                "question": "What is the possession date as per RERA for Laxmi Residency?",
+                "answer": "The possession date for Laxmi Residency is in accordance with RERA regulations. Please refer to the official RERA documentation or contact our sales team on 07969024009 for the most up-to-date information on possession dates."
+            },
+            {
+                "question": "Where is Laxmi Residency located?",
+                "answer": "Laxmi Residency is strategically located at in Heart of Badlapur i.e. Katrap, Badlapur East offering residents convenient access to Katrap Lake & Panvel Highway."
+            },
+            {
+                "question": "What are the location advantages of Laxmi Residency?",
+                "answer": "Laxmi Residency enjoys the advantage of being surrounded by leading food chains, franchises, and banks. Within the radius, residents have access to popular establishments such as Dominos, Pizza Hut, KFC, Burger King, Natural Ice Cream, Vijay Sales, Subway, Reliance Mart, and several other amenities, enhancing the overall living experience."
+            },
+            {
+                "question": "How can I inquire about available units and pricing in Laxmi Residency?",
+                "answer": "For information on available units and pricing, please contact our sales team at 07969024009. They will be happy to assist you with any inquiries and guide you through the process."
+            },
+            {
+                "question": "Is there a maintenance fee for Laxmi Residency, and what does it cover?",
+                "answer": "Yes, Laxmi Residency has a maintenance fee to cover common area upkeep, security, and shared facilities. The fee structure and details will be provided during the purchase process."
+            },
+            {
+                "question": "Can I schedule a site visit to Laxmi Residency to explore the property?",
+                "answer": "Absolutely! We encourage prospective buyers to schedule a visit to Laxmi Residency to experience the ambiance and amenities firsthand. Please contact our sales team to arrange a convenient time for your visit."
+            },
+            {
+                "question": "Does Laxmi Residency have tie-ups with any banks for financing?",
+                "answer": "Yes, Laxmi Residency has tie-ups with various leading banks for financing options. Our sales team can provide you with details regarding the available bank tie-ups and assist you in the financing process."
+            }
+        ],
+        "Gallery": [
+            "../../assets/Property-008/Property-0081.jpg",
+            "../../assets/Property-008/Property-0082.jpg",
+            "../../assets/Property-008/Property-0083.jpg",
+            "../../assets/Property-008/Property-0084.jpg"
+        ],
+        "TotalImages": 8
+    },
+    {
+        "id": 9,
+        "Property_ID": "P51700032044",
+        "Description": "Laxmi Residency is located at heart of Badlapur with 5 min Drive From station with All Near by amenities",
+        "Title": "Sunita Palace",
+        "image": "../../assets/Property-009/Property-0091.jpg",
+        "logo": "../../images/Flowervalley copy.PNG",
+        "partner": "Audumber Flower Valley",
+        "location": "Badlapur, mumbai",
+        "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Lattitude": "19.091070",
+        "Longitude": "73.296975",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 7,
+        "BuildingState": "Ongoing",
+        "area": 400,
+        "Price": "1,692,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_p0ped63",
+            "templateID":"template_dhl7nrn",
+            "publicKey":"v1J_zPcSYnAbZyoNY"
+        },
+        "SearchFilters": [
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://youtu.be/fh0jkS9grR0",
+        "Type": "Villa",
+        "Overview": {
+            "configuration": [
+                "1BHK",
+                "2BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT – Baroda Highway connects at 6 min",
+            "Upcoming Navi Mumbai International Airport in 20 min",
+            "Upcoming Badlapur Kanjurmarg Metro in 10 min",
+            "Super Market at just (5 min) distance",
+            "Carmel Convent School (4 Min)",
+            "Badlapur Railway Station (5 min)",
+            "Dhanvantri Hospital (2 Min)",
+            "Katrap Internation School ( 1 min)",
+            "Proposed Dmart ( 3 min)"
+        ],
+        "Features": {
+            "Landscape Garden": true,
+            "Parking Facilities 24 Hours Water": "true",
+            "Security": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Kondeshwar Temple": 15,
+                "Matheran Hill Station": 20,
+                "Barvi Dam": 20,
+                "Dhangar Waterfal": "10"
+            },
+            "Locations": [
+                {
+                    "Name": "Poddar International School",
+                    "Lattitude": "19.139879",
+                    "Longitude": "73.252059",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Vihaa International School",
+                    "Lattitude": "19.142386",
+                    "Longitude": "73.246190",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Lattitude": "19.140916",
+                    "Longitude": "73.252116",
+                    "Category": "School"
+                },
+                {
+                    "Name": "I.E.S. Katrap Vidyalay",
+                    "Lattitude": "19.168598",
+                    "Longitude": "73.225275",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Gurukul International School",
+                    "Lattitude": "19.172278",
+                    "Longitude": "73.221089",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Carmel Convent School",
+                    "Lattitude": "19.180320",
+                    "Longitude": "73.218589",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Fatima Convent School",
+                    "Lattitude": "19.180460",
+                    "Longitude": "73.229095",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Don Bosco English School",
+                    "Lattitude": "19.166990",
+                    "Longitude": "73.248210",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Anthony Convent School",
+                    "Lattitude": "19.169182",
+                    "Longitude": "73.248098",
+                    "Category": "School"
+                },
+                {
+                    "Name": "M.J. International School",
+                    "Lattitude": "19.160125",
+                    "Longitude": "73.245909",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Central Hospital",
+                    "Lattitude": "19.139779",
+                    "Longitude": "73.252544",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Shree Swami Samarth Multispeciality Hospital ",
+                    "Lattitude": "19.146278",
+                    "Longitude": "73.246494",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Pawar Hospital ",
+                    "Lattitude": "19.157840",
+                    "Longitude": "73.244365",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Siddhivinayak Multispeciality Hospital",
+                    "Lattitude": "19.165305",
+                    "Longitude": "73.245301",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dhanwantari Hospital ",
+                    "Lattitude": "19.164335",
+                    "Longitude": "73.231429",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Seven Palms Hospital ",
+                    "Lattitude": "19.159664",
+                    "Longitude": "73.228302",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Max Care Multispeciality Hospital ",
+                    "Lattitude": "19.163031",
+                    "Longitude": "73.229763",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Chiranjeev Hospital ",
+                    "Lattitude": "19.164292",
+                    "Longitude": "73.239771",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Vaishnavi Multispeciality ",
+                    "Lattitude": "19.157732",
+                    "Longitude": "73.235660",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dubey Hospital",
+                    "Lattitude": "19.166020",
+                    "Longitude": "73.235629",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_01.jpg",
+                "name": "1BHK Bluebell Flower Valley",
+                "price": "398 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-009/PriceFloorPlans/1RK Flat_02.jpg",
+                "name": "1BHK Lavender",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-009/PriceFloorPlans/1RK Flat_03.jpg",
+                "name": "1BHK Snowdrop",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_04.jpg",
+                "name": "1RK Marygold",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_05.jpg",
+                "name": "2BHK Orchid",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_06.jpg",
+                "name": "2BHK Studio Tulip",
+                "price": "402 Sq ft",
+                "area": "25.25 Lakh"
+            }
+        ],
+        "FAQ": [
+            {
+                "question": "What configurations are available in Sunita Palace, Vangani?",
+                "answer": "Sunita Palace offers configurations of 1RK (1 Room Kitchen) and 1BHK (1 Bedroom Hall Kitchen) to cater to different housing needs."
+            },
+            {
+                "question": "How far is Sunita Palace from the nearest railway station, and what is the commuting time?",
+                "answer": "Sunita Palace is conveniently located just a 5-minute walking distance from the Vangani railway station, providing residents with easy and quick access to transportation."
+            },
+            {
+                "question": "What internal amenities are provided in Sunita Palace?",
+                "answer": "Buyers at Sunita Palace will receive complimentary Kitchen Trolley and a pre-installed Water Tank in their flats, adding convenience and value to their living spaces."
+            },
+            {
+                "question": "Are there markets and schools in proximity to Sunita Palace?",
+                "answer": "Yes, Sunita Palace enjoys a prime location with markets and schools at its doorstep, ensuring residents have easy access to essential amenities and educational institutions."
+            },
+            {
+                "question": "What financing options are available for buyers at Sunita Palace?",
+                "answer": "Buyers at Sunita Palace can avail loans up to 99% of the property cost, subject to their eligibility. Our sales team will guide you through the financing process and provide assistance in securing the best possible loan options."
+            },
+            {
+                "question": "How can I inquire about available units and pricing in Sunita Palace?",
+                "answer": "For information on available units, pricing, and any other inquiries, please contact our sales team at 07969024004 They will be happy to assist you and provide all the necessary details."
+            },
+            {
+                "question": "Is there a maintenance fee for Sunita Palace, and what does it cover?",
+                "answer": "Yes, Sunita Palace has a maintenance fee to cover common area upkeep, security, and shared facilities. The fee structure and details will be provided during the purchase process."
+            },
+            {
+                "question": "Can I schedule a site visit to Sunita Palace to explore the property?",
+                "answer": "Absolutely! We encourage prospective buyers to schedule a visit to Sunita Palace to experience the amenities and the surrounding area. Please contact our sales team to arrange a convenient time for your visit."
+            },
+            {
+                "question": "What is the pricing range for units in Sunita Palace?",
+                "answer": "The pricing range for units in Sunita Palace starts from 12.99 Lakh, inclusive of all costs."
+            },
+            {
+                "question": "Is stilt parking or car parking available at Sunita Palace?",
+                "answer": "Yes, Sunita Palace provides parking facilities, including stilt parking, ensuring convenient and secure parking options for residents."
+            },
+            {
+                "question": "What is the carpet area range for units in Sunita Palace?",
+                "answer": "The carpet area for units in Sunita Palace ranges from 270 to 407 square feet, offering a variety of living spaces to suit different preferences."
+            }
+        ],
+        "Gallery": [
+            "../../assets/Property-009/Property-0091.jpg",
+            "../../assets/Property-009/Property-0092.jpg",
+            "../../assets/Property-009/Property-0093.jpg"
+        ],
+        "TotalImages": 3
+    },
+    {
+        "id": 10,
+        "Property_ID": "P51700030642",
+        "Description": "Laxmi Residency is located at heart of Badlapur with 5 min Drive From station with All Near by amenities",
+        "Title": "Sarvesh city",
+        "image": "../../assets/Property-010/Property-0101.jpg",
+        "logo": "../../images/Sarvesh City Logo.png",
+        "partner": "Sarcesh city",
+        "location": "Badlapur, mumbai",
+        "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Lattitude": "19.142102",
+        "Longitude": "73.247075",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 8,
+        "BuildingState": "Ongoing",
+        "area": 400,
+        "Price": "1,692,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_ufkrtor",
+            "templateID":"template_e85i8jr",
+            "publicKey":"B5dq6G_ll28YOYqOJ"
+        },
+        "SearchFilters": [
+            "1RK",
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://youtu.be/fh0jkS9grR0",
+        "Type": "Villa",
+        "Overview": {
+            "configuration": [
+                "1RK",
+                "1BHK",
+                "2BHK"
+            ],
+            "area": 415,
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT – Baroda Highway connects at 2 min",
+            "Upcoming Navi Mumbai International Airport in 20 min",
+            "Upcoming Badlapur Kanjurmarg Metro in 2 min",
+            "Super Market at just (1 min) distance",
+            "Poddar International School (2 min)",
+            "Vihaa International School (1 min)",
+            "Upcoming Thanekar Internatioal School (2 min)",
+            "Badlapur Railway Station (5 min)",
+            "Central Hospital (2 Min)",
+            "Shree Swami Samarth Multispeciality Hospital (1 Min)"
+        ],
+        "Features": {
+            "Specially Designed Viewing Gallery": true,
+            "Open Gym": "true",
+            "Garden for children & Senior Citizen sit out": true,
+            "Grills": true,
+            "Stilt & Open Parking": true,
+            "24 Hrs Security": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Kondeshwar Temple": 10,
+                "Matheran Hill Station": 20,
+                "ND Film Studio (30 Min": 20,
+                "Dhangar Waterfal": "10"
+            },
+            "Locations": [
+                {
+                    "Name": "Poddar International School",
+                    "Lattitude": "19.139879",
+                    "Longitude": "73.252059",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Vihaa International School",
+                    "Lattitude": "19.142386",
+                    "Longitude": "73.246190",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Lattitude": "19.140916",
+                    "Longitude": "73.252116",
+                    "Category": "School"
+                },
+                {
+                    "Name": "I.E.S. Katrap Vidyalay",
+                    "Lattitude": "19.168598",
+                    "Longitude": "73.225275",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Gurukul International School",
+                    "Lattitude": "19.172278",
+                    "Longitude": "73.221089",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Carmel Convent School",
+                    "Lattitude": "19.180320",
+                    "Longitude": "73.218589",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Fatima Convent School",
+                    "Lattitude": "19.180460",
+                    "Longitude": "73.229095",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Don Bosco English School",
+                    "Lattitude": "19.166990",
+                    "Longitude": "73.248210",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Anthony Convent School",
+                    "Lattitude": "19.169182",
+                    "Longitude": "73.248098",
+                    "Category": "School"
+                },
+                {
+                    "Name": "M.J. International School",
+                    "Lattitude": "19.160125",
+                    "Longitude": "73.245909",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Central Hospital",
+                    "Lattitude": "19.139779",
+                    "Longitude": "73.252544",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Shree Swami Samarth Multispeciality Hospital ",
+                    "Lattitude": "19.146278",
+                    "Longitude": "73.246494",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Pawar Hospital ",
+                    "Lattitude": "19.157840",
+                    "Longitude": "73.244365",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Siddhivinayak Multispeciality Hospital",
+                    "Lattitude": "19.165305",
+                    "Longitude": "73.245301",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dhanwantari Hospital ",
+                    "Lattitude": "19.164335",
+                    "Longitude": "73.231429",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Seven Palms Hospital ",
+                    "Lattitude": "19.159664",
+                    "Longitude": "73.228302",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Max Care Multispeciality Hospital ",
+                    "Lattitude": "19.163031",
+                    "Longitude": "73.229763",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Chiranjeev Hospital ",
+                    "Lattitude": "19.164292",
+                    "Longitude": "73.239771",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Vaishnavi Multispeciality ",
+                    "Lattitude": "19.157732",
+                    "Longitude": "73.235660",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dubey Hospital",
+                    "Lattitude": "19.166020",
+                    "Longitude": "73.235629",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-010/PriceFloorPlans/1BHK Sarvesh 1.jpg",
+                "name": "1BHK Bluebell Flower Valley",
+                "price": "414 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-010/PriceFloorPlans/1RK Sarvesh 2.jpg",
+                "name": "1BHK Lavender",
+                "price": "283 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-010/PriceFloorPlans/2BHK Sarvesh 3.jpg",
+                "name": "1BHK Snowdrop",
+                "price": "590 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-010/PriceFloorPlans/1BHK Sarvesh 4.jpg",
+                "name": "1RK Marygold",
+                "price": "428",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-010/PriceFloorPlans/1BHK Sarvesh 5.jpg",
+                "name": "2BHK Orchid",
+                "price": "398",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-010/PriceFloorPlans/1RK Sarvesh 6.jpg",
+                "name": "2BHK Studio Tulip",
+                "price": "319 Sq ft",
+                "area": "25.25 Lakh"
+            }
+        ],
+        "Gallery": [
+            "../../assets/Property-010/Property-0101.jpg",
+            "../../assets/Property-010/Property-0102.jpg",
+            "../../assets/Property-010/Property-0103.jpg",
+            "../../assets/Property-010/Property-0104.jpg",
+            "../../assets/Property-010/Property-0105.jpg",
+            "../../assets/Property-010/Property-0106.jpg"
+        ],
+        "FAQ": [
+            {
+                "question": "What types of units are available in Panvelkar Sarvesh City?",
+                "answer": "Panvelkar Sarvesh City offers a variety of units, including 1RK, 1BHK, 2BHK & Shops. These range from compact apartments to more spacious configurations, catering to different housing needs."
+            },
+            {
+                "question": "How much carpet area is available in the units at Panvelkar Sarvesh City?",
+                "answer": "The carpet area of units in Panvelkar Sarvesh City varies based on the specific unit type. Please refer to the floor plans or contact our sales team for detailed information on carpet area for each unit. The Range of Carpet Start From 283 Sq ft to 590 Sq Ft."
+            },
+            {
+                "question": "What is the starting price for units in Panvelkar Sarvesh City?",
+                "answer": "Prices for units in Panvelkar Sarvesh City start from 16.99 Lakh. Please note that prices may vary based on the unit size, location within the complex, and other factors."
+            },
+            {
+                "question": "Where is Panvelkar Sarvesh City located?",
+                "answer": "Panvelkar Sarvesh City is conveniently located at Joveli, Badlapur East, providing residents with easy access to Proposed Panvel Highway & Old Pune Highway ."
+            },
+            {
+                "question": "How far is Panvelkar Sarvesh City from the nearest railway station?",
+                "answer": "Panvelkar Sarvesh City is situated approximately 7-8 Min Drive from the Badlapur railway station, ensuring convenient transportation options for residents."
+            },
+            {
+                "question": "Are there markets and other essential facilities near Panvelkar Sarvesh City?",
+                "answer": "Yes, Panvelkar Sarvesh City benefits from its proximity to Patel R- Mart & Kharvai Market, providing residents with convenient access to essential amenities."
+            },
+            {
+                "question": "What are the key amenities and features available in Panvelkar Sarvesh City?",
+                "answer": "Panvelkar Sarvesh City offers a range of amenities and features, including Open Gym, Children Play Area & Etc."
+            },
+            {
+                "question": "How can I inquire about available units and pricing in Panvelkar Sarvesh City?",
+                "answer": "For information on available units and pricing, please contact our sales team at 07969669909. They will be happy to assist you with any inquiries and guide you through the process."
+            },
+            {
+                "question": "Is there a maintenance fee for Panvelkar Sarvesh City, and what does it cover?",
+                "answer": "Yes, Panvelkar Sarvesh City has a maintenance fee to cover common area maintenance, security, and shared facilities. The fee structure and details will be provided during the purchase process."
+            },
+            {
+                "question": "Can I schedule a site visit to Panvelkar Sarvesh City to explore the property?",
+                "answer": "Certainly! We encourage prospective buyers to schedule a visit to Panvelkar Sarvesh City to experience the ambiance and amenities firsthand. Please contact our sales team to arrange a convenient time for your visit."
+            }
+        ],
+        "TotalImages": 6
+    }
+]

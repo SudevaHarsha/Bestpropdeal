@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Space Grotesk;
+}
+
+.Header_Header__HOME {
+    position: var(--type);
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    z-index: 1000021;
+}
+
+.Header_Header__container {
+    background-color: var(--color);
+}
+
+.Actionbar_ {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Header_Desktop__Header {
+    width: 100%;
+    padding: 17px 72px;
+}
+
+.Header_Desktop__Header ::before {
+    content: "";
+    border-bottom: 1px solid #ece7e4;
+    opacity: .2;
+    position: absolute;
+    left: 72px;
+    right: 72px;
+    bottom: 0;
+}
+
+.Actionbar_left__leftActionbar {
+    margin: auto 0;
+}
+
+.Header_DesktopLeftHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.Header_DesktopLeftHeader__BestpropDealLink {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Header_DesktoRightHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.Header_DesktoRightHeaderp {
+    cursor: pointer;
+}
+
+.Header_HeaderActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-gap: 30px;
+}
+
+select.HeaderMenu_LocationMenu {
+    background: var(--blox-color-dune);
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 11px;
+    border-radius: 15px;
+    border-color: transparent;
+    height: 29px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.Header_HeaderMenu {
+    position: relative;
+}
+
+.HeaderMenu_NavIcon {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.Header_IconButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Header_IconButton__darkButton {
+    background-color: hsla(0, 0%, 100%, .15);
+    color: var(--blox-color-white);
+    border-radius: 100px;
+}
+
+.Header_IconButton__darkButton img {
+    width: 15px;
+
+    height: 15px;
+}
+
+.Header_TransparentIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.Header_TransparentIcon img {
+    width: 20px;
+    aspect-ratio: auto 20 / 20;
+    height: 20px;
+}
+
+.HeaderMenu__preMenu {
+    width: 340px;
+    padding: 15px;
+    background: var(--blox-color-white);
+    position: absolute;
+    right: 0;
+    border-radius: 24px;
+    top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    display: none;
+}
+
+.HeaderMenu__preMenu.HeaderMenu_open {
+    display: block;
+}
+
+.HeaderMenu_Container {
+    padding: 20px;
+    border-radius: 16px;
+    background: var(--card-border-secondary-color);
+    position: relative
+}
+
+.HeaderMenu_Container::before {
+    content: "";
+    position: absolute;
+    top: -24px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--blox-color-white);
+    z-index: 9999999;
+}
+
+.HeaderMenu_Text__Heading {
+    font-size: 20px;
+    color: var(--blox-color-thunder);
+}
+
+.HeaderMenu_Text__Description {
+    padding: 10px 0;
+    color: var(--blox-color-scorpion);
+}
+
+.HeaderMenu_Text__BtnGrid {
+    display: flex;
+    grid-gap: 15px;
+    margin: 15px 0 0;
+}
+
+.Header_DescriptionText {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.Header_HeaderRightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_DesktoRightHeader a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.HeaderMobileNavBar_Container {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .Header_Header__container {
+        display: none;
+    }
+
+    .HeaderMobileNavBar_Container {
+        position: var(--type);
+        padding: 14px 16px;
+        background-color: var(--color);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .HeaderMobileNavBar_Container.open {
+        background-color: var(--blox-color-thunder) !important;
+    }
+
+    .HeaderMobileNavBar_Container.close {
+        background-color: var(--color);
+    }
+
+    .HeaderMobileNavBar_Container::before {
+        content: "";
+        opacity: .2;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .HeaderMobile_LeftSection {
+        margin: auto 0;
+    }
+
+    .HeaderMobile_LeftLogoCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transform: translateX(-20px);
+    }
+
+    .HeaderMobile_RightSectionCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .HeaderMobile_RightActions {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        grid-gap: 30px;
+    }
+
+    .HeaderMobile_HeaderMenu {
+        position: static;
+    }
+
+    .HeaderMobile_RightIconBtn {
+        width: 20px;
+        height: 20px;
+        border-radius: 0px;
+        background-color: transparent;
+        color: var(--blox-color-white);
+        font-size: 20px;
+        transform: translateX(-10px);
+    }
+
+    .HeaderMenu_MenuCont {
+        width: 100%;
+        height: 100vh;
+        padding: 15px;
+        border-radius: 0;
+        z-index: 9999;
+        background: var(--blox-color-thunder);
+        right: 0;
+        top: 55px;
+        position: absolute;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+        display: none;
+    }
+
+    .HeaderMenu_MenuCont.open {
+        display: block;
+    }
+
+    .HeaderMenu_MenuCont.close {
+        display: none;
+    }
+
+    .HeaderMobileHeadingLoginCont {
+        background-color: var(--blox-color-dune);
+        padding: 20px;
+        border-radius: 16px;
+        position: relative;
+    }
+
+    .HeaderMobile_Heading {
+        color: var(--blox-color-white);
+        font-size: 20px;
+    }
+
+    .HeaderMobile_SubHeading {
+        color: var(--blox-color-dusty-gray);
+        padding: 10px 0;
+    }
+
+    .HeaderMobile_SubHeadingText {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .HeaderMobile_ActionBtnGrid {
+        display: flex;
+        grid-gap: 15px;
+        margin: 15px 0 0;
+    }
+
+    .HeaderMobile_LoginBtn {
+        background-color: var(--blox-color-thunder);
+        color: var(--blox-color-white);
+        height: 32px;
+        padding: 7px 20px;
+        width: -moz-fit-content;
+        width: fit-content;
+        cursor: pointer;
+        border-radius: 100px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        font-style: normal;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .HeaderMobile_LoginBtnCont {
+        justify-content: center;
+        gap: 4px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .HeaderMobile_LoginBtnText {
+        font-size: 10px;
+        line-height: 18px;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .HeaderMobile_SignupBtn {
+        background-color: #fff;
+        color: var(--blox-color-thunder);
+        border: 1px solid var(--blox-color-white);
+    }
+
+    .HeaderMobile_MenuList ul {
+        margin: 10px 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .HeaderMobile_MenuList li {
+        padding: 12px 10px;
+    }
+
+    .HeaderMobile_MenuLabel {
+        color: var(--card-border-secondary-color);
+        display: flex;
+        grid-gap: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

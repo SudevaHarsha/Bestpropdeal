@@ -1,0 +1,143 @@
+.CardProducts_Data{
+    height: fit-content;
+    background: var(--blox-color-white);
+    border: 1px solid var(--blox-color-white);
+    height: fit-content;
+    width: 400px;
+    border-radius: 24px;
+    padding: 0;
+    display: flex;
+    border-radius: 50px;
+}
+
+
+
+.CardProducts_PropertyCard{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.CardProducts_PropertyCard__Title{
+    cursor: pointer;
+    padding: 32px 24px 16px;
+}
+
+.CardProducts__PropertyName{
+    font-size: 10px;
+    color: var(--blox-color-thunder);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.CardHeartCont{
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    background-color: var(--blox-color-pampas-bg-color);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+}
+
+.CardPropertyLocation{
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 2px;
+}
+
+.CardProductsLocationIcon{
+    font-size: 30px;
+}
+
+.CardLocationDetails{
+    font-size: 14px;
+}
+
+.CardPropertyTags{
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 40px;
+}
+
+.CardProperty_Slider__Icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardPropertyTags_TagName{
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.CardPropertyTags_Icons{
+    font-size: 25px;
+}
+
+.CarditemsCount{
+    font-size: 10px;
+}
+
+.CardPropertySlider_DataCont{
+    color: #000;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.CardPropertySlider_Data{
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.CardPropertySlider_PriceBtnCont{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.CardPropertySlider_StatePricecont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.CardPropertySlider_State{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.CardPropertySlider_Price{
+    font-size: 25px;
+}
+
+.CardPropertySlider_BtnCont{
+    width: 110px;
+    height: 35px;
+    background-color: #000;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.CardPropertySlider_BthTitle{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

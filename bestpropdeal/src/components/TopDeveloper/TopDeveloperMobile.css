@@ -1,0 +1,56 @@
+.TopDev_Mobileslider{
+    position: relative;
+    width: 100vw;
+    height: 12rem;
+    background-color: var(--blox-color-thunder);
+    box-shadow: 0.8rem 1.4rem -.2rem #0001;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.TopDev_Mobileslider::before,
+.TopDev_Mobileslider::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 12rem;
+}
+.TopDev_Mobileslider::before{
+    left: 0;
+    background: linear-gradient(to right, var(--blox-color-thunder) 0%, #0000 100%);
+}
+.TopDev_Mobileslider::after{
+    right: 0;
+    background: linear-gradient(to left, var(--blox-color-thunder) 0%, #0000 100%);
+}
+.TopDev_MobileDevelopers{
+    list-style: 
+    none;
+    width: calc(11*12rem*2);
+    display: flex;
+    animation: slideleft 14s linear infinite;
+}
+
+@keyframes slideleft{
+    100%{
+        transform: translateX(calc(-100%/ 2));
+    }
+}
+
+.TopDev_MobileDeveloperLogo{
+    width: 12rem;
+    height: 6rem;
+    display: flex;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 3rem;
+    color: var(--blox-color-thunder);
+    background-color: var(--blox-color-white);
+}
+
+@media screen and (max-width: 768px){
+   
+}

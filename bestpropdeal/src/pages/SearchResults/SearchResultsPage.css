@@ -1,0 +1,488 @@
+.SearchPage_SearchCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+   
+    background-color: var(--blox-color-white) !important;
+    color: var(--blox-color-thunder);
+}
+
+.SearchResults_SearchOverviewCont{
+    padding: 0 72px;
+    background-color: var(--blox-color-white);
+    color: var(--blox-color-thunder);
+}
+
+.SearchResults_NavigationCont{
+    padding: 12px 0;
+    border-bottom: 1px solid var(--blox-color-ebb-divider);
+    text-align: left!important;
+    color: var(--blox-color-dusty-gray);
+}
+
+.SearchResults_NavigationBtn{
+    display: inline-flex;
+    gap: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.SearchResults_NavigationBtnText{
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.SearchResults_SearchOverview_HeadingCont{
+    margin-top: 16px;
+}
+
+.SearchResults_SearchOverview_Heading{
+    font-weight: 400;
+}
+
+.SearchResults_SearchOverview_HeadingText{
+    font-size: 24px;
+    line-height: 26px;
+}
+
+
+
+.SearchBar_DesktopCont{
+    display: block;
+    height: 100%;
+    margin: 16px 0;
+}
+
+
+
+.SearchResults_SubHeaderCont{
+    margin-bottom: 20px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SearchResults_TruncatedTextCont{
+    width: 70%;
+    overflow: unset;
+}
+
+.SearchResults_TruncatedText{
+    display: flex;
+    gap: 5px;
+    text-align: justify;
+}
+
+.SearchResults_SubheaderText{
+    -webkit-line-clamp: 1;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    color: var(--blox-color-dusty-gray);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.SearchResults_SubheaderReadmoreBtn{
+    flex: none;
+    cursor: pointer;
+    color: var(--blox-color-dune);
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.SearchResults_PropertyCountCont{
+    display: block;
+}
+
+.SearchResults_PropertyCountText{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.SearchResults_ResultCardCont{
+    width: 100%;
+    background-color: var(--blox-color-pampas-bg-color);
+    height: 804px;
+    position: relative;
+    justify-content: space-around;
+}
+
+.SearchResults_ResultCard_MapCont{
+    width: calc(100vw - 700px);
+   
+}
+
+.SearchResults_PropertyCard__PropertyCardCont{
+    height: 804px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px 72px 40px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 234567;
+}
+
+.SearchResults_PropertyCard__PropertyCardCont::-webkit-scrollbar {
+    display: none;
+}
+
+.SearchResults_PropertyCard__PropertyCard{
+    z-index: 1;
+}
+
+.SearchResults_PropertyCard__Property{
+    height: fit-content;
+    width: 680px;
+    padding: 0 !important;
+    display: flex;    
+    padding: 24px;
+    border-radius: 24px;
+    background: var(--blox-color-white);
+    border: 1px solid var(--blox-color-white);
+}
+.ImagePanneractive{
+    display: block;
+    height: 100%;
+}
+.ImagePannerinactive{
+    display: none;
+}
+.SearchResults_PropertyCard__PropertyImage{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.SearchResults_ProgressBar{
+    height: 2px;
+    max-width: 100%;
+    background: rgb(85, 85, 85);
+    margin: 2px;
+    border-radius: 2px;
+    backface-visibility: hidden;
+    width: 14.2857%;
+}
+
+.SearchResults_ProgressBarInnerCont{
+    background: rgb(255, 255, 255);
+    height: 100%;
+    max-width: 100%;
+    border-radius: 2px;
+    transform-origin: left center;
+    backface-visibility: hidden;
+    perspective: 1000px;
+    width: 100%;
+}
+
+.SearchResults_PropertyDetailsCard{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SearchResults_CardDetailsCont{
+    cursor: pointer;
+    padding: 32px 24px 16px;
+}
+
+.SearchResults_CardDetail__HeadingCont{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+.SearchResultsCard_Heading{
+    color: var(--blox-color-thunder);
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.SearchResultsCard_HeadingText{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.SearchResultsCard_SubHeading{
+    color: var(--blox-color-scorpion);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.SearchResults_UnderConstructionTag_Cont{
+    margin: 12px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.SearchResults_UnderConstructionTag{
+    background: linear-gradient(90deg,var(--blox-color-pampas-bg-color) 0,var(--blox-color-gradient-white) 100%);
+    height: 32px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 6px;
+    border-radius: 8px;
+}
+
+.SearchResults_UnderConstructionTag_Text{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.SearchresultsCard_ActionBtnCont{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.SearchResults_FavouriteBtnCont{
+    width: 48px;
+    height: 36px;
+    border-radius: 100px;
+}
+
+.SearchResults_CardTruncatedTextCont{
+    color: var(--blox-color-dusty-gray);
+    display: flex;
+    gap: 5px;
+    text-align: justify;
+}
+
+.SearchResults_DeveloperDetailsCont{
+    background: linear-gradient(90deg,#ece7e4,hsla(23,17%,91%,0));
+    padding: 5px 5px 5px 0;
+}
+
+.SearchResults_DeveloperDetails{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.SearcResultsCard_DeveloperInfoCont{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: .5;
+    gap: 10px;
+}
+
+.SearchCard_DeveloperName{
+    color: var(--blox-color-thunder);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.SearchCard_DeveloperRatingCont{
+    display: flex;
+    gap: 5px;
+}
+
+.SearchCard_DeveloperRating{
+    color: var(--blox-color-thunder);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.SearchCard_DeveloperDataDivider{
+    width: 1px;
+    height: 56px;
+    background: var(--blox-color-thunder);
+    opacity: .15;
+}
+
+.SearchResults_SecondaryDataCont{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SearchResults_SecondaryData_PriceRange{
+    font-weight: 500;
+    color: var(--blox-color-thunder);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.SearchResults_SecondaryData_FloorConfig{
+    color: var(--blox-color-scorpion);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.SearchResults_CardActionBtnCont{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px 24px 24px;
+    gap: 8px;
+}
+
+.SearchResultsCard_CallRMBtn{
+    padding: 6px 10px;
+    font-size: 11px;
+    line-height: 18px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 123px;
+    background-color: var(--blox-color-ebb-divider);
+    color: var(--blox-color-thunder);
+    height: 40px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.SearchResultsCard_CallRMBtnCont{
+    justify-content: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SearchResults_CallRMIcon{
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: var(--blox-color-burnt-sienna);
+}
+
+.SearchResultsCard_CallRMBtnText{
+    font-size: 10px;
+    line-height: 18px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.SearchResultsCard_BookAVistBtn{
+    padding: 11px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blox-color-thunder);
+    color: var(--blox-color-white);
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.leaflet-container{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.SearchPage_SearchSeoLinks{
+    width: 100%;
+    padding: 0 70px;
+    background:var(--blox-color-pampas-bg-color) !important;
+}
+.SearchResults_PropertyCard__PropertyCardContMobile{
+    display: none;
+}
+.propertyseoLinks {
+    width: 100%;
+    padding: 0 30px;
+    background: var(--blox-color-pampas-bg-color) !important;
+    z-index: 99;
+}
+.Fottercont{
+    z-index: 99;
+}
+
+.property_Deatiles_rmcard_callrm_form_container {
+    align-items: center;
+    animation: Modal_slideInTop__m5jCF .5s forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000000;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.property_Deatiles_rmcard_callrm_form_containerdisplay {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .SearchPage_SearchCont{
+        background-color: var(--blox-color-thunder);
+    }
+    .SearchResults_SearchOverviewCont{
+        background-color: var(--blox-color-thunder);
+        color: var(--blox-color-white);
+        padding: 20px;
+    }
+    .SearchResults_ResultCardCont{
+        background-color: var(--blox-color-thunder);
+    }
+    .SearchResults_PropertyCard__PropertyCardContMobile{
+        background-color: var(--blox-color-thunder);
+    }
+    .SearchBar_DesktopCont{
+        display: none;
+    }
+    .SearchResults_PropertyCard__PropertyCardCont{
+        display: none;
+    }
+    .SearchResults_PropertyCard__PropertyCardContMobile{
+        display: block;
+    }
+    .SearchResults_ResultCardCont{
+        display: none;
+    }
+    .SearchResults_SubHeaderCont{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .SearchResults_SubheaderReadmoreBtn{
+        color: var(--blox-color-white);
+    }
+}

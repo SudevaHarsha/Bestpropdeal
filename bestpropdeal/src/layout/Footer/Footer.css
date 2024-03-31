@@ -1,0 +1,228 @@
+.Fotter {
+    background-color: var(--blox-color-thunder);
+    padding: 20px;
+    width: 100%;
+    margin: 0 10px;
+}
+
+
+
+
+
+.Fotter_Logo__Img {
+    padding: 10px 0 30px;
+    width: 59px;
+    aspect-ratio: auto 59 / 20;
+    height: 20px;
+}
+
+.FotterLinksCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FotterCont_FotterLinks {
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    width: 50%;
+}
+
+
+
+
+
+.FotterCont_FotterLinks  ul {
+    margin: 10px 0 0;
+    padding-right: 80px;
+    color: var(--blox-color-ebb-divider);
+    list-style: none;
+}
+
+.FotterCont_FotterLinks  ul li {
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.FotterCont_FotterInfo {
+    display: flex;
+    width: 50%;
+   
+    grid-gap: 30px;
+}
+
+
+
+.fotterSocialIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FotterSocialIcons_IconBtn {
+    border: none;
+    width: 64px;
+    height: 72px;
+    border-radius: 24px;
+    background-color: rgba(90, 87, 87, 0.297);
+    color: var(--blox-color-ebb-divider);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.FotterGreyCard {
+    background-color: rgba(90, 87, 87, 0.297);
+    padding: 20px 25px;
+    border-radius: 24px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.FotterCard_FotterOrangeText {
+    color: var(--color-orange);
+}
+
+.FotterCard_FotterReraText {
+    color: var(--blox-color-ebb-divider);
+}
+
+.FotterGreyCard p {
+    color: #979393;
+}
+
+
+
+.FotterListIcon {
+    width: auto;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.FotterListIconBtn {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+    background-color: rgba(90, 87, 87, 0.297);
+    color: var(--blox-color-ebb-divider);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+.FotterListIconLabel {
+    width:90px;
+    font-size: 12px;
+    color: #ecdfdf;
+}
+
+
+
+.FotterDivider {
+    border-color: #979393;
+    border-width: 0.5px;
+    margin: 40px 0 20px;
+}
+
+.Fotter_Copyright {
+    font-size: 12px;
+    color: var(--blox-color-dusty-gray);
+}
+
+
+.StepperchartIcon__Imagef {
+    color:#ffffff;
+    width: 25px;
+    aspect-ratio: auto 25 / 25;
+    height: 25px;
+}
+
+@media (max-width: 780px) {
+    .Fotter {
+        padding: 10px;
+    }
+
+   
+
+    .FotterLinksCont {
+        display: block;
+    }
+
+    .FotterCont_FotterLinks {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+
+    .FotterCont_FotterLinks div{
+        width: 40%;
+    }
+
+    .FotterCont_FotterInfo {
+        width: 100%;
+        display: block;
+    }
+
+    .Fottercol {
+        width: 100%;
+    }
+    .fotterSocialIcons{
+        justify-content: center;
+        gap: 8px;
+    }
+   
+    .FotterListIcon{
+        margin-top: 3px;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    .Fotter {
+        padding: 10px;
+    }
+
+   
+
+    .FotterLinksCont {
+        display: block;
+    }
+
+    .FotterCont_FotterLinks {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+
+    .FotterCont_FotterLinks div{
+        width: 40%;
+    }
+
+    .FotterCont_FotterInfo {
+        width: 100%;
+        display: block;
+    }
+
+    .Fottercol {
+        width: 100%;
+    }
+    .fotterSocialIcons{
+        justify-content: center;
+        gap: 8px;
+    }
+   
+    .FotterListIcon{
+        margin-top: 3px;
+        justify-content: flex-start;
+    }
+}

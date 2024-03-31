@@ -1,0 +1,627 @@
+.property_Deatiles_cont{
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.property_Deatiles_rmcard_cont {
+    padding: 0 !important;
+    position: relative;
+    z-index: 99999;
+    border-radius: 24px;
+    background: var(--blox-color-thunder);
+}
+
+.property_Deatiles_rmcard_content_title {
+    width:60%;
+    padding-top:15px;
+    padding-left: 15px;
+    color: var(--blox-color-white);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.property_Deatiles_rmcard_content_name{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.property_Deatiles_rmcard_content_rating{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+    align-items: center;
+    gap:10px;
+    
+}
+
+.property_Deatiles_rmcard_content_row{
+    display:flex;
+
+}
+
+.property_Deatiles_rmcard_content_img{
+    margin-right:25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.property_Deatiles_rmcard_content_button{
+    margin-bottom:4px !important;
+    width:80%;
+    height:30px;
+    border: none;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(92, 96, 97);
+    border-radius: 40px;
+    padding:20px;
+    color: var(--blox-color-white);
+    cursor: pointer;
+}
+
+.VisitBtn{
+    margin-top: 20px !important;
+}
+
+.property_Deatiles_rmcard_content_button_container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding-bottom: 20px;
+    width:100%;
+}
+.property_Deatiles_enquirycard_cont{
+    padding: 20px !important;
+    position: relative;
+    z-index: 99999;
+    border-radius: 24px;
+    background: var(--blox-color-thunder);
+    
+}
+.property_Deatiles_enquirycard_heading{
+    width:100%;
+    padding-top:15px;
+    padding-left: 100px;
+    color: var(--blox-color-white);
+    font-weight: 500;
+    font-size: 16px;
+}
+.property_Deatiles_enquirycard_month{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputbox{
+    position:relative;
+    margin-top:30px ;
+    width:240px;
+    border-bottom:2px solid #fff
+}
+
+.inputbox label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    transform: translateY(-50%);
+    color:#fff;
+    font-size:12px;
+    pointer-events:none
+}
+input:focus ~ label, input:focus ~ :valid{
+    top:-5px;
+}
+.inputbox input{
+    width:100%;
+    height:20px;
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 10px;
+    padding: 0 5px 0 5px;
+    color:#fff;
+}
+
+.inputbox .icon{
+
+    position:absolute;
+    right:3px;
+    color:#fff;
+    font-size: 20px;
+    top:-1px;
+}
+
+.forget{
+    margin-top:15px;
+    padding-left: 30px;
+    font-size:-15px;
+    color:#fff;
+    display:flex;
+}
+.forget label input{
+    margin-right:3px;
+}
+.button{
+    width:100%;
+    height:20px;
+    border-radius: 40px;
+    background: #fff;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-size:10px;
+}
+
+
+
+
+.rm_x_butt{
+    position:absolute;
+    width:20px;
+    height:20px;
+    margin-top: 10px;
+    left:910px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rm_button{
+    position:absolute;
+    width:20px;
+    height:20px;
+    margin-top: 10px;
+    left:1130px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rm_part{
+    background-color: black;
+    display:flex;
+}
+
+.rm_white{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.rm_p{
+    display:flex;
+    flex-direction: column;
+}
+.rm_p_text{
+    height:40%;
+    padding-top:100px;
+    padding-left:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rm_p_img{
+    
+    margin-right:35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.rm_t_des{
+    display:flex;
+}
+.rm_p_texttt
+{
+  
+    margin-right:35px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.rm_p_texttt p{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rm_r_c{
+    width:100%;
+    height:100%;
+    padding: 20px !important;
+    position: relative;
+    z-index: 99999;
+    
+}
+.rm_r_heading{
+    width:100%;
+    padding-top:15px;
+    padding-left: 100px;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+.rm_r_cont{
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.inputbox_rm{
+    position:relative;
+    margin-top:30px ;
+    width:240px;
+    border-bottom:2px solid #000
+}
+
+.inputbox_rm label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    transform: translateY(-50%);
+    color:#000;
+    font-size:12px;
+    pointer-events:none
+}
+input:focus ~ label, input:focus ~ :valid{
+    top:-5px;
+}
+
+.labeltop{
+    top:-5px !important;
+}
+
+
+.inputbox_rm input{
+    width:100%;
+    height:20px;
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 10px;
+    padding: 0 5px 0 5px;
+    color:#000;
+}
+
+.inputbox_rm .icon_rm{
+
+    position:absolute;
+    right:3px;
+    color:#000;
+    font-size: 20px;
+    top:-1px;
+}
+
+.forget_rm{
+    margin-top:15px;
+    padding-left: 30px;
+    font-size:-15px;
+    color:#000;
+    display:flex;
+}
+.forget_rm label input{
+    margin-right:3px;
+}
+.Book_A_SiteVisit{
+    margin-top: 20px;
+}
+.BookAVisitImage{
+    width: 100%;
+    height: 100%;
+}
+
+.BookAVisitImg{
+    width: 100%;
+    height: 100%;
+}
+
+.BookAVisit_formContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.forget_Visit{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.BookVisit_TitleLogoCont{
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+.BookVisitTitle{
+    font-size: 25px;
+    text-align: center;
+}
+
+.BookASiteImgCont img{
+    width: 100%;
+    height: 100%;
+}
+
+.Bookk_A_SIte_VISIT_Hesding{
+    font-size: 20px;
+    padding-left: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.Home_Icon{
+    margin-right: 5px;
+}
+.book_Closebtn{
+    z-index: 987654321987;
+    color: var(--blox-color-white) !important;
+    position:relative;
+    width:20px;
+    height:20px;
+    margin-top: 30px;
+    left:750px;
+    background: none;
+    border: none;
+}
+.BookASiteVisitCont{
+    color: #fff;
+}
+
+.inputbox_bookasitevisit{
+    border-color: #fff;
+}
+
+.icon_bookASIteVisit{
+    color: #fff !important;
+}
+
+.inputbox_bookasitevisit input{
+    color: #fff;
+}
+
+.inputbox_bookasitevisit label{
+    color: #fff;
+}
+
+.CallImmedietluBtn{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.rm_part_mobile{
+    display: none;
+}
+
+.FormErrorMsgCont{
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    margin: auto;
+    padding: 0;
+    margin-top: 10px;
+}
+.cllrm_callicon{
+    font-size: 20px;
+}
+
+.Visitip_icon{
+    color: var(--blox-color-white) !important;
+}
+@media (max-width: 780px) {
+    .rm_part{
+        display: none;
+    }
+    .rm_part_mobile{
+        display: block;
+    }
+    .Mobilerm_Cont{
+        width: 100%;
+        height: 100%;
+        background-color: var(--blox-color-thunder);
+    }
+    .Mobilerm_CloseLogoCont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--blox-color-white);
+    }
+    .Mobilerm_CloseLogoCont img{
+        margin-top: 10px;
+    }
+    .Mobilerm_closeIcon{
+        margin-right: 8px;
+    }
+    .Mobilerm_descriptionCont{
+        padding: 10px;
+        color: var(--blox-color-white);
+        margin-top: 60px;
+    }
+    .Mobilerm_FormCont{
+        background-color: var(--blox-color-thunder);
+    }
+    .Mobilerm_r_heading{
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+        color: var(--blox-color-white);
+    }
+    .Mobilerm_inputbox{
+        border-color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_inputbox input{
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_label{
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_icon{
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_forgetrm{
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_Btn{
+        margin-top: 20px;
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_callimmedietlyBtn{
+        color: var(--blox-color-white) !important;
+        background-color: var(--blox-color-thunder) !important;
+    }
+    .MobileVisitImage{
+        width: 100%;
+        height: 50%;
+        background-image: url("https://www.bestpropdeal.com/wp-content/uploads/2020/09/Side_View-1-1-488x326.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .MobileVisit_CloseLogoCont{
+        width: 100%;
+        height: 100%;
+        background-color: var(--blox-color-thunder);
+        padding: 10px;
+    }
+   
+    .MobileVisit_VisitText{
+        color: var(--blox-color-white);
+        padding-left: 20px;
+        margin-top: 30px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .MobileVisit_inputbox{
+        margin-top: 60px !important;
+    }
+    .MobileVisit_VisitBtn{
+        margin-top: 50px !important;
+    }
+    .MobileVisitBtn{
+        color: var(--blox-color-white);
+    }
+    .formErrorMsgMobile{
+        color: rgb(255, 153, 0);
+    }
+    .MobileVisit_VisitText{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 33px;
+    }
+   
+}
+@media (max-width: 600px) {
+    .rm_part{
+        display: none;
+    }
+    .rm_part_mobile{
+        display: block;
+    }
+    .Mobilerm_Cont{
+        width: 100%;
+        height: 100%;
+        background-color: var(--blox-color-thunder);
+    }
+    .Mobilerm_CloseLogoCont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--blox-color-white);
+    }
+    .Mobilerm_CloseLogoCont img{
+        margin-top: 10px;
+    }
+    .Mobilerm_closeIcon{
+        z-index: 99999999999;
+        margin-right: 8px;
+    }
+    .Mobilerm_descriptionCont{
+        padding: 10px;
+        color: var(--blox-color-white);
+        margin-top: 60px;
+    }
+    .Mobilerm_FormCont{
+        background-color: var(--blox-color-thunder);
+    }
+    .Mobilerm_r_heading{
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+        color: var(--blox-color-white);
+    }
+    .Mobilerm_inputbox{
+        border-color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_inputbox input{
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_label{
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_icon{
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_forgetrm{
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_Btn{
+        margin-top: 20px;
+        color: var(--blox-color-white) !important;
+    }
+    .Mobilerm_callimmedietlyBtn{
+        color: var(--blox-color-white) !important;
+        background-color: var(--blox-color-thunder) !important;
+    }
+    .MobileVisitImage{
+        width: 100%;
+        height: 50%;
+        background-image: url("https://www.bestpropdeal.com/wp-content/uploads/2020/09/Side_View-1-1-488x326.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .MobileVisit_CloseLogoCont{
+        width: 100%;
+        height: 100%;
+        background-color: var(--blox-color-thunder);
+        padding: 10px;
+    }
+   
+    .MobileVisit_VisitText{
+        color: var(--blox-color-white);
+        padding-left: 20px;
+        margin-top: 30px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .MobileVisit_inputbox{
+        margin-top: 60px !important;
+    }
+    .MobileVisit_VisitBtn{
+        margin-top: 50px !important;
+    }
+    .MobileVisitBtn{
+        color: var(--blox-color-white);
+    }
+    .formErrorMsgMobile{
+        color: rgb(255, 153, 0);
+    }
+}

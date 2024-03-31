@@ -1,0 +1,117 @@
+[
+    {
+        "Title": "Audumber Flower Valley",
+        "Property_ID":"RH-10220-property",
+        "image": "../../assets/Property-001/Property-0011.jpg",
+        "location": "Badlapur, mumbai",
+        "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Bedrooms": 1,
+        "BuildingState":"Ongoing",
+        "position":1,
+        "Bathrooms": 1,
+        "area": 400,
+        "Price": "1,692,000",
+        "onwords": false,
+        "SearchFilters": [
+            "1RK", "1BHK", "2BHK", "3BHK"
+        ],
+        "Type": "Villa"
+    },
+    {
+        "Title": "Dashmehsh Crystal Phase 2",
+        "Property_ID":"RH-10935-property",
+        "image": "../../assets/Property-001/Property-0011.jpg",
+        "location": "Kharvani, mumbai",
+        "detailedLocation": "Kharvai, KHARVAI NAKA, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Bedrooms": 1,
+        "BuildingState":"Ongoing",
+        "position":9,
+        "Bathrooms": 1,
+        "area": 415,
+        "Price": "1,699,000",
+        "onwords": false,
+        "SearchFilters": [
+            "1BHK", "2BHK", "3BHK"
+        ],
+        "Type": "Duplex"
+    },
+    {
+        "Title": "Nano city",
+        "Property_ID":"RH-1022-property",
+        "image": "../../assets/Property-003/Property-0031.jpg",
+        "location": "southeast, mumbai",
+        "detailedLocation": "Nano city, opp Indian Oil petrol Pump, Karjat Road, Joveli, Badlapur East - 421503",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Bedrooms": 0,
+        "BuildingState":"Ongoing",
+        "position":3,
+        "Bathrooms": 2,
+        "area": 0,
+        "Price": "1,599,000",
+        "onwords": false,
+        "SearchFilters": [
+            "1RK", "1BHK", "2BHK"
+        ],
+        "Type": "Duplex"
+    },
+    {
+        "Title": "JR Regency",
+        "Property_ID":"RH-102-property",
+        "image": "https://www.bestpropdeal.com/wp-content/uploads/2020/09/B-Wing-_-FRONT-SIDE-488x326.jpg",
+        "location": "southeast, mumbai",
+        "detailedLocation": "Ambernath, Station Road, Ambernath, Ulhasnagar, Thane, Maharashtra, 421501, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Bedrooms": 1,
+        "BuildingState":"Ongoing",
+        "position":5,
+        "Bathrooms": 2,
+        "area": 0,
+        "Price": "1,800,000",
+        "onwords": true,
+        "SearchFilters": [
+            "1RK", "1BHK"
+        ],
+        "Type": "Studio"
+    },
+    {
+        "Title": "Shubh Arambh",
+        "Property_ID":"RH-10-property",
+        "image": "https://www.bestpropdeal.com/wp-content/uploads/2020/09/RG-VIEW-HIGH-RES-488x326.jpg",
+        "location": "southeast, mumbai",
+        "detailedLocation": "Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Bedrooms": 1,
+        "BuildingState":"Upcomming",
+        "position":9,
+        "Bathrooms": 1,
+        "area": 0,
+        "Price": "1,303,500",
+        "onwords": true,
+        "SearchFilters": [
+            "1RK", "1BHK", "2BHK", "3BHK"
+        ],
+        "Type": "Apartment"
+    }
+]

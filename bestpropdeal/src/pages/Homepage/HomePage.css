@@ -1,0 +1,2467 @@
+.Homepage_landingPage__Herosection {
+    width: 100%;
+    padding: 0 72px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 70px;
+   
+}
+
+.Homepage_HeroBanner {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Homepage_landingpage__HeroBanner {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.Homepage_HeroBanner__Herologo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.Homepage_HeroBanner__HeroTextContainer {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3
+}
+
+.Homepage_HeroBanner__Herotext {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 44px;
+    flex-direction: row;
+}
+
+.Homepage_Herotext__cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homepage_Herotext__texttitle {
+    max-width: 396px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.Homepage_Herotext__smalltext {
+    color: var(--blox-color-dusty-gray);
+    max-width: 210px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Homepage_HeroBannergradient {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 178px;
+    bottom: -1px;
+    left: 0;
+    background: linear-gradient(0deg, #231e1f 39.06%, rgba(35, 30, 31, 0) 83.33%);
+    opacity: 0.2;
+}
+
+
+
+.Homepage_searchDesktop {
+    display: block;
+    margin-bottom: 109px;
+}
+
+.Searchbar_Desktop__Primary {
+    color: var(--blox-color-white);
+}
+
+.Searchbar_Desktop__Outercont {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.SearchBar_Desktop__HorizantalDivider {
+    position: relative;
+    top: 58px;
+    height: 1px;
+    background-color: var(--blox-color-dusty-gray);
+}
+
+.SearchbarDesktop_SearchleftCont {
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.SearchbarDesktop_Searchbar {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.SearchbarDesktop_Searchbar2{
+    width:20px;
+    height:20px;
+    align-items: center;
+    align-content: center;
+}
+
+.SearchbarDesktop_InputOutercont {
+    width: 350px;
+    margin-left: 10px;
+}
+
+.SearchbarDesktop_LabelHeading {
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: var(--blox-color-dusty-gray);
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.SearchbarDesktop_inputCont {
+    padding: 0 !important;
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.Searchbar_input__inputcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.Input_InputField__L01BX {
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+.Input_Text-sm__VH_0e {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.Input_primary___ZVfL {
+    color: var(--blox-color-white);
+}
+
+
+.SearchBarDesktop_primary__doY22 {
+    color: var(--blox-color-white);
+}
+
+.SearchBarDesktop_InputCls__WFBcs {
+    width: 100%;
+    border: none !important;
+    font-size: 18px;
+}
+
+.SearchbarDesktop_Hidediv {
+    display: none;
+}
+
+.InputErrorMessageWrapper {
+    min-height: 16px;
+    width: 100%;
+}
+
+.InputErrorMessage {
+    color: var(--blox-color-burnt-sienna);
+}
+
+.text-mobilelabel {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.SearchbarDesktop_SearchFilter {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-right: 16px;
+}
+
+.SearchbarDesktop_PrimaryVerticalDivider {
+    width: 1px;
+    margin-right: 24px;
+    background-color: var(--blox-color-dusty-gray);
+}
+
+.SearchbarDesktop_LabelHeading {
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: var(--blox-color-dusty-gray);
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.SearchbarDesktop_FilterDropdown {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.SearchbarDesktop_InputPlaceholder {
+    width: 128px;
+    white-space: nowrap;
+    color: var(--blox-color-scorpion);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.SearchbarDesktop_IconPos {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.SearchbarDesktop_PrimaryIcon {
+    background-color: var(--blox-color-dune);
+}
+
+.SearchbarDesktop_PrimaryIcon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    text-align: center;
+}
+
+.SearchesNo {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.Searchbar_DesktopPrimaryBtn {
+    background-color: var(--blox-color-ebb-divider);
+}
+
+.Searchbar_DeasktopSearchBtn {
+    border-radius: 100px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.SearchbarDesktop_SearchbtnText {
+    color: var(--blox-color-thunder);
+    margin: 15px 72px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.Searchbar_DesktopSwiper {
+    width: 640px;
+    margin-top: 34px;
+}
+
+.Searchbar_Slidercont {
+    max-width: 550px;
+    z-index: 11 !important;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    touch-action: pan-y;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+
+.searchbarDesktop_SwiperWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.SeatcnBardesktop_Slide {
+    width: auto;
+    flex-shrink: 0;
+    display: block;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    transition-property: transform;
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin-right: 4px;
+}
+
+.SeatcnBardesktop_SlideBtn {
+    background-color: rgba(90, 87, 87, 0.297);
+    border: none;
+    color: var(--blox-color-white);
+    height: 40px;
+    padding: 11px 22px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.Searchbar_SliderBtn__textcont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.Searchbar_SliderBtn__text {
+    color: var(--blox-color-dusty-gray);
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 18px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.SearchDropdown_OuterCont {
+    position: absolute;
+    top: 58px;
+    width: 700px;
+    max-height: 374px;
+    background-color: var(--blox-color-white);
+    display: none;
+    flex-direction: row;
+    color: var(--blox-color-thunder);
+    z-index: 999999;
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: var(--blox-color-ebb-divider);
+    box-shadow: 0 6px 12px -4px rgba(101, 84, 83, .1);
+    border-radius: 0 0 12px 12px;
+   
+}
+
+.SearchDropdown_OuterCont.active {
+    display: flex;
+}
+
+.SearchDropdown_OuterCont.inactive {
+    display: none;
+}
+
+.SearchDropdown_leftcont {
+    width: 319px;
+    padding: 28px 0;
+    overflow-y: scroll;
+}
+
+.SearchDropdown_leftcont::-webkit-scrollbar {
+    display: none;
+}
+
+.SearchDropdown_ResultCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.SearchDropdown_NoResultsCont {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.SearchDropDown_NoSearchText {
+    color: var(--blox-color-scorpion);
+    max-width: 130px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.SearchDropdown_HorizantalDivider {
+    width: 1px;
+    background-color: var(--blox-color-ebb-divider);
+}
+
+.SearchDropdown_Rightcont {
+    width: 378px;
+    padding: 24px;
+}
+
+.InvertoryFilters_InventoryTitle {
+    font-weight: 500;
+    color: var(--blox-color-thunder);
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.InventoryFilters_FilterCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.InventoryFilters_FilterBtn {
+    padding: 7px 12px;
+    background-color: var(--blox-color-pampas-bg-color) !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.InventoryFilters_FilterBtn.filterBtnActive {
+    background-color: #000000de !important;
+}
+
+.InventoryFilters_FilterBtn.filterBtnActive .InventoryFilters_FilterBtnText {
+    color: #fff;
+}
+
+.InventoryFilters_FilterBtnTextCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.InventoryFilters_FilterBtnText {
+    text-transform: none;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--blox-color-scorpion);
+    width: 100%;
+    white-space: nowrap;
+}
+
+.InventoryFilters_VerticalDivider {
+    height: 1px;
+    margin: 16px 0;
+    background-color: var(--blox-color-ebb-divider);
+}
+
+.SearchDropdown_VerticalDivider {
+    height: 1px;
+    background-color: var(--blox-color-ebb-divider);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.BudgetSlider_HeadingCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.BudgetSlider_Title {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.BudgetSlider_PriceRange {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.RangeSlider {
+    position: relative;
+    width: 100%;
+}
+
+.RangeSlider_Track {
+    height: 2px;
+    background-color: var(--blox-color-ebb-divider);
+}
+
+.RangeSlider_Track:nth-child(2) {
+    background-color: var(--blox-color-thunder);
+}
+
+.Range_RangeThumb {
+    height: 24px;
+    width: 24px;
+    background-color: var(--blox-color-white);
+    border: 2px solid var(--blox-color-thunder);
+    border-radius: 50%;
+    top: -11px;
+    outline: 1px solid var(--blox-color-dusty-gray);
+    outline-offset: -6px;
+}
+
+.sliderBudget {
+    width: 100%;
+    height: 2px;
+    background-color: var(--blox-color-thunder);
+}
+
+.sliderBudget .thumb {
+   
+    height: 24px;
+    width: 24px;
+    background-color: var(--blox-color-white);
+    border: 2px solid var(--blox-color-thunder);
+    border-radius: 50%;
+    top: -11px;
+    outline: 1px solid var(--blox-color-dusty-gray);
+    outline-offset: -6px;
+}
+
+
+
+.SearchDropdown_SectionTitle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+}
+
+.SearchDropdown_LocationImg {
+    margin-right: 8px;
+}
+
+.SearchDropdown_LocationText {
+    color: var(--blox-color-burnt-sienna);
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.SearchResultCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.SearchDropdown_NoResultsCont{
+    padding: 20px;
+}
+
+.ResultedLocations {
+    width: 100%;
+    height: 25px;
+    padding: 5px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ResultedLocationsIcon.hide {
+    display: none;
+}
+
+.ResultedLocationsIcon.show {
+    display: block;
+}
+
+
+
+.proertiesSlider_propertiesGalery {
+    position: relative;
+}
+
+.PropertiesSlider_PropertiesTypecontainer {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+
+
+.PropertiesSlider_UnderlinedTabs {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.PropertiesSlider_Tabs__ListElements.PropertiesSlider_Tabs__ActiveListElements {
+    padding: 20px;
+    color: var(--blox-color-white);
+    border-bottom: 2px solid var(--blox-color-burnt-sienna);
+}
+
+.PropertiesSlider_Tabs__ListElements {
+    padding: 20px;
+    color: var(--blox-color-dusty-gray);
+    border-bottom: 2px solid var(--blox-color-ebb-divider);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.PropertiesSlider_Tabs__Tabtiltle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+.slider {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+
+.Property_GalerySlider {
+    width: 100%;
+}
+
+.sliderHorizantal {
+    touch-action: pan-y;
+}
+
+.slider_sliderctn {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    gap: 60px;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+}
+
+.slider_Slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}
+
+.slider_sliderSlide {
+    width: auto;
+    flex-shrink: 0;
+    display: block;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.slider_backsidehidden {
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.slider_propertyCard {
+    border-radius: 24px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    width: 400px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.propertyCardImg {
+    border-radius: 24px;
+    z-index: -1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: transparent;
+}
+
+.propertyCardData {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    width: 287px;
+    height: 480px;
+}
+
+.propertyCard_Datactn {
+    background: linear-gradient(0deg, rgba(35, 30, 31, .8) 17.24%, rgba(35, 30, 31, 0) 86.21%);
+}
+
+.PropertyCard_propertyData__TopData {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trustedImg_cont {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.Propertydata_propertySecure {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: hsla(0, 0%, 100%, .3);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.secureImage {
+    border-radius: 24px;
+    z-index: -1;
+}
+
+
+
+.PropertyCard_propertyData__BottomData {
+    width: 100%;
+    margin-top: auto;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+   
+}
+
+.propertycard_propertyNameImgcont {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.propertycard_propertyNamecont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 30px;
+    margin-right: 150px;
+}
+
+.propertyName {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.propertyLocation {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.propertycard_propertyImgcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-bottom: 12px;
+    z-index: 1001;
+}
+
+.shower {
+    width: 48px;
+    height: 36px;
+    border-radius: 100px;
+    background: hsla(0, 0%, 100%, .15);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.itemsCount {
+    font-size: 10px;
+}
+
+.propertycard_propertysubdata {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.PropertyCurrentState {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.PropertyPrice {
+    font-size: 35px;
+}
+
+.Proerties_BookAVisitBtn {
+    background: var(--blox-color-thunder);
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    border-radius: 100px;
+    height: 40px;
+    width: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: var(--blox-color-white);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.BookAVisitText {
+    font-size: 12px;
+}
+
+.PropertySlider_Navigation {
+    position: relative;
+    bottom: 340px;
+    left: 0;
+    padding: 0;
+    padding-right: 55px;
+}
+
+.slider_sliderNavigation {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.swiper_btn {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 100000;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.PropertySlider_Arrow {
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.swiper_btn__Left {
+    margin-left: 40px;
+}
+
+
+
+
+.slides-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+    gap: 20px;
+   
+}
+
+
+
+.propertiesSlider_SeeallPropertiesbtn {
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+
+.SeeAllBtnCont {
+    background-color: rgba(90, 87, 87, 0.297);
+    color: var(--blox-color-white);
+    height: 40px;
+    padding: 11px 22px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.SeeAllBtnTextCont {
+    justify-content: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SeeAllBtnText {
+    font-size: 10px;
+    line-height: 18px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+
+
+.Bestpropdeal_FeaturedProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 120px;
+    margin-bottom: 64px;
+}
+
+.FeaturedProjects_TitleCont {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Homepage_Featured__title {
+    font-size: 100px;
+}
+
+.diamond {
+    width: 100px;
+    height: 95px;
+    fill: #fff;
+}
+
+
+
+.FeaturedProductsSlider {
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.FeaturedProductSlider__videoplayer {
+    width: calc(100vw - 32px);
+    height: 596px;
+    border-radius: 24px;
+}
+
+.FeaturedVideoPlayer {
+    width: calc(100vw - 294px);
+    height: 560px;
+    object-fit: fill;
+    border-radius: 24px 24px 0 0;
+    outline: 2px solid var(--blox-color-thunder);
+    outline-offset: -6px;
+    overflow: hidden;
+}
+
+.VideoImg {
+    height: auto;
+    width: 100%;
+    animation-name: ImagePanner_mobilepan__IsUHR;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    color: transparent;
+}
+
+@keyframes ImagePanner_mobilepan__IsUHR {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-25%);
+    }
+}
+
+.FeaturedProducts_Slider {
+    position: relative;
+    width: calc(100vw - 294px);
+    height: 300;
+    object-fit: fill;
+    border-radius: 24px 24px 0 0;
+    outline: 2px solid var(--blox-color-thunder);
+    outline-offset: -6px;
+    overflow: hidden;
+}
+
+.FeaturedProducts_Slider__container {
+    animation-name: ImagePanner_mobilepan__IsUHR;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.FeaturedProducts_Slider__data {
+    height: 300px;
+    position: absolute;
+    right: 0;
+    float: right;
+    top: 120px;
+    display: flex;
+   
+    margin-right: -100px;
+    background: var(--blox-color-white);
+    border-radius: 50px;
+}
+
+.FeaturedProducts_Data {
+    height: fit-content;
+    background: var(--blox-color-white);
+    border: 1px solid var(--blox-color-white);
+    height: fit-content;
+    width: 400px;
+    border-radius: 24px;
+    padding: 0;
+    display: flex;
+    border-radius: 50px;
+}
+
+
+
+.FeaturedProducts_PropertyCard {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FeaturedProducts_PropertyCard__Title {
+    cursor: pointer;
+    padding: 32px 24px 16px;
+}
+
+.FeaturedProducts__PropertyName {
+    color: var(--blox-color-thunder);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.HeartCont {
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    background-color: var(--blox-color-pampas-bg-color);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+}
+
+.PropertyLocation {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 2px;
+}
+
+.ProductsLocationIcon {
+    font-size: 40px;
+}
+
+.LocationDetails {
+    font-size: 15px;
+}
+
+.FeaturedPropertyTags {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 40px;
+}
+
+.FeaturedProperty_Slider__Icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FeaturedPropertyTags_TagName {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.FeaturedPropertyTags_Icons {
+    font-size: 25px;
+}
+
+.FeatureditemsCount {
+    font-size: 10px;
+}
+
+.FeaturedPropertySlider_DataCont {
+    color: #000;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.FeaturedPropertySlider_Data {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.FeaturedPropertySlider_PriceBtnCont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.FeaturedPropertySlider_StatePricecont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.FeaturedPropertySlider_State {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.FeaturedPropertySlider_Price {
+    font-size: 33px;
+}
+
+.FeaturedPropertySlider_BtnCont {
+    width: 140px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.FeaturedPropertySlider_BthTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.FeaturedProductSlider_Navigation {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -150px;
+}
+
+.FeaturedProductSlider_BtnCont {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+.FeaturedProductSlider_NavBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: var(--blox-color-dune);
+    color: var(--blox-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.TopSlide {
+    display: block;
+    transition: 1s ease-in;
+}
+
+.NormalSlide {
+    display: none;
+}
+
+
+
+.HomePage_LandingPage__TestnomialsSection {
+    z-index: 1;
+    background-color: var(--blox-color-pampas-bg-color);
+    width: 100%;
+    padding: 0 72px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
+.TopDeveloper__TopDevCont {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.TOPDeveloper__TopDevTitle {
+    color: var(--blox-color-thunder);
+    max-width: 416px;
+}
+
+.TopDeveloper_topDevTitle__texttitle {
+    font-weight: 400;
+}
+
+.TopDeveloper__DesktopTitle {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -1px;
+}
+
+.TopDeveloper__TopDevListCont {
+    flex-direction: column;
+    max-width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.TopDeveloper_TODevListRow {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopDeveloper_TopDevImgConr {
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .02);
+    border-radius: 24px;
+    width: 160px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.TopDeveloper_SeeAllBtn {
+    background-color: var(--blox-color-ebb-divider);
+    color: var(--blox-color-thunder);
+    height: 40px;
+    padding: 11px 22px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px
+}
+
+.TopDeveloper_SeeAllBtn__Title {
+    justify-content: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TopDeveloper_SeeAllBtn__Text {
+    font-size: 10px;
+    line-height: 18px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+
+
+.HomePage_LandingPage__BestpropdealAdvantages {
+    width: 95%;
+    height: 1020px;
+    background: var(--blox-color-white);
+    margin-left: -72px;
+    position: relative;
+}
+
+.Bestpropdeal_VerifiedIcon {
+    margin-left: 40px;
+    top: 66px;
+    position: absolute;
+}
+
+.Bestpropdeal_HeadingCont {
+    padding-left: 132px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.Bestpropdeal_Heading__Title {
+    color: var(--blox-color-thunder);
+    font-weight: 400;
+}
+
+.Bestpropdeal_Heading__DesktopTitle {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -1px;
+    line-height: 60px;
+}
+
+.BestpropdealAdvantage_Heading__Innercont {
+    display: flex;
+}
+
+.BestpropdealAdvantageHeading_Title {
+    font-weight: 500;
+    color: var(--blox-color-thunder);
+}
+
+.BestpropdealAdvantageHeading_DesktopTitle {
+    line-height: 60px;
+    font-size: 48px;
+}
+
+.BestpropdealAdvangeImg {
+    width: 16px;
+    aspect-ratio: auto 16 / 16;
+    height: 16px;
+    color: #c27e54;
+    align-items: center;
+}
+
+.Beastpropdeal_StepperMediaCont {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Bestpropdeal_AdvantageMediacont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -136px;
+    position: relative;
+    margin-top: -250px;
+}
+
+.Bestpropdeal_AdvantageMedia__AdvantageVideo {
+    width: 30vw;
+    height: 720px;
+    object-fit: fill;
+    border-radius: 20px;
+    outline: 1px solid var(--blox-color-white);
+    outline-offset: -6px
+}
+
+.Bestpropdeal_Stepperchartcont {
+    display: relative;
+    margin-left: 108px;
+}
+
+.Bestpropdeal_Stepperchartctn {
+    padding: 24px;
+    width: 650px;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
+
+.Bestpropdeal_Stepperchartctn__active.Bestpropdeal_Stepperchartctn:hover {
+    background-color: var(--blox-color-ebb-divider);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .02);
+    border-radius: 24px;
+}
+
+.Bestpropdeal_Stepperchartctn::before {
+    content: "";
+    width: 5px;
+    border-left: 2px dashed var(--blox-color-dusty-gray);
+    height: 100%;
+    position: absolute;
+    left: 54px;
+    top: 0;
+    bottom: 0;
+}
+
+.Bestpropdeal_Stepperchartctn:first-child:before {
+    height: 61%;
+    bottom: 0;
+    top: inherit;
+}
+
+.Bestpropdeal_Stepperchartctn:last-child:before {
+    height: 50%;
+}
+
+.Bestpropdeal_Stepperchart__Iconcont {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    position: relative;
+    z-index: 3;
+    background: var(--blox-color-pampas-bg-color);
+}
+
+.StepperchartIcon__Image {
+    color:#000;
+    width: 25px;
+    aspect-ratio: auto 25 / 25;
+    height: 25px;
+}
+
+.Bestpropdeal_Stepperchart__Textcont {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.stepperchartCard_HeaderText {
+    margin-top: 15px;
+}
+
+.Bestpropdeal_Stepperchartctn:hover .stepperchartCard_HeaderText {
+    margin-top: 0;
+}
+
+.StepperChartHeading_Text {
+    color: var(--blox-color-thunder);
+    font-weight: 400;
+}
+
+.StepperChartHeading_Text__Desktopheading {
+    font-size: 27px;
+    line-height: 26px;
+}
+
+.stepperchartCard_DescriptionText {
+    color: var(--blox-color-scorpion);
+    visibility: hidden
+}
+
+.Bestpropdeal_Stepperchartctn:hover .stepperchartCard_DescriptionText {
+    visibility: visible;
+}
+
+.StepperchartCard_Description {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.SeoLinks_SeoFooterLinks {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+
+.SeoLinks_Swipercardcont {
+   
+    position: relative;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+
+}
+
+
+
+.SeoCard {
+    background-color: var(--blox-color-white);
+    width: 100% !important;
+    height: 200px !important;
+    padding: 24px;
+    border-radius: 24px;
+    margin-right: 8px;
+}
+
+
+
+
+
+.SeoLinks_Title {
+    color: var(--blox-color-thunder);
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+
+
+.SeoCard ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.SeoCard li {
+    font-size: 12px;
+    line-height: 27px;
+    color: var(--blox-color-scorpion);
+}
+
+.TopDeveloperMobileCont {
+    display: none;
+}
+
+.FeatureSlideMobileData_Cont {
+    display: none;
+}
+
+.property_Deatiles_rmcard_callrm_form_container {
+    align-items: center;
+    animation: Modal_slideInTop__m5jCF .5s forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000000;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.property_Deatiles_rmcard_callrm_form_containerdisplay {
+    display: none !important;
+}
+
+.Homepage_searchMobile {
+    display: none;
+}
+
+.MobileSearchPopup {
+    display: none;
+}
+
+.fillHeart{
+    fill: red;
+    transition: all 0.2s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+    .MobileSearchPopup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .5);
+        z-index: 12345678;
+    }
+
+    .MobileSearchPopupCont {
+        height: inherit;
+        padding: 26px 16px;
+        background-color: var(--blox-color-pampas-bg-color);
+        color: var(--blox-color-thunder);
+    }
+
+    .Homepage_searchMobile {
+        display: block;
+    }
+
+    .Homepage_searchDesktop {
+        display: none;
+    }
+
+    .Homepage_landingPage__Herosection {
+        padding: 0 16px;
+    }
+
+   
+    .Homepage_HeroBanner__Herologo {
+        overflow: hidden;
+    }
+
+    .Herbanner_Logiimg {
+        width: 344px;
+        aspect-ratio: auto 344 / 329;
+        height: 329px;
+    }
+
+    .Homepage_HeroBanner__Herotext {
+        display: block;
+    }
+
+    .Homepage_Herotext__cont {
+        margin-bottom: 220px;
+    }
+
+    .Homepage_Herotext__texttitle {
+        font-size: 24px;
+        margin-top: 100px;
+    }
+
+   
+    .PropertiesSlider_Tabs__Tabtiltle {
+        font-size: 24px;
+    }
+
+   
+   
+   
+   
+   
+    .sliderContainer {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .slider_propertyCard {
+        width: 350px;
+    }
+
+    .TrustedImg {
+        width: 60px;
+    }
+
+    .secureImage {
+        width: 20px;
+        height: 20px;
+    }
+
+    .propertycard_propertyNamecont {
+        margin-right: 60px;
+    }
+
+    .propertyName {
+        font-size: 22px;
+        line-height: 22px;
+        width: 200px;
+    }
+
+    .propertyLocation {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .shower {
+        width: 42px;
+        height: 30px;
+    }
+
+    .PropertyCurrentState {
+        font-size: 15px;
+    }
+
+    .PropertyPrice {
+        font-size: 24px;
+    }
+
+    .Proerties_BookAVisitBtn {
+        width: 100px;
+        height: 35px;
+    }
+
+    .BookAVisitText {
+        font-size: 10px;
+    }
+
+    .Bestpropdeal_FeaturedProjects {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Homepage_Featured__title {
+        font-size: 35px;
+    }
+
+    .diamond {
+        width: 30px;
+        height: 30px;
+    }
+
+   
+
+    .FeaturedProductsSlider{
+        width: 100%;
+    }
+    .FeaturedVideoPlayer {
+        width: 100%;
+        height:800px;
+    }
+
+    .VideoImg {
+        height: 1000px;
+        aspect-ratio: auto 800 / 800;
+    }
+
+   
+    .mobile_FeaturedProductSlider_NavBtn_r {
+        margin-top: 30px;
+        transform: translateX(125px);
+    } 
+
+    .HomePage_LandingPage__TestnomialsSection {
+        padding: 0 10px;
+        background-color: var(--blox-color-thunder);
+    }
+
+    .TopDeveloper__DesktopTitle {
+        font-size: 40px;
+    }
+
+    .TopDeveloper__TopDevCont {
+        width: 100%;
+    }
+
+    .TOPDeveloper__TopDevTitle {
+        color: var(--blox-color-pampas-bg-color);
+    }
+
+    .TopDeveloper_topDevTitle__texttitle {
+        text-align: center;
+    }
+
+    .TopDeveloper__TopDevListCont {
+        flex-direction: row;
+        overflow-x: scroll;
+        display: none;
+    }
+
+    .TopDeveloper__TopDevListCont::-webkit-scrollbar {
+        display: none;
+    }
+
+    .HomePage_LandingPage__BestpropdealAdvantages {
+        width: 100%;
+        height: 800px;
+        margin: 0;
+        background-color: var(--blox-color-thunder);
+    }
+
+    .Bestpropdeal_VerifiedIcon {
+        margin-left: 120px;
+        top: 75px;
+    }
+
+    .Bestpropdeal_HeadingCont {
+        padding: 0;
+    }
+
+    .Bestpropdeal_Heading__Title {
+        color: var(--blox-color-white);
+        text-align: center;
+    }
+
+    .BestpropdealAdvantage_Heading__Innercont {
+        display: flex;
+        justify-content: center;
+    }
+
+    .BloxAdvantageHeading_Title {
+        color: var(--blox-color-white);
+        text-align: center;
+    }
+
+    .Beastpropdeal_StepperMediaCont {
+        display: block;
+        width: 100%;
+    }
+
+    .Bestpropdeal_Stepperchartcont {
+        display: none;
+    }
+
+    .Bestpropdeal_AdvantageMediacont {
+        margin: 0;
+    }
+
+    .Bestpropdeal_AdvantageMedia__AdvantageVideo {
+        height: 500px;
+        width: 80%;
+    }
+
+   
+   
+    .SeoLinks_SeoFooterLinks {
+        overflow-x: scroll;
+    }
+
+    .SeoLinks_Swipercardcont {
+        width: 900px;
+    }
+
+    .SeoLinks_Swipercardcont::-webkit-scrollbar {
+        display: none;
+    }
+
+   
+
+   .HomePage_LandingPage__TestnomialsSection{
+    background-color: var(--blox-color-thunder);
+   }
+
+   
+    .propertiesSlider_SeeallPropertiesbtn {
+        display: none;
+    }
+
+    .TopDeveloperMobileCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+       
+    }
+
+    .suchi {
+        width: 100%;
+        display: inline-flex;
+        animation: 5s slide infinite linear;
+       
+
+    }
+
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+
+    }
+
+   
+
+    .FeaturedProducts_Slider__data {
+        display: none;
+    }
+
+    .FeatureSlideMobileData_Cont {
+        position: absolute;
+        bottom: 20px;
+        width: 95%;
+        height: fit-content;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 8px;
+        margin-bottom: 20px;
+        gap: 8px;
+    }
+
+    .FeatureMobileNameProce_Cont {
+        display: block;
+    }
+
+    .FeatureMobileBtn_Cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .FeatureMobileBtn_Cont button {
+        background-color: var(--blox-color-thunder);
+        color: var(--blox-color-white);
+        border: none;
+        width: 140px;
+        height: 35px;
+        border-radius: 20px;
+    }
+
+    .FeatureMobileNameProce_Cont h2 {
+        font-size: 25px;
+    }
+
+    .FeatureMobileNameProce_Cont p {
+        font-size: 20px;
+    }
+    .TopDeveloper_SeeAllBtn{
+        height: 50px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .TopDeveloper_SeeAllBtn__Text{
+        font-size: 18px;
+    }
+    .Homepage_HeroBanner__Herologo{
+        justify-content: center;
+    }
+    .Homepage_Herotext__cont{
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+    .Homepage_HeroBanner__Herotext h2{
+        margin-left: 520px;
+    }
+}
+
+@media (max-width: 600px) {
+    .MobileSearchPopup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .5);
+        z-index: 12345678;
+    }
+
+    .MobileSearchPopupCont {
+        height: inherit;
+        padding: 26px 16px;
+        background-color: var(--blox-color-pampas-bg-color);
+        color: var(--blox-color-thunder);
+    }
+
+    .Homepage_searchMobile {
+        display: block;
+    }
+
+    .Homepage_searchDesktop {
+        display: none;
+    }
+
+    .Homepage_landingPage__Herosection {
+        padding: 0 16px;
+    }
+
+   
+    .Homepage_HeroBanner__Herologo {
+        overflow: hidden;
+    }
+
+    .Herbanner_Logiimg {
+        width: 344px;
+        aspect-ratio: auto 344 / 329;
+        height: 329px;
+    }
+
+    .Homepage_HeroBanner__Herotext {
+        display: block;
+    }
+
+    .Homepage_Herotext__cont {
+        margin-bottom: 220px;
+    }
+
+    .Homepage_Herotext__texttitle {
+        font-size: 24px;
+    }
+
+   
+    .PropertiesSlider_Tabs__Tabtiltle {
+        font-size: 16px;
+    }
+
+   
+   
+   
+   
+   
+    .sliderContainer {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .slider_propertyCard {
+        width: 350px;
+    }
+
+    .TrustedImg {
+        width: 60px;
+    }
+
+    .secureImage {
+        width: 20px;
+        height: 20px;
+    }
+
+    .propertycard_propertyNamecont {
+        margin-right: 60px;
+    }
+
+    .propertyName {
+        font-size: 22px;
+        line-height: 22px;
+        width: 200px;
+    }
+
+    .propertyLocation {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .shower {
+        width: 42px;
+        height: 30px;
+    }
+
+    .PropertyCurrentState {
+        font-size: 15px;
+    }
+
+    .PropertyPrice {
+        font-size: 24px;
+    }
+
+    .Proerties_BookAVisitBtn {
+        width: 100px;
+        height: 35px;
+    }
+
+    .BookAVisitText {
+        font-size: 10px;
+    }
+
+    .Bestpropdeal_FeaturedProjects {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Homepage_Featured__title {
+        font-size: 35px;
+    }
+
+    .diamond {
+        width: 30px;
+        height: 30px;
+    }
+
+    .FeaturedProductsSlider {
+        width: 100%;
+    }
+
+    .FeaturedVideoPlayer {
+        margin: 0;
+        width: calc(100vw - 32px);
+        border-radius: 24px;
+        margin-bottom: 20px;
+        outline-offset: -2px;
+        object-fit: fill;
+    }
+
+    .VideoImg {
+        height: 100%;
+        width: 800px;
+        aspect-ratio: auto 800 / 800;
+        animation-name: MobileImagePanner_mobilepan__IsUHR;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+
+    .FeaturedProducts_Slider__data {
+        right: 110px;
+        height: 250px;
+        top: 250px;
+    }
+
+    .FeaturedProducts_Data {
+        width: 340px;
+        border-radius: 20px;
+    }
+
+    .FeaturedProducts_PropertyCard__Title {
+        padding: 15px;
+    }
+
+    .FeaturedProducts__PropertyName {
+        font-size: 10px;
+    }
+
+    .HeartCont {
+        width: 40px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    .LocationDetails {
+        font-size: 13px;
+    }
+
+    .FeaturedPropertyTags {
+        margin-left: 20px;
+    }
+
+    .FeaturedPropertyTags_TagName {
+        margin-bottom: 11px;
+        font-size: 13px;
+    }
+
+    .FeaturedPropertyTags_Icons {
+        font-size: 20px;
+    }
+
+    .FeatureditemsCount {
+        font-size: 9px;
+    }
+
+    .FeaturedPropertySlider_DataCont {
+        margin-left: 10px;
+    }
+
+    .FeaturedPropertySlider_Data {
+        margin-top: 2px;
+        font-size: 12px;
+    }
+
+    .FeaturedPropertySlider_State {
+        font-size: 15px;
+    }
+
+    .FeaturedPropertySlider_Price {
+        font-size: 28px;
+    }
+
+    .FeaturedPropertySlider_BtnCont {
+        width: 110px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .FeaturedProductSlider_Navigation {
+        height: 40px !important;
+       
+        left: -135px;
+        top: 200px;
+        margin: 0;
+
+    }
+
+    .mobile_FeaturedProductSlider_NavBtn_l {
+        margin-top: 30px;
+        margin-right: 120px;
+    }
+
+   
+    .mobile_FeaturedProductSlider_NavBtn_r {
+        margin-top: 30px;
+        transform: translateX(125px);
+    }
+
+    .HomePage_LandingPage__TestnomialsSection {
+        padding: 0 10px;
+        background-color: var(--blox-color-thunder);
+    }
+
+    .TopDeveloper__DesktopTitle {
+        font-size: 40px;
+    }
+
+    .TopDeveloper__TopDevCont {
+        width: 100%;
+    }
+
+    .TOPDeveloper__TopDevTitle {
+        color: var(--blox-color-pampas-bg-color);
+    }
+
+    .TopDeveloper_topDevTitle__texttitle {
+        text-align: center;
+    }
+
+    .TopDeveloper__TopDevListCont {
+        flex-direction: row;
+        overflow-x: scroll;
+        display: none;
+    }
+
+    .TopDeveloper__TopDevListCont::-webkit-scrollbar {
+        display: none;
+    }
+
+    .HomePage_LandingPage__BestpropdealAdvantages {
+        width: 100%;
+        height: 800px;
+        margin: 0;
+        background-color: var(--blox-color-thunder);
+    }
+
+    .Bestpropdeal_VerifiedIcon {
+        margin-left: 120px;
+        top: 75px;
+    }
+
+    .Bestpropdeal_HeadingCont {
+        padding: 0;
+    }
+
+    .Bestpropdeal_Heading__Title {
+        color: var(--blox-color-white);
+        text-align: center;
+    }
+
+    .BestpropdealAdvantage_Heading__Innercont {
+        display: flex;
+        justify-content: center;
+    }
+
+    .BloxAdvantageHeading_Title {
+        color: var(--blox-color-white);
+        text-align: center;
+    }
+
+    .Beastpropdeal_StepperMediaCont {
+        display: block;
+        width: 100%;
+    }
+
+    .Bestpropdeal_Stepperchartcont {
+        display: none;
+    }
+
+    .Bestpropdeal_AdvantageMediacont {
+        margin: 0;
+    }
+
+    .Bestpropdeal_AdvantageMedia__AdvantageVideo {
+        height: 500px;
+        width: 80%;
+    }
+
+   
+   
+    .SeoLinks_SeoFooterLinks {
+        overflow-x: scroll;
+    }
+
+    .SeoLinks_Swipercardcont {
+        width: 900px;
+    }
+
+    .SeoLinks_Swipercardcont::-webkit-scrollbar {
+        display: none;
+    }
+
+   
+
+
+   
+    .propertiesSlider_SeeallPropertiesbtn {
+        display: none;
+    }
+
+    .TopDeveloperMobileCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+       
+    }
+
+    .suchi {
+        width: 100%;
+        display: inline-flex;
+        animation: 5s slide infinite linear;
+       
+
+    }
+
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+
+    }
+
+   
+
+    .FeaturedProducts_Slider__data {
+        display: none;
+    }
+
+    .FeatureSlideMobileData_Cont {
+        position: absolute;
+        bottom: 20px;
+        width: 95%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 8px;
+        margin-bottom: 20px;
+        gap: 8px;
+    }
+
+    .FeatureMobileNameProce_Cont {
+        display: block;
+    }
+
+    .FeatureMobileBtn_Cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .FeatureMobileBtn_Cont button {
+        background-color: var(--blox-color-thunder);
+        color: var(--blox-color-white);
+        border: none;
+        width: 140px;
+        height: 35px;
+        border-radius: 20px;
+    }
+
+    .FeatureMobileNameProce_Cont h2 {
+        font-size: 25px;
+    }
+
+    .FeatureMobileNameProce_Cont p {
+        font-size: 20px;
+    }
+}
+
+@keyframes MobileImagePanner_mobilepan__IsUHR {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-25%);
+    }
+}

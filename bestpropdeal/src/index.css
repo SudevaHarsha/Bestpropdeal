@@ -1,0 +1,67 @@
+
+
+:root{
+  --max-width: 1100px;
+    --border-radius: 12px;
+    --font-mono: ui-monospace,Menlo,Monaco,"Cascadia Mono","Segoe UI Mono","Roboto Mono","Oxygen Mono","Ubuntu Monospace","Source Code Pro","Fira Mono","Droid Sans Mono","Courier New",monospace;
+    --foreground-rgb: 255,255,255;
+    --background-start-rgb: 0,0,0;
+    --background-end-rgb: 0,0,0;
+    --primary-glow: conic-gradient(from 180deg at 50% 50%,#16abff33 0deg,#0885ff33 55deg,#54d6ff33 120deg,#0071ff33 160deg,transparent 360deg);
+    --secondary-glow: radial-gradient(#fff,hsla(0,0%,100%,0));
+    --tile-start-rgb: 239,245,249;
+    --tile-end-rgb: 228,232,233;
+    --tile-border: conic-gradient(#00000080,#00000040,#00000030,#00000020,#00000010,#00000010,#00000080);
+    --callout-rgb: 238,240,241;
+    --callout-border-rgb: 172,175,176;
+    --card-rgb: 180,185,188;
+    --card-border-rgb: 131,134,135;
+    --blox-color-thunder: #342f30;
+    --blox-color-dune: #332c29;
+    --blox-color-scorpion: #625e5e;
+    --blox-color-dusty-gray: #979393;
+    --blox-color-burnt-sienna: #f27456;
+    --blox-color-pampas-bg-color: #f7f6f5;
+    --blox-color-ebb-divider: #ece7e4;
+    --blox-color-white: #fff;
+    --blox-color-black: #000;
+    --blox-color-ocean-green: #399a6f;
+    --blox-color-twine: #c69c5c;
+    --blox-color-custom-white: hsla(0,0%,100%,.12);
+    --blox-color-sea-green: #95cdb3;
+    --blox-color-brown-shade: #332c2a;
+    --blox-color-gradient-white: hsla(23,17%,91%,0);
+    --button-active-primary-hover-bg-color: #241f20e9;
+    --button-active-secondary-hover-bg-color: #d7cdc6;
+    --button-active-primary-selected-bg-color: #241f20;
+    --button-active-secondary-selected-bg-color: #3c3734;
+    --button-active-primary-disabled-bg-color: hsla(0,2%,58%,.25);
+    --button-active-secondary-disabled-bg-color: hsla(0,2%,58%,.25);
+    --button-active-primary-default-border-color: hsla(0,0%,100%,.2);
+    --button-active-primary-disabled-border-color: hsla(0,0%,100%,.05);
+    --card-border-primary-color: rgba(98,94,94,.45);
+    --card-border-secondary-color: #ece7e4;
+    --color-orange: #f27456;
+    --title-small-text: #989393;
+    --border-color: #767676;
+}
+
+ body {
+  height: 100%;
+  width: 100%;
+  color: rgb(var(--foreground-rgb));
+ 
+  font-family: "Space Grotesk";
+}
+
+.BodyContainer {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blox-color-thunder);
+ 
+}

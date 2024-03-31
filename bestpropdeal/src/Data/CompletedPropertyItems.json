@@ -1,0 +1,140 @@
+[
+    {
+        "Title": "Omkar Apartments Phase 2",
+        "Property_ID":"RH-1093-property",
+        "image": "https://www.bestpropdeal.com/wp-content/uploads/2020/09/omkar-2-Copy-488x326.jpg",
+        "location": "southeast, mumbai",
+        "detailedLocation": "KHARVAI NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Bedrooms": 1,
+        "BuildingState":"Completed",
+         "position":0,
+        "Bathrooms": 1,
+        "area": 0,
+        "Price": "1,023,000",
+        "onwords": true,
+        "SearchFilters": [
+            "1RK", "2BHK", "3BHK"
+        ],
+        "Type": "Independent House"
+    },
+    {
+        "Title": "Shrushti Prarambh",
+        "Property_ID":"RH-109-property",
+        "image": "https://www.bestpropdeal.com/wp-content/uploads/2020/09/Side_View-1-1-488x326.jpg",
+        "location": "Kharvani, mumbai",
+        "detailedLocation": "Badlapur, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": false,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Bedrooms": 2,
+        "BuildingState":"Upcomming",
+         "position":6,
+        "Bathrooms": 2,
+        "area": 0,
+        "Price": "1,089,000",
+        "onwords": true,
+        "SearchFilters": [
+            "1BHK", "2BHK", "3BHK"
+        ],
+        "Type": "Duplex"
+    },
+    {
+        "Title": "Omkar Residency",
+        "Property_ID":"RH-10-property",
+        "image": "https://www.bestpropdeal.com/wp-content/uploads/2020/09/cam-6-new-Copy-488x326.jpg",
+        "location": "southeast, mumbai",
+        "detailedLocation": "KHARVAI NAKA, Badlapur, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": false,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Bedrooms": 1,
+        "BuildingState":"Completed",
+         "position":7,
+        "Bathrooms": 1,
+        "area": 0,
+        "Price": "1,056,000",
+        "onwords": true,
+        "SearchFilters": [
+            "1BHK", "2BHK", "3BHK"
+        ],
+        "Type": "Duplex"
+    },
+    {
+        "Title": "OMKAR APARTMENTS",
+        "Property_ID":"RH-1-property",
+        "image": "https://www.bestpropdeal.com/wp-content/uploads/2020/06/arial-488x326.jpg",
+        "location": "southeast, mumbai",
+        "detailedLocation": "Badlapur, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Bedrooms": 1,
+        "BuildingState":"Completed",
+         "position":8,
+        "Bathrooms": 1,
+        "area": 0,
+        "Price": "1,150,000",
+        "onwords": false,
+        "SearchFilters": [
+            "1BHK", "2BHK", "3BHK"
+        ],
+        "Type": "Independent House"
+    },
+    {
+        "Title": "Dashmesh Crystal",
+        "Property_ID":"RH-9-property",
+        "image": "../../assets/Property-004/Property-0041.jpg",
+        "location": "southeast, mumbai",
+        "detailedLocation": "KHARVAI NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": false,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Bedrooms": 1,
+        "BuildingState":"Completed",
+         "position":4,
+        "Bathrooms": 1,
+        "area": 0,
+        "Price": "1,450,000",
+        "onwords": false,
+        "SearchFilters": [
+            "1RK", "1BHK", "2BHK"
+        ],
+        "Type": "Apartment"
+    },
+    {
+        "Title": "Sidditech homes",
+        "Property_ID":"RH-8-property",
+        "image": "https://www.bestpropdeal.com/wp-content/uploads/2020/03/cf5c889fffb247b-488x326.jpg",
+        "location": "southeast, mumbai",
+        "detailedLocation": "KHARVAI NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": false,
+            "Ongoing": false,
+            "completed": true
+        },
+        "Bedrooms": 0,
+        "BuildingState":"Completed",
+         "position":10,
+        "Bathrooms": 0,
+        "area": 0,
+        "Price": "1,750,000",
+        "onwords": false,
+        "SearchFilters": [
+            "1BHK", "2BHK", "#BHK"
+        ],
+        "Type": "Duplex"
+    }
+]
