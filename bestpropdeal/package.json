@@ -2,7 +2,7 @@
   "name": "bestpropdeal",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://bestpropdeal.com",
+  "homepage":"https://bestpropdeal.com/homepage",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.17.0",
