@@ -58,7 +58,7 @@ const Footer = () => {
                             <div className="FotterGreyCard">
                                 <span className="FotterCard_FotterOrangeText">RERA ID:</span>
                                 <span className="FotterCard_FotterReraText">A51700007696</span>
-                                <p>Method & Madness Technology Pvt Ltd 1107, Lodha Supremus 2, Senapati Bapat Marg, Opp. Kamala Mills Compound, Lower Parel, Mumbai, Maharashtra 400013</p>
+                                <p>B-14, Building Vishwashanti CHS, Vivekanand Nagar, Near Ambika Hotel Badlapur East 421503</p>
                             </div>
                         </div>
                         <div className="Fottercol2">

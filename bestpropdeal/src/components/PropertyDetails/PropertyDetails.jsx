@@ -601,8 +601,8 @@ const PropertyDetails = ({ OverviewRef, FeaturesRef, FloorPlanRef, LocalityRef, 
                         About The Developer
                     </h2>
                     {/*  <div className='developer_description_section'> */}
-                    <p className="developer_description">With a legacy spanning over five decades, Kalpataru Limited has established itself as one of India's premier real estate companies since its founding in 1969. The company is the recipient of several global awards in design and quality...</p>
-                    <span className={`developer_description ${readContent ? "show" : "hide"}`}> a testament to its unwavering commitment to excellence and innovation. Throughout its history, Kalpataru Limited has created defining landmarks and set new standards in real estate development, contributing to the transformation of the country's urban landscape. The company's impressive portfolio includes residential, commercial, retail, and integrated townships, among others. Kalpataru Limited's success can be attributed to its focus on quality, timely delivery, and customer-centric approach. With a presence in over 30 cities in India, the company continues to be a trusted developer, setting new benchmarks in the industry and delivering value to its stakeholders.</span>
+                    <p className="developer_description">{CurrentProperty?.Description.substring(0,150)}{readContent?CurrentProperty?.Description?.substring(150, Property?.Description?.length):"..."}</p>
+                    {/* <span className={`developer_description ${readContent ? "show" : "hide"}`}> {CurrentProperty?.Description?.substring(150, Property?.Description?.length)}</span> */}
 
                     {/* <div> */}
                     {/* <div className='developer_readmore_container'> */}

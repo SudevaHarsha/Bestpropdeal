@@ -15,11 +15,9 @@ const TopDeveloper = () => {
         { label: '../../images/Fulora copy.PNG',name: "Dashmesh Infrastructure" },
         { label: '../../images/JP Corp copy.PNG',name: "Dashmesh Infrastructure" },
         { label: '../../images/JP Hormony copy.PNG',name: "Dashmesh Infrastructure" },
-        { label: '../../images/SPM Lakecity copy.png',name: "Dashmesh Infrastructure" },
     ];
 
     const TopDevListItems_Row_2 = [
-        { label: '../../images/Kothari copy.PNG',name: "Dashmesh Infrastructure" },
         { label: '../../images/Nano City copy.png',name: "Dashmesh Infrastructure" },
         { label: '../../images/Pinnacle copy.PNG',name: "Pinnacle Group" },
         { label: '../../images/Pinnacle Group copy.PNG',name: "Dashmesh Infrastructure" },

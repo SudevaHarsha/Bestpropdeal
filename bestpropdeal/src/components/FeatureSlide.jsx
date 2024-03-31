@@ -26,9 +26,25 @@ const FeatureSlide = ({ property,setBookASiteVist }) => {
     }
 
     return <>
-        <div className="FeaturedProductSlider__videoplayer FeaturedVideoPlayer">
-            <img src={property.image} className='VideoImg'></img>
-        </div>
+        {property.id != 1 && <div className="FeaturedProductSlider__videoplayer FeaturedVideoPlayer">
+            <img src={property.image} className='VideoImg' 
+            srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
+            sizes="(max-width: 800px) 100vw, 50vw"
+            loading="eager"
+            fetchpriority="high"
+            alt="Feature property slider image"
+            ></img>
+        </div>}
+        {!property.id != 1 && <div className="FeaturedProductSlider__videoplayer FeaturedVideoPlayer">
+            <img src={property.image} className='VideoImg' 
+            srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
+            sizes="(max-width: 800px) 100vw, 50vw"
+            loading="lazy"
+            decoding="async"
+            fetchpriority="low"
+            alt="Feature property slider image"
+            ></img>
+        </div>}
         <div className="FeaturedProducts_Slider__data">
             <div className="FeaturedProducts_Data">
                 <div className="FeaturedProducts_PropertyCard">
