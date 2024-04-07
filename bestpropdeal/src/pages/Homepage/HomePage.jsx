@@ -1,33 +1,21 @@
-import React, { useEffect, useState, Suspense } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../../layout/Navbar/Navbar'
 import HeroBanner from '../../components/HeroBanner/HeroBanner'
-/* import PropertiesSlider from '../../components/sliders/PropertiesSlider' */
+import PropertiesSlider from '../../components/sliders/PropertiesSlider'
 import "./HomePage.css"
 import diamond from "../../Assets/diamond.png"
-/* import FeaturedProjectsSlider from '../../components/sliders/FeaturedProjectsSlider'
+import FeaturedProjectsSlider from '../../components/sliders/FeaturedProjectsSlider'
 import TopDeveloper from '../../components/TopDeveloper/TopDeveloper'
 import BestPropDealAdvantage from '../../components/BestPropdealAdvantages/BestPropDealAdvantage'
-import SeoLinks from '../../components/SEO Links/SeoLinks' */
+import SeoLinks from '../../components/SEO Links/SeoLinks'
 import { Link } from 'react-router-dom'
-/* import SearchBar from '../../components/SearchBar/SearchBar'
+import SearchBar from '../../components/SearchBar/SearchBar'
 import Footer from '../../layout/Footer/Footer'
 import BookASiteVisit from '../../forms/BookASiteVisit'
 import SearchMobile from '../../components/SearchBar/SearchMobile'
-import Searchpopup from '../../components/SearchBar/Searchpopup' */
+import Searchpopup from '../../components/SearchBar/Searchpopup'
 import { Helmet } from 'react-helmet-async'
 import minilogo from "../../Assets/Logo-2.svg"
-
-const SearchBar = React.lazy(() => import('../../components/SearchBar/SearchBar'));
-const SearchMobile = React.lazy(() => import('../../components/SearchBar/Searchpopup'));
-const PropertiesSlider = React.lazy(() => import('../../components/sliders/PropertiesSlider'));
-const FeaturedProjectsSlider = React.lazy(() => import('../../components/sliders/FeaturedProjectsSlider'));
-const BookASiteVisit = React.lazy(() => import('../../forms/BookASiteVisit'));
-const TopDeveloper = React.lazy(() => import('../../components/TopDeveloper/TopDeveloper'));
-const BestPropDealAdvantage = React.lazy(() => import('../../components/BestPropdealAdvantages/BestPropDealAdvantage'));
-const SeoLinks = React.lazy(() => import('../../components/SEO Links/SeoLinks'));
-const Footer = React.lazy(() => import('../../layout/Footer/Footer'));
-const Searchpopup = React.lazy(() => import('../../components/SearchBar/Searchpopup'));
-
 
 const HomePage = () => {
 
@@ -61,63 +49,49 @@ const HomePage = () => {
 
         {/* {rocket && <Rocket />} */}
 
-        {/* !rocket  &&*/
-            <>
-                <Navbar type="fixed" bcolor="#342f30" />
-                <div className="Homepage_landingPage__Herosection">
-                    <HeroBanner />
-                    <Suspense fallback={<div>Loading...</div>}>
-                        <div className='Homepage_searchDesktop'>
-                            <SearchBar />
-                        </div>
-                    </Suspense>
-                    <Suspense fallback={<div>Loading...</div>}>
-                        <div className='Homepage_searchMobile' onClick={() => setSearchPopup(!searchPopup)}>
-                            <SearchMobile />
-                        </div>
-                    </Suspense>
-                    <Suspense fallback={<div>Loading...</div>}>
-                        <PropertiesSlider setBookASiteVist={setBookASiteVistHome} />
-                    </Suspense>
-                    <div className="Bestpropdeal_FeaturedProjects">
-                        {/* <img src='../../Assets/FeaturedProducts.png'></img> */}
-                        <div className='FeaturedProjects_TitleCont'>
-                            <h1 className='Homepage_Featured__title'>Featured</h1>
-                            <img src={diamond} alt='Featured' className='diamond'></img>
-                            <h1 className='Homepage_Featured__title'>Products</h1>
-                        </div>
-                    </div>
-                    <Suspense fallback={<div>Loading...</div>}>
-                        <FeaturedProjectsSlider setBookASiteVist={setBookASiteVistHome} />
-                    </Suspense>
-
+        {/* !rocket  &&*/ 
+        <>
+        <Navbar type="fixed" bcolor="#342f30" />
+        <div className="Homepage_landingPage__Herosection">
+            <HeroBanner />
+            <div className='Homepage_searchDesktop'>
+                <SearchBar />
+            </div>
+            <div className='Homepage_searchMobile' onClick={() => setSearchPopup(!searchPopup)}>
+                <SearchMobile />
+            </div>
+            <PropertiesSlider setBookASiteVist={setBookASiteVistHome} />
+            <div className="Bestpropdeal_FeaturedProjects">
+                {/* <img src='../../Assets/FeaturedProducts.png'></img> */}
+                <div className='FeaturedProjects_TitleCont'>
+                    <h1 className='Homepage_Featured__title'>Featured</h1>
+                    <img src={diamond} className='diamond'></img>
+                    <h1 className='Homepage_Featured__title'>Products</h1>
                 </div>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <div className={`${bookASiteVistHome ? "property_Deatiles_rmcard_callrm_form_container" : "property_Deatiles_rmcard_callrm_form_containerdisplay"}`}>
-                        <BookASiteVisit bookASiteVist={bookASiteVistHome} setBookASiteVist={setBookASiteVistHome} />
-                    </div>
-                </Suspense>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <div className="HomePage_LandingPage__TestnomialsSection">
-                        <TopDeveloper />
-                        <BestPropDealAdvantage />
-                        <SeoLinks />
-                    </div>
-                </Suspense>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <Footer />
-                </Suspense>
+            </div>
+            <FeaturedProjectsSlider setBookASiteVist={setBookASiteVistHome} />
+        </div>
+        <div className={`${bookASiteVistHome ? "property_Deatiles_rmcard_callrm_form_container" : "property_Deatiles_rmcard_callrm_form_containerdisplay"}`}>
+            <BookASiteVisit bookASiteVist={bookASiteVistHome} setBookASiteVist={setBookASiteVistHome} />
+        </div>
+        <div className="HomePage_LandingPage__TestnomialsSection">
+            <TopDeveloper />
+            <BestPropDealAdvantage />
+            <SeoLinks />
+        </div>
 
-                {
-                    searchPopup && <div className="MobileSearchPopup">
-                        <div className="MobileSearchPopupCont">
-                            <div className="MobileSearchInventoryCont">
-                                <Searchpopup searchPopup={searchPopup} setSearchPopup={setSearchPopup} />
-                            </div>
-                        </div>
+        <Footer />
+        
+        {
+            searchPopup && <div className="MobileSearchPopup">
+                <div className="MobileSearchPopupCont">
+                    <div className="MobileSearchInventoryCont">
+                        <Searchpopup searchPopup={searchPopup} setSearchPopup={setSearchPopup} />
                     </div>
-                }
-            </>
+                </div>
+            </div>
+        }
+        </>
         }
     </>
 }
