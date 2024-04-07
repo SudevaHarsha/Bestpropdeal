@@ -274,7 +274,7 @@ const FeaturedProjectsSlider = ({setBookASiteVist}) => {
             {
                 Properties.map((property, index) => {
                     return <>
-                        <div className={index===currentSlide ? "TopSlide" : "NormalSlide"}>
+                        <div key={index} className={index===currentSlide ? "TopSlide" : "NormalSlide"}>
                             <FeatureSlide setBookASiteVist={setBookASiteVist} property={property} />
                         </div>
                         <div className="FeaturedProductSlider_Navigation">

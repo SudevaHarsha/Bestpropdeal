@@ -53,15 +53,15 @@ const TopDeveloper = () => {
             <div className="TopDeveloper__TopDevListCont">
                 <div className="TopDeveloper_TODevListRow">
                     {
-                        TopDevListItems_Row_1.map((listItem) => {
-                            return <TopDevListItem image={listItem.label} handleDeveloperClick={handleDeveloperClick} name={listItem.name} />
+                        TopDevListItems_Row_1.map((listItem,index) => {
+                            return <TopDevListItem key={index} image={listItem.label} handleDeveloperClick={handleDeveloperClick} name={listItem.name} />
                         })
                     }
                 </div>
                 <div className="TopDeveloper_TODevListRow">
                     {
-                        TopDevListItems_Row_2.map((listItem) => {
-                            return <TopDevListItem image={listItem.label} handleDeveloperClick={handleDeveloperClick} name={listItem.name} />
+                        TopDevListItems_Row_2.map((listItem,index) => {
+                            return <TopDevListItem key={index} image={listItem.label} handleDeveloperClick={handleDeveloperClick} name={listItem.name} />
                         })
                     }
                 </div>

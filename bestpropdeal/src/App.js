@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './layout/Navbar/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Homepage/HomePage';
 import Property from './pages/Property/Property';

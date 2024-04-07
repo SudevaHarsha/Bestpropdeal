@@ -7,9 +7,7 @@ const HeroBanner = () => {
         <div className="Homepage_HeroBanner">
             <div className="Homepage_landingpage__HeroBanner">
                 <div className="Homepage_HeroBanner__Herologo">
-                    <picture>
-                        <img className='Herbanner_Logiimg' src={Logo} width="500px" height="500px" loading='eager' rel='preload'></img>
-                    </picture>
+                    <img className='Herbanner_Logiimg' src={Logo} width="500px" height="500px" loading='eager' rel='preload'></img>
                 </div>
             </div>
             <div className="Homepage_HeroBanner__HeroTextContainer">

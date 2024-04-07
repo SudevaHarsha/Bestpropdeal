@@ -12,7 +12,10 @@ import { FaAccessibleIcon, FaArrowAltCircleDown, FaArrowAltCircleUp, FaArrowDown
 import Enquiry from '../../forms/sgwwvwb'
 import BookForm from '../../forms/ssss'
 import BookASiteVisit from '../../forms/BookASiteVisit'
+
+
 import MapSection from './MapSection'
+
 import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2"
 /* import videos from "../../Assets/home.mov" */
 
@@ -25,60 +28,11 @@ import { MdStars } from 'react-icons/md'
 import { AiFillStar } from 'react-icons/ai'
 import { IoIosCall } from 'react-icons/io'
 
+import { Suspense } from 'react';
+
 const PropertyDetails = ({ OverviewRef, FeaturesRef, FloorPlanRef, LocalityRef, DeveloperRef, VideoGalleryRef, FAQRef }) => {
 
     const { id } = useParams();
-
-    /* const initialState = {
-        "Property ID":"RH-10220-property",
-        "Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere sunt pariatur sit a omnis lfhsf fhd dfhfdbrd wewttty kfthkfut reyhrt rtjyjr dudtrjdy;o h;iughh h'ihoh n fdtu h .",
-        "Title": "Omkar Apartments Phase 2",
-        "image": "https://www.bestpropdeal.com/wp-content/uploads/2020/09/omkar-2-Copy-488x326.jpg",
-        "location": "southeast, mumbai",
-        "detailedLocation": "KHARVAI NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
-        "state": {
-            "Forsale": true,
-            "Ongoing": false,
-            "completed": true
-        },
-        "Bedrooms": 1,
-        "Bathrooms": 1,
-        "area": 0,
-        "Price": "1,023,000",
-        "onwords": true,
-        "SearchFilters": [
-            "1RK", "2BHK", "3BHK"
-        ],
-        "Type": "Independent House",
-        "Overview":{
-            "configuration":[
-                "1RK", "2BHK", "3BHK"
-            ],
-            "area": "Mary gold",
-            "prices":{
-                "1BHK": 2388000,
-                "2BHK": 3396000
-
-            }
-        },
-        "Features":{
-            "stories":0,
-            "ceilings":"26'",
-            "Bike Path":true,
-            "Central Cooling":false,
-            "Centralheating":false,
-            "CHAPEL BRIDGE":true,
-            "Club House":true,
-            "Dual Sinks":false,
-            "Electric Range":false,
-            "Emergency Exit":true,
-            "Fire Place":true,
-            "Gazebo":true,
-            "Jog Path":true,
-            "LAWN"  :true      
-        },
-        "Gallery":[ ]
-    } */
 
     const CurrentProperty = Property[id];
     /* const [CurrentProperty,setCurrentProperty] = [{}];
@@ -512,7 +466,9 @@ const PropertyDetails = ({ OverviewRef, FeaturesRef, FloorPlanRef, LocalityRef, 
                     </div>
                     {/* </div> */}
                     <div style={{ height: "428px", width: "100%" }}>
-                        <MapSection property={CurrentProperty} activeLoc={activeLoc} activeCategory={activeCategory} />
+
+                            <MapSection property={CurrentProperty} activeLoc={activeLoc} activeCategory={activeCategory} />
+
                     </div>
                     <div className="LocalityPlaces">
                         {/* <div className="LocalityPlaces_BtnCont"> */}
@@ -601,7 +557,7 @@ const PropertyDetails = ({ OverviewRef, FeaturesRef, FloorPlanRef, LocalityRef, 
                         About The Developer
                     </h2>
                     {/*  <div className='developer_description_section'> */}
-                    <p className="developer_description">{CurrentProperty?.Description.substring(0,150)}{readContent?CurrentProperty?.Description?.substring(150, Property?.Description?.length):"..."}</p>
+                    <p className="developer_description">{CurrentProperty?.Description.substring(0, 150)}{readContent ? CurrentProperty?.Description?.substring(150, Property?.Description?.length) : "..."}</p>
                     {/* <span className={`developer_description ${readContent ? "show" : "hide"}`}> {CurrentProperty?.Description?.substring(150, Property?.Description?.length)}</span> */}
 
                     {/* <div> */}
@@ -649,7 +605,7 @@ const PropertyDetails = ({ OverviewRef, FeaturesRef, FloorPlanRef, LocalityRef, 
                                 <>
                                     <div className="faq_question">
                                         <h3 className='faq_question_cont_heading'>
-                                            {item.question}                                           
+                                            {item.question}
                                         </h3>
                                         <div className="faq_question_arrow" onClick={() => handleAnswer(index)}>
                                             <img src="	https://blox.xyz/assets/icons/arrow-down-secondary.svg"></img>

@@ -28,10 +28,10 @@ const Slide = React.memo(({ property, setBookASiteVist }) => {
                 <div className="propertyCardData propertyCard_Datactn">
                     <div className="PropertyCard_propertyData__TopData">
                         <div className='trustedImg_cont'>
-                            <img className='TrustedImg' src={trusted} alt="trusted" />
+                            <img loading='lazy' className='TrustedImg' src={trusted} alt="trusted" />
                         </div>
                         <div className="Propertydata_propertySecure">
-                            <img src='https://blox.xyz/assets/icons/blox-assured.svg' className='secureImage' alt="secure" />
+                            <img loading='lazy' src='https://blox.xyz/assets/icons/blox-assured.svg' className='secureImage' alt="secure" />
                         </div>
                     </div>
                     <div className="PropertyCard_propertyData__BottomData">

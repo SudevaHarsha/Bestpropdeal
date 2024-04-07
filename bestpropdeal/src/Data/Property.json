@@ -5,6 +5,7 @@
         "Description": "Audumber Flower Valley offers the finest residential apartments and invites you to the world which Is exclusively made for you. With a rich lifestyle, the elegance of nature and convenience at an affordable price, its truly a dream come true.",
         "Title": "Audumber Flower Valley",
         "image": "../../assets/Property-001/Property-0011.jpg",
+        "image2": "../../assets/Property-001/freecompress-Property-0011.webp",
         "logo": "../../images/Flowervalley copy.PNG",
         "partner": "Audumber Flower Valley",
         "location": "Badlapur, mumbai",
@@ -371,6 +372,13 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-001/freecompress-Property-0011.webp",
+            "../../assets/Property-001/freecompress-Property-0012.webp",
+            "../../assets/Property-001/freecompress-Property-0013.webp",
+            "../../assets/Property-001/freecompress-Property-0014.webp",
+            "../../assets/Property-001/freecompress-Property-0015.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-001/Property-0011.jpg",
             "../../assets/Property-001/Property-0012.jpg",
             "../../assets/Property-001/Property-0013.jpg",
@@ -384,7 +392,8 @@
         "Property_ID": "P51700028880",
         "Description": "Nano city is not a single building, but a collection of them to bring you a perfect blend of luxury and durability. Located at the prime location of Badlapur highway, you will find serenity and functionality in these apartments. The place is built in a wide area and features both 1BHK and 2BHK apartments. Design with a modern touch, you will get a contemporary living feel in these beautiful apartments. The apartments are designed with every amenity you need thus you will have a comfortable life and access to all living essentials. Design with modern technology, the apartments feature extreme strength and will not require regular repairs. you can save big on both maintenance and repairs and live in a beautiful abode with your family. the space will be perfect for couples and families, and you can start your life beautifully in the luxurious and comfortable Nano City.",
         "Title": "Nano city",
-        "image": "../../assets/Property-003/Property-0031.jpg",
+        "image": "../../assets/Property-003/freecompress-Property-0031.webp",
+        "image2": "../../assets/Property-003/Property-0031.jpg",
         "logo": "../../images/Nano City copy.png",
         "partner": "Dashmesh Infrastructure",
         "location": "Kharvani, mumbai",
@@ -792,6 +801,13 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-003/freecompress-Property-0031.webp",
+            "../../assets/Property-003/freecompress-Property-0032.webp",
+            "../../assets/Property-003/freecompress-Property-0033.webp",
+            "../../assets/Property-003/freecompress-Property-0034.webp",
+            "../../assets/Property-003/freecompress-Property-0035.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-003/Property-0031.jpg",
             "../../assets/Property-003/Property-0032.jpg",
             "../../assets/Property-003/Property-0033.jpg",
@@ -805,7 +821,8 @@
         "Property_ID": " P51700033926",
         "Description": "The four-storied building Dashmesh Crystal is one of the best residential projects in Badlapur. You can choose from a variety of apartments. The apartment features 1BHK and 1RK studio apartments that provide comfortable living. You will get all necessary amenities in your building such as power lifts, a children play area, CCTV surveillance, an intercom, etc. The building is designed by experienced architects, and the best building contractors have brought it to life. Thus, you will get the perfect blend of modern architecture and durability in your building at Dashmesh Infrastructure. The interior of the building is designed with the best tiles and will give you a premium feel without costing a lot of money.",
         "Title": "Dashmesh Crystal phase 2",
-        "image": "../../assets/Property-004/Property-0041.jpg",
+        "image": "../../assets/Property-004/freecompress-Property-0041.webp",
+        "image2": "../../assets/Property-004/Property-0041.jpg",
         "logo": "../../images/Dashmesh Infra copy.PNG",
         "partner": "Dashmesh Infrastructure",
         "location": "Kharvani, mumbai",
@@ -1212,6 +1229,13 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-004/freecompress-Property-0041.webp",
+            "../../assets/Property-004/freecompress-Property-0042.webp",
+            "../../assets/Property-004/freecompress-Property-0043.webp",
+            "../../assets/Property-004/freecompress-Property-0044.webp",
+            "../../assets/Property-004/freecompress-Property-0045.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-004/Property-0041.jpg",
             "../../assets/Property-004/Property-0042.jpg",
             "../../assets/Property-004/Property-0043.jpg",
@@ -1225,7 +1249,8 @@
         "Property_ID": "P51700034703",
         "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere sunt pariatur sit a omnis lfhsf fhd dfhfdbrd wewttty kfthkfut reyhrt rtjyjr dudtrjdy;o h;iughh h'ihoh n fdtu h .",
         "Title": "Sadguru Harmony",
-        "image": "../../assets/Property-005/Property-0051.jpg",
+        "image": "../../assets/Property-005/freecompress-Property-0051.webp",
+        "image2": "../../assets/Property-005/Property-0051.jpg",
         "logo": "../../images/Sadguru Group copy.PNG",
         "partner": "Sadguru Group",
         "location": "Kharvani, mumbai",
@@ -1518,6 +1543,13 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-005/freecompress-Property-0051.webp",
+            "../../assets/Property-005/freecompress-Property-0052.webp",
+            "../../assets/Property-005/freecompress-Property-0053.webp",
+            "../../assets/Property-005/freecompress-Property-0054.webp",
+            "../../assets/Property-005/freecompress-Property-0055.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-005/Property-0051.jpg",
             "../../assets/Property-005/Property-0052.jpg",
             "../../assets/Property-005/Property-0053.jpg",
@@ -1531,7 +1563,8 @@
         "Property_ID": "RH-10935-property",
         "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere sunt pariatur sit a omnis lfhsf fhd dfhfdbrd wewttty kfthkfut reyhrt rtjyjr dudtrjdy;o h;iughh h'ihoh n fdtu h .",
         "Title": "Audumber Crown",
-        "image": "../../assets/Property-006/Property-0061.jpg",
+        "image": "../../assets/Property-006/freecompress-Property-0061.webp",
+        "image2": "../../assets/Property-006/Property-0061.jpg",
         "logo": "../../images/Sadguru Group copy.PNG",
         "partner": "Pinnacle Group",
         "location": "Kharvani, mumbai",
@@ -1817,6 +1850,12 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-006/freecompress-Property-0061.webp",
+            "../../assets/Property-006/freecompress-Property-0062.webp",
+            "../../assets/Property-006/freecompress-Property-0063.webp",
+            "../../assets/Property-006/freecompress-Property-0064.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-006/Property-0061.jpg",
             "../../assets/Property-006/Property-0062.jpg",
             "../../assets/Property-006/Property-0063.jpg",
@@ -1829,7 +1868,8 @@
         "Property_ID": "P5170005036",
         "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere sunt pariatur sit a omnis lfhsf fhd dfhfdbrd wewttty kfthkfut reyhrt rtjyjr dudtrjdy;o h;iughh h'ihoh n fdtu h .",
         "Title": "Pinnacle Adharsh",
-        "image": "../../assets/Property-007/Property-0071.jpg",
+        "image": "../../assets/Property-007/freecompress-Property-0071.webp",
+        "image2": "../../assets/Property-007/Property-0071.jpg",
         "logo": "../../images/Sadguru Group copy.PNG",
         "partner": "Pinnacle Group",
         "location": "Kharvani, mumbai",
@@ -2099,6 +2139,12 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-007/freecompress-Property-0071.webp",
+            "../../assets/Property-007/freecompress-Property-0072.webp",
+            "../../assets/Property-007/freecompress-Property-0073.webp",
+            "../../assets/Property-007/freecompress-Property-0074.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-007/Property-0071.jpg",
             "../../assets/Property-007/Property-0072.jpg",
             "../../assets/Property-007/Property-0073.jpg",
@@ -2111,7 +2157,8 @@
         "Property_ID": "P51700032044",
         "Description": "Laxmi Residency is located at heart of Badlapur with 5 min Drive From station with All Near by amenities",
         "Title": "Laxmi Residency",
-        "image": "../../assets/Property-008/Property-0081.jpg",
+        "image": "../../assets/Property-008/freecompress-Property-0081.webp",
+        "image2": "../../assets/Property-008/Property-0081.jpg",
         "logo": "../../images/Flowervalley copy.PNG",
         "partner": "Audumber Flower Valley",
         "location": "Badlapur, mumbai",
@@ -2457,6 +2504,12 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-008/freecompress-Property-0081.webp",
+            "../../assets/Property-008/freecompress-Property-0082.webp",
+            "../../assets/Property-008/freecompress-Property-0083.webp",
+            "../../assets/Property-008/freecompress-Property-0084.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-008/Property-0081.jpg",
             "../../assets/Property-008/Property-0082.jpg",
             "../../assets/Property-008/Property-0083.jpg",
@@ -2469,7 +2522,8 @@
         "Property_ID": "P51700032044",
         "Description": "Laxmi Residency is located at heart of Badlapur with 5 min Drive From station with All Near by amenities",
         "Title": "Sunita Palace",
-        "image": "../../assets/Property-009/Property-0091.jpg",
+        "image": "../../assets/Property-009/freecompress-Property-0091.webp",
+        "image2": "../../assets/Property-009/Property-0091.jpg",
         "logo": "../../images/Flowervalley copy.PNG",
         "partner": "Audumber Flower Valley",
         "location": "Badlapur, mumbai",
@@ -2819,6 +2873,11 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-009/freecompress-Property-0091.webp",
+            "../../assets/Property-009/freecompress-Property-0092.webp",
+            "../../assets/Property-009/freecompress-Property-0093.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-009/Property-0091.jpg",
             "../../assets/Property-009/Property-0092.jpg",
             "../../assets/Property-009/Property-0093.jpg"
@@ -2830,7 +2889,8 @@
         "Property_ID": "P51700030642",
         "Description": "Laxmi Residency is located at heart of Badlapur with 5 min Drive From station with All Near by amenities",
         "Title": "Sarvesh city",
-        "image": "../../assets/Property-010/Property-0101.jpg",
+        "image": "../../assets/Property-010/freecompress-Property-0101.webp",
+        "image2": "../../assets/Property-010/Property-0101.jpg",
         "logo": "../../images/Sarvesh City Logo.png",
         "partner": "Sarcesh city",
         "location": "Badlapur, mumbai",
@@ -3140,6 +3200,14 @@
             }
         ],
         "Gallery": [
+            "../../assets/Property-010/freecompress-Property-0101.webp",
+            "../../assets/Property-010/freecompress-Property-0102.webp",
+            "../../assets/Property-010/freecompress-Property-0103.webp",
+            "../../assets/Property-010/freecompress-Property-0104.webp",
+            "../../assets/Property-010/freecompress-Property-0105.webp",
+            "../../assets/Property-010/freecompress-Property-0106.webp"
+        ],
+        "Gallery2": [
             "../../assets/Property-010/Property-0101.jpg",
             "../../assets/Property-010/Property-0102.jpg",
             "../../assets/Property-010/Property-0103.jpg",
