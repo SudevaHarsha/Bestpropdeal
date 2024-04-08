@@ -53,19 +53,19 @@ const FeatureSlide = ({ property, setBookASiteVist }) => {
                     </div>
                     <div className="FeaturedPropertyTags">
                         <div className="FeaturedProperty_Slider__Icons">
-                            <h4 className='FeaturedPropertyTags_TagName'>Bathrooms</h4>
+                            <div className='FeaturedPropertyTags_TagName'>Bathrooms</div>
                             <div className="FeaturedProductsSlider_Tags__TagData">
                                 <FaShower className='FeaturedPropertyTags_Icons' /> <span className='FeatureditemsCount'>{property.Bathrooms}</span>
                             </div>
                         </div>
                         <div className="FeaturedProperty_Slider__Icons">
-                            <h4 className='FeaturedPropertyTags_TagName'>Bedrooms</h4>
+                            <div className='FeaturedPropertyTags_TagName'>Bedrooms</div>
                             <div className="FeaturedProductsSlider_Tags__TagData">
                                 <MdOutlineBedroomChild className='FeaturedPropertyTags_Icons' /> <span className='FeatureditemsCount'>{property.Bedrooms}</span>
                             </div>
                         </div>
                         <div className="FeaturedProperty_Slider__Icons">
-                            <h4 className='FeaturedPropertyTags_TagName'>Area</h4>
+                            <div className='FeaturedPropertyTags_TagName'>Area</div>
                             <div className="FeaturedProductsSlider_Tags__TagData">
                                 <BsTextarea className='FeaturedPropertyTags_Icons' /> <span className='FeatureditemsCount'>{property.area}</span>
                             </div>
@@ -79,7 +79,7 @@ const FeatureSlide = ({ property, setBookASiteVist }) => {
                         </div>
                         <div className="FeaturedPropertySlider_PriceBtnCont">
                             <div className="FeaturedPropertySlider_StatePricecont">
-                                <h6 className='FeaturedPropertySlider_State'>{property.state.Forsale ? "For sale" : ""}{property.state.Ongoing ? property.state.Forsale ? ",ongoing" : "ongoing" : ""},{property.state.completed ? property.state.Forsale || property.state.Ongoing ? ",completed" : "completed" : ""}</h6>
+                                <p className='FeaturedPropertySlider_State'>{property.state.Forsale ? "For sale" : ""}{property.state.Ongoing ? property.state.Forsale ? ",ongoing" : "ongoing" : ""},{property.state.completed ? property.state.Forsale || property.state.Ongoing ? ",completed" : "completed" : ""}</p>
                                 <h2 className='FeaturedPropertySlider_Price'>{property.Price} Rs</h2>
                             </div>
                             <div className="FeaturedPropertySlider_BtnCont">

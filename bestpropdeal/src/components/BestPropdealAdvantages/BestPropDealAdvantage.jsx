@@ -26,7 +26,7 @@ const BestPropDealAdvantage = React.memo(() => {
             </div>
             <div className="Beastpropdeal_StepperMediaCont">
                 <div className="Bestpropdeal_AdvantageMediacont">
-                    <video className='Bestpropdeal_AdvantageMedia__AdvantageVideo' autoPlay muted loop>
+                    <video className='Bestpropdeal_AdvantageMedia__AdvantageVideo'  autoPlay muted loop>
                         <source src={videos} type='video/mp4'></source>
                     </video>
                 </div>

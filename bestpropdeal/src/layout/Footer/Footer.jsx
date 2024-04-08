@@ -19,20 +19,20 @@ const Footer = () => {
                             
                             <ul>
                                 <li><h3>Overview</h3></li>
-                                <li><Link to="/">About Us</Link></li>
-                                <li><Link to="/">Contact Us</Link></li>
-                                <li><Link to="/">Terms and Conditions</Link></li>
-                                <li><Link to="/">Privacy Policy</Link></li>
+                                <li><Link aria-label='Read more about bestpropdeal' to="/">About Us</Link></li>
+                                <li><Link aria-label='conatct bestpropdeal' to="/">Contact Us</Link></li>
+                                <li><Link aria-label='Bestpropdeal Terms and Conditions' to="/">Terms and Conditions</Link></li>
+                                <li><Link aria-label='bestpropdeal Privacy and Policy' to="/">Privacy Policy</Link></li>
                             </ul>
                         {/* </div> */}
                         {/* <div> */}
                             
                             <ul>
                                 <li><h3>Overview</h3></li>
-                                <li><Link to="/">Developers</Link></li>
-                                <li><Link to="/">Blogs</Link></li>
-                                <li><Link to="/">Press Mentions</Link></li>
-                                <li><Link to="/">Bestpropdeal labs</Link></li>
+                                <li><Link aria-label='Bestpropdeal Developers' to="/">Developers</Link></li>
+                                <li><Link aria-label='blog' to="/">Blogs</Link></li>
+                                <li><Link aria-label='Bestpropdeal-Mentions' to="/">Press Mentions</Link></li>
+                                <li><Link aria-label='Bestpropdeal Awards' to="/">Bestpropdeal Awards</Link></li>
                             </ul>
                         {/* </div> */}
                     </div>
@@ -40,19 +40,19 @@ const Footer = () => {
                         <div className="Fottercol">
                             <div className="fotterSocialIcons">
                                 <Link aria-label='Read more about bestpropdeal on facebook' to="http://www.facebook.com/bestpropdeal">                                   
-                                        <button className="FotterSocialIcons_IconBtn"><FaFacebookSquare className='StepperchartIcon__Imagef'/></button>                                  
+                                        <button aria-label='facebook' className="FotterSocialIcons_IconBtn"><FaFacebookSquare className='StepperchartIcon__Imagef'/></button>                                  
                                 </Link>
                                 <Link aria-label='Read more about bestpropdeal on twitter' to="/">
-                                        <button className="FotterSocialIcons_IconBtn"><BsTwitter className='StepperchartIcon__Imagef'/></button>
+                                        <button aria-label='twitter' className="FotterSocialIcons_IconBtn"><BsTwitter className='StepperchartIcon__Imagef'/></button>
                                 </Link>
                                 <Link aria-label='Read more about bestpropdeal on instagram' to="http://www.instagram.com/bestpropdeal">
-                                        <button  className="FotterSocialIcons_IconBtn"><BsInstagram className='StepperchartIcon__Imagef' /></button>                           
+                                        <button aria-label='instagram'  className="FotterSocialIcons_IconBtn"><BsInstagram className='StepperchartIcon__Imagef' /></button>                           
                                 </Link>
                                 <Link aria-label='Read more about bestpropdeal on whatsapp' to="/">                                   
-                                        <button className="FotterSocialIcons_IconBtn"><BsWhatsapp className='StepperchartIcon__Imagef'/></button>
+                                        <button aria-label='whatsapp' className="FotterSocialIcons_IconBtn"><BsWhatsapp className='StepperchartIcon__Imagef'/></button>
                                 </Link>
                                 <Link aria-label='Read more about bestpropdeal on youtube' to="http://www.youtube.com/bestpropdeal">
-                                        <button className="FotterSocialIcons_IconBtn"><BsYoutube className='StepperchartIcon__Imagef'/></button>
+                                        <button aria-label='youtube' className="FotterSocialIcons_IconBtn"><BsYoutube className='StepperchartIcon__Imagef'/></button>
                                 </Link>
                             </div>
                             <div className="FotterGreyCard">
