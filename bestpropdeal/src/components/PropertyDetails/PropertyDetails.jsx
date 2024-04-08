@@ -30,7 +30,7 @@ import { IoIosCall } from 'react-icons/io'
 
 import { Suspense } from 'react';
 
-const PropertyDetails = ({ OverviewRef, FeaturesRef, FloorPlanRef, LocalityRef, DeveloperRef, VideoGalleryRef, FAQRef }) => {
+const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, LocalityRef, DeveloperRef, VideoGalleryRef, FAQRef }) => {
 
     const { id } = useParams();
 
@@ -894,6 +894,6 @@ const PropertyDetails = ({ OverviewRef, FeaturesRef, FloorPlanRef, LocalityRef, 
             <BookASiteVisit bookASiteVist={bookASiteVist} setBookASiteVist={setBookASiteVist} />
         </div>
     </>
-}
+})
 
 export default PropertyDetails

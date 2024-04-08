@@ -4,7 +4,7 @@ import "./TopDeveloperMobile.css"
 import Properties from "../../Data/Property.json"
 import { useNavigate } from 'react-router-dom'
 
-const TopDeveloperMobile = () => {
+const TopDeveloperMobile = React.memo(() => {
 
   const navigate = useNavigate();
 
@@ -92,6 +92,6 @@ const TopDeveloperMobile = () => {
       </div>
     </section>
   </>
-}
+})
 
 export default TopDeveloperMobile

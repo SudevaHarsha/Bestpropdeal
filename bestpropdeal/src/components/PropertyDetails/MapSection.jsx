@@ -1,8 +1,8 @@
-import React from 'react'
-import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import * as L from "leaflet";
+import React from 'react';
+import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 
-const MapSection = ({ property, activeLoc, activeCategory }) => {
+const MapSection = React.memo(({ property, activeLoc, activeCategory }) => {
     console.log(property.Locality.Locations);
     const LeafIcon = L.Icon.extend({
         options: {}
@@ -16,11 +16,11 @@ const MapSection = ({ property, activeLoc, activeCategory }) => {
     console.log(activeLoc.Lattitude);
     const blueIcon = new LeafIcon({
         iconUrl:
-            "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|abcdef&chf=a,s,ee00FFFF"
+            "https://tse1.mm.bing.net/th?id=OIP.OFLlYhBrUK0hp2XGKzM8TAHaHa&pid=Api&P=0&h=180"
     });
     const greenIcon = new LeafIcon({
         iconUrl:
-            "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|2ecc71&chf=a,s,ee00FFFF"
+            "https://tse2.mm.bing.net/th?id=OIP.7Eq8gALCUrGCsDhf7HKtCgHaJh&pid=Api&P=0&h=180"
     });
     const locations = activeCategory ? property.Locality.Locations : property.Locality.Locations;
 
@@ -76,6 +76,6 @@ const MapSection = ({ property, activeLoc, activeCategory }) => {
             />
         </MapContainer>
     </>
-}
+})
 
 export default MapSection

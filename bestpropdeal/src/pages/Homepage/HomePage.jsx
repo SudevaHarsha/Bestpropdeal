@@ -44,7 +44,7 @@ const HomePage = () => {
             <meta property="og:description" content="BeatPropDeal website" />
             <meta property="og:image" content={minilogo} />
             <meta property="og:url" content={window.location.href} />
-            <link rel='canonical' href='/'></link>
+            <link rel='canonical' href='https://bestpropdeal.com/'></link>
         </Helmet>
 
         {/* {rocket && <Rocket />} */}
@@ -65,7 +65,7 @@ const HomePage = () => {
                 {/* <img src='../../Assets/FeaturedProducts.png'></img> */}
                 <div className='FeaturedProjects_TitleCont'>
                     <h1 className='Homepage_Featured__title'>Featured</h1>
-                    <img src={diamond} className='diamond'></img>
+                    <img src={diamond} className='diamond' alt=''></img>
                     <h1 className='Homepage_Featured__title'>Products</h1>
                 </div>
             </div>

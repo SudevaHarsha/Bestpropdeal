@@ -6,7 +6,7 @@ import { LiaStar } from 'react-icons/lia'
 import { GoStar } from 'react-icons/go'
 import { AiFillStar } from 'react-icons/ai'
 
-const BestPropDealAdvantage = () => {
+const BestPropDealAdvantage = React.memo(() => {
     return <>
         <div className="HomePage_LandingPage__BestpropdealAdvantages">
             {/* <div className="Bestpropdeal_VerifiedIcon">
@@ -34,6 +34,6 @@ const BestPropDealAdvantage = () => {
             </div>
         </div>
     </>
-}
+})
 
 export default BestPropDealAdvantage

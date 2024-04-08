@@ -1,1 +1,10 @@
-http://localhost:3000/
+https://bestpropdeal.onrender.com/
+https://bestpropdeal.onrender.com/search
+https://bestpropdeal.onrender.com/property/0
+https://bestpropdeal.onrender.com/property/2
+https://bestpropdeal.onrender.com/property/3
+https://bestpropdeal.onrender.com/property/4
+https://bestpropdeal.onrender.com/property/5
+https://bestpropdeal.onrender.com/property/6
+https://bestpropdeal.onrender.com/property/7
+https://bestpropdeal.onrender.com/property/8

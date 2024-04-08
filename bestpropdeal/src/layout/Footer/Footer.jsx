@@ -39,19 +39,19 @@ const Footer = () => {
                     <div className="FotterCont_FotterInfo">
                         <div className="Fottercol">
                             <div className="fotterSocialIcons">
-                                <Link to="http://www.facebook.com/bestpropdeal">                                   
+                                <Link aria-label='Read more about bestpropdeal on facebook' to="http://www.facebook.com/bestpropdeal">                                   
                                         <button className="FotterSocialIcons_IconBtn"><FaFacebookSquare className='StepperchartIcon__Imagef'/></button>                                  
                                 </Link>
-                                <Link to="/">
+                                <Link aria-label='Read more about bestpropdeal on twitter' to="/">
                                         <button className="FotterSocialIcons_IconBtn"><BsTwitter className='StepperchartIcon__Imagef'/></button>
                                 </Link>
-                                <Link to="http://www.instagram.com/bestpropdeal">
+                                <Link aria-label='Read more about bestpropdeal on instagram' to="http://www.instagram.com/bestpropdeal">
                                         <button  className="FotterSocialIcons_IconBtn"><BsInstagram className='StepperchartIcon__Imagef' /></button>                           
                                 </Link>
-                                <Link to="/">                                   
+                                <Link aria-label='Read more about bestpropdeal on whatsapp' to="/">                                   
                                         <button className="FotterSocialIcons_IconBtn"><BsWhatsapp className='StepperchartIcon__Imagef'/></button>
                                 </Link>
-                                <Link to="http://www.youtube.com/bestpropdeal">
+                                <Link aria-label='Read more about bestpropdeal on youtube' to="http://www.youtube.com/bestpropdeal">
                                         <button className="FotterSocialIcons_IconBtn"><BsYoutube className='StepperchartIcon__Imagef'/></button>
                                 </Link>
                             </div>
@@ -62,7 +62,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="Fottercol2">
-                            <Link to="/">
+                            <Link aria-label='Email to bestpropdeal' to="/">
                                 <div className="FotterListIcon">
                                     {/* <div className="FotterListIconBtn"> */}
                                         <button className="FotterListIconBtn" ><HiOutlineMail className='StepperchartIcon__Imagef'/></button>
@@ -73,7 +73,7 @@ const Footer = () => {
                                     {/* </div> */}
                                 </div>
                             </Link>
-                            <Link to="/">
+                            <Link aria-label='call to bestpropdeal' to="/">
                                 <div className="FotterListIcon">
                                     {/* <div className="FotterListIconBtn"> */}
                                     <button className="FotterListIconBtn" ><BiPhoneCall className='StepperchartIcon__Imagef'/></button>                                    {/* </div> */}

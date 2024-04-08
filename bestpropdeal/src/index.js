@@ -8,6 +8,13 @@ import { HelmetProvider } from "react-helmet-async";
 import { LikeProvider } from './components/Like/LikeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+if (process.env.NODE_ENV !== "development") {
+  console.log = function() {};
+  console.debug =function() {};
+  console.info = function() {};
+  console.warn = function() {};
+ console.error = function() {};
+}
 root.render(
   <React.StrictMode>
     <LikeProvider>

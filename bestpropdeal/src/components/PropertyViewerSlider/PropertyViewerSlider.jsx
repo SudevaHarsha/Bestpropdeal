@@ -13,7 +13,7 @@ import { FaHeart } from 'react-icons/fa';
 import { useLike } from '../Like/LikeContext';
 
 
-const PropertyViewerSlider = ({ isGallery, openGallery }) => {
+const PropertyViewerSlider = React.memo(({ isGallery, openGallery }) => {
 
     const [activeItem, setActiveItem] = useState(0);
     const { id } = useParams();
@@ -206,6 +206,6 @@ const PropertyViewerSlider = ({ isGallery, openGallery }) => {
             </div>
         </div>
     </>
-}
+})
 
 export default PropertyViewerSlider

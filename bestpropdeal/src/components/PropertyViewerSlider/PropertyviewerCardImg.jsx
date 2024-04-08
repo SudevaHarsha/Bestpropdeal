@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PropertyviewerCardImg = ({ image, active }) => {
+const PropertyviewerCardImg = React.memo(({ image, active }) => {
     return <>
         <div className={`PropertyViewerCard_BannerPanner ${active ? "ImagePanneractive" : "ImagePannerinactive"}`}>
             <img src={image} className='PropertyViewerImg'
@@ -10,6 +10,6 @@ const PropertyviewerCardImg = ({ image, active }) => {
                 rel='preload'></img>
         </div>
     </>
-}
+})
 
 export default PropertyviewerCardImg

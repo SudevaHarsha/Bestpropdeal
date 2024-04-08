@@ -73,11 +73,11 @@ const BookASiteVisit = ({ bookASiteVist, setBookASiteVist }) => {
                 {/*                 <button className='book_Closebtn' onClick={handleClose} ><FaXbox /></button> */}
                 <button className='rm_x_butt book_Closebtn' onClick={(e) => handleClose(e)}><AiFillCloseCircle /></button>
                 <div className="BookASiteImgCont">
-                    <img src="https://www.bestpropdeal.com/wp-content/uploads/2020/09/omkar-2-Copy-488x326.jpg"></img>
+                    <img src="/assets/Property-001/freecompress-Property-0011.webp" alt='Bestpropdeal-BookASiteVisit_Form'></img>
                 </div>
                 <div className="rm_r_c" >
                     <div className="BookVisit_TitleLogoCont">
-                        <img src={minilogo}></img>
+                        <img src={minilogo} alt='Bestpropdeal-Logo'></img>
                         <h2 className='BookVisitTitle'>BestPropDeal</h2>
                     </div>
 
@@ -126,7 +126,7 @@ const BookASiteVisit = ({ bookASiteVist, setBookASiteVist }) => {
             <div className="Mobilerm_Cont">
                 <div className="MobileVisitImage">
                     <div className="Mobilerm_CloseLogoCont">
-                        <img src={minilogo}></img>
+                        <img src={minilogo} alt='Bestpropdeal-Logo'></img>
                         <AiFillCloseCircle className='Mobilerm_closeIcon' onClick={(e) => handleClose(e)
                         } />
                     </div>

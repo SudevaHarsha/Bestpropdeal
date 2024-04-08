@@ -69,7 +69,7 @@ const Navbar = ({ type, bcolor }) => {
                     <div className="HeaderMobile_LeftLogoCont">
                         <Link to="/">
                             <div>
-                                <img src={mini_logo}></img>
+                                <img src={mini_logo} alt='Bestpropdeal-logo'></img>
                             </div>
                         </Link>
                     </div>
