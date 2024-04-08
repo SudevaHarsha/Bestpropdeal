@@ -3237,7 +3237,7 @@ section {
         bottom: 0;
         top: auto;
         width: 100%;
-        z-index: 999999999999999999999999;
+        z-index: 999999999;
     }
 
     .StickyFooterNav {
@@ -3737,7 +3737,7 @@ section {
         bottom: 0;
         top: auto;
         width: 100%;
-        z-index: 99999999999999999999999999999999;
+        z-index: 9999999999999;
     }
 
     .StickyFooterNav {

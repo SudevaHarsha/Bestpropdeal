@@ -919,10 +919,10 @@ a {
 
 .PropertySlider_Navigation {
     position: relative;
-    bottom: 340px;
+    bottom: 300px;
     left: 0;
     padding: 0;
-    padding-right: 55px;
+    padding-right: 18px;
 }
 
 .slider_sliderNavigation {
@@ -951,7 +951,7 @@ a {
 }
 
 .swiper_btn__Left {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 

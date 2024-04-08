@@ -10,18 +10,18 @@ const TopDeveloper = () => {
     const navigate = useNavigate();
 
     const TopDevListItems_Row_1 = [
-        { label: '../../images/Dashmesh Infra copy.PNG',name: "Dashmesh Infrastructure" },
-        { label: '../../images/Flowervalley copy.PNG',name: "Audumber Flower Valley" },
-        { label: '../../images/Fulora copy.PNG',name: "Dashmesh Infrastructure" },
-        { label: '../../images/JP Corp copy.PNG',name: "Dashmesh Infrastructure" },
-        { label: '../../images/JP Hormony copy.PNG',name: "Dashmesh Infrastructure" },
+        { label: '../../images/Dashmesh Infra copy.webp',name: "Dashmesh Infrastructure" },
+        { label: '../../images/Flowervalley copy.webp',name: "Audumber Flower Valley" },
+        { label: '../../images/Fulora copy.webp',name: "Dashmesh Infrastructure" },
+        { label: '../../images/JP Corp copy.webp',name: "Dashmesh Infrastructure" },
+        { label: '../../images/JP Hormony copy.webp',name: "Dashmesh Infrastructure" },
     ];
 
     const TopDevListItems_Row_2 = [
-        { label: '../../images/Nano City copy.png',name: "Dashmesh Infrastructure" },
-        { label: '../../images/Pinnacle copy.PNG',name: "Pinnacle Group" },
-        { label: '../../images/Pinnacle Group copy.PNG',name: "Dashmesh Infrastructure" },
-        { label: '../../images/Sadguru Group copy.PNG',name: "Sadguru Group" },
+        { label: '../../images/Nano City copy.webp',name: "Dashmesh Infrastructure" },
+        { label: '../../images/Pinnacle copy.webp',name: "Pinnacle Group" },
+        { label: '../../images/Pinnacle Group copy.webp',name: "Dashmesh Infrastructure" },
+        { label: '../../images/Sadguru Group copy.webp',name: "Sadguru Group" },
     ];
 
     const handleDeveloperClick = (Partner)=>{

@@ -20,7 +20,8 @@ const Slide = React.memo(({ property, setBookASiteVist }) => {
                     className='propertyCardImg'
                     srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
                     sizes="(max-width: 800px) 100vw, 350px"
-                    loading='lazy'
+                    loading={property.position != 1 ? 'lazy' : 'eager'}
+                    rel={property.position === 1 && 'preload'}
                     alt="property card image"
                 />}
 
