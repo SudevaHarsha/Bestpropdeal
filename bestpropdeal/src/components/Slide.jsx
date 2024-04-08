@@ -2,7 +2,7 @@ import React, { lazy } from 'react';
 import { FaShower } from "react-icons/fa";
 import { MdOutlineBedroomChild } from "react-icons/md";
 import { BsTextarea } from "react-icons/bs";
-import trusted from "../Assets/trusted.svg";
+import trusted from "../Assets/trusted.webp";
 import { useNavigate } from 'react-router-dom';
 
 const Slide = React.memo(({ property, setBookASiteVist }) => {
@@ -21,27 +21,16 @@ const Slide = React.memo(({ property, setBookASiteVist }) => {
                     srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
                     sizes="(max-width: 800px) 100vw, 350px"
                     loading='lazy'
-                    decoding='async'
                     alt="property card image"
                 />}
-                {/* {<img
-                    src={property.image}
-                    className='propertyCardImg'
-                    srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
-                    sizes="(max-width: 800px) 100vw, 350px"
-                    loading={property.id === 1 ? 'eager' : 'lazy'}
-                    decoding={property.id !== 1 && 'async'}
-                    rel={property.id === 1 && 'preload'}
-                    alt="property card image"
-                />} */}
 
                 <div className="propertyCardData propertyCard_Datactn">
                     <div className="PropertyCard_propertyData__TopData">
                         <div className='trustedImg_cont'>
-                            <img loading='lazy' className='TrustedImg' src={trusted} alt="trusted" />
+                            <img loading='lazy' alt="100% trusted property" className='TrustedImg' src={trusted} width="60px" height="60px" />
                         </div>
                         <div className="Propertydata_propertySecure">
-                            <img loading='lazy' src='https://blox.xyz/assets/icons/blox-assured.svg' className='secureImage' alt="secure" />
+                            <img loading='lazy' alt="secure property" src='https://blox.xyz/assets/icons/blox-assured.svg' className='secureImage' />
                         </div>
                     </div>
                     <div className="PropertyCard_propertyData__BottomData">

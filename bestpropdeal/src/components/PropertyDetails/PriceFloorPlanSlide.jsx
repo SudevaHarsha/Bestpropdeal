@@ -4,7 +4,7 @@ const PriceFloorPlanSlide = ({ image, active }) => {
     return <>
         <div className={`PriceFloorPlan_SwiperSlide ${active ? "active" : "inactive"}`}>
             <div className="PriceFloorPlan_SwiperSlidecont">
-                <img src={image.url}></img>
+                <img src={image.url} alt={image}></img>
                 <div className="PriceFloorPlanDetails">
                     <div className="PriceFloorPlan_CarpetAreaCont">
                         <div className="PriceFloorPlan_DeatailHeading">Carpet Area</div>

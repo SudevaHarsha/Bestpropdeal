@@ -8,7 +8,7 @@ import { BsTextarea } from "react-icons/bs"
 import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2"
 import { useLike } from './Like/LikeContext'
 
-const FeatureSlide = ({ property,setBookASiteVist }) => {
+const FeatureSlide = ({ property, setBookASiteVist }) => {
 
     const navigate = useNavigate();
     const [like, setLike] = useLike();
@@ -19,32 +19,22 @@ const FeatureSlide = ({ property,setBookASiteVist }) => {
             setLike(remainingLikes);
             localStorage.setItem('like', JSON.stringify(remainingLikes))
         } else {
-       const newLikes = [...like, property.Title];
+            const newLikes = [...like, property.Title];
             setLike(newLikes);
             localStorage.setItem('like', JSON.stringify(newLikes));
         }
     }
 
     return <>
-        {property.id != 1 && <div className="FeaturedProductSlider__videoplayer FeaturedVideoPlayer">
-            <img src={property.image} className='VideoImg' 
-            srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
-            sizes="(max-width: 800px) 100vw, 50vw"
-            loading="eager"
-            fetchpriority="high"
-            alt="Feature property slider image"
+        <div className="FeaturedProductSlider__videoplayer FeaturedVideoPlayer">
+            <img src={property.image} className='VideoImg'
+                srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
+                sizes="(max-width: 800px) 100vw, 50vw"
+                loading="eager"
+                fetchpriority="high"
+                alt="Feature property slider image"
             ></img>
-        </div>}
-        {!property.id != 1 && <div className="FeaturedProductSlider__videoplayer FeaturedVideoPlayer">
-            <img src={property.image} className='VideoImg' 
-            srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
-            sizes="(max-width: 800px) 100vw, 50vw"
-            loading="lazy"
-            decoding="async"
-            fetchpriority="low"
-            alt="Feature property slider image"
-            ></img>
-        </div>}
+        </div>
         <div className="FeaturedProducts_Slider__data">
             <div className="FeaturedProducts_Data">
                 <div className="FeaturedProducts_PropertyCard">
@@ -52,7 +42,7 @@ const FeatureSlide = ({ property,setBookASiteVist }) => {
                         <Link to="/"></Link>
                         <div className="FeaturedProducts__PropertyName">
                             <h1>{property.Title}</h1>
-                            <div className="HeartCont" onClick={()=>{handleLikeClick()}}>
+                            <div className="HeartCont" onClick={() => { handleLikeClick() }}>
                                 {like.includes(property.Title) ? <FaHeart className="fillHeart" /> : <FaRegHeart />}
                             </div>
                         </div>
@@ -93,7 +83,7 @@ const FeatureSlide = ({ property,setBookASiteVist }) => {
                                 <h2 className='FeaturedPropertySlider_Price'>{property.Price} Rs</h2>
                             </div>
                             <div className="FeaturedPropertySlider_BtnCont">
-                                <div className="FeaturedPropertySlider_BthTitle" onClick={()=>setBookASiteVist(true)}>
+                                <div className="FeaturedPropertySlider_BthTitle" onClick={() => setBookASiteVist(true)}>
                                     Book a Visit
                                 </div>
                             </div>
@@ -109,7 +99,7 @@ const FeatureSlide = ({ property,setBookASiteVist }) => {
             </div>
             <div className="FeatureMobileBtn_Cont">
                 <button>Book A Visit</button>
-                <button onClick={()=>navigate(`/property/${property.position}`)}>View More</button>
+                <button onClick={() => navigate(`/property/${property.position}`)}>View More</button>
             </div>
         </div>
 

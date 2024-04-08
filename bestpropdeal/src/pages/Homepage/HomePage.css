@@ -2112,7 +2112,7 @@ a {
     }
 
     .slider_propertyCard {
-        height: 500 !important;
+        height: 500px !important;
         width: 330px;
     }
 
@@ -2462,6 +2462,13 @@ a {
     .FeatureMobileNameProce_Cont p {
         font-size: 20px;
     }
+    .FeaturedProductSlider__videoplayer {
+        width: calc(100vw - 32px);
+        height: 520px;
+    }
+    /* .propertyCardImg{
+        height: 320px;
+    } */
 }
 
 @keyframes MobileImagePanner_mobilepan__IsUHR {

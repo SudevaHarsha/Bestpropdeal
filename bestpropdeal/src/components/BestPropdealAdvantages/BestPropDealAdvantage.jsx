@@ -1,7 +1,7 @@
 import React from 'react'
 import StepperChartListItem from './StepperChartListItem'
 /* import AdvantageVideo from "../../Assets/homepage-advantage-480" */
-import videos from "../../Assets/IMG_3768.MP4"
+import videos from "../../Assets/door-video.mp4"
 import { LiaStar } from 'react-icons/lia'
 import { GoStar } from 'react-icons/go'
 import { AiFillStar } from 'react-icons/ai'
@@ -26,9 +26,6 @@ const BestPropDealAdvantage = () => {
             </div>
             <div className="Beastpropdeal_StepperMediaCont">
                 <div className="Bestpropdeal_AdvantageMediacont">
-                    {/* <video class="Bestpropdeal_AdvantageMedia__AdvantageVideo" autoplay muted loop>
-                        <source src="https://cdn.blox.xyz/home_banner/homepage-advantage-480.mov" type="video/mp4"></source>
-                    </video> */}
                     <video className='Bestpropdeal_AdvantageMedia__AdvantageVideo' autoPlay muted loop>
                         <source src={videos} type='video/mp4'></source>
                     </video>
