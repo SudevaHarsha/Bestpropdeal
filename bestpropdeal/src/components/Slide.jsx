@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { FaShower } from "react-icons/fa";
 import { MdOutlineBedroomChild } from "react-icons/md";
 import { BsTextarea } from "react-icons/bs";
@@ -20,11 +20,20 @@ const Slide = React.memo(({ property, setBookASiteVist }) => {
                     className='propertyCardImg'
                     srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
                     sizes="(max-width: 800px) 100vw, 350px"
+                    loading='lazy'
+                    decoding='async'
+                    alt="property card image"
+                />}
+                {/* {<img
+                    src={property.image}
+                    className='propertyCardImg'
+                    srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
+                    sizes="(max-width: 800px) 100vw, 350px"
                     loading={property.id === 1 ? 'eager' : 'lazy'}
                     decoding={property.id !== 1 && 'async'}
                     rel={property.id === 1 && 'preload'}
                     alt="property card image"
-                />}
+                />} */}
 
                 <div className="propertyCardData propertyCard_Datactn">
                     <div className="PropertyCard_propertyData__TopData">
