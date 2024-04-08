@@ -4,7 +4,7 @@ import { FaFacebook } from 'react-icons/fa'
 const TopDevListItem = ({image,handleDeveloperClick,name}) => {
     return <>
         <div className="TopDeveloper_TopDevImgConr" onClick={()=>handleDeveloperClick(name)}>
-            <img src={(image)} height="80px" width="80px" alt='devImg'></img>
+            <img src={(image)} height="80px" width="80px" alt='devImg' loading='lazy'></img>
         </div>
     </>
 }

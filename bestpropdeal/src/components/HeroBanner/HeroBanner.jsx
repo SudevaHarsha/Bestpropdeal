@@ -1,13 +1,15 @@
 import React from 'react'
 /* import "../../Assets/Best-Prop-Deal-Logo .png" */
-import Logo from "../../Assets/Logo-2.svg"
+import Logo from "../../Assets/Logo-2 (3).webp"
+/* import Logo from "../../Assets/Logo-2.svg" */
 
 const HeroBanner = () => {
     return <>
         <div className="Homepage_HeroBanner">
             <div className="Homepage_landingpage__HeroBanner">
                 <div className="Homepage_HeroBanner__Herologo">
-                    <img className='Herbanner_Logiimg' src={Logo} width="500px" height="500px" loading='eager' rel='preload'></img>
+                    <img className='Herbanner_Logiimg' srcSet={`/${Logo}?width=100 100w, /${Logo}?width=200 200w, /${Logo}?width=400 400w, /${Logo}?width=800 800w`}
+                    sizes="(max-width: 800px) 100vw, 50vw" src={Logo} width="600px" height="450px" loading='eager' rel='preload'></img>
                 </div>
             </div>
             <div className="Homepage_HeroBanner__HeroTextContainer">

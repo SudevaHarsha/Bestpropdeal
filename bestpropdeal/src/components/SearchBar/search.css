@@ -52,6 +52,9 @@
     font-size: 12px;
 }
 
+.MobileSearchPopup {
+    z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+}
 
 .MobileSearchPopupCont {
     display: flex;
@@ -64,9 +67,9 @@
 .searchpop {
     background-color: white;
     width: 100%;
-    height: fit-content;
+    height: auto;
     display: block;
-   
+
     border-radius: 20px;
     padding: 15px 10px;
 }
@@ -83,6 +86,7 @@
 }
 
 .searchpopbuttconfirstheading {
+    width: 100%;
     color: black;
     margin-left: 10px;
     margin-top: 20px;
@@ -123,7 +127,7 @@
 
 .MobilesearchPopup_ActionBtnCont {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between !important;
     align-items: center;
@@ -141,7 +145,7 @@
 
 
 .MobileSearchPopup_Heading {
-    width: 70%;
+    width: 100%;
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
@@ -161,64 +165,78 @@
 }
 
 @media (max-width: 780px) {
-    .SearchMobileSmallCont{
+    .SearchMobileSmallCont {
         height: 130px;
     }
+
     .SearchIconCont {
         margin-bottom: 20px;
         font-size: 20px;
     }
-    .SearchMobile_LocCont{
+
+    .SearchMobile_LocCont {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
-    .SearchMobile_LocBtn{
+
+    .SearchMobile_LocBtn {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 50px;
         width: 150px;
     }
-    .SearchMobile_LocBtnText{
+
+    .SearchMobile_LocBtnText {
         font-size: 20px;
     }
-    .MobileSearchPopupCont{
+
+    .MobileSearchPopupCont {
         display: flex;
         justify-content: space-around;
     }
-    .MobileSearchInventoryCont{
+
+    .MobileSearchInventoryCont {
         height: 100%;
     }
 }
+
 @media (max-width: 600px) {
-    .SearchMobileSmallCont{
+    .SearchMobileSmallCont {
         height: auto;
         width: 100%;
     }
+
     .SearchIconCont {
         font-size: 12px;
     }
-    .SearchMobile_LocCont{
+
+    .SearchMobile_LocCont {
         display: flex;
     }
-    .SearchMobile_LocBtn{
+
+    .SearchMobile_LocBtn {
         display: block;
         height: auto;
         width: auto;
     }
-    .SearchMobile_LocBtnText{
+
+    .SearchMobile_LocBtnText {
         font-size: 12px;
     }
-  
-    .MobileSearchInventoryCont{
+
+    .MobileSearchInventoryCont {
+        width: 100%;
         height: auto;
     }
-    .MobileSearchPopupCont{
+
+    .MobileSearchPopupCont {
+        padding: 2px;
         display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }

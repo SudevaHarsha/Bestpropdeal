@@ -6,7 +6,7 @@
     flex-direction: column;
     align-content: center;
     margin-top: 70px;
-   
+
 }
 
 .Homepage_HeroBanner {
@@ -117,9 +117,9 @@
     width: auto;
 }
 
-.SearchbarDesktop_Searchbar2{
-    width:20px;
-    height:20px;
+.SearchbarDesktop_Searchbar2 {
+    width: 20px;
+    height: 20px;
     align-items: center;
     align-content: center;
 }
@@ -390,7 +390,7 @@
     border-color: var(--blox-color-ebb-divider);
     box-shadow: 0 6px 12px -4px rgba(101, 84, 83, .1);
     border-radius: 0 0 12px 12px;
-   
+
 }
 
 .SearchDropdown_OuterCont.active {
@@ -567,7 +567,7 @@
 }
 
 .sliderBudget .thumb {
-   
+
     height: 24px;
     width: 24px;
     background-color: var(--blox-color-white);
@@ -606,7 +606,7 @@
     gap: 10px;
 }
 
-.SearchDropdown_NoResultsCont{
+.SearchDropdown_NoResultsCont {
     padding: 20px;
 }
 
@@ -819,13 +819,13 @@ a {
     position: absolute;
     bottom: 10px;
     right: 10px;
-   
+
 }
 
 .propertycard_propertyNameImgcont {
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 .propertycard_propertyNamecont {
@@ -961,7 +961,7 @@ a {
     display: flex;
     transition: transform 0.3s ease;
     gap: 20px;
-   
+
 }
 
 
@@ -1099,7 +1099,7 @@ a {
     float: right;
     top: 120px;
     display: flex;
-   
+
     margin-right: -100px;
     background: var(--blox-color-white);
     border-radius: 50px;
@@ -1527,7 +1527,7 @@ a {
 }
 
 .StepperchartIcon__Image {
-    color:#000;
+    color: #000;
     width: 25px;
     aspect-ratio: auto 25 / 25;
     height: 25px;
@@ -1589,7 +1589,7 @@ a {
 
 
 .SeoLinks_Swipercardcont {
-   
+
     position: relative;
     z-index: 1;
     display: flex;
@@ -1670,7 +1670,7 @@ a {
     display: none;
 }
 
-.fillHeart{
+.fillHeart {
     fill: red;
     transition: all 0.2s ease-in-out;
 }
@@ -1709,7 +1709,7 @@ a {
         padding: 0 16px;
     }
 
-   
+
     .Homepage_HeroBanner__Herologo {
         overflow: hidden;
     }
@@ -1733,16 +1733,16 @@ a {
         margin-top: 100px;
     }
 
-   
+
     .PropertiesSlider_Tabs__Tabtiltle {
         font-size: 24px;
     }
 
-   
-   
-   
-   
-   
+
+
+
+
+
     .sliderContainer {
         overflow-x: scroll;
         overflow-y: hidden;
@@ -1812,14 +1812,15 @@ a {
         height: 30px;
     }
 
-   
 
-    .FeaturedProductsSlider{
+
+    .FeaturedProductsSlider {
         width: 100%;
     }
+
     .FeaturedVideoPlayer {
         width: 100%;
-        height:800px;
+        height: 800px;
     }
 
     .VideoImg {
@@ -1827,11 +1828,11 @@ a {
         aspect-ratio: auto 800 / 800;
     }
 
-   
+
     .mobile_FeaturedProductSlider_NavBtn_r {
         margin-top: 30px;
         transform: translateX(125px);
-    } 
+    }
 
     .HomePage_LandingPage__TestnomialsSection {
         padding: 0 10px;
@@ -1913,8 +1914,8 @@ a {
         width: 80%;
     }
 
-   
-   
+
+
     .SeoLinks_SeoFooterLinks {
         overflow-x: scroll;
     }
@@ -1927,13 +1928,13 @@ a {
         display: none;
     }
 
-   
 
-   .HomePage_LandingPage__TestnomialsSection{
-    background-color: var(--blox-color-thunder);
-   }
 
-   
+    .HomePage_LandingPage__TestnomialsSection {
+        background-color: var(--blox-color-thunder);
+    }
+
+
     .propertiesSlider_SeeallPropertiesbtn {
         display: none;
     }
@@ -1943,14 +1944,14 @@ a {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-       
+
     }
 
     .suchi {
         width: 100%;
         display: inline-flex;
         animation: 5s slide infinite linear;
-       
+
 
     }
 
@@ -1965,7 +1966,7 @@ a {
 
     }
 
-   
+
 
     .FeaturedProducts_Slider__data {
         display: none;
@@ -2011,24 +2012,29 @@ a {
     .FeatureMobileNameProce_Cont p {
         font-size: 20px;
     }
-    .TopDeveloper_SeeAllBtn{
+
+    .TopDeveloper_SeeAllBtn {
         height: 50px;
         width: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .TopDeveloper_SeeAllBtn__Text{
+
+    .TopDeveloper_SeeAllBtn__Text {
         font-size: 18px;
     }
-    .Homepage_HeroBanner__Herologo{
+
+    .Homepage_HeroBanner__Herologo {
         justify-content: center;
     }
-    .Homepage_Herotext__cont{
+
+    .Homepage_Herotext__cont {
         justify-content: flex-start;
         margin-left: 20px;
     }
-    .Homepage_HeroBanner__Herotext h2{
+
+    .Homepage_HeroBanner__Herotext h2 {
         margin-left: 520px;
     }
 }
@@ -2066,15 +2072,16 @@ a {
         padding: 0 16px;
     }
 
-   
+
     .Homepage_HeroBanner__Herologo {
         overflow: hidden;
     }
 
     .Herbanner_Logiimg {
+        margin-top: 30px;
         width: 344px;
         aspect-ratio: auto 344 / 329;
-        height: 329px;
+        height: 289px;
     }
 
     .Homepage_HeroBanner__Herotext {
@@ -2089,23 +2096,24 @@ a {
         font-size: 24px;
     }
 
-   
+
     .PropertiesSlider_Tabs__Tabtiltle {
         font-size: 16px;
     }
 
-   
-   
-   
-   
-   
+
+
+
+
+
     .sliderContainer {
         overflow-x: scroll;
         overflow-y: hidden;
     }
 
     .slider_propertyCard {
-        width: 350px;
+        height: 500 !important;
+        width: 330px;
     }
 
     .TrustedImg {
@@ -2261,7 +2269,7 @@ a {
 
     .FeaturedProductSlider_Navigation {
         height: 40px !important;
-       
+
         left: -135px;
         top: 200px;
         margin: 0;
@@ -2273,7 +2281,7 @@ a {
         margin-right: 120px;
     }
 
-   
+
     .mobile_FeaturedProductSlider_NavBtn_r {
         margin-top: 30px;
         transform: translateX(125px);
@@ -2359,8 +2367,8 @@ a {
         width: 80%;
     }
 
-   
-   
+
+
     .SeoLinks_SeoFooterLinks {
         overflow-x: scroll;
     }
@@ -2373,10 +2381,10 @@ a {
         display: none;
     }
 
-   
 
 
-   
+
+
     .propertiesSlider_SeeallPropertiesbtn {
         display: none;
     }
@@ -2386,14 +2394,14 @@ a {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-       
+
     }
 
     .suchi {
         width: 100%;
         display: inline-flex;
         animation: 5s slide infinite linear;
-       
+
 
     }
 
@@ -2408,7 +2416,7 @@ a {
 
     }
 
-   
+
 
     .FeaturedProducts_Slider__data {
         display: none;
