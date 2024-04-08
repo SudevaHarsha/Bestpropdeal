@@ -13,17 +13,19 @@ const Slide = React.memo(({ property, setBookASiteVist }) => {
     };
 
     return (
-        <div className="slider_Slide slider_sliderSlide" onClick={handleClick}>
+        <div key={property.position} className="slider_Slide slider_sliderSlide" onClick={handleClick}>
             <div className="slider_propertyCard">
-                {<img
+                {console.log(property.position === 1)}
+                <img
                     src={property.image}
                     className='propertyCardImg'
                     srcSet={`/${property.image}?width=100 100w, /${property.image}?width=200 200w, /${property.image}?width=400 400w, /${property.image}?width=800 800w`}
                     sizes="(max-width: 800px) 100vw, 350px"
-                    loading={property.position != 1 ? 'lazy' : 'eager'}
-                    rel={property.position === 1 && 'preload'}
+                    loading={property.position != 0 ? 'lazy' : 'eager'}
+                    rel={property.position === 0 ? 'preload' : undefined}
                     alt="property card image"
-                />}
+                />
+
 
                 <div className="propertyCardData propertyCard_Datactn">
                     <div className="PropertyCard_propertyData__TopData">
