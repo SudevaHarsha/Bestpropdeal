@@ -43,7 +43,6 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         setPropertyItems(index ? CompletedPropertyItems : OngoingPropertyItems)
     };
 
-
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const PropertyState = (BuildingState, index) => {
@@ -58,7 +57,29 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         console.log(filteredProps)
         console.log(BuildingState)
         setActiveItem(index === activeItem ? null : index);
-        setPropertyItems(filteredProps);
+
+        const desiredOngoingOrder = ["Laxmi Residency", "Sadguru Harmony", "Nano city", "Sarvesh city", "Deep Dhara", "Deepali Paradise","Deep Royal residency", "Deepali residency", "Dashmesh Crystal phase 2","Sunita Palace", "Audumber Crown", "Pinnacle Adharsh"];
+        const desiredCompletedOrder = ["Audumber Flower Valley"];
+
+        const desiredOrder = BuildingState.label === 'Ongoing' ? desiredOngoingOrder : BuildingState==='Completed' ? desiredCompletedOrder : [];
+
+        // Function to compare titles and sort the properties array
+        const sortedProperties = filteredProps.sort((a, b) => {
+            // Get the index of each title in the desired order array
+            const indexA = desiredOrder.indexOf(a.Title);
+            const indexB = desiredOrder.indexOf(b.Title);
+
+            // Compare the indices
+            if (indexA === -1) {
+                return 1; // Move items with titles not in desired order to the end
+            } else if (indexB === -1) {
+                return -1; // Move items with titles not in desired order to the beginning
+            } else {
+                return indexA - indexB; // Sort based on the indices in the desired order
+            }
+        });
+
+        setPropertyItems(desiredOrder.length===0 ? filteredProps : sortedProperties);
     }
 
     const nextNum = windowWidth > 460 ? 3 : 1;

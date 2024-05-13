@@ -42,7 +42,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    gap: 44px;
+    gap: 34px;
     flex-direction: row;
 }
 
@@ -55,7 +55,7 @@
 .Homepage_Herotext__texttitle {
     max-width: 396px;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 54px;
     line-height: 64px;
 }
 
@@ -744,11 +744,16 @@ a {
     width: 400px;
     height: 600px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
+
+/* .slider_propertyCard:hover {
+    transform: scale(1.5);
+} */
 
 .propertyCardImg {
     border-radius: 24px;
-    z-index: -1;
+    /* z-index: -1; */
     position: relative;
     height: 100%;
     width: 100%;
@@ -757,6 +762,12 @@ a {
     right: 0;
     bottom: 0;
     color: transparent;
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+}
+
+.propertyCardImg:hover {
+    transform: scale(1.2);
 }
 
 .propertyCardData {
@@ -1569,7 +1580,7 @@ a {
 }
 
 .StepperchartCard_Description {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
 }
 
@@ -1729,7 +1740,7 @@ a {
     }
 
     .Homepage_Herotext__texttitle {
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 100px;
     }
 

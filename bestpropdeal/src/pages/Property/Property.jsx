@@ -39,7 +39,7 @@ const Property = () => {
   };
 
   const { id } =useParams();
-  const CurrentProperty = PropertyData[id];
+  const CurrentProperty = PropertyData.find((property) => property.Title === id);
 
   const [showHiddenDiv, setShowHiddenDiv] = useState(false);
   const [isGallery, setIsGallery] = useState(false);
@@ -71,9 +71,9 @@ const Property = () => {
   return <>
 
     <Helmet>
-      <title>{CurrentProperty.Title}</title>
-      <meta name='description' content={`Buy ${CurrentProperty.Title}`}></meta>
-      <meta name='keywords' content={`buy properties , properties, bestpropdeal, ${CurrentProperty.Title}, ${CurrentProperty.location}`}></meta>
+      <title>{CurrentProperty?.Title}</title>
+      <meta name='description' content={`Buy ${CurrentProperty?.Title}`}></meta>
+      <meta name='keywords' content={`buy properties , properties, bestpropdeal, ${CurrentProperty?.Title}, ${CurrentProperty?.location}`}></meta>
       <link rel='canonical' href={`/property/1`}></link>
     </Helmet>
 
@@ -88,14 +88,14 @@ const Property = () => {
           {/* <div className='StickyWrapper_NavbarGridCont'>
             <div className="StickyWrapper_NavbarGridHeader">
               <div>
-                <div className="StickyWrapper_NavbarTitle">{CurrentProperty.Title}</div>
+                <div className="StickyWrapper_NavbarTitle">{CurrentProperty?.Title}</div>
               </div>
               <div>
-                <div className="StickyWrapper_NavbarTitle">{CurrentProperty.location}</div>
+                <div className="StickyWrapper_NavbarTitle">{CurrentProperty?.location}</div>
               </div>
             </div>
             <div className="StickyWrapper_NavbarRightData">
-              <div className="StickyWrapper_NavbarTitle StickyWrapper_NavbarPrice">&#8377; {CurrentProperty.Price} Rs.</div>
+              <div className="StickyWrapper_NavbarTitle StickyWrapper_NavbarPrice">&#8377; {CurrentProperty?.Price} Rs.</div>
               <div className="StickyWrapper_NavbarShareIconCont">
                 <img src='https://blox.xyz/assets/icons/share-primary.svg'></img>
               </div>

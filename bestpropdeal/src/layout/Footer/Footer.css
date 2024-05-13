@@ -68,6 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     cursor: pointer;
 }
 
@@ -139,20 +140,18 @@
     color: var(--blox-color-dusty-gray);
 }
 
-
 .StepperchartIcon__Imagef {
-    color:#ffffff;
+    color: #ffffff; /* Default color */
     width: 25px;
     aspect-ratio: auto 25 / 25;
     height: 25px;
+    pointer-events: none;
 }
 
 @media (max-width: 780px) {
     .Fotter {
         padding: 10px;
     }
-
-   
 
     .FotterLinksCont {
         display: block;

@@ -40,7 +40,7 @@ const SearchResultsPage = () => {
         <div className="SearchResults_SearchOverview_HeadingCont">
           <span>
             <h2 className="SearchResults_SearchOverview_Heading">
-              <div className="SearchResults_SearchOverview_HeadingText">Property in {selectedLocation && selectedLocation && ","}Mumbai for Sale</div>
+              <div className="SearchResults_SearchOverview_HeadingText">Property in {selectedLocation && selectedLocation} for Sale</div>
             </h2>
           </span>
         </div>

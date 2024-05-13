@@ -4,7 +4,7 @@ import Slider from "react-slider"
 import OngoingPropertyItems from "../../Data/OngoingPropertyItems.json"
 import CompletedPropertyItems from "../../Data/CompletedPropertyItems.json"
 import properties from "../../Data/Property.json"
-import { FaAccusoft, FaSearch } from 'react-icons/fa'
+import { FaAccusoft, FaArrowDown, FaSearch } from 'react-icons/fa'
 import { FcSearch } from 'react-icons/fc'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 
@@ -72,7 +72,7 @@ const SearchBar = () => {
         const filteredResults = propertyItems.filter((item) => {
             return loc == item.location.split(',')[0]
         })
-        navigate("/search", { state: { filteredResults: filteredResults,selectedLocation: selectedLocation } })
+        navigate("/search", { state: { filteredResults: filteredResults, selectedLocation: selectedLocation } })
     }
     const handleSearch = (name) => {
         const filteredResults = propertyItems.filter((item) => {
@@ -229,13 +229,13 @@ const SearchBar = () => {
                                                 <div className="SearchDropdown_LocationText">LOCATION</div>
                                             </div>
                                             <div className="SearchDropdown_NoResultsCont">
-                                            {/* <img src='https://blox.xyz/_next/image?url=%2Fassets%2Fimages%2Fsearch%2Fdefault-search.png&w=256&q=75'></img> */}
-                                            <FaSearch />
-                                            <div className="SearchDropDown_NoSearchText">Your search results will display here</div>
-                                            {/* {Locations.map((loc, index) => {
+                                                {/* <img src='https://blox.xyz/_next/image?url=%2Fassets%2Fimages%2Fsearch%2Fdefault-search.png&w=256&q=75'></img> */}
+                                                <FaSearch />
+                                                <div className="SearchDropDown_NoSearchText">Your search results will display here</div>
+                                                {/* {Locations.map((loc, index) => {
                                                 return <div className="ResultedLocations" key={index} onClick={() => setSelectedLocation([...selectedLocation, loc])}><div>{loc}</div><div className={`ResultedLocationsIcon ${selectedLocation && selectedLocation.includes(loc) ? "show" : "hide"}`}><FaAccusoft /></div></div>
                                             })} */}
-                                        </div>
+                                            </div>
                                         </div>}
                             </div>
                         </div>
@@ -323,9 +323,9 @@ const SearchBar = () => {
                 </div>
                 <div className="SearchbarDesktop_SearchleftCont">
                     <div className="SearchbarDesktop_Searchbar ">
-                        <FcSearch className='SearchbarDesktop_Searchbar2'/>
+                        <FcSearch className='SearchbarDesktop_Searchbar2' />
                         <div className="SearchbarDesktop_InputOutercont" onClick={() => setOpen(!open)}>
-                            <div className="SearchbarDesktop_LabelHeading">FIND YOUR DREAM HOME</div>
+                            <div className="SearchbarDesktop_LabelHeading">GET YOUR DREAM HOME <FaArrowDown /></div>
                             <div className="SearchbarDesktop_inputCont">
                                 <div className="Searchbar_input__inputcontent">
                                     <input type="text" className="Input_Text-sm__VH_0e Input_InputField__L01BX Input_primary___ZVfL SearchBarDesktop_InputCls__WFBcs SearchBarDesktop_primary__doY22" placeholder="Search for Developers, Location, Projects" maxlength="500" value={searchLocation} onChange={(e) => setSearchLocation(e.target.value)} />
@@ -346,7 +346,7 @@ const SearchBar = () => {
                                     <div className='SearchbarDesktop_PrimaryIcon SearchbarDesktop_PrimaryIcon'>
                                         <div className="SearchesNo">{type.length ? `+ ${type.length}` : 0}</div>
                                     </div>
-                                    <MdKeyboardArrowDown className='SearchbarDesktop_Searchbar2'/>
+                                    <MdKeyboardArrowDown className='SearchbarDesktop_Searchbar2' />
                                 </div>
                             </div>
                         </div>
@@ -361,7 +361,7 @@ const SearchBar = () => {
                                     <div className='SearchbarDesktop_PrimaryIcon SearchbarDesktop_PrimaryIcon'>
                                         <div className="SearchesNo">{searchFilters.length ? `+ ${searchFilters.length}` : 0}</div>
                                     </div>
-                                    <MdKeyboardArrowDown className='SearchbarDesktop_Searchbar2'/>
+                                    <MdKeyboardArrowDown className='SearchbarDesktop_Searchbar2' />
                                 </div>
                             </div>
                         </div>

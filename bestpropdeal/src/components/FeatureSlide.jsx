@@ -74,7 +74,7 @@ const FeatureSlide = ({ property, setBookASiteVist }) => {
                     <div className="FeaturedPropertySlider_DataCont">
                         <div className="FeaturedPropertySlider_Data">
                             <div className="FeaturedPropertySlider_Description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora in unde deleniti nobis ad laboriosam provident, voluptatum id voluptas soluta, dolore pariatur quo. Aspernatur alias officia impedit ea quia.</p>
+                                <p>{property.description}</p>
                             </div>
                         </div>
                         <div className="FeaturedPropertySlider_PriceBtnCont">

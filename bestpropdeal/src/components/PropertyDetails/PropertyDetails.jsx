@@ -34,12 +34,12 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
 
     const { id } = useParams();
 
-    const CurrentProperty = Property[id];
-    /* const [CurrentProperty,setCurrentProperty] = [{}];
+    const CurrentProperty = Property.find((property) => property.Title === id);
+    /* const [CurrentProperty?,setCurrentProperty?] = [{}];
 
     useEffect(()=>{
         const l = Property.filter((item)=>item.Property_ID==id)
-        setCurrentProperty(l);
+        setCurrentProperty?(l);
     },[]) */
     const [readContent, setReadContent] = useState(false);
 
@@ -54,7 +54,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
     /* form validation states*/
 
     const [isAnswer, setIsAnswer] = useState([]);
-    const [pricefloorplanCategories, setPricefloorplanCategories] = useState(CurrentProperty.Overview.configuration);
+    const [pricefloorplanCategories, setPricefloorplanCategories] = useState(CurrentProperty?.Overview.configuration);
     const [isPricefloorplanCategory, setIsPricefloorplanCategory] = useState(0);
     const [verification, setVerification] = useState(false);
     const [mobileNO, setMobileNo] = useState();
@@ -69,7 +69,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
     const [call, setCall] = useState(false);
     const [mobileerror, setMobileError] = useState();
 
-    const videos = CurrentProperty.video;
+    const videos = CurrentProperty?.video;
 
     const form = useRef();
 
@@ -145,7 +145,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
         }
     }
 
-    const FeaturesTrue = Object.entries(CurrentProperty.Features)
+    const FeaturesTrue = Object.entries(CurrentProperty?.Features)
         .filter(([key, value]) => value === true)
         .map(([key, value]) => key);
     const Features = readMore.includes("features") ? FeaturesTrue : FeaturesTrue.slice(0, 7);
@@ -157,8 +157,8 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
         "https://tse3.mm.bing.net/th?id=OIP.xLdBM5Vc6GwvHkdPH0IZ4wHaHi&pid=Api&P=0&h=180"
     ]
 
-    const Localities = Object.keys(CurrentProperty.Locality.NearByLoc);
-    const LocalityTimes = Object.values(CurrentProperty.Locality.NearByLoc);
+    const Localities = Object.keys(CurrentProperty?.Locality.NearByLoc);
+    const LocalityTimes = Object.values(CurrentProperty?.Locality.NearByLoc);
     console.log(LocalityTimes);
 
     const LocalitySlider = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -166,22 +166,22 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const nextSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide === CurrentProperty.FloorPlans.filter((img) => img.url.includes(pricefloorplanCategories[isPricefloorplanCategory])).length - 1 ? 0 : prevSlide + 1));
+        setCurrentSlide((prevSlide) => (prevSlide === CurrentProperty?.FloorPlans.filter((img) => img.url.includes(pricefloorplanCategories[isPricefloorplanCategory])).length - 1 ? 0 : prevSlide + 1));
     };
 
     const prevSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide === 0 ? CurrentProperty.FloorPlans.filter((img) => img.url.includes(pricefloorplanCategories[isPricefloorplanCategory])).length - 1 : prevSlide - 1));
+        setCurrentSlide((prevSlide) => (prevSlide === 0 ? CurrentProperty?.FloorPlans.filter((img) => img.url.includes(pricefloorplanCategories[isPricefloorplanCategory])).length - 1 : prevSlide - 1));
     };
 
     const [currentLocalitySlide, setCurrentLocalitySlide] = useState(0);
 
     const nextLocalitySlide = () => {
-        setCurrentLocalitySlide((prevSlide) => (prevSlide === CurrentProperty.Locality
+        setCurrentLocalitySlide((prevSlide) => (prevSlide === CurrentProperty?.Locality
             .Locations.length - 1 ? 0 : prevSlide + 1));
     };
 
     const prevLocalitySlide = () => {
-        setCurrentLocalitySlide((prevSlide) => (prevSlide === 0 ? CurrentProperty.Locality
+        setCurrentLocalitySlide((prevSlide) => (prevSlide === 0 ? CurrentProperty?.Locality
             .Locations.length - 1 : prevSlide - 1));
     };
 
@@ -240,7 +240,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                         <div className="LeftSection_OverviewData">
                             <div className="Overview_TruncatedTextCont">
                                 <div className={`OverviewTruncatedText ${readMore.includes("overview") ? "show" : "hide"}`}>
-                                    {CurrentProperty && readMore.includes("overview") ? CurrentProperty.Description : CurrentProperty.Description.substring(0, 12) + "..."}
+                                    {CurrentProperty && readMore.includes("overview") ? CurrentProperty?.Description : CurrentProperty?.Description.substring(0, 12) + "..."}
                                     <div className="TruncatedText_ReadMoreBtn" onClick={() => handlereadmore("overview")}>read more</div>
                                 </div>
 
@@ -252,7 +252,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                             Configuration
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
-                                            {CurrentProperty && CurrentProperty.Overview.configuration.join("  ")}
+                                            {CurrentProperty && CurrentProperty?.Overview.configuration.join("  ")}
                                         </div>
                                     </div>
                                     <div>
@@ -260,7 +260,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                             Area
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
-                                            {CurrentProperty && CurrentProperty.Overview.area}sqft
+                                            {CurrentProperty && CurrentProperty?.Overview.area}sqft
                                         </div>
                                     </div>
                                     <div>
@@ -268,8 +268,8 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                             Ready to launch
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
-                                            {CurrentProperty && CurrentProperty.state.Ongoing ? "Ongoing" :
-                                                CurrentProperty.state.completed ? "Completed" : "Not Yet Done"
+                                            {CurrentProperty && CurrentProperty?.state.Ongoing ? "Ongoing" :
+                                                CurrentProperty?.state.completed ? "Completed" : "Not Yet Done"
                                             }
                                         </div>
                                     </div>
@@ -278,7 +278,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                             Average Price
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
-                                            &#8377; {CurrentProperty && CurrentProperty.Price}
+                                            &#8377; {CurrentProperty && CurrentProperty?.Price}
                                         </div>
                                     </div>
                                     <div>
@@ -286,14 +286,14 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                             RERA ID
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
-                                            {CurrentProperty && CurrentProperty.Property_ID}
+                                            {CurrentProperty && CurrentProperty?.Property_ID}
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="OverviewLeftSection_OverviewListCont">
                                         <ul className="OverviewSquareList">
-                                            {CurrentProperty.Advantages.map((item) => (
+                                            {CurrentProperty?.Advantages.map((item) => (
                                                 <li><AiFillStar className='BestpropdealAdvangeImgp' />{item}</li>
                                             ))}
                                             {/*                                             <li><AiFillStar className='BestpropdealAdvangeImgp' />Bandagori Metro is Just 15 km Away</li>
@@ -318,9 +318,9 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                     <h2 className="Amenities_AmenitiesTitle">Features  {FeaturesTrue.length}</h2>
                     {/* <div className="Amenities_AmenitiesDesktop"> */}
                     <div className="Amenities_TagGrid">
-                        {CurrentProperty.Features.ceilings && <div className="AmenitiesTagGrid_Element">
+                        {CurrentProperty?.Features.ceilings && <div className="AmenitiesTagGrid_Element">
                             <BsCheck2Circle className="CheckIcon" />
-                            <div>{CurrentProperty.Features.ceilings} ceilings</div>
+                            <div>{CurrentProperty?.Features.ceilings} ceilings</div>
                         </div>}
                         {CurrentProperty && Features && Features.map((item) => {
                             return <div className="AmenitiesTagGrid_Element">
@@ -387,7 +387,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                         <div className="PriceFloorPlan_HorizantalSwiper">
                                             <div className="PriceFloorPlan_SwipweWrapper">
 
-                                                {CurrentProperty.FloorPlans.filter((img) => img.url.includes(pricefloorplanCategories[isPricefloorplanCategory])).map((image, index) => {
+                                                {CurrentProperty?.FloorPlans.filter((img) => img.url.includes(pricefloorplanCategories[isPricefloorplanCategory])).map((image, index) => {
                                                     return <PriceFloorPlanSlide
                                                         image={image}
                                                         active={currentSlide === index}
@@ -396,7 +396,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                             </div>
                                             <div className="PriceFloorPlan_SwiperPagination">
                                                 {
-                                                    CurrentProperty.FloorPlans.filter((img) => img.url.includes(pricefloorplanCategories[isPricefloorplanCategory])).map((item, index) => {
+                                                    CurrentProperty?.FloorPlans.filter((img) => img.url.includes(pricefloorplanCategories[isPricefloorplanCategory])).map((item, index) => {
                                                         return <span className={`PriceFloorPlan_PaginationBullets ${currentSlide === index ? "active" : "inactive"}`} onClick={() => setCurrentSlide(index)}></span>
                                                     })
                                                 }
@@ -506,12 +506,12 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                 className="slides-wrapper"
                                 style={{
                                     transform: `translateX(-${currentLocalitySlide * (270)}px)`,
-                                    width: `${CurrentProperty.Locality
+                                    width: `${CurrentProperty?.Locality
                                         .Locations.length * 100}%`,
                                 }}
                             >
                                 {
-                                    CurrentProperty.Locality.Locations.map((item, index) => {
+                                    CurrentProperty?.Locality.Locations.map((item, index) => {
                                         return (<div
                                             key={index}
                                             className='Locality_slide'
@@ -551,14 +551,14 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                     {/* <div class="developer_info_section"> */}
                     {/* here in down line i removed developer_squarebox class */}
                     {/* <div className=" developer_squarebox "> */}
-                    <img width="128" height="128" className=' developer_img' src={CurrentProperty.logo} ></img>
+                    <img width="128" height="128" className=' developer_img' src={CurrentProperty?.logo} ></img>
                     {/* </div> */}
                     <h2 className='develop_info_title'>
                         About The Developer
                     </h2>
                     {/*  <div className='developer_description_section'> */}
                     <p className="developer_description">{CurrentProperty?.Description.substring(0, 150)}{readContent ? CurrentProperty?.Description?.substring(150, Property?.Description?.length) : "..."}</p>
-                    {/* <span className={`developer_description ${readContent ? "show" : "hide"}`}> {CurrentProperty?.Description?.substring(150, Property?.Description?.length)}</span> */}
+                    {/* <span className={`developer_description ${readContent ? "show" : "hide"}`}> {CurrentProperty??.Description?.substring(150, Property?.Description?.length)}</span> */}
 
                     {/* <div> */}
                     {/* <div className='developer_readmore_container'> */}
@@ -600,7 +600,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                         </div> */}
                     {/* all faq div */}
                     {
-                        CurrentProperty.FAQ.map((item, index) => {
+                        CurrentProperty?.FAQ.map((item, index) => {
                             return (
                                 <>
                                     <div className="faq_question">

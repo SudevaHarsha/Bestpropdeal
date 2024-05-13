@@ -8,7 +8,6 @@ const GallerCont = ({openGallery}) => {
     const { id } = useParams();
 
     const CurrentProperty = PropertyData[id];
-    console.log(CurrentProperty);
 
     const [currentImage, setCurrentImage] = useState(0);
     const [isMap, setIsMap] = useState(true);
@@ -53,8 +52,8 @@ const GallerCont = ({openGallery}) => {
                                             <div className="GallerySwiperSlide">
                                                 <div className="GallerySwiperImageWrapper">
                                                     {
-                                                        [...Array(CurrentProperty.TotalImages)].map((i, index) => {
-                                                            return currentImage === index && <img src={`../../assets/Property-00${CurrentProperty.id}/Property-00${CurrentProperty.id}${index + 1}.jpg`} alt={`galleryImage-${index}`} className='GallerySwiperImage'></img>
+                                                        [...Array(CurrentProperty?.TotalImages)].map((i, index) => {
+                                                            return currentImage === index && <img src={`../../assets/Property-00${CurrentProperty?.id}/Property-00${CurrentProperty?.id}${index + 1}.jpg`} alt={`galleryImage-${index}`} className='GallerySwiperImage'></img>
                                                         })
                                                     }
                                                 </div>
@@ -88,7 +87,7 @@ const GallerCont = ({openGallery}) => {
                         <div className="GalleryImages_PaginationImageIcon">
                             <div className="GalleryIconPagination_Imagewrapper">
                                 {/* {
-                                    CurrentProperty.Gallery.map((image, index) => {
+                                    CurrentProperty?.Gallery.map((image, index) => {
                                         return <div className="GalleryIconPagination_Icon" onClick={() => setCurrentImage(index)}>
                                             <div>
                                                 <img src={image} className='GalleryIconImage'></img>
@@ -97,9 +96,9 @@ const GallerCont = ({openGallery}) => {
                                     })
                                 } */}
                                 {
-                                    [...Array(CurrentProperty.TotalImages)].map((i, index) => {
+                                    [...Array(CurrentProperty?.TotalImages)].map((i, index) => {
                                         return <div className="GalleryIconPagination_Icon" onClick={() => setCurrentImage(index)}>
-                                            <img src={`../../assets/Property-0${CurrentProperty.id < 10 && 0}${CurrentProperty.id}/Property-0${CurrentProperty.id < 10 && 0}${CurrentProperty.id}${index + 1}.jpg`} alt={`galleryImage-${index}`} className='GalleryIconImage'></img>
+                                            <img src={`../../assets/Property-0${CurrentProperty?.id < 10 && 0}${CurrentProperty?.id}/Property-0${CurrentProperty?.id < 10 && 0}${CurrentProperty?.id}${index + 1}.jpg`} alt={`galleryImage-${index}`} className='GalleryIconImage'></img>
                                         </div>
                                     })
                                 }
@@ -114,22 +113,22 @@ const GallerCont = ({openGallery}) => {
                         <div className="GalleryFooter">
                             <div>
                                 <h2>
-                                    <div className="GalleryFotter_Heading">{CurrentProperty.Title}</div>
+                                    <div className="GalleryFotter_Heading">{CurrentProperty?.Title}</div>
                                 </h2>
-                                <div className="GalleryFotter_SubHeading">{CurrentProperty.location}</div>
+                                <div className="GalleryFotter_SubHeading">{CurrentProperty?.location}</div>
                             </div>
                             <div className="GalleryFotter_RightCont">
                                 <div>
                                     <div className="GalleryFotterText1">Configuration</div>
-                                    <div className="GalleryFotterText2">{CurrentProperty.Overview.configuration.join("  ")}</div>
+                                    <div className="GalleryFotterText2">{CurrentProperty?.Overview.configuration.join("  ")}</div>
                                 </div>
                                 <div>
                                     <div className="GalleryFotterText1">Area</div>
-                                    <div className="GalleryFotterText2">{CurrentProperty.area} sqft</div>
+                                    <div className="GalleryFotterText2">{CurrentProperty?.area} sqft</div>
                                 </div>
                                 <div>
                                     <div className="GalleryFotterText1">Price</div>
-                                    <div className="GalleryFotterText2">&#8377; {CurrentProperty.Price}</div>
+                                    <div className="GalleryFotterText2">&#8377; {CurrentProperty?.Price}</div>
                                 </div>
                             </div>
                         </div>

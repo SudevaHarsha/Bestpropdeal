@@ -22,22 +22,22 @@ const PropertyViewerSlider = React.memo(({ isGallery, openGallery }) => {
     console.log(like);
     
 
-    const CurrentProperty = Property[id];
+    const CurrentProperty = Property.find((property) => property.Title === id);
 
     const [heart, setHeart] = useState(false);
 
-    const images = CurrentProperty.Gallery.length > 5 ? CurrentProperty.Gallery.slice(0, 5) : CurrentProperty.Gallery;
+    const images = CurrentProperty?.Gallery.length > 5 ? CurrentProperty?.Gallery.slice(0, 5) : CurrentProperty?.Gallery;
     /* const Features = readMore.includes("features")?FeaturesTrue:FeaturesTrue.slice(0,7); */
 
-    console.log(like.includes(CurrentProperty.Title));
+    console.log(like.includes(CurrentProperty?.Title));
 
     const handleLikeClick = () => {
-        if (like.includes(CurrentProperty.Title)) {
-            const remainingLikes = like.filter((item) => item != CurrentProperty.Title);
+        if (like.includes(CurrentProperty?.Title)) {
+            const remainingLikes = like.filter((item) => item != CurrentProperty?.Title);
             setLike(remainingLikes);
             localStorage.setItem('like', JSON.stringify(remainingLikes))
         } else {
-       const newLikes = [...like, CurrentProperty.Title];
+       const newLikes = [...like, CurrentProperty?.Title];
             setLike(newLikes);
             localStorage.setItem('like', JSON.stringify(newLikes));
         }
@@ -114,11 +114,11 @@ const PropertyViewerSlider = React.memo(({ isGallery, openGallery }) => {
                 <div className="PropertyCard_DataCont">
                     <div className="PropertyViewerCard_PropertyData">
                         <div className="PropertyViewerCard_PropertyNameIconCont">
-                            <img className='PropertyViewerCard_PropertyIcon' src={CurrentProperty.logo} width="70px" height="70px"></img>
+                            <img className='PropertyViewerCard_PropertyIcon' src={CurrentProperty?.logo} width="70px" height="70px"></img>
                             <h1 className='PropertyViewerCard_PropertyNameCont'>
-                                <div className="PropertyViewerCard_PropertyTitleText">{CurrentProperty.Title}</div>
+                                <div className="PropertyViewerCard_PropertyTitleText">{CurrentProperty?.Title}</div>
                             </h1>
-                            <div className="PropertyViewerCard_PropertyLongAddressCont">{CurrentProperty.detailedLocation}</div>
+                            <div className="PropertyViewerCard_PropertyLongAddressCont">{CurrentProperty?.detailedLocation}</div>
                         </div>
                         <div className="PropertyViewerCard_PropertyActnBtnPRangeCtn">
                             <div className='PropertyViewerCard_PropertyCardActionBtn'>
@@ -143,12 +143,12 @@ const PropertyViewerSlider = React.memo(({ isGallery, openGallery }) => {
                                     <div className="PropertyViewerCard_Btn" onClick={() => {
                                         handleLikeClick()
                                     }}>
-                                        <button className='PropertyViewerCard_BtnImg'><FaHeart className={`${like.includes(CurrentProperty.Title) ? "PropertyViewerCard_BtnImg2active" : "PropertyViewerCard_BtnImg2"}`} /></button>
+                                        <button className='PropertyViewerCard_BtnImg'><FaHeart className={`${like.includes(CurrentProperty?.Title) ? "PropertyViewerCard_BtnImg2active" : "PropertyViewerCard_BtnImg2"}`} /></button>
                                     </div>
                                 </div>
                             </div>
                             <div className="PropertViewerCard_PropertyRangeBtnCont">
-                                <div className='PropertyViewerCard_RangeText'>&#8377; {CurrentProperty.Price}</div>
+                                <div className='PropertyViewerCard_RangeText'>&#8377; {CurrentProperty?.Price}</div>
                             </div>
                         </div>
                         <div className="PropertyViewerCard_PropertyActionBtnSetright">
@@ -170,8 +170,8 @@ const PropertyViewerSlider = React.memo(({ isGallery, openGallery }) => {
                     </div>
                     <div className="PropertyViewerCard_PropertySubData">
                         <div className="PropertyViewerCard_PropertyInfoCont">
-                            <div className="PropertyViewerCard_ShortAddressCont">{CurrentProperty.location}</div>
-                            <div className="PropertyViewerCard_MobileRangelabel">&#8377; {CurrentProperty.Price}</div>
+                            <div className="PropertyViewerCard_ShortAddressCont">{CurrentProperty?.location}</div>
+                            <div className="PropertyViewerCard_MobileRangelabel">&#8377; {CurrentProperty?.Price}</div>
                         </div>
                         <div className="PropertViewerCard_CallRMActionBtnCont">
                             <div className="PropertyViewerCard_MobileCallRMBtn">
@@ -184,8 +184,8 @@ const PropertyViewerSlider = React.memo(({ isGallery, openGallery }) => {
                     </div>
                     <div className="PropertyViewerCard_PropertySubDataCtn__ShLIt">
                         <div className="PropertyViewerCard_PropertyInfoCtn__T37bU">
-                            <div className="PropertyViewerCard_PropertyAddressShort__4deRi">{CurrentProperty.location}</div>
-                            <div className="PropertyViewerCard_PropertyMobileProce">&#8733; {CurrentProperty.Price}</div>
+                            <div className="PropertyViewerCard_PropertyAddressShort__4deRi">{CurrentProperty?.location}</div>
+                            <div className="PropertyViewerCard_PropertyMobileProce">&#8733; {CurrentProperty?.Price}</div>
                         </div>
                         <div className="PropertyViewerCard_CallRmActionBtnCtn__SQDNQ">
                             <div className="PropertyViewerCard_PropActionBtn__K0p_l">

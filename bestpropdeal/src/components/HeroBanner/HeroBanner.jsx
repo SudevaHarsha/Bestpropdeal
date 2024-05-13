@@ -15,9 +15,9 @@ const HeroBanner = React.memo(() => {
             <div className="Homepage_HeroBanner__HeroTextContainer">
                 <div className="Homepage_HeroBanner__Herotext">
                     <div className="Homepage_Herotext__cont">
-                        <h1 className='Homepage_Herotext__texttitle'>Find Your Dream Home</h1>
+                        <h1 className='Homepage_Herotext__texttitle'>Discovering Your New Address</h1>
                     </div>
-                    <h2 className='Homepage_Herotext__smalltext'>India's first consumer centric real-estate platform</h2>
+                    <h2 className='Homepage_Herotext__smalltext'>Let us find your perfect place to call home</h2>
                 </div>
 
             </div>

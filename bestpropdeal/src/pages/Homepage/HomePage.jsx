@@ -17,14 +17,49 @@ import Searchpopup from '../../components/SearchBar/Searchpopup'
 import { Helmet } from 'react-helmet-async'
 import minilogo from "../../Assets/Logo-2.svg"
 
+import axios from 'axios';
+
 const HomePage = () => {
 
     const [bookASiteVistHome, setBookASiteVistHome] = useState(0);
     const [searchPopup, setSearchPopup] = useState(false);
     const [rocket, setRocket] = useState(true);
-    const H1Styles = {
-        "margin-top": "100px"
-    }
+    const [leadData, setLeadData] = useState({
+        name: '',
+        mobile: '',
+        email: '',
+        project: '',
+        source: '',
+        subSource: '',
+        userEmail: '',
+        comment: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setLeadData({ ...leadData, [name]: value });
+    };
+
+    const handleSubmit = async () => {
+        try {
+            await axios.post('https://glitz.apps.enrichr.co/public/companies/c7a3bb3b-1f2b-47b5-b9c1-e0ccd38dac05/leads-all', leadData);
+            alert('Lead submitted successfully!');
+            // Optionally, you can reset the form fields here
+            setLeadData({
+                name: '',
+                mobile: '',
+                email: '',
+                project: '',
+                source: '',
+                subSource: '',
+                userEmail: '',
+                comment: ''
+            });
+        } catch (error) {
+            console.error('Error submitting lead:', error);
+            alert('Failed to submit lead. Please try again later.');
+        }
+    };
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -49,49 +84,61 @@ const HomePage = () => {
 
         {/* {rocket && <Rocket />} */}
 
-        {/* !rocket  &&*/ 
-        <>
-        <Navbar type="fixed" bcolor="#342f30" />
-        <div className="Homepage_landingPage__Herosection">
-            <HeroBanner />
-            <div className='Homepage_searchDesktop'>
-                <SearchBar />
-            </div>
-            <div className='Homepage_searchMobile' onClick={() => setSearchPopup(!searchPopup)}>
-                <SearchMobile />
-            </div>
-            <PropertiesSlider setBookASiteVist={setBookASiteVistHome} />
-            <div className="Bestpropdeal_FeaturedProjects">
-                {/* <img src='../../Assets/FeaturedProducts.png'></img> */}
-                <div className='FeaturedProjects_TitleCont'>
-                    <h1 className='Homepage_Featured__title'>Featured</h1>
-                    <img src={diamond} className='diamond' alt=''></img>
-                    <h1 className='Homepage_Featured__title'>Products</h1>
-                </div>
-            </div>
-            <FeaturedProjectsSlider setBookASiteVist={setBookASiteVistHome} />
-        </div>
-        <div className={`${bookASiteVistHome ? "property_Deatiles_rmcard_callrm_form_container" : "property_Deatiles_rmcard_callrm_form_containerdisplay"}`}>
-            <BookASiteVisit bookASiteVist={bookASiteVistHome} setBookASiteVist={setBookASiteVistHome} />
-        </div>
-        <div className="HomePage_LandingPage__TestnomialsSection">
-            <TopDeveloper />
-            <BestPropDealAdvantage />
-            <SeoLinks />
-        </div>
-
-        <Footer />
-        
-        {
-            searchPopup && <div className="MobileSearchPopup">
-                <div className="MobileSearchPopupCont">
-                    <div className="MobileSearchInventoryCont">
-                        <Searchpopup searchPopup={searchPopup} setSearchPopup={setSearchPopup} />
+        {/* !rocket  &&*/
+            <>
+                <Navbar type="fixed" bcolor="#342f30" />
+                <div className="Homepage_landingPage__Herosection">
+                    <HeroBanner />
+                    <div className='Homepage_searchDesktop'>
+                        <SearchBar />
                     </div>
+                    <div className='Homepage_searchMobile' onClick={() => setSearchPopup(!searchPopup)}>
+                        <SearchMobile />
+                    </div>
+                    {/* <div>
+                        <h2>Lead Form</h2>
+                        <input type="text" name="name" value={leadData.name} placeholder="Name" onChange={handleChange} />
+                        <input type="text" name="mobile" value={leadData.mobile} placeholder="Mobile" onChange={handleChange} />
+                        <input type="email" name="email" value={leadData.email} placeholder="Email" onChange={handleChange} />
+                        <input type="text" name="project" value={leadData.project} placeholder="Project" onChange={handleChange} />
+                        <input type="text" name="source" value={leadData.source} placeholder="Source" onChange={handleChange} />
+                        <input type="text" name="subSource" value={leadData.subSource} placeholder="Sub Source" onChange={handleChange} />
+                        <input type="email" name="userEmail" value={leadData.userEmail} placeholder="User Email" onChange={handleChange} />
+                        <textarea name="comment" value={leadData.comment} placeholder="Comment" onChange={handleChange} />
+                        <button onClick={handleSubmit}>Submit</button>
+                    </div> */}
+                    <PropertiesSlider setBookASiteVist={setBookASiteVistHome} />
+                    <div className="Bestpropdeal_FeaturedProjects">
+                        {/* <img src='../../Assets/FeaturedProducts.png'></img> */}
+                        <div className='FeaturedProjects_TitleCont'>
+                            <h1 className='Homepage_Featured__title'>Featured</h1>
+                            <img src={diamond} className='diamond' alt=''></img>
+                            <h1 className='Homepage_Featured__title'>Products</h1>
+                        </div>
+                    </div>
+                    <FeaturedProjectsSlider setBookASiteVist={setBookASiteVistHome} />
                 </div>
-            </div>
-        }
-        </>
+                <div className={`${bookASiteVistHome ? "property_Deatiles_rmcard_callrm_form_container" : "property_Deatiles_rmcard_callrm_form_containerdisplay"}`}>
+                    <BookASiteVisit bookASiteVist={bookASiteVistHome} setBookASiteVist={setBookASiteVistHome} />
+                </div>
+                <div className="HomePage_LandingPage__TestnomialsSection">
+                    <TopDeveloper />
+                    <BestPropDealAdvantage />
+                    <SeoLinks />
+                </div>
+
+                <Footer />
+
+                {
+                    searchPopup && <div className="MobileSearchPopup">
+                        <div className="MobileSearchPopupCont">
+                            <div className="MobileSearchInventoryCont">
+                                <Searchpopup searchPopup={searchPopup} setSearchPopup={setSearchPopup} />
+                            </div>
+                        </div>
+                    </div>
+                }
+            </>
         }
     </>
 }

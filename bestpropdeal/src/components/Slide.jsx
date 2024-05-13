@@ -9,7 +9,7 @@ const Slide = React.memo(({ property, setBookASiteVist }) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(`/property/${property.position}`);
+        navigate(`/property/${property.Title}`);
     };
 
     return (

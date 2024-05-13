@@ -51,12 +51,13 @@ const MapSection = React.memo(({ property, activeLoc, activeCategory }) => {
             </Marker>
             {activeCategory.length > 0 &&
                 property.Locality.Locations.map((item) => {
-                    return activeCategory.includes(item.Category) && <Marker position={[item.Lattitude, item.Longitude]} icon={activeLoc.Lattitude === item.Lattitude && activeLoc.Longitude === item.Longitude ? blueIcon : greenIcon}>
+                    return activeCategory.includes(item.Category) && <div><Marker className="marker_map" position={[item.Lattitude, item.Longitude]} icon={activeLoc.Lattitude === item.Lattitude && activeLoc.Longitude === item.Longitude ? blueIcon : greenIcon} >
                         {/*  icon={activeLoc.Lattitude === item.Lattitude && activeLoc.Longitude === item.Longitude ? blueIcon : greenIcon} */}
                         <Popup>
                             {item.Name}
                         </Popup>
                     </Marker>
+                    </div>
                 })
             }
             {activeCategory.length === 0 &&
@@ -71,10 +72,10 @@ const MapSection = React.memo(({ property, activeLoc, activeCategory }) => {
             }
             <SetViewOnClick
                 coords={[
-                    centerLattitude,centerLongitude
+                    centerLattitude, centerLongitude
                 ]}
             />
-        </MapContainer>
+        </MapContainer >
     </>
 })
 
