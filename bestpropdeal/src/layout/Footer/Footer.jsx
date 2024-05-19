@@ -80,7 +80,7 @@ const Footer = () => {
                         <Link aria-label='Email to bestpropdeal' to="/">
                             <div className="FotterListIcon">
                                 {/* <div className="FotterListIconBtn"> */}
-                                <button className="FotterListIconBtn" ><HiOutlineMail className='StepperchartIcon__Imagef' /></button>
+                                <button className="FotterListIconBtn"  style={{ transition: "box-shadow 0.3s", boxShadow: "none" }} onMouseOver={(e) => { e.target.style.boxShadow = "rgba(255, 0, 0, 0.4) 0px 0px 0px 2px, rgba(255, 0, 0, 0.65) 0px 4px 6px -1px, rgba(255, 0, 0, 0.08) 0px 1px 0px inset"; e.target.querySelector('.StepperchartIcon__Imagef').style.color = '#ff0000' }} onMouseOut={(e) => { e.target.style.boxShadow = "none"; e.target.querySelector('.StepperchartIcon__Imagef').style.color = '#ffffff' }}><HiOutlineMail className='StepperchartIcon__Imagef' /></button>
                                 {/* </div> */}
                                 {/* <div className="FotterListIconLabel"> */}
                                 <p className="FotterListIconLabel">Email us:</p>
@@ -91,7 +91,7 @@ const Footer = () => {
                         <Link aria-label='call to bestpropdeal' to="/">
                             <div className="FotterListIcon">
                                 {/* <div className="FotterListIconBtn"> */}
-                                <button className="FotterListIconBtn" ><BiPhoneCall className='StepperchartIcon__Imagef' /></button>                                    {/* </div> */}
+                                <button className="FotterListIconBtn"  style={{ transition: "box-shadow 0.3s", boxShadow: "none" }} onMouseOver={(e) => { e.target.style.boxShadow = "rgba(255, 0, 0, 0.4) 0px 0px 0px 2px, rgba(255, 0, 0, 0.65) 0px 4px 6px -1px, rgba(255, 0, 0, 0.08) 0px 1px 0px inset"; e.target.querySelector('.StepperchartIcon__Imagef').style.color = '#ff0000' }} onMouseOut={(e) => { e.target.style.boxShadow = "none"; e.target.querySelector('.StepperchartIcon__Imagef').style.color = '#ffffff' }}><BiPhoneCall className='StepperchartIcon__Imagef' /></button>                                    {/* </div> */}
                                 {/* <div className="FotterListIconLabel"> */}
                                 <p className="FotterListIconLabel">Call us:</p>
                                 <p className="FotterListIconLabel">+91-7969669900 </p>

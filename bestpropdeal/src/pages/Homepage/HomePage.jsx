@@ -112,7 +112,6 @@ const HomePage = () => {
                         {/* <img src='../../Assets/FeaturedProducts.png'></img> */}
                         <div className='FeaturedProjects_TitleCont'>
                             <h1 className='Homepage_Featured__title'>Featured</h1>
-                            <img src={diamond} className='diamond' alt=''></img>
                             <h1 className='Homepage_Featured__title'>Products</h1>
                         </div>
                     </div>

@@ -36,7 +36,8 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         // Add more items as needed
     ];
 
-    const [propertyItems, setPropertyItems] = useState(Property);
+    const [propertyItems, setPropertyItems] = useState(Property.filter((p) => p.BuildingState === 'Ongoing'));
+
 
     const handleItemClick = (index) => {
         setActiveItem(index === activeItem ? null : index);
@@ -58,10 +59,10 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         console.log(BuildingState)
         setActiveItem(index === activeItem ? null : index);
 
-        const desiredOngoingOrder = ["Laxmi Residency", "Sadguru Harmony", "Nano city", "Sarvesh city", "Deep Dhara", "Deepali Paradise","Deep Royal residency", "Deepali residency", "Dashmesh Crystal phase 2","Sunita Palace", "Audumber Crown", "Pinnacle Adharsh"];
+        const desiredOngoingOrder = ["Laxmi Residency", "Sadguru Harmony", "Nano city", "Sarvesh city", "Deep Dhara", "Deepali Paradise", "Deep Royal residency", "Deepali residency", "Dashmesh Crystal phase 2", "Sunita Palace", "Audumber Crown", "Pinnacle Adharsh"];
         const desiredCompletedOrder = ["Audumber Flower Valley"];
 
-        const desiredOrder = BuildingState.label === 'Ongoing' ? desiredOngoingOrder : BuildingState==='Completed' ? desiredCompletedOrder : [];
+        const desiredOrder = BuildingState.label === 'Ongoing' ? desiredOngoingOrder : BuildingState === 'Completed' ? desiredCompletedOrder : [];
 
         // Function to compare titles and sort the properties array
         const sortedProperties = filteredProps.sort((a, b) => {
@@ -79,7 +80,7 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
             }
         });
 
-        setPropertyItems(desiredOrder.length===0 ? filteredProps : sortedProperties);
+        setPropertyItems(desiredOrder.length === 0 ? filteredProps : sortedProperties);
     }
 
     const nextNum = windowWidth > 460 ? 3 : 1;
