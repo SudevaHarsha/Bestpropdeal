@@ -26,7 +26,12 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         };
     }, []);
 
-    const slideMoveWidth = windowWidth > 460 ? 420 : 370;
+        /* useEffect(() => {
+            const props = PropertyState('Ongoing', 0);
+            setPropertyItems(props);
+        }, []); */
+
+    const slideMoveWidth = windowWidth > 460 ? 420 : windowWidth-10;
     console.log(slideMoveWidth);
 
     const listItems = [
@@ -36,8 +41,10 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         // Add more items as needed
     ];
 
-    const [propertyItems, setPropertyItems] = useState(Property.filter((p) => p.BuildingState === 'Ongoing'));
+    const desiredOngoingOrder = ["Panvelkar Greens", "Laxmi Residency", "Sadguru Harmony", "Nano city", "Sarvesh city", "Deep Dhara", "Deepali Paradise", "Deep Royal residency", "Deepali residency", "Dashmesh Crystal phase 2", "Sunita Palace", "Audumber Crown", "Pinnacle Adharsh"];
+    const desiredCompletedOrder = ["Audumber Flower Valley"];
 
+    const [propertyItems, setPropertyItems] = useState(Property);
 
     const handleItemClick = (index) => {
         setActiveItem(index === activeItem ? null : index);
@@ -59,7 +66,7 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         console.log(BuildingState)
         setActiveItem(index === activeItem ? null : index);
 
-        const desiredOngoingOrder = ["Laxmi Residency", "Sadguru Harmony", "Nano city", "Sarvesh city", "Deep Dhara", "Deepali Paradise", "Deep Royal residency", "Deepali residency", "Dashmesh Crystal phase 2", "Sunita Palace", "Audumber Crown", "Pinnacle Adharsh"];
+        const desiredOngoingOrder = ["Panvelkar Greens", "Laxmi Residency", "Sadguru Harmony", "Nano city", "Sarvesh city", "Deep Dhara", "Deepali Paradise", "Deep Royal residency", "Deepali residency", "Dashmesh Crystal phase 2", "Sunita Palace", "Audumber Crown", "Pinnacle Adharsh"];
         const desiredCompletedOrder = ["Audumber Flower Valley"];
 
         const desiredOrder = BuildingState.label === 'Ongoing' ? desiredOngoingOrder : BuildingState === 'Completed' ? desiredCompletedOrder : [];
@@ -81,6 +88,7 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         });
 
         setPropertyItems(desiredOrder.length === 0 ? filteredProps : sortedProperties);
+        return filteredProps
     }
 
     const nextNum = windowWidth > 460 ? 3 : 1;
