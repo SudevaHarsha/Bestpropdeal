@@ -41,7 +41,7 @@ const TopDeveloperMobile = React.memo(() => {
             <img alt={`Company logo of Dashmesh Infrastructure`} loading='lazy' src='../../images/Kothari copy.webp' height="70px" width="70px"></img>
           </li>
           <li className="TopDev_MobileDeveloperLogo" onClick={() => { handleDeveloperClick("Dashmesh Infrastructure") }}>
-            <img alt={`Company logo of Dashmesh Infrastructure`} loading='lazy' src='../../images/Nano City copy.webp' height="70px" width="70px"></img>
+            <img alt={`Company logo of Dashmesh Infrastructure`} loading='lazy' src='../../images/Panvelkar-Logo.webp' height="70px" width="70px"></img>
           </li>
           <li className="TopDev_MobileDeveloperLogo" onClick={() => { handleDeveloperClick("Pinnacle Group") }}>
             <img alt={`Company logo of Pinnacle Group`} loading='lazy' src='../../images/Pinnacle copy.webp' height="70px" width="70px"></img>
@@ -75,7 +75,7 @@ const TopDeveloperMobile = React.memo(() => {
             <img alt={`Company logo of Dashmesh Infrastructure`} loading='lazy' src='../../images/Kothari copy.webp' height="70px" width="70px"></img>
           </li>
           <li className="TopDev_MobileDeveloperLogo" onClick={() => { handleDeveloperClick("Dashmesh Infrastructure") }}>
-            <img alt={`Company logo of Dashmesh Infrastructure`} loading='lazy' src='../../images/Nano City copy.webp' height="70px" width="70px"></img>
+            <img alt={`Company logo of Dashmesh Infrastructure`} loading='lazy' src='../../images/Panvelkar-Logo.webp' height="70px" width="70px"></img>
           </li>
           <li className="TopDev_MobileDeveloperLogo" onClick={() => { handleDeveloperClick("Pinnacle Group") }}>
             <img alt={`Company logo of Pinnacle Group`} loading='lazy' src='../../images/Pinnacle copy.webp' height="70px" width="70px"></img>

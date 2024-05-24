@@ -260,12 +260,12 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                             Area
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
-                                            {CurrentProperty && CurrentProperty?.Overview.area}sqft
+                                            {CurrentProperty && CurrentProperty?.Overview.area} sqft
                                         </div>
                                     </div>
                                     <div>
                                         <div className="OverviewSubgrid_Overviewlabel">
-                                            Ready to launch
+                                            Project Status
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
                                             {CurrentProperty && CurrentProperty?.state.Ongoing ? "Ongoing" :
@@ -275,7 +275,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                     </div>
                                     <div>
                                         <div className="OverviewSubgrid_Overviewlabel">
-                                            Average Price
+                                            Price Onwards
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
                                             &#8377; {CurrentProperty && CurrentProperty?.Price}

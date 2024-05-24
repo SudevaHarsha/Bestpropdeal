@@ -20,6 +20,9 @@ const SearchResultsPage = () => {
   const Navigation = ["home", `${searchFilters && searchFilters.map((item) => { return item })} ${type && type.map((item) => { return item })} Properties ${"at " + selectedLocation || 'mumbai'} in mumbai`];
   console.log(filteredResults, Navigation);
 
+  const centerLattitude = filteredResults[0].Lattitude;
+  const centerLongitude = filteredResults[0].Longitude;
+
   return <>
     <Navbar type="sticky" bcolor="#342f30" />
     <div className="SearchPage_SearchCont">
@@ -62,21 +65,20 @@ const SearchResultsPage = () => {
       <div>
         <div className="SearchResults_ResultCardCont">
           <div style={{ height: "100%", width: "calc(100vw - 700px)", "z-index": "-123" }}>
-            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
+            <MapContainer center={[centerLattitude, centerLongitude]} zoom={13} scrollWheelZoom={true}>
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
-              <Marker position={[51.505, -0.09]}>
-                <Popup>
-                  A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-              </Marker>
-              <Marker position={[51.50, -0.09]}>
-                <Popup>
-                  A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-              </Marker>
+              {
+                filteredResults.map((result) => {
+                  return <Marker position={[result.Lattitude, result.Longitude]}>
+                    <Popup>
+                      {result.Title}
+                    </Popup>
+                  </Marker>
+                })
+              }
             </MapContainer>
           </div>
           {/* <SearchPageCardCont filteredResults={filteredResults} /> */}

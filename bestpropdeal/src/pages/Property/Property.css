@@ -1365,7 +1365,7 @@ section {
     width: 128px !important;
     height: 128px;
     margin:  auto 350px;
-    border-radius: 40px;
+    border-radius: 10px;
     border: 1.65px solid #ece7e4;
     box-shadow: 0 8.53333px 17.0667px rgba(0, 0, 0, .08);
     object-fit: contain;

@@ -18,7 +18,7 @@ const TopDeveloper = () => {
     ];
 
     const TopDevListItems_Row_2 = [
-        { label: '../../images/Nano City copy.webp',name: "Dashmesh Infrastructure" },
+        { label: '../../images/Panvelkar-Logo.webp',name: "Dashmesh Infrastructure" },
         { label: '../../images/Pinnacle copy.webp',name: "Pinnacle Group" },
         { label: '../../images/Pinnacle Group copy.webp',name: "Dashmesh Infrastructure" },
         { label: '../../images/Sadguru Group copy.webp',name: "Sadguru Group" },
