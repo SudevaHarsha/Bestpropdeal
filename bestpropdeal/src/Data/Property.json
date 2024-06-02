@@ -394,7 +394,7 @@
         "Title": "Nano city",
         "image": "../../assets/Property-003/freecompress-Property-0031.webp",
         "image2": "../../assets/Property-003/Property-0031.jpg",
-        "logo": "../../images/Nano City copy.png",
+        "logo": "../../images/Pinnacle copy.webp",
         "partner": "Dashmesh Infrastructure",
         "location": "Kharvani, mumbai",
         "detailedLocation": "Nano city, opp Indian Oil petrol Pump, Karjat Road, Joveli, Badlapur East - 421503",
@@ -403,8 +403,8 @@
             "Ongoing": true,
             "completed": false
         },
-        "Lattitude": "19.142688",
-        "Longitude": "73.248628",
+        "Lattitude": "19.143001",
+        "Longitude": "73.248443",
         "Bedrooms": 0,
         "Bathrooms": 2,
         "position": 1,
@@ -430,7 +430,7 @@
                 "1BHK ",
                 "2BHK"
             ],
-            "area": 415,
+            "area": "251 sqft - 630",
             "prices": {
                 "1BHK": 2388000,
                 "2BHK": 3396000
@@ -664,34 +664,16 @@
         },
         "FloorPlans": [
             {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver.webp",
+                "name": "1BHK SILVER",
+                "price": "376 sq ft",
+                "area": "22.99 Lakh."
+            },
+            {
                 "url": "../../assets/Property-003/PriceFloorPlans/1BHK Gold.webp",
                 "name": "1BHK GOLD Nano City",
                 "price": "398 Sq Ft",
                 "area": "24.25 Lakh"
-            },
-            {
-                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum Plus.webp",
-                "name": "1BHK Platinium Plus",
-                "price": "435 Sq ft",
-                "area": "27.60 Lakh "
-            },
-            {
-                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum.webp",
-                "name": "1BHK Platinum Nano City",
-                "price": "409 Sq Ft",
-                "area": "25.99 Lakh "
-            },
-            {
-                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Diamond.webp",
-                "name": "1BHK Premium diamond",
-                "price": "424",
-                "area": "27.69 Lakh"
-            },
-            {
-                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Gold.webp",
-                "name": "1BHK Premium Gold",
-                "price": "415",
-                "area": "26.99 Lakh"
             },
             {
                 "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver Plus.webp",
@@ -700,10 +682,34 @@
                 "area": "25.25 Lakh"
             },
             {
-                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Silver.webp",
-                "name": "1BHK SILVER",
-                "price": "376 sq ft",
-                "area": "22.99 Lakh."
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum.webp",
+                "name": "1BHK Platinum Nano City",
+                "price": "409 Sq Ft",
+                "area": "25.99 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Gold.webp",
+                "name": "1BHK Premium Gold",
+                "price": "415",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Premium Diamond.webp",
+                "name": "1BHK Premium diamond",
+                "price": "424",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1BHK Platinum Plus.webp",
+                "name": "1BHK Platinium Plus",
+                "price": "435 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-003/PriceFloorPlans/1RK Silver.webp",
+                "name": "1RK Silver",
+                "price": " 251 sq ft ",
+                "area": "15.99 Lakh "
             },
             {
                 "url": "../../assets/Property-003/PriceFloorPlans/1RK Gold.webp",
@@ -718,10 +724,10 @@
                 "area": "18.49 Lakh"
             },
             {
-                "url": "../../assets/Property-003/PriceFloorPlans/1RK Silver.webp",
-                "name": "1RK Silver",
-                "price": " 251 sq ft ",
-                "area": "15.99 Lakh "
+                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Rose Gold.webp",
+                "name": "2BHK Rose Gold",
+                "price": "496 Sq Ft",
+                "area": "31.99 Lakh"
             },
             {
                 "url": "../../assets/Property-003/PriceFloorPlans/2BHK Blue Diamond.webp",
@@ -734,12 +740,6 @@
                 "name": "2BHK Kohinoor",
                 "price": "630 Sq Ft",
                 "area": "39.99 Lakh"
-            },
-            {
-                "url": "../../assets/Property-003/PriceFloorPlans/2BHK Rose Gold.webp",
-                "name": "2BHK Rose Gold",
-                "price": "496 Sq Ft",
-                "area": "31.99 Lakh"
             }
         ],
         "FAQ": [
@@ -5114,6 +5114,434 @@
             "../../assets/Property-015/freecompress-Property-0154.webp",
             "../../assets/Property-015/freecompress-Property-0155.webp",
             "../../assets/Property-015/freecompress-Property-0156.webp"
+        ],
+        "Gallery2": [
+            "../../assets/Property-015/Property-0151.jpg",
+            "../../assets/Property-015/Property-0152.jpg"
+        ],
+        "FAQ": [
+            {
+                "question": "What types of units are available in Panvelkar Greens?",
+                "answer": "Panvelkar  Greens offers a variety of units, including  1BHK & 2BHK  These range from compact apartments to more spacious configurations, catering to different housing needs."
+            },
+            {
+                "question": "How much carpet area is available in the units at Panvelkar Greens?",
+                "answer": "The carpet area of units in Panvelkar Greens varies based on the specific unit type. Please refer to the floor plans or contact our sales team for detailed information on carpet area for each unit. The Range of Carpet Start From 28.05 Sq. Mtr.  To 33.51 Sq.Mtrs "
+            },
+            {
+                "question": "What is the starting price for units in Panvelkar Greens?",
+                "answer": "Prices for units in Panvelkar Greens start from 23.50 Lakh. Please note that prices may vary based on the unit size, location within the complex, and other factors."
+            },
+            {
+                "question": "Where is Panvelkar Greens located?",
+                "answer": "Panvelkar Greens is conveniently located at Joveli, Badlapur East, providing residents with easy access to Proposed Panvel Highway & Old Pune Highway ."
+            },
+            {
+                "question": "How far is Panvelkar Greens from the nearest railway station?",
+                "answer": "Panvelkar Greens is situated approximately 7-8 Min Drive from the Badlapur railway station, ensuring convenient transportation options for residents."
+            },
+            {
+                "question": "Are there markets and other essential facilities near Panvelkar Greens?",
+                "answer": "Yes, Panvelkar Greens benefits from its proximity to Patel R- Mart & Kharvai Market, providing residents with convenient access to essential amenities."
+            },
+            {
+                "question": "What are the key amenities and features available in Panvelkar Greens?",
+                "answer": "Panvelkar Greens offers a range of amenities and features, including Swimming Pool,Open Air Mini Theatre, Rooftop Amenities – Open Barbeque,Yoga Space,Gazebo, Cricket Play Area and many more "
+            },
+            {
+                "question": "How can I inquire about available units and pricing in Panvelkar Greens?",
+                "answer": "For information on available units and pricing, please contact our sales team at 07969669909. They will be happy to assist you with any inquiries and guide you through the process."
+            },
+            {
+                "question": "Is there a maintenance fee for Panvelkar Greens, and what does it cover?",
+                "answer": "Yes, Panvelkar Greens has a maintenance fee to cover common area maintenance, security, and shared facilities. The fee structure and details will be provided during the purchase process."
+            },
+            {
+                "question": "Can I schedule a site visit to Panvelkar Greens to explore the property?",
+                "answer": "Certainly! We encourage prospective buyers to schedule a visit to Panvelkar Greens to experience the ambiance and amenities firsthand. Please contact our sales team to arrange a convenient time for your visit."
+            }
+        ],
+        "TotalImages": 7
+    },
+    {
+        "id": 16,
+        "Property_ID": "P51700033348",
+        "Description": "Panvelkar Group: 30 Years of Excellence \n For over three decades, Panvelkar Group has been an undisputed leader in real estate, marked by a legacy of quality and expertise. Focused on value-based housing, the group has transformed aspirations, completing over 80 projects and developing 67,14,991 sq. ft. across Mumbai’s suburbs. Diversifying into banquets, luxury resorts, water parks, and more, Panvelkar Group, with a turnover of Rs. 4000 Cr, employs 2000 professionals and holds a 15% market share. Committed to social responsibility, the group also invests in educational and hospitality ventures, enriching communities and supporting its core business. Panvelkar Group continues to set industry standards and inspire dreams.",
+        "Title": "Dashmesh Crystal",
+        "image": "../../assets/Property-016/freecompress-Property-0161.webp",
+        "image2": "../../assets/Property-016/Property-0162.jpg",
+        "logo": "../../images/Panvelkar-Logo.webp",
+        "partner": "Sarcesh city",
+        "location": "Badlapur, mumbai",
+        "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
+        "state": {
+            "Forsale": true,
+            "Ongoing": true,
+            "completed": false
+        },
+        "Lattitude": "19.143134773161158",
+        "Longitude": "73.24300110941049",
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "position": 12,
+        "BuildingState": "Upcomming",
+        "area": 400,
+        "Price": "1,692,000",
+        "onwords": false,
+        "EmailJS":{
+            "serviceID":"service_ufkrtor",
+            "templateID":"template_e85i8jr",
+            "publicKey":"B5dq6G_ll28YOYqOJ"
+        },
+        "SearchFilters": [
+            "1RK",
+            "1BHK",
+            "2BHK"
+        ],
+        "video":"https://youtu.be/fh0jkS9grR0",
+        "Type": "Villa",
+        "Overview": {
+            "configuration": [
+                "1RK",
+                "1BHK",
+                "2BHK"
+            ],
+            "area": "381-502",
+            "prices": {
+                "1BHK": 2388000,
+                "2BHK": 3396000
+            }
+        },
+        "Advantages": [
+            "Proposed JNPT – Baroda Highway connects at 2 min",
+            "Upcoming Navi Mumbai International Airport in 20 min",
+            "Upcoming Badlapur Kanjurmarg Metro in 2 min",
+            "Super Market at just (1 min) distance",
+            "Poddar International School (2 min)",
+            "Vihaa International School (1 min)",
+            "Upcoming Thanekar Internatioal School (2 min)",
+            "Badlapur Railway Station (5 min)",
+            "Central Hospital (2 Min)",
+            "Shree Swami Samarth Multispeciality Hospital (1 Min)"
+        ],
+        "Features": {
+            "Swimming Pool ": true,
+            "Open Air Mini Theatre ": true,
+            "Open Barbeque at Rooftop ": true,
+            "Yoga Meditation Space": true,
+            "Telescope Area at rooftop": true,
+            "Rooftop Drinking Water Station": true,
+            "Cricket  Play  Area": true,
+            "Pengola Swing Gym": true,
+            "Garden for children & Senior Citizen sit out": true,
+            "Jogging Track": true,
+            "Stilt & Open Parking": true,
+            "Specially Designed Viewing Gallery": true,
+            "24 Hrs Security": true
+        },
+        "Locality": {
+            "NearByLoc": {
+                "Kondeshwar Temple": 10,
+                "Matheran Hill Station": 20,
+                "ND Film Studio 30 Min": 30,
+                "Dhangar Waterfal": "10"
+            },
+            "Locations": [
+                {
+                    "Name": "Poddar International School",
+                    "Lattitude": "19.139879",
+                    "Longitude": "73.252059",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Vihaa International School",
+                    "Lattitude": "19.142386",
+                    "Longitude": "73.246190",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Lattitude": "19.140916",
+                    "Longitude": "73.252116",
+                    "Category": "School"
+                },
+                {
+                    "Name": "I.E.S. Katrap Vidyalay",
+                    "Lattitude": "19.168598",
+                    "Longitude": "73.225275",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Gurukul International School",
+                    "Lattitude": "19.172278",
+                    "Longitude": "73.221089",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Carmel Convent School",
+                    "Lattitude": "19.180320",
+                    "Longitude": "73.218589",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Fatima Convent School",
+                    "Lattitude": "19.180460",
+                    "Longitude": "73.229095",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Don Bosco English School",
+                    "Lattitude": "19.166990",
+                    "Longitude": "73.248210",
+                    "Category": "School"
+                },
+                {
+                    "Name": "St. Anthony Convent School",
+                    "Lattitude": "19.169182",
+                    "Longitude": "73.248098",
+                    "Category": "School"
+                },
+                {
+                    "Name": "M.J. International School",
+                    "Lattitude": "19.160125",
+                    "Longitude": "73.245909",
+                    "Category": "School"
+                },
+                {
+                    "Name": "Central Hospital",
+                    "Lattitude": "19.139779",
+                    "Longitude": "73.252544",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Shree Swami Samarth Multispeciality Hospital ",
+                    "Lattitude": "19.146278",
+                    "Longitude": "73.246494",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Pawar Hospital ",
+                    "Lattitude": "19.157840",
+                    "Longitude": "73.244365",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Siddhivinayak Multispeciality Hospital",
+                    "Lattitude": "19.165305",
+                    "Longitude": "73.245301",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dhanwantari Hospital ",
+                    "Lattitude": "19.164335",
+                    "Longitude": "73.231429",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Seven Palms Hospital ",
+                    "Lattitude": "19.159664",
+                    "Longitude": "73.228302",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Max Care Multispeciality Hospital ",
+                    "Lattitude": "19.163031",
+                    "Longitude": "73.229763",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Chiranjeev Hospital ",
+                    "Lattitude": "19.164292",
+                    "Longitude": "73.239771",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Vaishnavi Multispeciality ",
+                    "Lattitude": "19.157732",
+                    "Longitude": "73.235660",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "Dubey Hospital",
+                    "Lattitude": "19.166020",
+                    "Longitude": "73.235629",
+                    "Category": "Hospital"
+                },
+                {
+                    "Name": "SBI",
+                    "Lattitude": "19.158246",
+                    "Longitude": "73.242992",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Axis Bank",
+                    "Lattitude": "19.163755",
+                    "Longitude": "73.232353",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "HDFC Bank",
+                    "Lattitude": "19.162410",
+                    "Longitude": "73.238159",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Union Bank",
+                    "Lattitude": "19.161045",
+                    "Longitude": "73.228621",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Abhyudaya Co-op. Bank",
+                    "Lattitude": "19.162400",
+                    "Longitude": "73.238785",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Kotak Mahindra Bank",
+                    "Lattitude": "19.166142",
+                    "Longitude": "73.230561",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Yes Bank",
+                    "Lattitude": "19.165630",
+                    "Longitude": "73.231223",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Bank Of India",
+                    "Lattitude": "19.1664914",
+                    "Longitude": "73.2320323",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Canara Bank",
+                    "Lattitude": "19.1671302",
+                    "Longitude": "73.2330565",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "ICICI Bank",
+                    "Lattitude": "19.165955",
+                    "Longitude": "73.231068",
+                    "Category": "Bank"
+                },
+                {
+                    "Name": "Chhatrapati Shivaji International Airport",
+                    "Lattitude": "19.089906",
+                    "Longitude": "72.865392",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Upcoming Navi Mumbai International Airport",
+                    "Lattitude": "18.989881",
+                    "Longitude": "73.068337",
+                    "Category": "Airport"
+                },
+                {
+                    "Name": "Juhu Airport",
+                    "Lattitude": "19.095538",
+                    "Longitude": "72.832740",
+                    "Category": "Airport"
+                }
+            ]
+        },
+        "FloorPlans": [
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 4.webp",
+                "name": "1BHK Dashmesh",
+                "price": "354.78 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 5.webp",
+                "name": "1BHK Dashmesh",
+                "price": "383.09 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 6.webp",
+                "name": "1BHK Dashmesh",
+                "price": "383.96 Sq Ft",
+                "area": "27.8 Lakh "
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 8.webp",
+                "name": "1BHK Dashmesh",
+                "price": "389.66 sq ft",
+                "area": "27.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 10.webp",
+                "name": "1BHK Dashmesh",
+                "price": "389.66",
+                "area": "26.99 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-11.webp",
+                "name": "1BHK Dashmesh",
+                "price": "445.74 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-12.webp",
+                "name": "1BHK Dashmesh",
+                "price": "375.34 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-13.webp",
+                "name": "1BHK Dashmesh",
+                "price": "420.12 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh.webp",
+                "name": "1BHK Dashmesh",
+                "price": "354.78 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh 9.webp",
+                "name": "1RK Dashmesh",
+                "price": "289.55 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh-14.webp",
+                "name": "1RK Dashmesh",
+                "price": "274.64 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh.webp",
+                "name": "1RK Dashmesh",
+                "price": "254.68 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/2BHK Dashmesh 7.webp",
+                "name": "2BHK Dashmesh",
+                "price": "603.00 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/2BHK Dashmesh.webp",
+                "name": "2BHK Dashmesh",
+                "price": "498.37 Sq ft",
+                "area": "25.25 Lakh"
+            }
+        ],
+        "Gallery": [
+            "../../assets/Property-016/freecompress-Property-0161.webp",
+            "../../assets/Property-016/freecompress-Property-0162.webp",
+            "../../assets/Property-016/freecompress-Property-0163.webp",
+            "../../assets/Property-016/freecompress-Property-0164.webp",
+            "../../assets/Property-016/freecompress-Property-0165.webp",
+            "../../assets/Property-016/freecompress-Property-0166.webp",
+            "../../assets/Property-016/freecompress-Property-0167.webp"
+
         ],
         "Gallery2": [
             "../../assets/Property-015/Property-0151.jpg",

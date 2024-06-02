@@ -4,7 +4,7 @@ import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 
 const MapSection = React.memo(({ property, activeLoc, activeCategory }) => {
     const blueIcon = new L.Icon({
-        iconUrl: "https://ibb.co/4ftqyQg",
+        iconUrl: "https://maps.app.goo.gl/X5TnDQtLruL9WJCw8?g_st=iwb",
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
@@ -43,7 +43,7 @@ const MapSection = React.memo(({ property, activeLoc, activeCategory }) => {
                 <Marker
                     key={item.Name}
                     position={[item.Lattitude, item.Longitude]}
-                    icon={(activeLoc?.Lattitude === item.Lattitude && activeLoc?.Longitude === item.Longitude) ? blueIcon : greenIcon}
+                    icon={blueIcon}
                 >
                     <Popup>{item.Name}</Popup>
                 </Marker>
