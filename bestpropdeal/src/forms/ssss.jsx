@@ -64,7 +64,7 @@ const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
     }
 
     const handleCallClick = () => {
-        window.open('tel:8317683829', '-self');
+        window.open(`tel:${CurrentProperty.ContactNO}`, '-self');
         setCall(false);
     }
 
@@ -78,7 +78,7 @@ const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
                 width: '450px',
                 height: '450px'
             }}>
-                <p className='rm_p_text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus exercitationem accusantium laudantium error, natus alias ulla</p>
+                <p className='rm_p_text'>Interested in learning more about our properties? Fill out the form below to schedule a meeting with one of our real estate experts. We look forward to helping you find your dream home or investment property!</p>
                 <div className='rm_t_des'>
                     <div className="rm_p_img">
                         <img style={{ width: "130px", height: "150px", background: "transparent" }} src={img}></img>
@@ -119,7 +119,7 @@ const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
                                     <input type="tel" required name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                                     <label htmlFor="" className={`${email && "labeltop"}`}>Email</label>
                                 </div>
-                                <input type='text' disabled name='formType' value="Call RM" />
+                                {/* <input type='text' disabled name='formType' value="Call RM" /> */}
                             </div>
                             <div className='forget_rm'>
                                 <label htmlFor=""><input type="checkbox" value={remenberbox} onChange={(e) => setRemenberbox(e.target.value)} />Remember me</label>
@@ -152,7 +152,7 @@ const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
                     <img src={minilogo}></img>
                     <GrFormClose className='Mobilerm_closeIcon' onClick={() => setCallrm(!callrm)} />
                 </div>
-                <div className="Mobilerm_descriptionCont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis, eveniet ipsam quod ut quibusdam, amet nostrum maiores excepturi nobis nulla molestiae, ea dolores quisquam mollitia consequuntur eum praesentium aut?</div>
+                <div className="Mobilerm_descriptionCont">Interested in learning more about our properties? Fill out the form below to schedule a meeting with one of our real estate experts. We look forward to helping you find your dream home or investment property!</div>
                 <div className='rm_t_des'>
                     <div className="rm_p_img">
                         <img style={{ width: "130px", height: "150px", background: "transparent" }} src={img}></img>

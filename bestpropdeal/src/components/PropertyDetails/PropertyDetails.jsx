@@ -226,6 +226,8 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
         setEmail("");
     }
 
+    const des = CurrentProperty.Overview.overview || CurrentProperty.Description;
+
     return <>
         <div className="PropertyDetails_WrapperCont">
             <div className="PropertyDetails_LeftSection">
@@ -240,7 +242,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                         <div className="LeftSection_OverviewData">
                             <div className="Overview_TruncatedTextCont">
                                 <div className={`OverviewTruncatedText ${readMore.includes("overview") ? "show" : "hide"}`}>
-                                    {CurrentProperty && readMore.includes("overview") ? CurrentProperty?.Description : CurrentProperty?.Description.substring(0, 12) + "..."}
+                                    {CurrentProperty && readMore.includes("overview") ? des : des.substring(0, 12) + "..."}
                                     <div className="TruncatedText_ReadMoreBtn" onClick={() => handlereadmore("overview")}>read more</div>
                                 </div>
 
