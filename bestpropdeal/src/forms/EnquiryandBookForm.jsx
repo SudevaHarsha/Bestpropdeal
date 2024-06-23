@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 import { FaHome } from 'react-icons/fa';
 import { IoIosCall } from 'react-icons/io';
 import { MdStars } from 'react-icons/md';
+import Property from "../Data/Property.json";
 
 import img from "../Assets/RM.jpg"
+import { useParams } from 'react-router-dom';
 
 const EnquiryandBookForm = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm }) => {
 
@@ -15,6 +17,10 @@ const EnquiryandBookForm = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm
     const isPhoneNumberValid = () => /^\d{10}$/.test(phoneNumber);
     const isFormValid = isNameValid() && isPhoneNumberValid() && isChecked;
 
+    const { id } = useParams();
+
+    const CurrentProperty = Property.find((property) => property.Title === id);
+
     return <>
 
 
@@ -22,15 +28,12 @@ const EnquiryandBookForm = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm
             <div className="property_Deatiles_rmcard_cont" style={{ width: '328px' }}>
                             <h2 className="property_Deatiles_rmcard_content_title">Hi! I'm here to answer all your queries.
                             </h2>
-
-                    
-
                    {/*  <div className="property_Deatiles_rmcard_content_space"></div> */}
                     {/* <div className="property_Deatiles_rmcard_middle_container"> */}
                         <div className="property_Deatiles_rmcard_middle_text">
                             {/* <div className="property_Deatiles_rmcard_middle_cont"> */}
                                 {/* <div className="property_Deatiles_rmcard_middle_content"> */}
-                                    <p className="property_Deatiles_rmcard_middle_cont_head">Alpesh</p>
+                                    <p className="property_Deatiles_rmcard_middle_cont_head">{CurrentProperty?.RMName || "Alpesh"}</p>
                                     {/* <div className="property_Deatiles_rmcard_middle_cont_head_space"></div> */}
                                     {/* <div className="property_Deatiles_rmcard_middle_cont_head_star"> */}
                                         
@@ -48,7 +51,7 @@ const EnquiryandBookForm = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm
                                 {/* </div> */}
                             {/* </div> */}
                             <div className="property_Deatiles_rmcard_middle_img">
-                            <img className='property_Deatiles_rmcard_middle_image' width="160px" height='120px' src={img}></img>
+                            <img className='property_Deatiles_rmcard_middle_image' width="160px" height='120px' src={CurrentProperty?.RMPhoto || img}></img>
                         </div>
                         </div>
                         

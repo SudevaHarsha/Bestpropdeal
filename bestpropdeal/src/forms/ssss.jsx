@@ -5,11 +5,13 @@ import { BiLogoGmail } from "react-icons/bi"
 import { GrFormClose } from "react-icons/gr"
 import { FcRating } from "react-icons/fc"
 import minilogo from "../Assets/mini-logo.svg"
+import Property from "../Data/Property.json"
 
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 import img from "../Assets/RM.jpg"
+import { useParams } from 'react-router-dom'
 
 const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
 
@@ -81,10 +83,10 @@ const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
                 <p className='rm_p_text'>Interested in learning more about our properties? Fill out the form below to schedule a meeting with one of our real estate experts. We look forward to helping you find your dream home or investment property!</p>
                 <div className='rm_t_des'>
                     <div className="rm_p_img">
-                        <img style={{ width: "130px", height: "150px", background: "transparent" }} src={img}></img>
+                        <img style={{ width: "130px", height: "150px", background: "transparent" }} src={CurrentProperty?.RMPhoto || img}></img>
                     </div>
                     <div className="rm_p_texttt">
-                        <p>Alpesh
+                        <p>{CurrentProperty?.RMName || "Alpesh"}
                         </p>
                         <p><FcRating /> 4.8</p>
                     </div>
@@ -155,10 +157,10 @@ const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
                 <div className="Mobilerm_descriptionCont">Interested in learning more about our properties? Fill out the form below to schedule a meeting with one of our real estate experts. We look forward to helping you find your dream home or investment property!</div>
                 <div className='rm_t_des'>
                     <div className="rm_p_img">
-                        <img style={{ width: "130px", height: "150px", background: "transparent" }} src={img}></img>
+                        <img style={{ width: "130px", height: "150px", background: "transparent" }} src={CurrentProperty?.RMPhoto || img}></img>
                     </div>
                     <div className="rm_p_texttt">
-                        <p>Alpesh
+                        <p>{CurrentProperty?.RMName || "Alpesh"}
                         </p>
                         <p><FcRating /> 4.7</p>
                     </div>

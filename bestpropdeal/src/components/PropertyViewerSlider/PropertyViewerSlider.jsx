@@ -114,7 +114,7 @@ const PropertyViewerSlider = React.memo(({ isGallery, openGallery }) => {
                 <div className="PropertyCard_DataCont">
                     <div className="PropertyViewerCard_PropertyData">
                         <div className="PropertyViewerCard_PropertyNameIconCont">
-                            <img className='PropertyViewerCard_PropertyIcon' src={CurrentProperty?.logo} width="70px" height="70px"></img>
+                            <img className='PropertyViewerCard_PropertyIcon' src={CurrentProperty?.logo2 ? CurrentProperty?.logo2 : CurrentProperty?.logo} width="70px" height="70px"></img>
                             <h1 className='PropertyViewerCard_PropertyNameCont'>
                                 <div className="PropertyViewerCard_PropertyTitleText">{CurrentProperty?.Title}</div>
                             </h1>

@@ -20,15 +20,15 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 0,
-        "ContactNO":"8317683829",
+        "ContactNO": "8317683829",
         "BuildingState": "Completed",
-        "area": 400,
+        "area": "291 sq ft -593",
         "Price": "1,819,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_5f6mz0a",
-            "templateID":"template_pw6e8pe",
-            "publicKey":"ktnrBdyPzL9Gkyfct"
+        "EmailJS": {
+            "serviceID": "service_5f6mz0a",
+            "templateID": "template_pw6e8pe",
+            "publicKey": "ktnrBdyPzL9Gkyfct"
         },
         "SearchFilters": [
             "1RK",
@@ -36,7 +36,7 @@
             "2BHK",
             "3BHK"
         ],
-        "video":"https://www.youtube.com/embed/fh0jkS9grR0?si=uKSh_BjxWwXwkKwF",
+        "video": "https://www.instagram.com/reel/CzIZw8pIo1o/",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -44,7 +44,7 @@
                 "1BHK",
                 "2BHK"
             ],
-            "area": 415,
+            "area": "291 sq ft - 593",
             "prices": {
                 "1BHK": 2388000,
                 "2BHK": 3396000
@@ -286,40 +286,40 @@
         },
         "FloorPlans": [
             {
-                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Bluebell.webp",
-                "name": "1BHK Bluebell Flower Valley",
-                "price": "398 Sq Ft",
-                "area": "24.25 Lakh"
-            },
-            {
-                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Lavender.webp",
-                "name": "1BHK Lavender",
-                "price": "435 Sq ft",
-                "area": "27.60 Lakh "
-            },
-            {
-                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Snowdrop.webp",
-                "name": "1BHK Snowdrop",
-                "price": "409 Sq Ft",
-                "area": "25.99 Lakh "
-            },
-            {
                 "url": "../../assets/Property-001/PriceFloorPlans/1RK Marygold.webp",
                 "name": "1RK Marygold",
-                "price": "424",
-                "area": "27.69 Lakh"
-            },
-            {
-                "url": "../../assets/Property-001/PriceFloorPlans/2BHK Orchid.webp",
-                "name": "2BHK Orchid",
-                "price": "415",
-                "area": "26.99 Lakh"
+                "price": "291 sq ft",
+                "area": "18.49 Lakh"
             },
             {
                 "url": "../../assets/Property-001/PriceFloorPlans/2BHK Studio Tulip.webp",
                 "name": "2BHK Studio Tulip",
-                "price": "402 Sq ft",
-                "area": "25.25 Lakh"
+                "price": "309 Sq ft",
+                "area": "19.89 Lakh"
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Snowdrop.webp",
+                "name": "1BHK Snowdrop",
+                "price": "428 Sq Ft",
+                "area": "26.49 Lakh "
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Bluebell.webp",
+                "name": "1BHK Bluebell Flower Valley",
+                "price": "445 Sq ft",
+                "area": "27.49 Lakh"
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/1BHK Lavender.webp",
+                "name": "1BHK Lavender",
+                "price": "462 Sq ft",
+                "area": "28.49 Lakh "
+            },
+            {
+                "url": "../../assets/Property-001/PriceFloorPlans/2BHK Orchid.webp",
+                "name": "2BHK Orchid",
+                "price": "593",
+                "area": "237.99 Lakh"
             }
         ],
         "FAQ": [
@@ -396,6 +396,8 @@
         "image": "../../assets/Property-003/freecompress-Property-0031.webp",
         "image2": "../../assets/Property-003/Property-0031.jpg",
         "logo": "../../images/Pinnacle copy.webp",
+        "RMName":"Nutan",
+        "RMPhoto":"../../images/Nano City RM.jpg",
         "partner": "Dashmesh Infrastructure",
         "location": "Kharvani, mumbai",
         "detailedLocation": "Nano city, opp Indian Oil petrol Pump, Karjat Road, Joveli, Badlapur East - 421503",
@@ -409,22 +411,22 @@
         "Bedrooms": 0,
         "Bathrooms": 2,
         "position": 1,
-        "ContactNO":"07969669912",
+        "ContactNO": "07969669912",
         "BuildingState": "Ongoing",
         "area": 0,
         "Price": "1,599,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_p0ped63",
-            "templateID":"template_dhl7nrn",
-            "publicKey":"v1J_zPcSYnAbZyoNY"
+        "EmailJS": {
+            "serviceID": "service_p0ped63",
+            "templateID": "template_dhl7nrn",
+            "publicKey": "v1J_zPcSYnAbZyoNY"
         },
         "SearchFilters": [
             "1RK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://www.youtube.com/embed/ZgT1Hvf0pkk?si=kWQLWhitPagpUd3T",
+        "video": "https://youtu.be/dlXYeb5v9Wc?si=PEorBaJPoTkkgspP",
         "Type": "Duplex",
         "Overview": {
             "configuration": [
@@ -826,6 +828,7 @@
         "image": "../../assets/Property-004/freecompress-Property-0041.webp",
         "image2": "../../assets/Property-004/Property-0041.jpg",
         "logo": "../../images/Dashmesh Infra copy.PNG",
+        "logo2": "../../images/Dashmesh C copy.webp",
         "partner": "Dashmesh Infrastructure",
         "location": "Kharvani, mumbai",
         "detailedLocation": "Kharvani NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
@@ -839,22 +842,22 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 2,
-        "ContactNO":"07969669918",
+        "ContactNO": "07969669918",
         "BuildingState": "Ongoing",
         "area": 0,
         "Price": "1,499,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_p0ped63",
-            "templateID":"template_dhl7nrn",
-            "publicKey":"v1J_zPcSYnAbZyoNY"
+        "EmailJS": {
+            "serviceID": "service_p0ped63",
+            "templateID": "template_dhl7nrn",
+            "publicKey": "v1J_zPcSYnAbZyoNY"
         },
         "SearchFilters": [
             "1RK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Apartment",
         "Overview": {
             "configuration": [
@@ -1268,22 +1271,22 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 3,
-        "ContactNO":"8317683829",
+        "ContactNO": "8317683829",
         "BuildingState": "Ongoing",
         "area": 0,
         "Price": "1,599,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_p0ped63",
-            "templateID":"template_dhl7nrn",
-            "publicKey":"v1J_zPcSYnAbZyoNY"
+        "EmailJS": {
+            "serviceID": "service_p0ped63",
+            "templateID": "template_dhl7nrn",
+            "publicKey": "v1J_zPcSYnAbZyoNY"
         },
         "SearchFilters": [
             "3BHK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Apartment",
         "Overview": {
             "configuration": [
@@ -1583,21 +1586,21 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 4,
-        "ContactNO":"8317683829",
+        "ContactNO": "8317683829",
         "BuildingState": "Ongoing",
         "area": 0,
         "Price": "3,999,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_p0ped63",
-            "templateID":"template_dhl7nrn",
-            "publicKey":"v1J_zPcSYnAbZyoNY"
+        "EmailJS": {
+            "serviceID": "service_p0ped63",
+            "templateID": "template_dhl7nrn",
+            "publicKey": "v1J_zPcSYnAbZyoNY"
         },
         "SearchFilters": [
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Apartment",
         "Overview": {
             "configuration": [
@@ -1876,6 +1879,8 @@
         "image": "../../assets/Property-007/freecompress-Property-0071.webp",
         "image2": "../../assets/Property-007/Property-0071.jpg",
         "logo": "../../images/Sadguru Group copy.PNG",
+        "RMName":"Alpesh",
+        "RMPhoto":"../../images/Pinnacle Adarsh RM.jpg",
         "partner": "Pinnacle Group",
         "location": "Kharvani, mumbai",
         "detailedLocation": "KHARVAI NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
@@ -1889,21 +1894,21 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 5,
-        "ContactNO":"07969024025",
+        "ContactNO": "07969024025",
         "BuildingState": "Ongoing",
         "area": 0,
         "Price": "1,819,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_p0ped63",
-            "templateID":"template_dhl7nrn",
-            "publicKey":"v1J_zPcSYnAbZyoNY"
+        "EmailJS": {
+            "serviceID": "service_p0ped63",
+            "templateID": "template_dhl7nrn",
+            "publicKey": "v1J_zPcSYnAbZyoNY"
         },
         "SearchFilters": [
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Apartment",
         "Overview": {
             "configuration": [
@@ -2179,28 +2184,28 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 6,
-        "ContactNO":"8317683829",
+        "ContactNO": "8317683829",
         "BuildingState": "Ongoing",
-        "area": 400,
+        "area": "415 sq ft - 611",
         "Price": "2,899,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_i68wvi9",
-            "templateID":"template_busm14p",
-            "publicKey":"MgTHge-_0ACYLLz13"
+        "EmailJS": {
+            "serviceID": "service_i68wvi9",
+            "templateID": "template_busm14p",
+            "publicKey": "MgTHge-_0ACYLLz13"
         },
         "SearchFilters": [
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
                 "1BHK",
                 "2BHK"
             ],
-            "area": 415,
+            "area": "415 sq ft - 611",
             "prices": {
                 "1BHK": 2388000,
                 "2BHK": 3396000
@@ -2598,6 +2603,8 @@
         "image": "../../assets/Property-009/freecompress-Property-0091.webp",
         "image2": "../../assets/Property-009/Property-0091.jpg",
         "logo": "../../images/Flowervalley copy.PNG",
+        "RMName": "Dharshan",
+        "RMPhoto": "../../images/Sunita Palace RM.jpg",
         "partner": "Audumber Flower Valley",
         "location": "Badlapur, mumbai",
         "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
@@ -2611,21 +2618,21 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 7,
-        "ContactNO":"07969024004",
+        "ContactNO": "07969024004",
         "BuildingState": "Ongoing",
         "area": 400,
         "Price": "1,692,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_p0ped63",
-            "templateID":"template_dhl7nrn",
-            "publicKey":"v1J_zPcSYnAbZyoNY"
+        "EmailJS": {
+            "serviceID": "service_p0ped63",
+            "templateID": "template_dhl7nrn",
+            "publicKey": "v1J_zPcSYnAbZyoNY"
         },
         "SearchFilters": [
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -2979,22 +2986,22 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 8,
-        "ContactNO":"07969669909",
+        "ContactNO": "07969669909",
         "BuildingState": "Ongoing",
         "area": 400,
         "Price": "1,692,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_ufkrtor",
-            "templateID":"template_e85i8jr",
-            "publicKey":"B5dq6G_ll28YOYqOJ"
+        "EmailJS": {
+            "serviceID": "service_ufkrtor",
+            "templateID": "template_e85i8jr",
+            "publicKey": "B5dq6G_ll28YOYqOJ"
         },
         "SearchFilters": [
             "1RK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -3342,6 +3349,8 @@
         "image": "../../assets/Property-011/freecompress-Property-0111.webp",
         "image2": "../../assets/Property-011/Property-0111.jpg",
         "logo": "../../images/Sarvesh City Logo.png",
+        "RMName":"Sagar",
+        "RMPhoto":"../../images/Deep Dhara RM.jpg",
         "partner": "Sarcesh city",
         "location": "Badlapur, mumbai",
         "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
@@ -3355,22 +3364,22 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 9,
-        "ContactNO":"07969669905",
+        "ContactNO": "07969669905",
         "BuildingState": "Ongoing",
         "area": 400,
         "Price": "1,692,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_ufkrtor",
-            "templateID":"template_e85i8jr",
-            "publicKey":"B5dq6G_ll28YOYqOJ"
+        "EmailJS": {
+            "serviceID": "service_ufkrtor",
+            "templateID": "template_e85i8jr",
+            "publicKey": "B5dq6G_ll28YOYqOJ"
         },
         "SearchFilters": [
             "1RK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -3711,22 +3720,22 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 10,
-        "ContactNO":"07969669905 ",
+        "ContactNO": "07969669905 ",
         "BuildingState": "Ongoing",
         "area": 400,
         "Price": "1,692,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_ufkrtor",
-            "templateID":"template_e85i8jr",
-            "publicKey":"B5dq6G_ll28YOYqOJ"
+        "EmailJS": {
+            "serviceID": "service_ufkrtor",
+            "templateID": "template_e85i8jr",
+            "publicKey": "B5dq6G_ll28YOYqOJ"
         },
         "SearchFilters": [
             "1RK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -4067,6 +4076,8 @@
         "image": "../../assets/Property-013/freecompress-Property-0131.webp",
         "image2": "../../assets/Property-013/Property-0132.jpg",
         "logo": "../../images/Sarvesh City Logo.png",
+        "RMName":"Mohan",
+        "RMPhoto":"../../images/Deepali Residency RM.jpg",
         "partner": "Sarcesh city",
         "location": "Badlapur, mumbai",
         "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
@@ -4080,22 +4091,22 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 11,
-        "ContactNO":"07969669905 ",
+        "ContactNO": "07969669905 ",
         "BuildingState": "Ongoing",
         "area": 400,
         "Price": "1,692,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_ufkrtor",
-            "templateID":"template_e85i8jr",
-            "publicKey":"B5dq6G_ll28YOYqOJ"
+        "EmailJS": {
+            "serviceID": "service_ufkrtor",
+            "templateID": "template_e85i8jr",
+            "publicKey": "B5dq6G_ll28YOYqOJ"
         },
         "SearchFilters": [
             "1RK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -4448,22 +4459,22 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 12,
-        "ContactNO":"07969669905 ",
+        "ContactNO": "07969669905 ",
         "BuildingState": "Ongoing",
         "area": 400,
         "Price": "1,692,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_ufkrtor",
-            "templateID":"template_e85i8jr",
-            "publicKey":"B5dq6G_ll28YOYqOJ"
+        "EmailJS": {
+            "serviceID": "service_ufkrtor",
+            "templateID": "template_e85i8jr",
+            "publicKey": "B5dq6G_ll28YOYqOJ"
         },
         "SearchFilters": [
             "1RK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -4809,6 +4820,8 @@
         "image2": "../../assets/Property-015/Property-0152.jpg",
         "logo": "../../images/Panvelkar-Logo.webp",
         "partner": "Sarcesh city",
+        "RMName": "Krishna",
+        "RMPhoto": "../../images/Panvelkar greens RM.jpg",
         "location": "Badlapur, mumbai",
         "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
         "state": {
@@ -4821,21 +4834,21 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 12,
-        "ContactNO":"07969669910",
+        "ContactNO": "07969669910",
         "BuildingState": "Ongoing",
         "area": 400,
         "Price": "1,692,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_ufkrtor",
-            "templateID":"template_e85i8jr",
-            "publicKey":"B5dq6G_ll28YOYqOJ"
+        "EmailJS": {
+            "serviceID": "service_ufkrtor",
+            "templateID": "template_e85i8jr",
+            "publicKey": "B5dq6G_ll28YOYqOJ"
         },
         "SearchFilters": [
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -5192,25 +5205,25 @@
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 12,
-        "ContactNO":"07969669919",
+        "ContactNO": "07969669919",
         "BuildingState": "Upcomming",
         "area": 400,
         "Price": "1,692,000",
         "onwords": false,
-        "EmailJS":{
-            "serviceID":"service_ufkrtor",
-            "templateID":"template_e85i8jr",
-            "publicKey":"B5dq6G_ll28YOYqOJ"
+        "EmailJS": {
+            "serviceID": "service_ufkrtor",
+            "templateID": "template_e85i8jr",
+            "publicKey": "B5dq6G_ll28YOYqOJ"
         },
         "SearchFilters": [
             "1RK",
             "1BHK",
             "2BHK"
         ],
-        "video":"https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
-            "overview":"Nano City is a visionary residential development designed to redefine urban living. Located in a prime area of Badlapur, Nano City offers modern amenities and thoughtfully planned spaces that cater to the needs of contemporary families. The project boasts a range of stylish apartments considering need of Market Starting from 1RK, 1BHK & 2BHK.",
+            "overview": "Nano City is a visionary residential development designed to redefine urban living. Located in a prime area of Badlapur, Nano City offers modern amenities and thoughtfully planned spaces that cater to the needs of contemporary families. The project boasts a range of stylish apartments considering need of Market Starting from 1RK, 1BHK & 2BHK.",
             "configuration": [
                 "1RK",
                 "1BHK",
@@ -5551,7 +5564,6 @@
             "../../assets/Property-016/freecompress-Property-0165.webp",
             "../../assets/Property-016/freecompress-Property-0166.webp",
             "../../assets/Property-016/freecompress-Property-0167.webp"
-
         ],
         "Gallery2": [
             "../../assets/Property-015/Property-0151.jpg",

@@ -5,8 +5,10 @@ import { FaAccessibleIcon, FaCalendarPlus, FaFacebookSquare, FaHome } from 'reac
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { IoIosCall } from 'react-icons/io';
+import Property from "../Data/Property.json"
 
 import img from "../Assets/RM.jpg"
+import { useParams } from 'react-router-dom';
 
 const Enquiry = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm }) => {
 
@@ -23,9 +25,14 @@ const Enquiry = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm }) => {
 
     const form = useRef();
 
+    const { id } = useParams();
+
     const isNameValid = () => name.trim() !== '';
     const isPhoneNumberValid = () => /^\d{10}$/.test(phoneNumber);
     const isFormValid = isNameValid() && isPhoneNumberValid() && isChecked;
+
+    const CurrentProperty = Property.find((property) => property.Title === id);
+
 
     const HandlecallrmFormsubmit = () => {
         const isPhoneNumberValid = /^\d{10}$/.test(mobile);
@@ -64,14 +71,14 @@ const Enquiry = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm }) => {
                 <h2 className="property_Deatiles_rmcard_content_title">Hi! I'm here to answer all your queries.</h2>
                 <div className='property_Deatiles_rmcard_content_name'>
                     <div className='property_Deatiles_rmcard_content_rating'>
-                        <p>Alpesh</p>
+                        <p>{CurrentProperty?.RMName || "Alpesh"}</p>
                         <div className='property_Deatiles_rmcard_content_row'>
                             <FaAccessibleIcon />
                             <p>4.7</p>
                         </div>
                     </div>
                     <div className="property_Deatiles_rmcard_content_img">
-                        <img style={{ width: "130px", height: "150px", background: "transparent" }} src={img}></img>
+                        <img style={{ width: "130px", height: "150px", background: "transparent" }} src={CurrentProperty?.RMPhoto || img}></img>
                     </div>
                 </div>
                 <div className='property_Deatiles_rmcard_content_button_container'>

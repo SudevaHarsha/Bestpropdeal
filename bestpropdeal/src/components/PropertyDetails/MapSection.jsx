@@ -43,7 +43,6 @@ const MapSection = React.memo(({ property, activeLoc, activeCategory }) => {
                 <Marker
                     key={item.Name}
                     position={[item.Lattitude, item.Longitude]}
-                    icon={blueIcon}
                 >
                     <Popup>{item.Name}</Popup>
                 </Marker>

@@ -270,7 +270,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                             Project Status
                                         </div>
                                         <div className="OverviewSubGrid_OverviewData">
-                                            {CurrentProperty && CurrentProperty?.state.Ongoing ? "Ongoing" :
+                                            {CurrentProperty && CurrentProperty?.state.Ongoing ? "Ready to Move" :
                                                 CurrentProperty?.state.completed ? "Completed" : "Not Yet Done"
                                             }
                                         </div>
