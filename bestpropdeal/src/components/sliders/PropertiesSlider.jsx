@@ -26,12 +26,11 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         };
     }, []);
 
-        /* useEffect(() => {
-            const props = PropertyState('Ongoing', 0);
-            setPropertyItems(props);
-        }, []); */
+    useEffect(() => {
+        PropertyState({ label: 'Ongoing' }, 0);
+    }, []);
 
-    const slideMoveWidth = windowWidth > 460 ? 420 : windowWidth-10;
+    const slideMoveWidth = windowWidth > 460 ? 420 : windowWidth - 10;
     console.log(slideMoveWidth);
 
     const listItems = [
@@ -66,7 +65,7 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         console.log(BuildingState)
         setActiveItem(index === activeItem ? null : index);
 
-        const desiredOngoingOrder = ["Panvelkar Greens","Dashmesh Pearl", "Sadguru Harmony", "Laxmi Residency", "Deep Dhara","Panvelkar Sarvesh city", "Deepali residency", "Deepali Paradise", "Nano city", "Deep Royal residency", "Pinnacle Adharsh", "Audumber Flower Valley", "Audumber Crown"];
+        const desiredOngoingOrder = ["Panvelkar Greens", "Dashmesh Pearl", "Sadguru Harmony", "Laxmi Residency", "Deep Dhara", "Panvelkar Sarvesh city", "Deepali residency", "Deepali Paradise", "Nano city", "Deep Royal residency", "Pinnacle Adharsh", "Audumber Flower Valley", "Audumber Crown"];
         const desiredCompletedOrder = ["Dashmesh Crystal phase 2", "Sunita Palace"];
 
         const desiredOrder = BuildingState.label === 'Ongoing' ? desiredOngoingOrder : BuildingState === 'Completed' ? desiredCompletedOrder : desiredOngoingOrder;
@@ -87,7 +86,7 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
             }
         });
 
-        setPropertyItems(desiredOrder.length === 0 ? filteredProps : sortedProperties);
+        setPropertyItems(sortedProperties);
         return filteredProps
     }
 
