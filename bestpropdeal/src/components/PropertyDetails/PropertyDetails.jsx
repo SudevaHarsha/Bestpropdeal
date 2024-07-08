@@ -19,7 +19,7 @@ import MapSection from './MapSection'
 import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2"
 /* import videos from "../../Assets/home.mov" */
 
-import img from "../../Assets/RM.jpg"
+import img from "../../Assets/th.jpeg"
 
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -323,7 +323,8 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                         {CurrentProperty?.Features.ceilings && <div className="AmenitiesTagGrid_Element">
                             <BsCheck2Circle className="CheckIcon" />
                             <div>{CurrentProperty?.Features.ceilings} ceilings</div>
-                        </div>}
+                        </div>
+                        }
                         {CurrentProperty && Features && Features.map((item) => {
                             return <div className="AmenitiesTagGrid_Element">
                                 <BsCheck2Circle className="CheckIcon" />
@@ -353,7 +354,8 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                         <span className='SwiperPagination_Bullets'></span>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div> 
+                    */}
                 </div>
                 <section id="locality" ref={FloorPlanRef}>
                     <div className="PropertyDetailsFloorPlanCont">
@@ -469,7 +471,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                     {/* </div> */}
                     <div style={{ height: "428px", width: "100%" }}>
 
-                            <MapSection property={CurrentProperty} activeLoc={activeLoc} activeCategory={activeCategory} />
+                        <MapSection property={CurrentProperty} activeLoc={activeLoc} activeCategory={activeCategory} />
 
                     </div>
                     <div className="LocalityPlaces">
@@ -591,6 +593,26 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                 <div className="Similar_propcont">
                     <SameareaAndSimilarPropertiesSlider property={CurrentProperty} type={true} />
                 </div>
+                {/* <div id='QRCodes'>
+                    <h2 className='faqcard_heading'>
+                        Rera QR Codes
+                    </h2>
+                    <img src={img}></img>
+                </div> */}
+                <div className="qr-section">
+                    <h2 className='faqcard_heading'>
+                        Rera QR Codes
+                    </h2>
+                    <div className="qr-container">
+                        <div className='qr-incont'>
+                            <img src={img} alt="QR Code" className="qr-image" />
+                            <div className="qr-details">
+                                <p>{CurrentProperty.Property_ID}</p>
+                                <p>24 Karat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div id="FAQs" ref={FAQRef}>
                     {/* <div className="faqcard_componemt"> */}
                     {/* <div className="faqcard_header_component">
@@ -644,7 +666,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                                     </div>
                                 </div>
                                 <div className="property_Deatiles_rmcard_content_img">
-                                    <img style={{ width: "130px", height: "150px", background: "transparent" }} src={img}></img>
+                                    <img style={{ width: "130px", height: "150px", background: "transparent" }} src={CurrentProperty?.RMPhoto}></img>
                                 </div>
                             </div>
                             <div className='property_Deatiles_rmcard_content_button_container'>

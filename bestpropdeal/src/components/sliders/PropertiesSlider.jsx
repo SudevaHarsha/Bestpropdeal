@@ -66,10 +66,10 @@ const PropertiesSlider = ({ setBookASiteVist }) => {
         console.log(BuildingState)
         setActiveItem(index === activeItem ? null : index);
 
-        const desiredOngoingOrder = ["Panvelkar Greens", "Laxmi Residency", "Sadguru Harmony", "Nano city", "Sarvesh city", "Deep Dhara", "Deepali Paradise", "Deep Royal residency", "Deepali residency", "Dashmesh Crystal phase 2", "Sunita Palace", "Audumber Crown", "Pinnacle Adharsh"];
-        const desiredCompletedOrder = ["Audumber Flower Valley"];
+        const desiredOngoingOrder = ["Panvelkar Greens","Dashmesh Pearl", "Sadguru Harmony", "Laxmi Residency", "Deep Dhara","Panvelkar Sarvesh city", "Deepali residency", "Deepali Paradise", "Nano city", "Deep Royal residency", "Pinnacle Adharsh", "Audumber Flower Valley", "Audumber Crown"];
+        const desiredCompletedOrder = ["Dashmesh Crystal phase 2", "Sunita Palace"];
 
-        const desiredOrder = BuildingState.label === 'Ongoing' ? desiredOngoingOrder : BuildingState === 'Completed' ? desiredCompletedOrder : [];
+        const desiredOrder = BuildingState.label === 'Ongoing' ? desiredOngoingOrder : BuildingState === 'Completed' ? desiredCompletedOrder : desiredOngoingOrder;
 
         // Function to compare titles and sort the properties array
         const sortedProperties = filteredProps.sort((a, b) => {

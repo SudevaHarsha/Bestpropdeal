@@ -396,8 +396,8 @@
         "image": "../../assets/Property-003/freecompress-Property-0031.webp",
         "image2": "../../assets/Property-003/Property-0031.jpg",
         "logo": "../../images/Pinnacle copy.webp",
-        "RMName":"Nutan",
-        "RMPhoto":"../../images/Nano City RM.jpg",
+        "RMName": "Nutan",
+        "RMPhoto": "../../images/Nano City RM.jpg",
         "partner": "Dashmesh Infrastructure",
         "location": "Kharvani, mumbai",
         "detailedLocation": "Nano city, opp Indian Oil petrol Pump, Karjat Road, Joveli, Badlapur East - 421503",
@@ -1879,8 +1879,8 @@
         "image": "../../assets/Property-007/freecompress-Property-0071.webp",
         "image2": "../../assets/Property-007/Property-0071.jpg",
         "logo": "../../images/Sadguru Group copy.PNG",
-        "RMName":"Alpesh",
-        "RMPhoto":"../../images/Pinnacle Adarsh RM.jpg",
+        "RMName": "Alpesh",
+        "RMPhoto": "../../images/Pinnacle Adarsh RM.jpg",
         "partner": "Pinnacle Group",
         "location": "Kharvani, mumbai",
         "detailedLocation": "KHARVAI NAKA, Ambarnath, Thane, Maharashtra, 421503, India",
@@ -3349,8 +3349,8 @@
         "image": "../../assets/Property-011/freecompress-Property-0111.webp",
         "image2": "../../assets/Property-011/Property-0111.jpg",
         "logo": "../../images/Sarvesh City Logo.png",
-        "RMName":"Sagar",
-        "RMPhoto":"../../images/Deep Dhara RM.jpg",
+        "RMName": "Sagar",
+        "RMPhoto": "../../images/Deep Dhara RM.jpg",
         "partner": "Sarcesh city",
         "location": "Badlapur, mumbai",
         "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
@@ -4076,8 +4076,8 @@
         "image": "../../assets/Property-013/freecompress-Property-0131.webp",
         "image2": "../../assets/Property-013/Property-0132.jpg",
         "logo": "../../images/Sarvesh City Logo.png",
-        "RMName":"Mohan",
-        "RMPhoto":"../../images/Deepali Residency RM.jpg",
+        "RMName": "Mohan",
+        "RMPhoto": "../../images/Deepali Residency RM.jpg",
         "partner": "Sarcesh city",
         "location": "Badlapur, mumbai",
         "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
@@ -4814,7 +4814,7 @@
     {
         "id": 15,
         "Property_ID": "P51700033348",
-        "Description": "Panvelkar Group: 30 Years of Excellence \n For over three decades, Panvelkar Group has been an undisputed leader in real estate, marked by a legacy of quality and expertise. Focused on value-based housing, the group has transformed aspirations, completing over 80 projects and developing 67,14,991 sq. ft. across Mumbai’s suburbs. Diversifying into banquets, luxury resorts, water parks, and more, Panvelkar Group, with a turnover of Rs. 4000 Cr, employs 2000 professionals and holds a 15% market share. Committed to social responsibility, the group also invests in educational and hospitality ventures, enriching communities and supporting its core business. Panvelkar Group continues to set industry standards and inspire dreams.",
+        "Description": "Panvelkar Group: 30 Years of Excellence: For over three decades, Panvelkar Group has been an undisputed leader in real estate, marked by a legacy of quality and expertise. Focused on value-based housing, the group has transformed aspirations, completing over 80 projects and developing 67,14,991 sq. ft. across Mumbai's suburbs. Diversifying into banquets, luxury resorts, water parks, and more, Panvelkar Group, with a turnover of Rs. 4000 Cr, employs 2000 professionals and holds a 15% market share. Committed to social responsibility, the group also invests in educational and hospitality ventures, enriching communities and supporting its core business. Panvelkar Group continues to set industry standards and inspire dreams.",
         "Title": "Panvelkar Greens",
         "image": "../../assets/Property-015/freecompress-Property-0151.webp",
         "image2": "../../assets/Property-015/Property-0152.jpg",
@@ -4836,8 +4836,8 @@
         "position": 12,
         "ContactNO": "07969669910",
         "BuildingState": "Ongoing",
-        "area": 400,
-        "Price": "1,692,000",
+        "area": "398 - 502 ",
+        "Price": "24,99,000",
         "onwords": false,
         "EmailJS": {
             "serviceID": "service_ufkrtor",
@@ -4855,7 +4855,7 @@
                 "1BHK",
                 "2BHK"
             ],
-            "area": "381-502",
+            "area": "398 - 502",
             "prices": {
                 "1BHK": 2388000,
                 "2BHK": 3396000
@@ -4909,7 +4909,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -5098,34 +5098,34 @@
         },
         "FloorPlans": [
             {
-                "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar greens 1.webp",
-                "name": "1BHK Bluebell Flower Valley",
-                "price": "420 Sq Ft",
-                "area": "24.25 Lakh"
-            },
-            {
-                "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar greens 2.webp",
-                "name": "1BHK Lavender",
-                "price": "410 Sq ft",
-                "area": "27.60 Lakh "
-            },
-            {
                 "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar greens 3.webp",
-                "name": "1BHK Snowdrop",
+                "name": "1BHK Panvelkar-1",
                 "price": "398 Sq Ft",
-                "area": "25.99 Lakh "
+                "area": "24.99 Lakh "
             },
             {
                 "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar greens 4.webp",
-                "name": "1RK Marygold",
+                "name": "1BHK Panvelkar-2",
                 "price": "403 sqft",
-                "area": "27.69 Lakh"
+                "area": "25.39 Lakh"
+            },
+            {
+                "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar greens 2.webp",
+                "name": "1BHK Panvelkar-3",
+                "price": "410 Sq ft",
+                "area": "25.70 Lakh "
+            },
+            {
+                "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar greens 1.webp",
+                "name": "1BHK Panvelkar-",
+                "price": "420 Sq Ft",
+                "area": "26.26 Lakh"
             },
             {
                 "url": "../../assets/Property-015/PriceFloorPlans/2BHK Panvelkar greens 1.webp",
-                "name": "2BHK Orchid",
+                "name": "2BHK Panvelkar-1",
                 "price": "502 sqft",
-                "area": "26.99 Lakh"
+                "area": "33.33 Lakh"
             }
         ],
         "Gallery": [
@@ -5186,8 +5186,8 @@
     },
     {
         "id": 16,
-        "Property_ID": "P51700033348",
-        "Description": "Panvelkar Group: 30 Years of Excellence \n For over three decades, Panvelkar Group has been an undisputed leader in real estate, marked by a legacy of quality and expertise. Focused on value-based housing, the group has transformed aspirations, completing over 80 projects and developing 67,14,991 sq. ft. across Mumbai’s suburbs. Diversifying into banquets, luxury resorts, water parks, and more, Panvelkar Group, with a turnover of Rs. 4000 Cr, employs 2000 professionals and holds a 15% market share. Committed to social responsibility, the group also invests in educational and hospitality ventures, enriching communities and supporting its core business. Panvelkar Group continues to set industry standards and inspire dreams.",
+        "Property_ID": "P51700076747",
+        "Description": "Dashmesh Infrastructure has been a prominent name in real estate development and construction in Badlapur for over a decade. Their success is driven by a focused approach and commitment to customer-centric deliverables.Supported by a talented team of engineers, architects, contractors, and consultants, they continuously innovate and develop projects of distinction. Quality is their unique selling proposition (USP), reflected in every project they undertake. Dashmesh Infrastructure adopts the latest technologies and construction practices, ensuring sustainable and functional developments. Their customer-centric approach has earned them a loyal clientele and a stellar reputation. They are creators of dreams, turning aspirations into reality through meticulous planning and execution. Dashmesh Infrastructure's legacy of excellence continues to set new standards in the real estate market.",
         "Title": "Dashmesh Pearl",
         "image": "../../assets/Property-016/freecompress-Property-0161.webp",
         "image2": "../../assets/Property-016/Property-0162.jpg",
@@ -5200,15 +5200,15 @@
             "Ongoing": true,
             "completed": false
         },
-        "Lattitude": "19.143134773161158",
-        "Longitude": "73.24300110941049",
+        "Lattitude": "19.144760",
+        "Longitude": "73.245843",
         "Bedrooms": 1,
         "Bathrooms": 1,
         "position": 12,
         "ContactNO": "07969669919",
         "BuildingState": "Upcomming",
-        "area": 400,
-        "Price": "1,692,000",
+        "area": "275 - 621 ",
+        "Price": "15,69,000",
         "onwords": false,
         "EmailJS": {
             "serviceID": "service_ufkrtor",
@@ -5225,11 +5225,12 @@
         "Overview": {
             "overview": "Nano City is a visionary residential development designed to redefine urban living. Located in a prime area of Badlapur, Nano City offers modern amenities and thoughtfully planned spaces that cater to the needs of contemporary families. The project boasts a range of stylish apartments considering need of Market Starting from 1RK, 1BHK & 2BHK.",
             "configuration": [
+                "shop",
                 "1RK",
                 "1BHK",
                 "2BHK"
             ],
-            "area": "381-502",
+            "area": "275 - 621 ",
             "prices": {
                 "1BHK": 2388000,
                 "2BHK": 3396000
@@ -5248,19 +5249,10 @@
             "Shree Swami Samarth Multispeciality Hospital (1 Min)"
         ],
         "Features": {
-            "Swimming Pool ": true,
-            "Open Air Mini Theatre ": true,
-            "Open Barbeque at Rooftop ": true,
-            "Yoga Meditation Space": true,
-            "Telescope Area at rooftop": true,
-            "Rooftop Drinking Water Station": true,
-            "Cricket  Play  Area": true,
-            "Pengola Swing Gym": true,
-            "Garden for children & Senior Citizen sit out": true,
-            "Jogging Track": true,
-            "Stilt & Open Parking": true,
-            "Specially Designed Viewing Gallery": true,
-            "24 Hrs Security": true
+            "Children Play Area": true,
+            "CCTV Surveillance": true,
+            "Decorative Entrance Lobby": true,
+            "Parking Space": true
         },
         "Locality": {
             "NearByLoc": {
@@ -5472,10 +5464,28 @@
         },
         "FloorPlans": [
             {
+                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh-14.webp",
+                "name": "1RK Dashmesh",
+                "price": "275 Sq ft",
+                "area": "15.69 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh 9.webp",
+                "name": "1RK Dashmesh",
+                "price": "289 Sq ft",
+                "area": "16.48 Lakh"
+            },
+            {
                 "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 4.webp",
                 "name": "1BHK Dashmesh",
                 "price": "354.78 Sq Ft",
                 "area": "24.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-12.webp",
+                "name": "1BHK Dashmesh",
+                "price": "375 Sq ft",
+                "area": "21.38 Lakh"
             },
             {
                 "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 5.webp",
@@ -5508,12 +5518,6 @@
                 "area": "25.25 Lakh"
             },
             {
-                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-12.webp",
-                "name": "1BHK Dashmesh",
-                "price": "375.34 Sq ft",
-                "area": "25.25 Lakh"
-            },
-            {
                 "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-13.webp",
                 "name": "1BHK Dashmesh",
                 "price": "420.12 Sq ft",
@@ -5523,18 +5527,6 @@
                 "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh.webp",
                 "name": "1BHK Dashmesh",
                 "price": "354.78 Sq ft",
-                "area": "25.25 Lakh"
-            },
-            {
-                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh 9.webp",
-                "name": "1RK Dashmesh",
-                "price": "289.55 Sq ft",
-                "area": "25.25 Lakh"
-            },
-            {
-                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh-14.webp",
-                "name": "1RK Dashmesh",
-                "price": "274.64 Sq ft",
                 "area": "25.25 Lakh"
             },
             {
