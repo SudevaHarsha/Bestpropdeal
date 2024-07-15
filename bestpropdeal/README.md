@@ -68,3 +68,53 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+,
+            <!-- {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 4.webp",
+                "name": "1BHK Dashmesh",
+                "price": "354.78 Sq Ft",
+                "area": "24.25 Lakh"
+            },
+
+
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 5.webp",
+                "name": "1BHK Dashmesh",
+                "price": "383.09 Sq ft",
+                "area": "27.60 Lakh "
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 6.webp",
+                "name": "1BHK Dashmesh",
+                "price": "383.96 Sq Ft",
+                "area": "27.8 Lakh "
+            },
+
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 10.webp",
+                "name": "1BHK Dashmesh",
+                "price": "389.66",
+                "area": "26.99 Lakh"
+            },
+
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh.webp",
+                "name": "1BHK Dashmesh",
+                "price": "354.78 Sq ft",
+                "area": "25.25 Lakh"
+            },
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh.webp",
+                "name": "1RK Dashmesh",
+                "price": "254.68 Sq ft",
+                "area": "25.25 Lakh"
+            },
+
+            {
+                "url": "../../assets/Property-016/PriceFloorPlans/2BHK Dashmesh.webp",
+                "name": "2BHK Dashmesh",
+                "price": "498.37 Sq ft",
+                "area": "25.25 Lakh"
+            } -->

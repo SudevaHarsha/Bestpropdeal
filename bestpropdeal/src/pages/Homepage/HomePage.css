@@ -881,7 +881,9 @@ a {
     align-items: center;
 }
 
-
+.slide_area{
+    width: auto;
+}
 
 .itemsCount {
     font-size: 10px;

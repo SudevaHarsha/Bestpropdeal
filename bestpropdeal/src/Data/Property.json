@@ -97,7 +97,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -397,6 +397,7 @@
         "image2": "../../assets/Property-003/Property-0031.jpg",
         "logo": "../../images/Pinnacle copy.webp",
         "RMName": "Nutan",
+        "RMRating":"4.9",
         "RMPhoto": "../../images/Nano City RM.jpg",
         "partner": "Dashmesh Infrastructure",
         "location": "Kharvani, mumbai",
@@ -485,7 +486,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -909,7 +910,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -1880,6 +1881,7 @@
         "image2": "../../assets/Property-007/Property-0071.jpg",
         "logo": "../../images/Sadguru Group copy.PNG",
         "RMName": "Alpesh",
+        "RMRating":"4.9",
         "RMPhoto": "../../images/Pinnacle Adarsh RM.jpg",
         "partner": "Pinnacle Group",
         "location": "Kharvani, mumbai",
@@ -2248,7 +2250,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -2604,6 +2606,7 @@
         "image2": "../../assets/Property-009/Property-0091.jpg",
         "logo": "../../images/Flowervalley copy.PNG",
         "RMName": "Dharshan",
+        "RMRating":"4.7",
         "RMPhoto": "../../images/Sunita Palace RM.jpg",
         "partner": "Audumber Flower Valley",
         "location": "Badlapur, mumbai",
@@ -2682,7 +2685,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -3022,7 +3025,7 @@
             "Super Market at just (1 min) distance",
             "Poddar International School (2 min)",
             "Vihaa International School (1 min)",
-            "Upcoming Thanekar Internatioal School (2 min)",
+            "Thanekar Internatioal School (2 min)",
             "Badlapur Railway Station (5 min)",
             "Central Hospital (2 Min)",
             "Shree Swami Samarth Multispeciality Hospital (1 Min)"
@@ -3056,7 +3059,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -3350,6 +3353,7 @@
         "image2": "../../assets/Property-011/Property-0111.jpg",
         "logo": "../../images/Sarvesh City Logo.png",
         "RMName": "Sagar",
+        "RMRating":"4.8",
         "RMPhoto": "../../images/Deep Dhara RM.jpg",
         "partner": "Sarcesh city",
         "location": "Badlapur, mumbai",
@@ -3400,7 +3404,7 @@
             "Super Market at just (1 min) distance",
             "Poddar International School (2 min)",
             "Vihaa International School (1 min)",
-            "Upcoming Thanekar Internatioal School (2 min)",
+            "Thanekar Internatioal School (2 min)",
             "Badlapur Railway Station (5 min)",
             "Central Hospital (2 Min)",
             "Shree Swami Samarth Multispeciality Hospital (1 Min)"
@@ -3434,7 +3438,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -3756,7 +3760,7 @@
             "Super Market at just (1 min) distance",
             "Poddar International School (2 min)",
             "Vihaa International School (1 min)",
-            "Upcoming Thanekar Internatioal School (2 min)",
+            "Thanekar Internatioal School (2 min)",
             "Badlapur Railway Station (5 min)",
             "Central Hospital (2 Min)",
             "Shree Swami Samarth Multispeciality Hospital (1 Min)"
@@ -3790,7 +3794,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -4077,6 +4081,7 @@
         "image2": "../../assets/Property-013/Property-0132.jpg",
         "logo": "../../images/Sarvesh City Logo.png",
         "RMName": "Mohan",
+        "RMRating":"4.8",
         "RMPhoto": "../../images/Deepali Residency RM.jpg",
         "partner": "Sarcesh city",
         "location": "Badlapur, mumbai",
@@ -4127,7 +4132,7 @@
             "Super Market at just (1 min) distance",
             "Poddar International School (2 min)",
             "Vihaa International School (1 min)",
-            "Upcoming Thanekar Internatioal School (2 min)",
+            "Thanekar Internatioal School (2 min)",
             "Badlapur Railway Station (5 min)",
             "Central Hospital (2 Min)",
             "Shree Swami Samarth Multispeciality Hospital (1 Min)"
@@ -4161,7 +4166,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -4495,7 +4500,7 @@
             "Super Market at just (1 min) distance",
             "Poddar International School (2 min)",
             "Vihaa International School (1 min)",
-            "Upcoming Thanekar Internatioal School (2 min)",
+            "Thanekar Internatioal School (2 min)",
             "Badlapur Railway Station (5 min)",
             "Central Hospital (2 Min)",
             "Shree Swami Samarth Multispeciality Hospital (1 Min)"
@@ -4529,7 +4534,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -4818,9 +4823,11 @@
         "Title": "Panvelkar Greens",
         "image": "../../assets/Property-015/freecompress-Property-0151.webp",
         "image2": "../../assets/Property-015/Property-0152.jpg",
-        "logo": "../../images/Panvelkar-Logo.webp",
+        "logo": "../../images/freecompress-Greens.webp",
+        "logo2": "../../images/Panvelkar-Logo.webp",
         "partner": "Sarcesh city",
         "RMName": "Krishna",
+        "RMRating":"4.67",
         "RMPhoto": "../../images/Panvelkar greens RM.jpg",
         "location": "Badlapur, mumbai",
         "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
@@ -4868,7 +4875,7 @@
             "Super Market at just (1 min) distance",
             "Poddar International School (2 min)",
             "Vihaa International School (1 min)",
-            "Upcoming Thanekar Internatioal School (2 min)",
+            "Thanekar Internatioal School (2 min)",
             "Badlapur Railway Station (5 min)",
             "Central Hospital (2 Min)",
             "Shree Swami Samarth Multispeciality Hospital (1 Min)"
@@ -5187,12 +5194,13 @@
     {
         "id": 16,
         "Property_ID": "P51700076747",
-        "Description": "Dashmesh Infrastructure has been a prominent name in real estate development and construction in Badlapur for over a decade. Their success is driven by a focused approach and commitment to customer-centric deliverables.Supported by a talented team of engineers, architects, contractors, and consultants, they continuously innovate and develop projects of distinction. Quality is their unique selling proposition (USP), reflected in every project they undertake. Dashmesh Infrastructure adopts the latest technologies and construction practices, ensuring sustainable and functional developments. Their customer-centric approach has earned them a loyal clientele and a stellar reputation. They are creators of dreams, turning aspirations into reality through meticulous planning and execution. Dashmesh Infrastructure's legacy of excellence continues to set new standards in the real estate market.",
+        "Description": "Dashmesh Infrastructure has been a prominent name in real estate development and construction in Badlapur for over a decade. Their success is driven by a focused approach and commitment to customer-centric deliverables. Supported by a talented team of engineers, architects, contractors, and consultants, they continuously innovate and develop projects of distinction. Quality is their unique selling proposition (USP), reflected in every project they undertake. Dashmesh Infrastructure adopts the latest technologies and construction practices, ensuring sustainable and functional developments. Their customer-centric approach has earned them a loyal clientele and a stellar reputation. They are creators of dreams, turning aspirations into reality through meticulous planning and execution. Dashmesh Infrastructure’s legacy of excellence continues to set new standards in the real estate market.",
         "Title": "Dashmesh Pearl",
         "image": "../../assets/Property-016/freecompress-Property-0161.webp",
         "image2": "../../assets/Property-016/Property-0162.jpg",
-        "logo": "../../images/Panvelkar-Logo.webp",
-        "partner": "Sarcesh city",
+        "logo": "../../images/Dashmesh Infra copy.webp",
+        "logo2": "../../images/Dashmesh-Pearl.webp",
+        "partner": "Dashmesh Infrastructure",
         "location": "Badlapur, mumbai",
         "detailedLocation": "Badlapur, Kulgaon Badlapur, Mumbai Metropolitan Region, Ambernath, Thane, Maharashtra, 421503, India",
         "state": {
@@ -5243,7 +5251,7 @@
             "Super Market at just (1 min) distance",
             "Poddar International School (2 min)",
             "Vihaa International School (1 min)",
-            "Upcoming Thanekar Internatioal School (2 min)",
+            "Thanekar Internatioal School (2 min)",
             "Badlapur Railway Station (5 min)",
             "Central Hospital (2 Min)",
             "Shree Swami Samarth Multispeciality Hospital (1 Min)"
@@ -5275,7 +5283,7 @@
                     "Category": "School"
                 },
                 {
-                    "Name": "Upcoming Thanekar Internatioal School",
+                    "Name": "Thanekar Internatioal School",
                     "Lattitude": "19.140916",
                     "Longitude": "73.252116",
                     "Category": "School"
@@ -5476,75 +5484,33 @@
                 "area": "16.48 Lakh"
             },
             {
-                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 4.webp",
-                "name": "1BHK Dashmesh",
-                "price": "354.78 Sq Ft",
-                "area": "24.25 Lakh"
-            },
-            {
                 "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-12.webp",
                 "name": "1BHK Dashmesh",
                 "price": "375 Sq ft",
                 "area": "21.38 Lakh"
             },
             {
-                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 5.webp",
-                "name": "1BHK Dashmesh",
-                "price": "383.09 Sq ft",
-                "area": "27.60 Lakh "
-            },
-            {
-                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 6.webp",
-                "name": "1BHK Dashmesh",
-                "price": "383.96 Sq Ft",
-                "area": "27.8 Lakh "
-            },
-            {
                 "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 8.webp",
                 "name": "1BHK Dashmesh",
-                "price": "389.66 sq ft",
-                "area": "27.69 Lakh"
-            },
-            {
-                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh 10.webp",
-                "name": "1BHK Dashmesh",
-                "price": "389.66",
-                "area": "26.99 Lakh"
-            },
-            {
-                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-11.webp",
-                "name": "1BHK Dashmesh",
-                "price": "445.74 Sq ft",
-                "area": "25.25 Lakh"
+                "price": "389 sq ft",
+                "area": "272.17 Lakh"
             },
             {
                 "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-13.webp",
                 "name": "1BHK Dashmesh",
-                "price": "420.12 Sq ft",
-                "area": "25.25 Lakh"
+                "price": "420 Sq ft",
+                "area": "23.93 Lakh"
             },
             {
-                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh.webp",
+                "url": "../../assets/Property-016/PriceFloorPlans/1BHK Dashmesh-11.webp",
                 "name": "1BHK Dashmesh",
-                "price": "354.78 Sq ft",
-                "area": "25.25 Lakh"
-            },
-            {
-                "url": "../../assets/Property-016/PriceFloorPlans/1RK Dashmesh.webp",
-                "name": "1RK Dashmesh",
-                "price": "254.68 Sq ft",
-                "area": "25.25 Lakh"
+                "price": "445 Sq ft",
+                "area": "25.30 Lakh"
             },
             {
                 "url": "../../assets/Property-016/PriceFloorPlans/2BHK Dashmesh 7.webp",
                 "name": "2BHK Dashmesh",
                 "price": "603.00 Sq ft",
-                "area": "25.25 Lakh"
-            },
-            {
-                "url": "../../assets/Property-016/PriceFloorPlans/2BHK Dashmesh.webp",
-                "name": "2BHK Dashmesh",
-                "price": "498.37 Sq ft",
                 "area": "25.25 Lakh"
             }
         ],

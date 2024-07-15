@@ -49,7 +49,7 @@ const Slide = React.memo(({ property, setBookASiteVist }) => {
                                 <div className="shower">
                                     <MdOutlineBedroomChild /> <span className='itemsCount'>{property.Bedrooms}</span>
                                 </div>
-                                <div className="shower">
+                                <div className="shower slide_area">
                                     <BsTextarea /> <span className='itemsCount'>{property.area}</span>
                                 </div>
                             </div>

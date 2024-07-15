@@ -558,7 +558,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                     <img width="128" height="128" className=' developer_img' src={CurrentProperty?.logo} ></img>
                     {/* </div> */}
                     <h2 className='develop_info_title'>
-                        About The Developer
+                        Everything You Need To Know
                     </h2>
                     {/*  <div className='developer_description_section'> */}
                     <p className="developer_description">{CurrentProperty?.Description.substring(0, 150)}{readContent ? CurrentProperty?.Description?.substring(150, Property?.Description?.length) : "..."}</p>
@@ -568,7 +568,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                     {/* <div className='developer_readmore_container'> */}
                     {/* <div className="developer_readmore_button"> */}
                     {/* <img className="developer_readmore_buttonimg" src="	https://blox.xyz/assets/icons/arrow-down-secondary.svg"></img> */}
-                    <button className="developer_readmore_container" onClick={() => { setReadContent(!readContent) }}>{readContent ? <FaArrowDown /> : <FaArrowUp />}{readContent ? 'READ LESS' : 'READ MORE'}</button>
+                    <button className="developer_readmore_container" onClick={() => { setReadContent(!readContent) }}>{readContent ? <FaArrowUp /> : <FaArrowDown />}{readContent ? 'READ LESS' : 'READ MORE'}</button>
                     {/*  </div> */}
                     {/* </div> */}
                     {/* </div> */}
@@ -587,6 +587,20 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                         allowfullscreen
                     ></iframe>
                 </div>
+                <div className="qr-section">
+                    <h2 className='faqcard_heading'>
+                        Rera QR Codes
+                    </h2>
+                    <div className="qr-container">
+                        <div className='qr-incont'>
+                            <img src={img} alt="QR Code" className="qr-image" />
+                            <div className="qr-details">
+                                <p>{CurrentProperty.Property_ID}</p>
+                                <p>{CurrentProperty?.Title}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="SameArea_propcont">
                     <SameareaAndSimilarPropertiesSlider property={CurrentProperty} type={false} />
                 </div>
@@ -599,20 +613,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                     </h2>
                     <img src={img}></img>
                 </div> */}
-                <div className="qr-section">
-                    <h2 className='faqcard_heading'>
-                        Rera QR Codes
-                    </h2>
-                    <div className="qr-container">
-                        <div className='qr-incont'>
-                            <img src={img} alt="QR Code" className="qr-image" />
-                            <div className="qr-details">
-                                <p>{CurrentProperty.Property_ID}</p>
-                                <p>24 Karat</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div id="FAQs" ref={FAQRef}>
                     {/* <div className="faqcard_componemt"> */}
                     {/* <div className="faqcard_header_component">
@@ -659,7 +660,7 @@ const PropertyDetails = React.memo(({ OverviewRef, FeaturesRef, FloorPlanRef, Lo
                             <h2 className="property_Deatiles_rmcard_content_title">Hi! I'm here to answer all your queries.</h2>
                             <div className='property_Deatiles_rmcard_content_name'>
                                 <div className='property_Deatiles_rmcard_content_rating'>
-                                    <p>Alpeh</p>
+                                    <p>{CurrentProperty?.RMName}</p>
                                     <div className='property_Deatiles_rmcard_content_row'>
                                         <MdStars className='property_Deatiles_rmcard_content_row_star' />
                                         <p>4.7</p>
