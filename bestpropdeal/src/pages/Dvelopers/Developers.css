@@ -1,0 +1,99 @@
+.TopDeveloper__TopDevCont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.TOPDeveloper__TopDevTitle {
+    color: var(--blox-color-thunder);
+    max-width: 416px;
+}
+
+.TopDeveloper_topDevTitle__texttitle {
+    font-weight: 400;
+}
+
+.TopDeveloper__DesktopTitle {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -1px;
+}
+
+.TopDeveloper__TopDevListCont {
+    flex-direction: column;
+    max-width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.TopDeveloper_TODevListRow {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopDeveloper_TopDevImgConr {
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .02);
+    border-radius: 24px;
+    width: 160px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.TopDeveloper_TopDevImgConr img{
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+}
+
+.TopDeveloper_TopDevImgConr img:hover{
+    transform: scale(1.2);
+}
+
+.TopDeveloper_SeeAllBtn {
+    background-color: var(--blox-color-ebb-divider);
+    color: var(--blox-color-thunder);
+    height: 40px;
+    padding: 11px 22px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px
+}
+
+.TopDeveloper_SeeAllBtn__Title {
+    justify-content: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TopDeveloper_SeeAllBtn__Text {
+    font-size: 10px;
+    line-height: 18px;
+    width: 100%;
+    white-space: nowrap;
+}

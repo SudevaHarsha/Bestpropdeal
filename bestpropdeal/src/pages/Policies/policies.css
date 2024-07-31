@@ -1,0 +1,16 @@
+.conditions_container{
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.conditions_container h2{
+    font-size: 64px;
+    line-height: 64px;
+}

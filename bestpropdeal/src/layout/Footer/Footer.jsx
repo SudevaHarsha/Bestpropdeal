@@ -19,20 +19,20 @@ const Footer = () => {
 
                     <ul>
                         <li><h3>Overview</h3></li>
-                        <li><Link aria-label='Read more about bestpropdeal' to="/">About Us</Link></li>
-                        <li><Link aria-label='conatct bestpropdeal' to="/">Contact Us</Link></li>
-                        <li><Link aria-label='Bestpropdeal Terms and Conditions' to="/">Terms and Conditions</Link></li>
-                        <li><Link aria-label='bestpropdeal Privacy and Policy' to="/">Privacy Policy</Link></li>
+                        <li><Link aria-label='Read more about bestpropdeal' to="/about">About Us</Link></li>
+                        <li><Link aria-label='conatct bestpropdeal' to="/contact">Contact Us</Link></li>
+                        <li><Link aria-label='Bestpropdeal Terms and Conditions' to="/terms">Terms and Conditions</Link></li>
+                        <li><Link aria-label='bestpropdeal Privacy and Policy' to="/policy">Privacy Policy</Link></li>
                     </ul>
                     {/* </div> */}
                     {/* <div> */}
 
                     <ul>
                         <li><h3>Overview</h3></li>
-                        <li><Link aria-label='Bestpropdeal Developers' to="/">Developers</Link></li>
+                        <li><Link aria-label='Bestpropdeal Developers' to="/developers">Developers</Link></li>
                         <li><Link aria-label='blog' to="/">Blogs</Link></li>
                         <li><Link aria-label='Bestpropdeal-Mentions' to="/">Press Mentions</Link></li>
-                        <li><Link aria-label='Bestpropdeal Awards' to="/">Bestpropdeal Awards</Link></li>
+                        <li><Link aria-label='Bestpropdeal Awards' to="/awards">Bestpropdeal Awards</Link></li>
                     </ul>
                     {/* </div> */}
                 </div>
