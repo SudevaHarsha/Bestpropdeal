@@ -42,7 +42,8 @@
             "configuration": [
                 "1RK",
                 "1BHK",
-                "2BHK"
+                "2BHK",
+                "3BHK"
             ],
             "area": "291 sq ft - 593",
             "prices": {
@@ -2154,8 +2155,8 @@
         "Gallery": [
             "../../assets/Property-007/freecompress-Property-0071.webp",
             "../../assets/Property-007/freecompress-Property-0072.webp",
-            "../../assets/Property-007/freecompress-Property-0073.webp",
-            "../../assets/Property-007/freecompress-Property-0074.webp"
+            "../../assets/Property-007/Property-0073.jpg",
+            "../../assets/Property-007/Property-0074.jpg"
         ],
         "Gallery2": [
             "../../assets/Property-007/Property-0071.jpg",
@@ -2633,19 +2634,19 @@
         },
         "SearchFilters": [
             "1BHK",
-            "2BHK"
+            "1RK"
         ],
         "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
                 "1BHK",
-                "2BHK"
+                "1RK"
             ],
             "area": 415,
             "prices": {
                 "1BHK": 2388000,
-                "2BHK": 3396000
+                "1RK": 3396000
             }
         },
         "Advantages": [
@@ -2874,37 +2875,37 @@
         },
         "FloorPlans": [
             {
-                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_01.webp",
+                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_01.jpg",
                 "name": "1BHK Bluebell Flower Valley",
                 "price": "398 Sq Ft",
                 "area": "24.25 Lakh"
             },
             {
-                "url": "../../assets/Property-009/PriceFloorPlans/1RK Flat_02.webp",
+                "url": "../../assets/Property-009/PriceFloorPlans/1RK Flat_02.jpg",
                 "name": "1BHK Lavender",
                 "price": "435 Sq ft",
                 "area": "27.60 Lakh "
             },
             {
-                "url": "../../assets/Property-009/PriceFloorPlans/1RK Flat_03.webp",
+                "url": "../../assets/Property-009/PriceFloorPlans/1RK Flat_03.jpg",
                 "name": "1BHK Snowdrop",
                 "price": "409 Sq Ft",
                 "area": "25.99 Lakh "
             },
             {
-                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_04.webp",
+                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_04.jpg",
                 "name": "1RK Marygold",
                 "price": "424",
                 "area": "27.69 Lakh"
             },
             {
-                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_05.webp",
+                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_05.jpg",
                 "name": "2BHK Orchid",
                 "price": "415",
                 "area": "26.99 Lakh"
             },
             {
-                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_06.webp",
+                "url": "../../assets/Property-009/PriceFloorPlans/1BHK Flat_06.jpg",
                 "name": "2BHK Studio Tulip",
                 "price": "402 Sq ft",
                 "area": "25.25 Lakh"
@@ -3015,7 +3016,8 @@
             "area": 415,
             "prices": {
                 "1BHK": 2388000,
-                "2BHK": 3396000
+                "2BHK": 3396000,
+                "!RK":1300000
             }
         },
         "Advantages": [
@@ -3289,8 +3291,8 @@
             "../../assets/Property-010/freecompress-Property-0102.webp",
             "../../assets/Property-010/freecompress-Property-0103.webp",
             "../../assets/Property-010/freecompress-Property-0104.webp",
-            "../../assets/Property-010/freecompress-Property-0105.webp",
-            "../../assets/Property-010/freecompress-Property-0106.webp"
+            "../../assets/Property-010/freecompress-Property-0105.webp"
+            
         ],
         "Gallery2": [
             "../../assets/Property-010/Property-0101.jpg",
@@ -3379,22 +3381,17 @@
             "publicKey": "B5dq6G_ll28YOYqOJ"
         },
         "SearchFilters": [
-            "1RK",
-            "1BHK",
-            "2BHK"
+            "1BHK"
         ],
         "video": "https://youtu.be/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
-                "1RK",
-                "1BHK",
-                "2BHK"
+                "1BHK"
             ],
             "area": 415,
             "prices": {
-                "1BHK": 2388000,
-                "2BHK": 3396000
+                "1BHK": 2388000
             }
         },
         "Advantages": [
@@ -3739,7 +3736,7 @@
             "1BHK",
             "2BHK"
         ],
-        "video": "https://youtu.be/fh0jkS9grR0",
+        "video": "https://youtube/fh0jkS9grR0",
         "Type": "Villa",
         "Overview": {
             "configuration": [
@@ -4022,6 +4019,7 @@
         "Gallery": [
             "../../assets/Property-012/freecompress-Property-0123.webp",
             "../../assets/Property-012/freecompress-Property-0124.webp",
+            "../../assets/Property-012/freecompress-Property-0125.webp",
             "../../assets/Property-012/freecompress-Property-0126.webp"
         ],
         "Gallery2": [
@@ -4762,11 +4760,7 @@
         "Gallery": [
             "../../assets/Property-014/freecompress-Property-0147.webp",
             "../../assets/Property-014/freecompress-Property-0142.webp",
-            "../../assets/Property-014/freecompress-Property-0143.webp",
-            "../../assets/Property-014/freecompress-Property-0147.webp",
-            "../../assets/Property-014/freecompress-Property-0144.webp",
-            "../../assets/Property-014/freecompress-Property-0145.webp",
-            "../../assets/Property-014/freecompress-Property-0146.webp"
+            "../../assets/Property-014/Property-0143.jpg"
         ],
         "Gallery2": [
             "../../assets/Property-014/Property-0141.jpg",
@@ -5105,7 +5099,7 @@
         },
         "FloorPlans": [
             {
-                "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar greens 3.webp",
+                "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar Greens 3.webp",
                 "name": "1BHK Panvelkar-1",
                 "price": "398 Sq Ft",
                 "area": "24.99 Lakh "
@@ -5124,12 +5118,12 @@
             },
             {
                 "url": "../../assets/Property-015/PriceFloorPlans/1BHK Panvelkar greens 1.webp",
-                "name": "1BHK Panvelkar-",
+                "name": "1BHK Panvelkar-1",
                 "price": "420 Sq Ft",
                 "area": "26.26 Lakh"
             },
             {
-                "url": "../../assets/Property-015/PriceFloorPlans/2BHK Panvelkar greens 1.webp",
+                "url": "../../assets/Property-015/PriceFloorPlans/2BHK Panvelkar Greens 1.webp",
                 "name": "2BHK Panvelkar-1",
                 "price": "502 sqft",
                 "area": "33.33 Lakh"

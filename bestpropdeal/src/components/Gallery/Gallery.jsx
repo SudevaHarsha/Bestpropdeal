@@ -78,22 +78,24 @@ const Gallery = (isGallery,closeGallery) => {
                     <div className="GalleryFilterBtn_Cont"></div>
                     <div>
                         <div className="GalleryFooter">
-                            <div>
+                            <div className='GalleryFooter_div'>
+                                <div>
                                 <h2>
                                     <div className="GalleryFotter_Heading">RUNWAL FORESTS</div>
                                 </h2>
+                                </div>
                                 <div className="GalleryFotter_SubHeading">RUNWAL FORESTS</div>
                             </div>
                             <div className="GalleryFotter_RightCont">
-                                <div>
+                                <div className='GalleryFooter_div'>
                                     <div className="GalleryFotterText1">Configuration</div>
                                     <div className="GalleryFotterText2">1BHK,2BHK,3BHK</div>
                                 </div>
-                                <div>
+                                <div className='GalleryFooter_div'>
                                     <div className="GalleryFotterText1">Configuration</div>
                                     <div className="GalleryFotterText2">1BHK,2BHK,3BHK</div>
                                 </div>
-                                <div>
+                                <div className='GalleryFooter_div'>
                                     <div className="GalleryFotterText1">Configuration</div>
                                     <div className="GalleryFotterText2">1BHK,2BHK,3BHK</div>
                                 </div>

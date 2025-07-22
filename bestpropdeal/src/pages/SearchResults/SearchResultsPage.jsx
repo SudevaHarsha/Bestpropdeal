@@ -4,6 +4,7 @@ import "./SearchResultsPage.css"
 import { Link, useLocation } from 'react-router-dom'
 import SearchBar from '../../components/SearchBar/SearchBar'
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
+import * as L from "leaflet";
 import SeoLinks from '../../components/SEO Links/SeoLinks'
 import Footer from '../../layout/Footer/Footer'
 import SearchResultsPropertycard from '../../components/SearchResultsPropertycard/SearchResultsPropertycard'
@@ -19,9 +20,21 @@ const SearchResultsPage = () => {
   const { filteredResults, searchFilters, type, selectedLocation } = state;
   const Navigation = ["home", `${searchFilters && searchFilters.map((item) => { return item })} ${type && type.map((item) => { return item })} Properties ${"at " + selectedLocation || 'mumbai'} in mumbai`];
   console.log(filteredResults, Navigation);
+  const hasResults = filteredResults.length > 0;
+  const center = hasResults && [filteredResults[0].Lattitude, filteredResults[0].Longitude];
 
-  const centerLattitude = filteredResults[0].Lattitude;
-  const centerLongitude = filteredResults[0].Longitude;
+  /* const centerLattitude = filteredResults[0].Lattitude;
+  const centerLongitude = filteredResults[0].Longitude; */
+
+  const blueIcon = new L.Icon({
+      iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png", 
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      tooltipAnchor: [16, -28],
+      shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png", 
+      shadowSize: [41, 41]
+    });
 
   return <>
     <Navbar type="sticky" bcolor="#342f30" />
@@ -43,18 +56,19 @@ const SearchResultsPage = () => {
         <div className="SearchResults_SearchOverview_HeadingCont">
           <span>
             <h2 className="SearchResults_SearchOverview_Heading">
-              <div className="SearchResults_SearchOverview_HeadingText">Property in {selectedLocation && selectedLocation} for Sale</div>
+              <div className="SearchResults_SearchOverview_HeadingText">Property based on search results</div>
+              {/* <div className="SearchResults_SearchOverview_HeadingText">Property in {selectedLocation && selectedLocation} for Sale</div> */}
             </h2>
           </span>
         </div>
-        <div className="SearchBar_DesktopCont">
+        {/* <div className="SearchBar_DesktopCont">
           <SearchBar />
-        </div>
+        </div> */}
         <div className="SearchResults_SubHeaderCont">
           <div className="SearchResults_TruncatedTextCont">
             <div className="SearchResults_TruncatedText">
               <div className="SearchResults_SubheaderText">Buy Property in malabar hill mumbai with Blox. Verified Inventory | Direct from Developers | Dedicated Relationship Manager </div>
-              <div className="SearchResults_SubheaderReadmoreBtn">read more</div>
+              {/* <div className="SearchResults_SubheaderReadmoreBtn">read more</div> */}
             </div>
           </div>
           <div className="SearchResults_PropertyCountCont">
@@ -63,16 +77,16 @@ const SearchResultsPage = () => {
         </div>
       </div>
       <div>
-        <div className="SearchResults_ResultCardCont">
+      <div className="SearchResults_ResultCardCont">
           <div style={{ height: "100%", width: "calc(100vw - 700px)", "z-index": "-123" }}>
-            <MapContainer center={[centerLattitude, centerLongitude]} zoom={13} scrollWheelZoom={true}>
-              <TileLayer
+            <MapContainer center={center} zoom={13} scrollWheelZoom={true}> 
+              <TileLayer 
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
               {
                 filteredResults.map((result) => {
-                  return <Marker position={[result.Lattitude, result.Longitude]}>
+                  return <Marker position={[result.Lattitude, result.Longitude]} icon={blueIcon}>
                     <Popup>
                       {result.Title}
                     </Popup>

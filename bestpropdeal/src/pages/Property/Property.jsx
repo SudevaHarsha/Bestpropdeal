@@ -123,7 +123,7 @@ const Property = () => {
       </div>
       {/* <div className="StickyFotterNav_ActionBtn"> */}
       {/*  <div className="StickyFotterNav_ActionBtncont"> */}
-      <button className="StickyFotterNav_ActionBtncont">Book A Visit</button>
+      {/* <button className="StickyFotterNav_ActionBtncont">Book A Visit</button> */}
 
       {/* </div> */}
       {/*  </div> */}
@@ -134,7 +134,7 @@ const Property = () => {
     <div className="PropertyDetails_RelativePropertyCont">
       <PropertyDetails OverviewRef={OverviewRef} FeaturesRef={FeaturesRef} FloorPlanRef={FloorPlanRef} LocalityRef={LocalityRef} DeveloperRef={DeveloperRef} VideoGalleryRef={VideoGalleryRef} FAQRef={FAQRef} />
     </div>
-    <div className="propertyseoLinks">
+    <div className="propertyseoLinks_cont">
       <SeoLinks />
     </div>
     <Footer />

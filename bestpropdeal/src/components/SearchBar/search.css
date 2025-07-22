@@ -1,242 +1,236 @@
 .SearchMobileCont {
-    display: block;
-    width: 92%;
-    position: fixed;
-    bottom: 4px;
-    z-index: 100000000000000000000000000000000000000000000000000000000000000;
+  display: block;
+  width: fit-content;
+  bottom: 4px;
+  z-index: 100;
 }
 
 .SearchMobileSmallCont {
-    background-color: var(--blox-color-white);
-    padding: 16px;
-    margin: 0 -8px;
-    border-radius: 12px;
+  background-color: var(--blox-color-white);
+  padding: 16px;
+  margin: 0 -8px;
+  border-radius: 12px;
 }
 
 .SearchIconCont {
-    color: black;
-    display: flex;
-    align-items: center;
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
 .SearchText {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .SearchMobile_LocCont {
-    margin-top: 20px;
-    display: flex;
-    gap: 4px;
+  margin-top: 20px;
+  display: flex;
+  gap: 4px;
 }
 
 .SearchMobile_LocBtn {
-    padding: 9px 12px;
-    color: var(--blox-color-scorpion);
-    background-color: var(--blox-color-pampas-bg-color);
-    border-radius: 100px;
+  padding: 9px 12px;
+  color: var(--blox-color-scorpion);
+  background-color: var(--blox-color-pampas-bg-color);
+  border-radius: 100px;
 }
 
 .SearchMobile_FilterItemBtn {
-    padding: 9px 12px;
-    color: var(--blox-color-scorpion);
-    background-color: var(--blox-color-pampas-bg-color);
-    border-radius: 100px;
+  padding: 9px 12px;
+  color: var(--blox-color-scorpion);
+  background-color: var(--blox-color-pampas-bg-color);
+  border-radius: 100px;
 }
 
 .SearchMobile_FilterItemBtnActive {
-    color: var(--blox-color-pampas-bg-color);
-    background-color: var(--blox-color-scorpion);
+  color: var(--blox-color-pampas-bg-color);
+  background-color: var(--blox-color-scorpion);
 }
 
 .SearchMobile_LocBtnText {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .MobileSearchPopup {
-    z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
 }
 
 .MobileSearchPopupCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchpop {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  display: block;
+
+  border-radius: 20px;
+  padding: 15px 10px;
+}
+
+.searchpopbuttconfirst {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  gap: 10px;
+}
+
+.searchpopbuttconfirstheading {
+  width: 100%;
+  color: black;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.searchpopbuttconfirstbutton {
+  color: black;
+}
+
+.hrbro {
+  width: 100%;
+  height: 3px;
+  color: rgb(13, 14, 14);
+}
+
+.marginbot {
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.secondCont {
+  margin-top: 20px;
+}
+
+.MobileSearchRangeSlider {
+  margin-top: 30px;
+  padding: 25px 15px;
+}
+
+.MobileSearchIconCont {
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.MobilesearchPopup_ActionBtnCont {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.MobilesearchPopup_ActionBtnCont button {
+  border: none;
+  width: 100px;
+  height: 34px;
+  border-radius: 20px;
+  background-color: var(--blox-color-thunder);
+  color: var(--blox-color-white);
+}
+
+.MobileSearchPopup_Heading {
+  width: 100%;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+.MobileSearchPopup_ApplyBtn {
+  border: none;
+  width: 80%;
+  height: 34px;
+  border-radius: 20px;
+  background-color: var(--blox-color-thunder);
+  color: var(--blox-color-white);
+  margin-top: 60px;
+}
+
+@media (max-width: 780px) {
+  .SearchMobileSmallCont {
+    height: 130px;
+  }
+
+  .SearchIconCont {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .SearchMobile_LocCont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .SearchMobile_LocBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+  }
+
+  .SearchMobile_LocBtnText {
+    font-size: 20px;
+  }
+
+  .MobileSearchPopupCont {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .MobileSearchInventoryCont {
+    height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .SearchMobileSmallCont {
+    height: auto;
+    width: 100%;
+  }
+
+  .SearchIconCont {
+    font-size: 12px;
+  }
+
+  .SearchMobile_LocCont {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .SearchMobile_LocBtn {
+    display: block;
+    height: auto;
+    width: auto;
+  }
+
+  .SearchMobile_LocBtnText {
+    font-size: 12px;
+  }
+
+  .MobileSearchInventoryCont {
+    width: 100%;
+    height: auto;
+  }
+
+  .MobileSearchPopupCont {
+    padding: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-
-.searchpop {
-    background-color: white;
-    width: 100%;
-    height: auto;
-    display: block;
-
-    border-radius: 20px;
-    padding: 15px 10px;
-}
-
-.searchpopbuttconfirst {
-    display: flex;
-    flex-direction: row !important;
-    flex-wrap: wrap;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 5px;
-    gap: 10px;
-
-}
-
-.searchpopbuttconfirstheading {
-    width: 100%;
-    color: black;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-
-.searchpopbuttconfirstbutton {
-    color: black;
-}
-
-.hrbro {
-    width: 100%;
-    height: 3px;
-    color: rgb(13, 14, 14);
-}
-
-.marginbot {
-    border-bottom: 2px solid black;
-    padding-bottom: 20px;
-}
-
-.secondCont {
-    margin-top: 20px;
-}
-
-
-.MobileSearchRangeSlider {
-    margin-top: 30px;
-    padding: 25px 15px;
-}
-
-
-.MobileSearchIconCont {
-    padding-bottom: 20px;
-    border-bottom: 1px solid black;
-    margin-bottom: 40px;
-}
-
-.MobilesearchPopup_ActionBtnCont {
-    width: 100%;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between !important;
-    align-items: center;
-}
-
-.MobilesearchPopup_ActionBtnCont button {
-    border: none;
-    width: 100px;
-    height: 34px;
-    border-radius: 20px;
-    background-color: var(--blox-color-thunder);
-    color: var(--blox-color-white);
-}
-
-
-
-.MobileSearchPopup_Heading {
-    width: 100%;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-    margin-bottom: 40px;
-}
-
-
-
-.MobileSearchPopup_ApplyBtn {
-    border: none;
-    width: 80%;
-    height: 34px;
-    border-radius: 20px;
-    background-color: var(--blox-color-thunder);
-    color: var(--blox-color-white);
-    margin-top: 60px;
-}
-
-@media (max-width: 780px) {
-    .SearchMobileSmallCont {
-        height: 130px;
-    }
-
-    .SearchIconCont {
-        margin-bottom: 20px;
-        font-size: 20px;
-    }
-
-    .SearchMobile_LocCont {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .SearchMobile_LocBtn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px;
-        width: 150px;
-    }
-
-    .SearchMobile_LocBtnText {
-        font-size: 20px;
-    }
-
-    .MobileSearchPopupCont {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .MobileSearchInventoryCont {
-        height: 100%;
-    }
-}
-
-@media (max-width: 600px) {
-    .SearchMobileSmallCont {
-        height: auto;
-        width: 100%;
-    }
-
-    .SearchIconCont {
-        font-size: 12px;
-    }
-
-    .SearchMobile_LocCont {
-        display: flex;
-    }
-
-    .SearchMobile_LocBtn {
-        display: block;
-        height: auto;
-        width: auto;
-    }
-
-    .SearchMobile_LocBtnText {
-        font-size: 12px;
-    }
-
-    .MobileSearchInventoryCont {
-        width: 100%;
-        height: auto;
-    }
-
-    .MobileSearchPopupCont {
-        padding: 2px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
+  }
 }

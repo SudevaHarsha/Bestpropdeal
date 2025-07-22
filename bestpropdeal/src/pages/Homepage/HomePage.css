@@ -643,6 +643,7 @@
 
 .PropertiesSlider_UnderlinedTabs {
     display: flex;
+    margin-left: 0px;
     list-style-type: none;
     margin-bottom: 32px;
     cursor: pointer;
@@ -1288,7 +1289,8 @@ a {
 }
 
 .TopSlide {
-    display: block;
+    display: flex;
+    justify-content: center;
     transition: 1s ease-in;
 }
 
@@ -1626,7 +1628,6 @@ a {
 .SeoCard {
     background-color: var(--blox-color-white);
     width: 100% !important;
-    height: 200px !important;
     padding: 24px;
     border-radius: 24px;
     margin-right: 8px;
@@ -1649,12 +1650,14 @@ a {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-bottom: 20px;
 }
 
 .SeoCard li {
     font-size: 12px;
     line-height: 27px;
     color: var(--blox-color-scorpion);
+    cursor: pointer;
 }
 
 .TopDeveloperMobileCont {
@@ -1698,7 +1701,7 @@ a {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .MobileSearchPopup {
         display: flex;
         flex-direction: column;
@@ -1712,15 +1715,28 @@ a {
         z-index: 12345678;
     }
 
+    .Homepage_HeroBanner__HeroTextContainer{
+        position: relative;
+    }
+
     .MobileSearchPopupCont {
-        height: inherit;
-        padding: 26px 16px;
+        height: 100%;
+        padding: 0px;
+        width:100%;
+        justify-content: flex-start !important;
         background-color: var(--blox-color-pampas-bg-color);
         color: var(--blox-color-thunder);
     }
 
+    .MobileSearchPopup_Heading{
+        display: flex;
+        justify-content: center;
+    }
+
     .Homepage_searchMobile {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .Homepage_searchDesktop {
@@ -1728,9 +1744,13 @@ a {
     }
 
     .Homepage_landingPage__Herosection {
-        padding: 0 16px;
+        padding: 0px !important;
     }
 
+    .Homepage_HeroBanner{
+        display: flex;
+        flex-direction: column;
+    }
 
     .Homepage_HeroBanner__Herologo {
         overflow: hidden;
@@ -1743,16 +1763,14 @@ a {
     }
 
     .Homepage_HeroBanner__Herotext {
-        display: block;
-    }
-
-    .Homepage_Herotext__cont {
-        margin-bottom: 220px;
+        font-size: 22px !important;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .Homepage_Herotext__texttitle {
         font-size: 22px;
-        margin-top: 100px;
     }
 
 
@@ -1760,7 +1778,10 @@ a {
         font-size: 24px;
     }
 
-
+    .MobileSearchInventoryCont{
+        width:100%;
+        height:100%;
+    }
 
 
 
@@ -1770,9 +1791,10 @@ a {
         overflow-y: hidden;
     }
 
-    .slider_propertyCard {
-        width: 350px;
-    }
+    /* .slider_propertyCard {
+        height: 500px !important;
+        width: 93vw;
+    } */
 
     .TrustedImg {
         width: 60px;
@@ -1781,6 +1803,14 @@ a {
     .secureImage {
         width: 20px;
         height: 20px;
+    }
+
+    .PropertiesSlider_PropertiesTypecontainer{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-top: 20px;
+        
     }
 
     .propertycard_propertyNamecont {
@@ -1961,6 +1991,10 @@ a {
         display: none;
     }
 
+    .TopDeveloper_TopDevImgConr{
+        width: 45vw !important;
+    }
+
     .TopDeveloperMobileCont {
         display: flex;
         flex-direction: column;
@@ -2053,12 +2087,9 @@ a {
 
     .Homepage_Herotext__cont {
         justify-content: flex-start;
-        margin-left: 20px;
+        margin-bottom: 0px !important;
     }
 
-    .Homepage_HeroBanner__Herotext h2 {
-        margin-left: 520px;
-    }
 }
 
 @media (max-width: 600px) {
@@ -2083,12 +2114,19 @@ a {
     }
 
     .Homepage_searchMobile {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .Homepage_searchDesktop {
         display: none;
     }
+
+    .TopDeveloper_TopDevImgConr{
+        width: 45vw !important;
+    }
+
 
     .Homepage_landingPage__Herosection {
         padding: 0 16px;
@@ -2107,7 +2145,7 @@ a {
     }
 
     .Homepage_HeroBanner__Herotext {
-        display: block;
+        display:block;
     }
 
     .Homepage_Herotext__cont {
@@ -2125,17 +2163,23 @@ a {
 
 
 
-
+    .PropertiesSlider_PropertiesTypecontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 
     .sliderContainer {
         overflow-x: scroll;
         overflow-y: hidden;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .slider_propertyCard {
         height: 500px !important;
-        width: 330px;
+        width: 95vw;
     }
 
     .TrustedImg {
@@ -2299,8 +2343,7 @@ a {
     }
 
     .mobile_FeaturedProductSlider_NavBtn_l {
-        margin-top: 30px;
-        margin-right: 120px;
+        display: none;
     }
 
 
@@ -2315,15 +2358,15 @@ a {
     }
 
     .TopDeveloper__DesktopTitle {
-        font-size: 40px;
+        font-size: 30px !important;
     }
 
     .TopDeveloper__TopDevCont {
-        width: 100%;
+        height: fit-content !important;
     }
 
     .TOPDeveloper__TopDevTitle {
-        color: var(--blox-color-pampas-bg-color);
+        color: var(--blox-color-pampas-bg-color) !important;
     }
 
     .TopDeveloper_topDevTitle__texttitle {
@@ -2331,9 +2374,16 @@ a {
     }
 
     .TopDeveloper__TopDevListCont {
-        flex-direction: row;
-        overflow-x: scroll;
-        display: none;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow-x: scroll !important;
+        
+    }
+
+    .TopDeveloper_TODevListRow{
+        margin-left: auto;
     }
 
     .TopDeveloper__TopDevListCont::-webkit-scrollbar {
@@ -2392,11 +2442,12 @@ a {
 
 
     .SeoLinks_SeoFooterLinks {
+        min-width: 100%;
         overflow-x: scroll;
     }
 
     .SeoLinks_Swipercardcont {
-        width: 900px;
+        width: fit-content;
     }
 
     .SeoLinks_Swipercardcont::-webkit-scrollbar {
@@ -2412,10 +2463,10 @@ a {
     }
 
     .TopDeveloperMobileCont {
-        display: flex;
-        flex-direction: column;
+        display: none;
+        /* flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: center; */
 
     }
 
@@ -2447,7 +2498,7 @@ a {
     .FeatureSlideMobileData_Cont {
         position: absolute;
         bottom: 20px;
-        width: 95%;
+        width: fit-content;
         height: fit-content;
         display: flex;
         justify-content: space-between;
@@ -2472,17 +2523,17 @@ a {
         background-color: var(--blox-color-thunder);
         color: var(--blox-color-white);
         border: none;
-        width: 140px;
+        width: 100px;
         height: 35px;
         border-radius: 20px;
     }
 
     .FeatureMobileNameProce_Cont h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .FeatureMobileNameProce_Cont p {
-        font-size: 20px;
+        font-size: 18px;
     }
     .FeaturedProductSlider__videoplayer {
         width: calc(100vw - 32px);
@@ -2491,6 +2542,26 @@ a {
     /* .propertyCardImg{
         height: 320px;
     } */
+    .slider {
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory; 
+      }
+      .slide {
+        scroll-snap-align: start; 
+        /* width: 100%; 
+        flex-shrink: 0; */ 
+      }
+      .slider_sliderNavigation {
+        display: none; 
+      }
+
+     .SeoCard{
+        width:94vw !important;
+        padding-top:25px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        padding-right: 0px;
+     }
 }
 
 @keyframes MobileImagePanner_mobilepan__IsUHR {

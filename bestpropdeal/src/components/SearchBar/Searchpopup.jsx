@@ -8,7 +8,7 @@ import Properties from "../../Data/Property.json"
 import { useNavigate } from 'react-router-dom';
 import { GrFormClose } from 'react-icons/gr';
 
-const Searchpopup = ({searchPopup,setSearchPopup}) => {
+const Searchpopup = ({ searchPopup, setSearchPopup }) => {
 
     const Locations = ["Badlapur", "Kharvani", "Vangani", "Ambernath", "Dombivali", "Dombiva", "Thakurli"]
 
@@ -67,7 +67,7 @@ const Searchpopup = ({searchPopup,setSearchPopup}) => {
             setSearchFilters([...searchFilters, name]);
         }
     }
-    const handleClearAllClick = ()=>{
+    const handleClearAllClick = () => {
         setType();
         setSearchFilters();
         setSelectedLocation();
@@ -102,71 +102,7 @@ const Searchpopup = ({searchPopup,setSearchPopup}) => {
         });
         navigate("/search", { state: { filteredResults: filteredResults, searchFilters: searchFilters, type: type, selectedLocation: selectedLocation } })
         setFilteredItems(filteredResults)
-        /* if(type){
-            const filteredTypes = propertyItems.filter((item)=>{
-                const itemType = item.Type;
-                const isType = type.includes(itemType);
-                if(isType) return item;
-            })
-            navigate("/search",{state : {  filteredTypes:filteredTypes }});
-            setFilteredTpes(filteredTypes);
-        }
-        if(searchFilters){
-            const filteredFilters = propertyItems.filter((item)=>item.SearchFilters.some(filter => searchFilters.includes(filter)));
-            setFlteredFilters(filteredFilters);
-        } */
-        /* if(searchFilters && type){      
-            const filteredSearchItems = filteredFilters.filter((item)=>filteredTypes.includes(item));
-            setFilteredItems(filteredSearchItems);
-        } */
-        /*  if(values){
-             const filteredItems = propertyItems.filter((item)=>{
-                 const Price = parseInt(item.Price.replace(/,/g, ''), 10);
-                 const isInBudget = Price > values[0] && Price<values[1];
-                 if(isInBudget) return item
-             })
-             setFilteredItems(filteredItems);
-         }
-  */
-        /* if(filteredSearchItems && values){
-            const filteredItems = filteredSearchItems.filter((item)=>{
-                const Price = parseInt(item.Price.replace(/,/g, ''), 10);
-                const isInBudget = Price > values[0] && Price<values[1];
-                if(isInBudget) return item
-            })
-            setFilteredItems(filteredItems);
-        }
-
-        if(filteredFilters && values){
-            const filteredItems = filteredFilters.filter((item)=>{
-                const Price = parseInt(item.Price.replace(/,/g, ''), 10);
-                const isInBudget = Price > values[0] && Price<values[1];
-                if(isInBudget) return item
-            })
-            setFilteredItems(filteredItems);
-        }
-
-        if(filteredTypes && values){
-            const filteredItems = filteredTypes.filter((item)=>{
-                const Price = parseInt(item.Price.replace(/,/g, ''), 10);
-                const isInBudget = Price > values[0] && Price<values[1];
-                if(isInBudget) return item
-            })
-            setFilteredItems(filteredItems);
-        } */
-
-        /* if(searchLocation){
-            const filteredItemsWithLocation = propertyItems.filter((item)=>{
-                const locationStrings = item.location.split(',');
-                const location = locationStrings[0];
-                const isLocation = selectedLocation.includes(location);
-                if(isLocation) return item
-            });
-            setFileredLocationItems(filteredItemsWithLocation);
-        } */
-
-        /* setSearchFilters([]);
-        setType([]); */
+        
     }
 
     const LocationSearch = () => {
@@ -174,33 +110,6 @@ const Searchpopup = ({searchPopup,setSearchPopup}) => {
         setFoundLocations(foundLocations);
     }
 
-    /* console.log(values); */
-    /* console.log(searchFilters);
-    console.log(type);
-    console.log(filteredTypes);
-    console.log(filteredFilters); */
-    console.log(filteredItems);
-    /*   console.log(filteredSearchItems);
-      console.log(searchLocation);
-      console.log(foundLocations)
-      console.log(selectedLocation);
-      console.log(FilteredLocationItems) */
-
-    /* let dropdownRef = useRef(); */
-
-/*     useEffect(() => {
-        let handler = (e) => {
-            if (!dropdownRef.current.contains(e.target)) {
-                setOpen(false);
-            }
-        };
-
-        document.addEventListener("mousedown", handler)
-
-        return () => {
-            document.removeEventListener("mousedown", handler)
-        }
-    }) */
 
     useEffect(() => {
         LocationSearch();
@@ -209,37 +118,46 @@ const Searchpopup = ({searchPopup,setSearchPopup}) => {
 
     return (<div className='MobileSearchPopupCont'>
         <div className="MobilesearchPopup_ActionBtnCont">
-            <GrFormClose onClick={()=>setSearchPopup(!searchPopup)} />
-            <button onClick={()=>handleClearAllClick}>Clear All</button>
+            <GrFormClose onClick={() => setSearchPopup(!searchPopup)} />
+            <button onClick={() => handleClearAllClick}>Clear All</button>
         </div>
         <h2 className="MobileSearchPopup_Heading">Search Your Properties With Various Filters</h2>
         <div className="SearchIconCont MobileSearchIconCont">
-            <FaSearch />
-            <div className="SearchText">Search for property, location</div>
+            <FaSearch  onClick={() => handleSearch()}/>
+            <div className="SearchText">
+            <input
+                      type="text"
+                      className="Input_Text-sm__VH_0e Input_InputField__L01BX Input_primary___ZVfL SearchBarDesktop_InputCls__WFBcs SearchBarDesktop_primary__doY22"
+                      placeholder="Search for Developers, Location, Projects"
+                      maxLength="500"
+                      value={searchLocation}
+                      onChange={(e) => setSearchLocation(e.target.value)}
+                    />
+            </div>
         </div>
         <div className="searchpop">
             <p className='searchpopbuttconfirstheading'>Inventory</p>
             <div className='searchpopbuttconfirst marginbot'>
-            <div className={`SearchMobile_FilterItemBtn ${type.includes("Apartment") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchTypeClick("Apartment")}>
-                    <div className="SearchMobile_LocBtnText">Apartments</div>
+                <div className={`SearchMobile_FilterItemBtn ${type.includes("Apartment") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchTypeClick("Apartment")}>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchTypeClick("Apartment")}>Apartments</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${type.includes("Pent House") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchTypeClick("Pent House")}>
-                    <div className="SearchMobile_LocBtnText">PentHouse</div>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchTypeClick("Pent House")}>PentHouse</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${type.includes("Studio") ? "SearchMobile_FilterItemBtnActive" : ""}`}>
                     <div className="SearchMobile_LocBtnText" onClick={() => handleSearchTypeClick("Studio")}>Studio</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${type.includes("Villa") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchTypeClick("Villa")}>
-                    <div className="SearchMobile_LocBtnText" >Villa</div>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchTypeClick("Villa")}>Villa</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${type.includes("Independent House") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchTypeClick("Independent House")}>
-                    <div className="SearchMobile_LocBtnText" >Independent House</div>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchTypeClick("Independent House")}>Independent House</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${type.includes("Independent Floor") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchTypeClick("Independent Floor")}>
-                    <div className="SearchMobile_LocBtnText" >Independent Floor</div>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchTypeClick("Independent Floor")}>Independent Floor</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${type.includes("Duplex") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchTypeClick("Duplex")}>
-                    <div className="SearchMobile_LocBtnText">Duplex</div>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchTypeClick("Duplex")}>Duplex</div>
                 </div>
             </div>
             <div className='searchpopbuttconfirst secondCont'>
@@ -247,13 +165,13 @@ const Searchpopup = ({searchPopup,setSearchPopup}) => {
                     <div className="SearchMobile_LocBtnText" onClick={() => handleSearchFilterClick("1RK")}>1Rk</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${searchFilters.includes("1BHK") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchFilterClick("1BHK")}>
-                    <div className="SearchMobile_LocBtnText">1BHK</div>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchFilterClick("1BHK")}>1BHK</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${searchFilters.includes("2BHK") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchFilterClick("2BHK")}>
-                    <div className="SearchMobile_LocBtnText">2BHK</div>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchFilterClick("2BHK")}>2BHK</div>
                 </div>
                 <div className={`SearchMobile_FilterItemBtn ${searchFilters.includes("3BHK") ? "SearchMobile_FilterItemBtnActive" : ""}`} onClick={() => handleSearchFilterClick("3BHK")}>
-                    <div className="SearchMobile_LocBtnText">3BHK</div>
+                    <div className="SearchMobile_LocBtnText" onClick={() => handleSearchFilterClick("3BHK")}>3BHK</div>
                 </div>
             </div>
             {/* <div className='searchpopbuttconfirst'>

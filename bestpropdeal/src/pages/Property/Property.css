@@ -190,6 +190,7 @@
     color:#fff;
     background: none;
     border: none;
+    font-size: 25px;
 }
 
 .PropertyViewerCard_GalleryBtncontent_butt_icon{
@@ -204,7 +205,7 @@
 }
 
 .CheckIcon{
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -1373,14 +1374,18 @@ section {
 .qr-section {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    margin-top: 20px;
 }
 
 .qr-container {
+    width:100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .qr-incont{
@@ -1390,24 +1395,41 @@ section {
 .qr-image {
     width: 150px; /* Adjust size as needed */
     height: 150px; /* Adjust size as needed */
-    margin-bottom: 10px;
+}
+.qr-details{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .qr-details p {
     margin: 0;
     font-size: 14px;
-    color: #333;
-    margin-left: 40px;
+    color: #fff;
+
+}
+
+.developer_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .developer_img {
-    width: 128px !important;
+    width: 128px;
     height: 128px;
-    margin:  auto 350px;
+    margin:  auto;
     border-radius: 10px;
     border: 1.65px solid #ece7e4;
     box-shadow: 0 8.53333px 17.0667px rgba(0, 0, 0, .08);
     object-fit: contain;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .developer_squarebox {
@@ -1421,7 +1443,6 @@ section {
 
 .develop_info_title {
     color: var(--blox-color-thunder);
-    padding-bottom: 20px;
     font-weight: 400;
     font-size: 20px;
 }
@@ -1442,7 +1463,7 @@ section {
 }
 
 .developer_readmore_container {
-    margin: 20px auto;
+    margin-bottom: 15px;
     background-color: transparent;
     color: var(--blox-color-thunder);
     border-color: transparent;
@@ -1547,7 +1568,7 @@ section {
 
 .property_DeatilesCont{
   
-    height: 5000px;
+    height: 5748px;
     position: absolute;
     right: 80px;
     z-index: 99999999;
@@ -2385,7 +2406,7 @@ section {
     background: linear-gradient(90deg, hsla(30, 11%, 96%, 0), #f7f6f5);
 }
 
-.samearea_SwiperPagination {
+/* .samearea_SwiperPagination {
     bottom: var(--swiper-pagination-bottom, 8px);
     top: var(--swiper-pagination-top, auto);
     left: 0;
@@ -2396,7 +2417,7 @@ section {
     transform: translateZ(0);
     z-index: 10;
 }
-
+ */
 
 .Same_area_PaginationBullets {
     margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
@@ -2497,10 +2518,10 @@ section {
 
 
 
-.propertyseoLinks {
+.propertyseoLinks_cont {
     width: 100%;
-    padding: 0 30px;
-    background: var(--blox-color-pampas-bg-color) !important;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .BookSiteVisit_Cont {
@@ -2831,6 +2852,9 @@ section {
 
 .videoGalleryCont{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
 }
 
@@ -2953,6 +2977,7 @@ section {
         font-weight: 400;
         font-size: 16px;
         line-height: 16px;
+        margin-bottom: 4px;
     }
 
     .PropertyViewerCard_PropertyMobileProce {
@@ -2961,13 +2986,13 @@ section {
     }
 
     .PropertyViewerCard_CallRmActionBtnCtn__SQDNQ {
-        display: block;
+        display: none;
     }
 
     .PropertyViewerCard_PropActionBtn__K0p_l {
-        background: hsla(0, 0%, 100%, .15);
+/*         background: hsla(0, 0%, 100%, .15);
         -webkit-filter: blur(2px);
-        filter: blur(2px);
+        filter: blur(2px); */
         box-sizing: border-box;
         color: var(--blox-color-white);
         height: 40px;
@@ -2976,9 +3001,9 @@ section {
         width: auto;
         cursor: pointer;
         border-radius: 100px;
-        -webkit-user-select: none;
+/*         -webkit-user-select: none;
         -moz-user-select: none;
-        user-select: none;
+        user-select: none; */
         font-style: normal;
         font-weight: 500;
         text-align: center;
@@ -3173,15 +3198,12 @@ section {
 
     .developer_img {
         padding:0px;
-        margin-left:280px;
         width: 95px;
         aspect-ratio: auto 95 / 95;
         height: 95px;
-        border-radius: 32px;
     }
     .develop_info_title{
         color: var(--blox-color-white);
-        margin-left: 200px;
         font-size: 38px;
     }
 
@@ -3197,8 +3219,20 @@ section {
 
     .developer_readmore_container {
         color: var(--blox-color-white) !important;
-        margin: 20px auto;
         border: transparent;
+    }
+
+    .videoGalleryCont{
+        height:200px;
+        margin-bottom: 15px;
+    }
+    .videoGalleryVideo{
+        height:200px;
+    }
+
+    .qr-section{
+        margin-top: 15px;
+        background-color: transparent;
     }
 
     .SameArea_CardHeader_Textcont {
@@ -3367,7 +3401,13 @@ section {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 76px 48px 0;
+        padding: 76px 0px 0;
+    }
+    .PropertyCard_NavigatorCont{
+
+    }
+    .PropertyCard_NavigatorRouteCont{
+        width:100%;
     }
 
     .PropertyCard_DataCont {
@@ -3418,6 +3458,7 @@ section {
     .PropertyViewerCard_PropertyActnBtnPRangeCtn {
         margin-top: auto;
         display: block;
+        font-size: 30px;
     }
 
     .PropertyViewerCard_PropertyCardActionBtn {
@@ -3433,9 +3474,9 @@ section {
         width: 48px;
         height: 36px;
         border-radius: 100px;
-        background: hsla(0, 0%, 100%, .15);
+/*         background: hsla(0, 0%, 100%, .15);
         -webkit-filter: blur(2px);
-        filter: blur(2px);
+        filter: blur(2px); */
         box-sizing: border-box;
         color: var(--blox-color-white);
         display: flex;
@@ -3456,23 +3497,23 @@ section {
     .PropertyViewerCard_PropertyAddressShort__4deRi {
         display: block;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 17px;
         line-height: 16px;
     }
 
     .PropertyViewerCard_PropertyMobileProce {
-        font-size: 14px;
+        font-size: 17px;
         line-height: 20px;
     }
 
     .PropertyViewerCard_CallRmActionBtnCtn__SQDNQ {
-        display: block;
+        display: none;
     }
 
     .PropertyViewerCard_PropActionBtn__K0p_l {
-        background: hsla(0, 0%, 100%, .15);
+/*         background: hsla(0, 0%, 100%, .15);
         -webkit-filter: blur(2px);
-        filter: blur(2px);
+        filter: blur(2px); */
         box-sizing: border-box;
         color: var(--blox-color-white);
         height: 40px;
@@ -3481,9 +3522,9 @@ section {
         width: auto;
         cursor: pointer;
         border-radius: 100px;
-        -webkit-user-select: none;
+/*         -webkit-user-select: none;
         -moz-user-select: none;
-        user-select: none;
+        user-select: none; */
         font-style: normal;
         font-weight: 500;
         text-align: center;
@@ -3521,12 +3562,19 @@ section {
     }
 
     .PropertyCardViewer_PropertyTagsCont {
-        margin: 0;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .PropertyViewerCard_SecureIconNameCont {
-        width: 100%;
-        justify-content: flex-start;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
    
@@ -3539,7 +3587,30 @@ section {
         display: none;
     }
 
-   
+    .property_Deatiles_rmcard_middle_text_div{
+        display: flex;
+        flex-direction: column;
+    }
+    .property_Deatiles_rmcard_middle_text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width:100% !important;
+    }
+    .property_Deatiles_rmcard_cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        width:100% !important;
+    }
+    .property_Deatiles_rmcard_content_title{
+        width:100% !important;
+        align-items: center;
+        margin-bottom: 15px;
+    }
 
    
 
@@ -3556,18 +3627,29 @@ section {
         padding: 0;
     }
 
+    .Amenitiesseeall_Text{
+        color:#f7f6f5;
+    }
+
     .PropertyDetails_Leftsection__Overview {
         width: 100%;
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .LeftSection_OverviewTitle {
+        margin-bottom: 15px;
         padding-right: 10px;
         color: var(--blox-color-white);
         font-size: 14px;
     }
 
     .OverviewTruncatedText {
+        margin-left: 4px;
+        margin-right: 4px;
         color: var(--blox-color-dusty-gray);
     }
 
@@ -3582,6 +3664,7 @@ section {
 
     .Overview_OverviewSubGrid {
         grid-gap: 15px;
+        place-items: center; 
     }
 
     .OverviewSubgrid_Overviewlabel {
@@ -3671,16 +3754,14 @@ section {
 
     .developer_img {
         padding:0px;
-        margin-left:100px;
         width: 95px;
         aspect-ratio: auto 95 / 95;
         height: 95px;
-        border-radius: 32px;
+        border: 0px !important;
     }
     .develop_info_title{
         color: var(--blox-color-white);
-        margin-left: 60px;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .developer_info_title {
@@ -3695,8 +3776,11 @@ section {
 
     .developer_readmore_container {
         color: var(--blox-color-white) !important;
-        margin: 20px auto;
         border: transparent;
+    }
+
+    .SameArea_CardHeader_Text{
+        color:#fff;
     }
 
     .SameArea_CardHeader_Textcont {
@@ -3730,9 +3814,17 @@ section {
         border-color: #564f4c;
     }
 
+    .extra_styles_faq_heading{
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .faq_question_cont_heading {
         color: var(--blox-color-white);
         font-size: 16px;
+        width:350px;
     }
     
 
@@ -3843,6 +3935,18 @@ section {
     }
     .property_Deatiles_enquirycard{
         width: 100%;
+    }
+    .property_Deatiles_enquirycard_cont{
+        width:100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .faqcard_heading{
+        color:#fff;
     }
 }
 

@@ -70,6 +70,9 @@
 .VisitBtn{
     margin-top: 20px !important;
 }
+.property_Deatiles_rmcard_content_button_content{
+    margin-top: 15px;
+}
 
 .property_Deatiles_rmcard_content_button_container{
     display:flex;
@@ -544,13 +547,14 @@ input:focus ~ label, input:focus ~ :valid{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: var(--blox-color-white);
+        color:white;
     }
     .Mobilerm_CloseLogoCont img{
         margin-top: 10px;
     }
     .Mobilerm_closeIcon{
-        z-index: 99999999999;
+/*         z-index: 99999999999; */
+        color: #fff;
         margin-right: 8px;
     }
     .Mobilerm_descriptionCont{
@@ -567,6 +571,10 @@ input:focus ~ label, input:focus ~ :valid{
         font-size: 22px;
         color: var(--blox-color-white);
     }
+
+    .inputbox{
+        font-size: 17px !important;
+    }
     .Mobilerm_inputbox{
         border-color: var(--blox-color-white) !important;
     }
@@ -582,6 +590,9 @@ input:focus ~ label, input:focus ~ :valid{
     .Mobilerm_forgetrm{
         color: var(--blox-color-white) !important;
     }
+    .forget{
+        padding-left: 0px;
+    }
     .Mobilerm_Btn{
         margin-top: 20px;
         color: var(--blox-color-white) !important;
@@ -593,7 +604,7 @@ input:focus ~ label, input:focus ~ :valid{
     .MobileVisitImage{
         width: 100%;
         height: 50%;
-        background-image: url("https://www.bestpropdeal.com/wp-content/uploads/2020/09/Side_View-1-1-488x326.jpg");
+        background-image: url("https://tse3.mm.bing.net/th?id=OIP.LOUeFfvB8MYk06hzD9V-9gHaDY&pid=Api&P=0&h=180");
         background-repeat: no-repeat;
         background-size: cover;
     }

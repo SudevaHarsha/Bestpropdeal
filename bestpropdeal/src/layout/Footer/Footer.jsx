@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="FotterLinksCont">
                 <div className="FotterCont_FotterLinks">
                     {/* <div> */}
-
+                    <div>
                     <ul>
                         <li><h3>Overview</h3></li>
                         <li><Link aria-label='Read more about bestpropdeal' to="/about">About Us</Link></li>
@@ -24,9 +24,10 @@ const Footer = () => {
                         <li><Link aria-label='Bestpropdeal Terms and Conditions' to="/terms">Terms and Conditions</Link></li>
                         <li><Link aria-label='bestpropdeal Privacy and Policy' to="/policy">Privacy Policy</Link></li>
                     </ul>
+                    </div>
                     {/* </div> */}
                     {/* <div> */}
-
+                    <div>
                     <ul>
                         <li><h3>Overview</h3></li>
                         <li><Link aria-label='Bestpropdeal Developers' to="/developers">Developers</Link></li>
@@ -34,6 +35,7 @@ const Footer = () => {
                         <li><Link aria-label='Bestpropdeal-Mentions' to="/">Press Mentions</Link></li>
                         <li><Link aria-label='Bestpropdeal Awards' to="/awards">Bestpropdeal Awards</Link></li>
                     </ul>
+                    </div>
                     {/* </div> */}
                 </div>
                 <div className="FotterCont_FotterInfo">
@@ -91,7 +93,7 @@ const Footer = () => {
                         <Link aria-label='call to bestpropdeal' to="/">
                             <div className="FotterListIcon">
                                 {/* <div className="FotterListIconBtn"> */}
-                                <button className="FotterListIconBtn"  style={{ transition: "box-shadow 0.3s", boxShadow: "none" }} onMouseOver={(e) => { e.target.style.boxShadow = "rgba(255, 0, 0, 0.4) 0px 0px 0px 2px, rgba(255, 0, 0, 0.65) 0px 4px 6px -1px, rgba(255, 0, 0, 0.08) 0px 1px 0px inset"; e.target.querySelector('.StepperchartIcon__Imagef').style.color = '#ff0000' }} onMouseOut={(e) => { e.target.style.boxShadow = "none"; e.target.querySelector('.StepperchartIcon__Imagef').style.color = '#ffffff' }}><BiPhoneCall className='StepperchartIcon__Imagef' /></button>                                    {/* </div> */}
+                                <button className="FotterListIconBtn"  style={{ transition: "box-shadow 0.3s", boxShadow: "none" }} onMouseOver={(e) => { e.target.style.boxShadow = "rgba(64, 227, 75, 0.4) 0px 0px 0px 2px, rgba(35, 205, 55, 0.65) 0px 4px 6px -1px, rgba(255, 0, 0, 0.08) 0px 1px 0px inset"; e.target.querySelector('.StepperchartIcon__Imagef').style.color = '#00ff80' }} onMouseOut={(e) => { e.target.style.boxShadow = "none"; e.target.querySelector('.StepperchartIcon__Imagef').style.color = '#ffffff' }}><BiPhoneCall className='StepperchartIcon__Imagef' /></button>                                    {/* </div> */}
                                 {/* <div className="FotterListIconLabel"> */}
                                 <p className="FotterListIconLabel">Call us:</p>
                                 <p className="FotterListIconLabel">+91-7969669900 </p>

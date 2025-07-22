@@ -98,8 +98,8 @@ const FeatureSlide = ({ property, setBookASiteVist }) => {
                 <p> &#8377; {property.Price}</p>
             </div>
             <div className="FeatureMobileBtn_Cont">
-                <button>Book A Visit</button>
-                <button onClick={() => navigate(`/property/${property.position}`)}>View More</button>
+                <button onClick={() => setBookASiteVist(true)}>Book A Visit</button>
+                <button onClick={() => navigate(`/property/${property.Title}`)}>View More</button>
             </div>
         </div>
 

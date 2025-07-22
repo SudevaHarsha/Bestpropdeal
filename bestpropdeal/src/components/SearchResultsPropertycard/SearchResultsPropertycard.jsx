@@ -8,12 +8,13 @@ import { MdOutlineBedroomChild, MdOutlineLocationOn } from 'react-icons/md';
 import { FaRegHeart, FaShower } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import PropertyviewerCardImg from '../PropertyViewerSlider/PropertyviewerCardImg'
+import Properties from "../../Data/Property.json"
 
 const SearchResultsPropertycard = ({ property, index }) => {
 
   /* const [property,setProperty] = useState(properties[0]); */
   const navigate = useNavigate();
-  const propertyItems = OngoingPropertyItems.concat(CompletedPropertyItems);
+  const propertyItems = Properties;
   const pid = () => {
     for (let i = 0; i < propertyItems.length; i++) {
       if (propertyItems[i].id === property.id) {
@@ -145,7 +146,7 @@ const SearchResultsPropertycard = ({ property, index }) => {
               </div>
             </div>
           </div> */}
-          <div className="CardProducts_Data" onClick={() => navigate(`/property/${property.position}`)}>
+          <div className="CardProducts_Data" onClick={() => navigate(`/property/${property?.Title}`)}>
             <div className="CardProducts_PropertyCard">
               <div className="CardProducts_PropertyCard__Title">
                 <Link to="/"></Link>

@@ -12,6 +12,7 @@ import emailjs from '@emailjs/browser';
 
 import img from "../Assets/RM.jpg"
 import { useParams } from 'react-router-dom'
+import { AiFillCloseCircle } from 'react-icons/ai'
 
 const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
 
@@ -152,7 +153,7 @@ const BookForm = ({ callrm, setCallrm, CurrentProperty }) => {
             <div className="Mobilerm_Cont">
                 <div className="Mobilerm_CloseLogoCont">
                     <img src={minilogo}></img>
-                    <GrFormClose className='Mobilerm_closeIcon' onClick={() => setCallrm(!callrm)} />
+                    <AiFillCloseCircle className='Mobilerm_closeIcon' onClick={() => setCallrm(!callrm)} />
                 </div>
                 <div className="Mobilerm_descriptionCont">Interested in learning more about our properties? Fill out the form below to schedule a meeting with one of our real estate experts. We look forward to helping you find your dream home or investment property!</div>
                 <div className='rm_t_des'>

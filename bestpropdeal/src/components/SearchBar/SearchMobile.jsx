@@ -21,7 +21,7 @@ const SearchMobile = () => {
         <div className="SearchMobileCont">
             <div className="SearchMobileSmallCont">
                 <div className="SearchIconCont">
-                    <FaSearch />
+                    {/* <FaSearch /> */}
                     <div className="SearchText">Search for property, location</div>
                 </div>
                 <div className="SearchMobile_LocCont">

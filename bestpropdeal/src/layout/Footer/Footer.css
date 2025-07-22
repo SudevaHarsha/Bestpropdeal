@@ -178,7 +178,13 @@
         padding: 10px;
     }
 
-   
+   .Fottercol2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 20px;
+   }
 
     .FotterLinksCont {
         display: block;
@@ -186,12 +192,20 @@
 
     .FotterCont_FotterLinks {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+        align-items: center;
         justify-content: center;
         margin-bottom: 8px;
     }
 
     .FotterCont_FotterLinks div{
         width: 40%;
+    }
+
+    .FotterCont_FotterLinks ul{
+        padding-right: 0px;
     }
 
     .FotterCont_FotterInfo {
@@ -203,13 +217,19 @@
         width: 100%;
     }
     .fotterSocialIcons{
-        justify-content: center;
-        gap: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FotterDivider{
+        
+        margin-top: 10px;
     }
    
     .FotterListIcon{
         margin-top: 3px;
         justify-content: flex-start;
+        width:100% !important;
     }
     .Fotter_Copyright {
         margin-bottom: 100px;

@@ -298,5 +298,14 @@
     .GalleryFooter{
         padding: 8px;
         margin-bottom: 34px;
+        display: flex;
+        flex-direction: column;
+    }
+    .GalleryFooter_div{
+        display: flex;
+    }
+    .GalleryFotter_SubHeading{
+        display: flex;
+        flex-direction: column;
     }
 }

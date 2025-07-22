@@ -1,16 +1,28 @@
 import React, { useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import { Link, useParams } from 'react-router-dom';
-import PropertyData from "../../Data/Property.json"
+import PropertyData from "../../Data/Property.json";
+import * as L from "leaflet";
 
 const GallerCont = ({openGallery}) => {
 
     const { id } = useParams();
 
-    const CurrentProperty = PropertyData[id];
+    const CurrentProperty = PropertyData.find((property) => property.Title === id);
 
     const [currentImage, setCurrentImage] = useState(0);
     const [isMap, setIsMap] = useState(true);
+    const images = CurrentProperty?.Gallery.length > 5 ? CurrentProperty?.Gallery.slice(0, 5) : CurrentProperty?.Gallery;
+
+    const blueIcon = new L.Icon({
+        iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png", 
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        tooltipAnchor: [16, -28],
+        shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png", 
+        shadowSize: [41, 41]
+      });
 
     const toggleMap = () => {
         setIsMap(!isMap);
@@ -52,8 +64,8 @@ const GallerCont = ({openGallery}) => {
                                             <div className="GallerySwiperSlide">
                                                 <div className="GallerySwiperImageWrapper">
                                                     {
-                                                        [...Array(CurrentProperty?.TotalImages)].map((i, index) => {
-                                                            return currentImage === index && <img src={`../../assets/Property-00${CurrentProperty?.id}/Property-00${CurrentProperty?.id}${index + 1}.jpg`} alt={`galleryImage-${index}`} className='GallerySwiperImage'></img>
+                                                        images?.map((image, index) => {
+                                                            return currentImage === index && <img src={image} alt={`galleryImage-${index}`} className='GallerySwiperImage'></img>
                                                         })
                                                     }
                                                 </div>
@@ -61,21 +73,21 @@ const GallerCont = ({openGallery}) => {
                                         </div>
                                     </div> :
                                         <div style={{ width: "100%", height: "100%" }}>
-                                            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
-                                                <TileLayer
-                                                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                                                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                                                />
-                                                <Marker position={[51.505, -0.09]}>
+                                            <MapContainer center={[CurrentProperty.Lattitude, CurrentProperty.Longitude]} zoom={13} scrollWheelZoom={true}>
+                                            <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+                                                <Marker position={[CurrentProperty.Lattitude, CurrentProperty.Longitude]} icon={blueIcon}>
+                                                    <Popup>
+                                                        {CurrentProperty.Title}
+                                                    </Popup>
+                                                </Marker>
+{/*                                                 <Marker position={[51.50, -0.09]}>
                                                     <Popup>
                                                         A pretty CSS3 popup. <br /> Easily customizable.
                                                     </Popup>
-                                                </Marker>
-                                                <Marker position={[51.50, -0.09]}>
-                                                    <Popup>
-                                                        A pretty CSS3 popup. <br /> Easily customizable.
-                                                    </Popup>
-                                                </Marker>
+                                                </Marker> */}
                                             </MapContainer>
                                         </div>
                                 }
@@ -96,9 +108,9 @@ const GallerCont = ({openGallery}) => {
                                     })
                                 } */}
                                 {
-                                    [...Array(CurrentProperty?.TotalImages)].map((i, index) => {
+                                    images?.map((i, index) => {
                                         return <div className="GalleryIconPagination_Icon" onClick={() => setCurrentImage(index)}>
-                                            <img src={`../../assets/Property-0${CurrentProperty?.id < 10 && 0}${CurrentProperty?.id}/Property-0${CurrentProperty?.id < 10 && 0}${CurrentProperty?.id}${index + 1}.jpg`} alt={`galleryImage-${index}`} className='GalleryIconImage'></img>
+                                            <img src={i} alt={`galleryImage-${index}`} className='GalleryIconImage'></img>
                                         </div>
                                     })
                                 }

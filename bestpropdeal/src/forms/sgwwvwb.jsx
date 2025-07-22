@@ -62,6 +62,7 @@ const Enquiry = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm }) => {
         console.log(name1, mobile, email);
         setMobile("");
         setEmail("");
+        setName1("");
     }
 
     return <div className='property_Deatiles_cont'>
@@ -108,7 +109,7 @@ const Enquiry = ({ bookASiteVist, setBookASiteVist, callrm, setCallrm }) => {
                         </div>
                         <div className='inputbox'>
                             <input type="text" name="contact" value={mobile} required />
-                            <label htmlFor="">contactNo</label>
+                            <label htmlFor="">suchi</label>
                         </div>
                     </div>
                     <div className='forget'>

@@ -125,11 +125,11 @@ const PropertyViewerSlider = React.memo(({ isGallery, openGallery }) => {
                                 <div className="PropertyViewerCard_PropActionBtn">
                                     <button className='PropertyViewerCard_BtnImg_butt' onClick={openGallery}><TfiGallery className='PropertyViewerCard_GalleryBtncontent_butt_icon' /></button>
                                 </div>
-                                <div>
+                                {/* <div>
                                     <div className="PropertyViewerCard_PropActionBtn">
                                         <img src='https://blox.xyz/assets/icons/gallery-primary.svg'></img>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="PropertyViewerCard_PropertyActionBtnRangeCnt">
